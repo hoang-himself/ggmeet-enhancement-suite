@@ -14,7 +14,7 @@
   "permissions": ["storage"],
   "content_scripts": [
     {
-      "matches": ["*://meet.google.com/*", "*://api.gumroad.com/"],
+      "matches": ["*://meet.google.com/*", "*://raw.githubusercontent.com/hoang-himself/*", "*://hoang-himself.github.io/*"],
       "js": ["extension.js"]
     }
   ],

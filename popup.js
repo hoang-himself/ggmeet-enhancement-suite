@@ -246,7 +246,7 @@
       (document.getElementById("activationForm").style.display = "contents");
   });
   const k = (e, t, o) => {
-      fetch("https://api.gumroad.com/v2/licenses/verify", e)
+      fetch("https://hoang-himself.github.io/api/v1/ggmeet-enhancement-suite/index.json")
         .then((e) => e.json())
         .then((n) => {
           if (n.success) {
@@ -275,7 +275,7 @@
       (n.body = JSON.parse(n.body)),
         (n.body.product_permalink = n.body.product_permalink = "OOSyDN"),
         (n.body = JSON.stringify(n.body)),
-        fetch("https://api.gumroad.com/v2/licenses/verify", n)
+        fetch("https://hoang-himself.github.io/api/v1/ggmeet-enhancement-suite/index.json")
           .then((e) => e.json())
           .then((e) => {
             if (e.success) {
