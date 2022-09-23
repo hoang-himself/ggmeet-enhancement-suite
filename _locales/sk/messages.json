@@ -1,0 +1,326 @@
+{
+  "ignorePresentationModalLabel": {
+    "message": "Automaticky ignorovať prekrytie prezentácie"
+  },
+  "ignorePresentationModalDesc": {
+    "message": "Automatické skrytie upozornenia na nekonečné zrkadlo pri prezentácii"
+  },
+  "autoMinimizeLabel": {
+    "message": "Automatická minimalizácia videa"
+  },
+  "autoMinimizeDesc": {
+    "message": "Keď sa pripojíte k schôdzke, automaticky minimalizujte svoje video"
+  },
+  "meetVolumeLabel": {
+    "message": "Upravte hlasitosť Meet"
+  },
+  "meetVolumeDesc": {
+    "message": "Upravte úroveň hlasitosti Meet"
+  },
+  "extName": {
+    "message": "Google Meet Enhancement Suite"
+  },
+  "extDesc": {
+    "message": "40 nových funkcií pre službu Google Meet, ako napríklad stlmenie všetkých, odstránenie všetkých, automatické prijímanie, emodži, zrkadlenie videí, farba pozadia a push to talk!"
+  },
+  "startMeet": {
+    "message": "Začnite stretnutie"
+  },
+  "mutePopupLabel": {
+    "message": "Skryť stlmenie vyskakovacieho okna"
+  },
+  "mutePopupDesc": {
+    "message": "Skryje „Hovoríš?“ vyskakovacie okno, keď je stlmené"
+  },
+  "hideAddOthersLabel": {
+    "message": "Skryť vyskakovacie okno „Pridať ďalšie“"
+  },
+  "hideAddOthersDesc": {
+    "message": "Pri pripájaní k schôdzke skryje vyskakovacie okno „Pridať ďalších“"
+  },
+  "displayClockLabel": {
+    "message": "Zobraziť hodiny"
+  },
+  "displayClockDesc": {
+    "message": "Zobrazujte hodiny, aj keď nie sú na celú obrazovku"
+  },
+  "autoFullScreenLabel": {
+    "message": "Automaticky na celú obrazovku"
+  },
+  "autoFullScreenDesc": {
+    "message": "Automaticky prejsť na celú obrazovku, keď niekto prezentuje"
+  },
+  "transBarLabel": {
+    "message": "Priehľadná lišta"
+  },
+  "transBarDesc": {
+    "message": "Spodnú lištu urobte priehľadnou"
+  },
+  "pinChatLabel": {
+    "message": "Automaticky pripnúť chat"
+  },
+  "pinChatDesc": {
+    "message": "Keď sa pripájate k stretnutiu, automaticky pripne zobrazenie rozhovoru"
+  },
+  "copyUrlLabel": {
+    "message": "Auto Copy Meet URL"
+  },
+  "copyUrlDesc": {
+    "message": "Automaticky skopírovať adresu URL stretnutia do schránky"
+  },
+  "hideTopBarLabel": {
+    "message": "Automaticky skryť hornú lištu"
+  },
+  "hideTopBarDesc": {
+    "message": "Keď spodná lišta zmizne, skryte hornú lištu"
+  },
+  "darkModeLabel": {
+    "message": "Tmavý režim"
+  },
+  "darkModeDesc": {
+    "message": "Nastaví režim Google Meet na tmavý"
+  },
+  "pipLabel": {
+    "message": "Obraz v obraze"
+  },
+  "pipDesc": {
+    "message": "Prezerajte si video účastníkov v obraze v obraze"
+  },
+  "mirrorVideosLabel": {
+    "message": "Zrkadlové videá"
+  },
+  "mirrorVideosDesc": {
+    "message": "Zrkadlí všetky videá v službe Meet"
+  },
+  "activeTabLabel": {
+    "message": "Nájdite kartu Active Meet"
+  },
+  "activeTabDesc": {
+    "message": "Kliknutím na ikonu rozšírenia nájdete aktívnu kartu Stretnutie"
+  },
+  "quickEmojiLabel": {
+    "message": "Rýchle reakcie emodži"
+  },
+  "quickEmojiDesc": {
+    "message": "Pridáva rýchle skratky emodži do okna rozhovoru"
+  },
+  "timerLabel": {
+    "message": "Časovač stretnutí"
+  },
+  "timerDesc": {
+    "message": "Na spodnom paneli kariet zobrazuje časovač schôdzky"
+  },
+  "toggleBarLabel": {
+    "message": "Prepnúť dolnú lištu"
+  },
+  "toggleBarDesc": {
+    "message": "Zobrazením prepnite dolný ovládací panel"
+  },
+  "speakerBorderLabel": {
+    "message": "Zvýraznenie reproduktora"
+  },
+  "speakerBorderDesc": {
+    "message": "Pridá hranicu okolo hovoriacich účastníkov"
+  },
+  "autoRejectLabel": {
+    "message": "Automatické odmietnutie nových účastníkov"
+  },
+  "autoRejectDesc": {
+    "message": "Automaticky zakáže novým účastníkom stretnutia"
+  },
+  "autoAdmitLabel": {
+    "message": "Automaticky prijímať nových účastníkov"
+  },
+  "autoAdmitDesc": {
+    "message": "Automaticky pripúšťa nových účastníkov stretnutia"
+  },
+  "autoUnmuteLabel": {
+    "message": "Automatické obnovenie zvuku"
+  },
+  "autoUnmuteDesc": {
+    "message": "Zabráňte ostatným v stlmení vášho mikrofónu"
+  },
+  "removeAllLabel": {
+    "message": "Odobrať všetky"
+  },
+  "removeAllDesc": {
+    "message": "Odstráňte všetkých účastníkov pomocou ponuky účastníkov"
+  },
+  "muteAllLabel": {
+    "message": "Ignorovať všetko"
+  },
+  "muteAllDesc": {
+    "message": "Ignorovať všetkých účastníkov prostredníctvom ponuky účastníkov"
+  },
+  "attendanceLabel": {
+    "message": "Zúčastnite sa"
+  },
+  "attendanceDesc": {
+    "message": "Zachyťte účasť na schôdzke a exportujte ju do súboru CSV"
+  },
+  "doNotDisturbLabel": {
+    "message": "Nevyrušujte"
+  },
+  "doNotDisturbDesc": {
+    "message": "Ignorovať všetky zvuky upozornení Meet, skryť nový komentár"
+  },
+  "doNotDisturbSoundsDesc": {
+    "message": "Ignorovať všetky zvuky upozornení služby Meet"
+  },
+  "doNotDisturbCommentsDesc": {
+    "message": "Skryť komentáre a kontextové okná používateľov"
+  },
+  "doNotDisturbCommentsBubbleDesc": {
+    "message": "Skryť bublinu upozornenia na komentár"
+  },
+  "sortParticipantsLabel": {
+    "message": "Zoradiť zoznam účastníkov"
+  },
+  "sortParticipantsDesc": {
+    "message": "Pridá prepínač do zoznamu účastníkov na zoradenie podľa priezviska"
+  },
+  "autoRecordLabel": {
+    "message": "Automatické nahrávanie"
+  },
+  "autoRecordDesc": {
+    "message": "Automaticky začať nahrávať stretnutie (vyžaduje sa Google Workspace)"
+  },
+  "autoRecordDescOne": {
+    "message": "Automaticky spustiť nahrávanie"
+  },
+  "autoRecordDescTwo": {
+    "message": "Manuálne spustiť nahrávanie"
+  },
+  "proFeaturesSubHeading": {
+    "message": "Funkcie Pro"
+  },
+  "muchMore": {
+    "message": "Oveľa viac príde!"
+  },
+  "viewRoadmap": {
+    "message": "Zobraziť náš plán"
+  },
+  "seeFeatures": {
+    "message": "aby sme videli všetky funkcie, ktoré sme naplánovali"
+  },
+  "meetProSectionLabel": {
+    "message": "Získajte Meet Pro"
+  },
+  "meetProSectionDesc": {
+    "message": "Inováciou na Meet Pro získate prístup k viac ako 20 novým funkciám, ktoré posúvajú Google Meet na vyššiu úroveň."
+  },
+  "meetProButtonLabel": {
+    "message": "Získajte Meet Pro ešte dnes"
+  },
+  "activateLicenseButtonLabel": {
+    "message": "alebo Aktivovať licenciu"
+  },
+  "activateLabel": {
+    "message": "Aktivovať"
+  },
+  "emojiToolTipDesc": {
+    "message": "Táto funkcia je predvolene zapnutá a máte k nej prístup z okna rozhovoru v službe Google Meet"
+  },
+  "generalToolTipDesc": {
+    "message": "Táto funkcia je predvolene zapnutá a získate k nej prístup z ponuky účastníkov v službe Google Meet"
+  },
+  "title": {
+    "message": "Zoznámte sa s Enhancement Suite"
+  },
+  "basicFeatures": {
+    "message": "Základné vlastnosti"
+  },
+  "pttLabel": {
+    "message": "Push to talk"
+  },
+  "pttDesc": {
+    "message": "Podržaním klávesovej skratky zapnete zvuk"
+  },
+  "pttUpgrade": {
+    "message": "Inovujte na Pro a nastavte si vlastnú väzbu kľúčov"
+  },
+  "autoJoinLabel": {
+    "message": "Automatické pripojenie"
+  },
+  "autoJoinDesc": {
+    "message": "Pripojte sa k schôdzke automaticky"
+  },
+  "autoJoinDescOption": {
+    "message": "Pripojte sa k schôdzke, iba ak sú prítomní účastníci"
+  },
+  "quickLeaveLabel": {
+    "message": "Rýchly odchod"
+  },
+  "quickLeaveDesc": {
+    "message": "Na ukončenie hovoru použite klávesovú skratku"
+  },
+  "leaveConfirmLabel": {
+    "message": "Nechajte potvrdenie"
+  },
+  "leaveConfirmDesc": {
+    "message": "Keď opustíte schôdzku, požiadajte o potvrdenie"
+  },
+  "returnHomeLabel": {
+    "message": "Vráťte sa na domovskú obrazovku po zavesení"
+  },
+  "returnHomeDesc": {
+    "message": "Po opustení funkcie Meet sa vráti na domovskú obrazovku služby Meet"
+  },
+  "chimesLabel": {
+    "message": "Vždy hrajte zvonkohry"
+  },
+  "chimesDesc": {
+    "message": "Vždy, keď sa účastníci pripoja a odídu, alebo keď dostanete novú chatovú správu, budete počuť zvonenie"
+  },
+  "desktopLabel": {
+    "message": "Otvorte odkazy Meet v aplikácii pre počítače"
+  },
+  "desktopDesc": {
+    "message": "Sprístupniť všetky odkazy Google Cal v"
+  },
+  "desktopApp": {
+    "message": "desktopová aplikácia"
+  },
+  "captionsLabel": {
+    "message": "Automatické titulky"
+  },
+  "captionsDesc": {
+    "message": "Automatické zapínanie titulkov"
+  },
+  "autoMuteLabel": {
+    "message": "Auto Mute"
+  },
+  "autoMuteDesc": {
+    "message": "Automatické stlmenie mikrofónu pri pripojení"
+  },
+  "autoVideoLabel": {
+    "message": "Automatické vypnutie videa"
+  },
+  "autoVideoDesc": {
+    "message": "Nastaviť vypnutie videa pri pripojení"
+  },
+  "pinBarLabel": {
+    "message": "Pripnúť spodnú lištu"
+  },
+  "pinBarDesc": {
+    "message": "Pripája ovládací panel k dolnej časti obrazovky"
+  },
+  "partVidStyleLabel": {
+    "message": "Štýl videa účastníka"
+  },
+  "alwaysShowLabel": {
+    "message": "Vždy zobrazovať mená účastníkov"
+  },
+  "hidePartNames": {
+    "message": "Skryť mená účastníkov"
+  },
+  "hideSpeakingIcons": {
+    "message": "Skryť ikony hovoriacich účastníkov"
+  },
+  "bgColorLabel": {
+    "message": "Nastaviť farbu pozadia"
+  },
+  "bgColorDesc": {
+    "message": "Nastaviť vlastnú farbu pozadia na stretnutí"
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "ignorePresentationModalLabel": {
+    "message": "Overlay Presentasi Abaikan Otomatis"
+  },
+  "ignorePresentationModalDesc": {
+    "message": "Sembunyikan otomatis peringatan cermin tanpa batas saat presentasi"
+  },
+  "autoMinimizeLabel": {
+    "message": "Perkecil otomatis video"
+  },
+  "autoMinimizeDesc": {
+    "message": "Perkecil otomatis video Anda saat Anda bergabung ke rapat"
+  },
+  "meetVolumeLabel": {
+    "message": "Sesuaikan Volume Pertemuan"
+  },
+  "meetVolumeDesc": {
+    "message": "Sesuaikan tingkat volume Rapat"
+  },
+  "extName": {
+    "message": "Suite Penyempurnaan Google Meet"
+  },
+  "extDesc": {
+    "message": "40 fitur baru untuk Google Meet seperti bisu semua, hapus semua, pengakuan otomatis, emoji, video cermin, warna latar belakang, dan push to talk!"
+  },
+  "startMeet": {
+    "message": "Mulai Pertemuan"
+  },
+  "mutePopupLabel": {
+    "message": "Sembunyikan Bisukan Popup"
+  },
+  "mutePopupDesc": {
+    "message": "Menyembunyikan &#39;Apakah Anda berbicara?&#39; munculan saat dibisukan"
+  },
+  "hideAddOthersLabel": {
+    "message": "Sembunyikan pop-up &#39;Tambahkan Lainnya&#39;"
+  },
+  "hideAddOthersDesc": {
+    "message": "Menyembunyikan pop-up &#39;Tambahkan Lainnya&#39; saat bergabung dengan Meet"
+  },
+  "displayClockLabel": {
+    "message": "Tampilan Jam"
+  },
+  "displayClockDesc": {
+    "message": "Tampilkan jam meskipun tidak dalam layar penuh"
+  },
+  "autoFullScreenLabel": {
+    "message": "Layar Penuh Otomatis"
+  },
+  "autoFullScreenDesc": {
+    "message": "Layar penuh otomatis saat seseorang sedang melakukan presentasi"
+  },
+  "transBarLabel": {
+    "message": "Bilah Transparan"
+  },
+  "transBarDesc": {
+    "message": "Jadikan bilah bawah transparan"
+  },
+  "pinChatLabel": {
+    "message": "Pin otomatis Obrolan"
+  },
+  "pinChatDesc": {
+    "message": "Menyematkan tampilan obrolan secara otomatis saat bergabung dengan Meet"
+  },
+  "copyUrlLabel": {
+    "message": "Salin Otomatis URL Pertemuan"
+  },
+  "copyUrlDesc": {
+    "message": "Salin URL Meet secara otomatis ke papan klip"
+  },
+  "hideTopBarLabel": {
+    "message": "Sembunyikan Otomatis Bilah Atas"
+  },
+  "hideTopBarDesc": {
+    "message": "Sembunyikan bilah atas saat bilah bawah menghilang"
+  },
+  "darkModeLabel": {
+    "message": "Mode Gelap"
+  },
+  "darkModeDesc": {
+    "message": "Membuat mode gelap Google Meet"
+  },
+  "pipLabel": {
+    "message": "Gambar di dalam gambar"
+  },
+  "pipDesc": {
+    "message": "Lihat video peserta dalam gambar-dalam-gambar"
+  },
+  "mirrorVideosLabel": {
+    "message": "Video Cermin"
+  },
+  "mirrorVideosDesc": {
+    "message": "Mencerminkan semua video di Meet"
+  },
+  "activeTabLabel": {
+    "message": "Temukan Tab Pertemuan Aktif"
+  },
+  "activeTabDesc": {
+    "message": "Klik ikon ekstensi untuk menemukan tab Meet yang aktif"
+  },
+  "quickEmojiLabel": {
+    "message": "Reaksi Emoji Cepat"
+  },
+  "quickEmojiDesc": {
+    "message": "Menambahkan pintasan emoji cepat ke jendela obrolan"
+  },
+  "timerLabel": {
+    "message": "Timer Rapat"
+  },
+  "timerDesc": {
+    "message": "Menampilkan pengatur waktu rapat di bilah tab bawah"
+  },
+  "toggleBarLabel": {
+    "message": "Alihkan Bilah Bawah"
+  },
+  "toggleBarDesc": {
+    "message": "Alihkan bilah kontrol bawah untuk muncul"
+  },
+  "speakerBorderLabel": {
+    "message": "Sorotan Pembicara"
+  },
+  "speakerBorderDesc": {
+    "message": "Menambahkan batas di sekitar peserta yang berbicara"
+  },
+  "autoRejectLabel": {
+    "message": "Tolak Otomatis Pendatang Baru"
+  },
+  "autoRejectDesc": {
+    "message": "Secara otomatis menolak pendatang baru ke Meet"
+  },
+  "autoAdmitLabel": {
+    "message": "Otomatis Akui Pendatang Baru"
+  },
+  "autoAdmitDesc": {
+    "message": "Secara otomatis menerima pendatang baru ke Meet"
+  },
+  "autoUnmuteLabel": {
+    "message": "Suara Otomatis"
+  },
+  "autoUnmuteDesc": {
+    "message": "Hentikan orang lain agar tidak mematikan mikrofon Anda"
+  },
+  "removeAllLabel": {
+    "message": "Hapus semua"
+  },
+  "removeAllDesc": {
+    "message": "Hapus semua peserta melalui menu peserta"
+  },
+  "muteAllLabel": {
+    "message": "Bisukan Semua"
+  },
+  "muteAllDesc": {
+    "message": "Bisukan semua peserta melalui menu peserta"
+  },
+  "attendanceLabel": {
+    "message": "Ambil Kehadiran"
+  },
+  "attendanceDesc": {
+    "message": "Catat kehadiran pertemuan dan ekspor ke CSV"
+  },
+  "doNotDisturbLabel": {
+    "message": "Jangan ganggu"
+  },
+  "doNotDisturbDesc": {
+    "message": "Bisukan semua suara notifikasi Meet, sembunyikan komentar baru"
+  },
+  "doNotDisturbSoundsDesc": {
+    "message": "Bisukan semua suara notifikasi Meet"
+  },
+  "doNotDisturbCommentsDesc": {
+    "message": "Sembunyikan komentar dan pengguna bergabung dengan pop-up"
+  },
+  "doNotDisturbCommentsBubbleDesc": {
+    "message": "Sembunyikan gelembung pemberitahuan komentar"
+  },
+  "sortParticipantsLabel": {
+    "message": "Urutkan Daftar Peserta"
+  },
+  "sortParticipantsDesc": {
+    "message": "Menambahkan sakelar ke daftar peserta untuk mengurutkan berdasarkan nama belakang"
+  },
+  "autoRecordLabel": {
+    "message": "Rekam Otomatis"
+  },
+  "autoRecordDesc": {
+    "message": "Mulai merekam Meet secara otomatis (diperlukan Google Workspace)"
+  },
+  "autoRecordDescOne": {
+    "message": "Mulai merekam secara otomatis"
+  },
+  "autoRecordDescTwo": {
+    "message": "Mulai merekam secara manual"
+  },
+  "proFeaturesSubHeading": {
+    "message": "Fitur Pro"
+  },
+  "muchMore": {
+    "message": "Banyak lagi yang akan datang!"
+  },
+  "viewRoadmap": {
+    "message": "Lihat peta jalan kami"
+  },
+  "seeFeatures": {
+    "message": "untuk melihat semua fitur yang telah kami rencanakan"
+  },
+  "meetProSectionLabel": {
+    "message": "Dapatkan Temui Pro"
+  },
+  "meetProSectionDesc": {
+    "message": "Dengan mengupgrade ke Meet Pro, Anda mendapatkan akses ke lebih dari 20 fitur baru yang membawa Google Meet ke level berikutnya."
+  },
+  "meetProButtonLabel": {
+    "message": "Dapatkan Meet Pro hari ini"
+  },
+  "activateLicenseButtonLabel": {
+    "message": "atau Aktifkan Lisensi"
+  },
+  "activateLabel": {
+    "message": "Mengaktifkan"
+  },
+  "emojiToolTipDesc": {
+    "message": "Fitur ini aktif secara default dan Anda dapat mengaksesnya dari jendela obrolan di Google Meet"
+  },
+  "generalToolTipDesc": {
+    "message": "Fitur ini aktif secara default dan Anda dapat mengaksesnya dari menu peserta di Google Meet"
+  },
+  "title": {
+    "message": "Meet Enhancement Suite"
+  },
+  "basicFeatures": {
+    "message": "Fitur dasar"
+  },
+  "pttLabel": {
+    "message": "Tekan untuk berbicara"
+  },
+  "pttDesc": {
+    "message": "Tahan tombol pintas untuk mengaktifkan suara"
+  },
+  "pttUpgrade": {
+    "message": "Tingkatkan ke Pro untuk mengatur pengikatan kunci Anda sendiri"
+  },
+  "autoJoinLabel": {
+    "message": "Gabung Otomatis"
+  },
+  "autoJoinDesc": {
+    "message": "Bergabunglah dengan rapat secara otomatis"
+  },
+  "autoJoinDescOption": {
+    "message": "Bergabung ke rapat hanya jika peserta hadir"
+  },
+  "quickLeaveLabel": {
+    "message": "Tinggalkan Cepat"
+  },
+  "quickLeaveDesc": {
+    "message": "Gunakan tombol pintas untuk meninggalkan panggilan"
+  },
+  "leaveConfirmLabel": {
+    "message": "Tinggalkan Konfirmasi"
+  },
+  "leaveConfirmDesc": {
+    "message": "Minta konfirmasi saat Anda meninggalkan rapat"
+  },
+  "returnHomeLabel": {
+    "message": "Kembali ke layar beranda saat hangup"
+  },
+  "returnHomeDesc": {
+    "message": "Kembali ke layar utama Meet setelah keluar dari Meet"
+  },
+  "chimesLabel": {
+    "message": "Selalu Mainkan Lonceng"
+  },
+  "chimesDesc": {
+    "message": "Selalu dengarkan suara lonceng saat peserta bergabung dan pergi, atau saat pesan obrolan baru diterima"
+  },
+  "desktopLabel": {
+    "message": "Buka link Meet di aplikasi desktop"
+  },
+  "desktopDesc": {
+    "message": "Buat semua tautan Google Cal terbuka di"
+  },
+  "desktopApp": {
+    "message": "aplikasi desktop"
+  },
+  "captionsLabel": {
+    "message": "Teks Otomatis"
+  },
+  "captionsDesc": {
+    "message": "Aktifkan teks secara otomatis"
+  },
+  "autoMuteLabel": {
+    "message": "Bisukan Otomatis"
+  },
+  "autoMuteDesc": {
+    "message": "Mikrofon bisu otomatis saat bergabung"
+  },
+  "autoVideoLabel": {
+    "message": "Video Otomatis Mati"
+  },
+  "autoVideoDesc": {
+    "message": "Setel video untuk mematikan bergabung"
+  },
+  "pinBarLabel": {
+    "message": "Pin Bar Bawah Bottom"
+  },
+  "pinBarDesc": {
+    "message": "Sematkan bilah kontrol ke bagian bawah layar"
+  },
+  "partVidStyleLabel": {
+    "message": "Gaya Video Peserta"
+  },
+  "alwaysShowLabel": {
+    "message": "Selalu tampilkan nama peserta"
+  },
+  "hidePartNames": {
+    "message": "Sembunyikan nama peserta"
+  },
+  "hideSpeakingIcons": {
+    "message": "Sembunyikan ikon berbicara peserta"
+  },
+  "bgColorLabel": {
+    "message": "Setel Warna Latar Belakang"
+  },
+  "bgColorDesc": {
+    "message": "Setel warna latar belakang khusus di Meet"
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "ignorePresentationModalLabel": {
+    "message": "স্বয়ংক্রিয় উপেক্ষা উপস্থাপনা ওভারলে"
+  },
+  "ignorePresentationModalDesc": {
+    "message": "উপস্থাপন করার সময় স্বয়ংক্রিয়ভাবে ইনফিনিটি মিরর সতর্কতা লুকান"
+  },
+  "autoMinimizeLabel": {
+    "message": "ভিডিও স্বয়ংক্রিয়ভাবে ছোট করুন"
+  },
+  "autoMinimizeDesc": {
+    "message": "যখন আপনি একটি মিটিংয়ে যোগ দেন তখন আপনার ভিডিও স্বয়ংক্রিয়ভাবে ছোট করুন"
+  },
+  "meetVolumeLabel": {
+    "message": "মিটিং ভলিউম সামঞ্জস্য করুন"
+  },
+  "meetVolumeDesc": {
+    "message": "মিটের ভলিউম স্তর সামঞ্জস্য করুন"
+  },
+  "extName": {
+    "message": "গুগল মিট এনভান্সমেন্ট স্যুট"
+  },
+  "extDesc": {
+    "message": "গুগল মেটের জন্য 40 টি নতুন বৈশিষ্ট্য যেমন সমস্ত নিঃশব্দ করা, সমস্ত সরান, স্বতঃশক্তি প্রবেশ, ইমোজিস, আয়না ভিডিও, ব্যাকগ্রাউন্ড রঙ এবং কথা বলার জন্য চাপ দিন!"
+  },
+  "startMeet": {
+    "message": "একটি সভা শুরু করুন"
+  },
+  "mutePopupLabel": {
+    "message": "নিঃশব্দ পপআপ লুকান"
+  },
+  "mutePopupDesc": {
+    "message": "লুকিয়ে আছে &#39;আপনি কি কথা বলছেন?&#39; নিঃশব্দ হলে পপআপ"
+  },
+  "hideAddOthersLabel": {
+    "message": "&#39;অন্যদের যোগ করুন&#39; পপ-আপ লুকান"
+  },
+  "hideAddOthersDesc": {
+    "message": "কোনও মিটিংয়ে যোগ দেওয়ার সময় &#39;অন্যদের যুক্ত করুন&#39; পপ-আপ লুকায়"
+  },
+  "displayClockLabel": {
+    "message": "প্রদর্শন ঘড়ি"
+  },
+  "displayClockDesc": {
+    "message": "পূর্ণস্ক্রিনে না থাকলেও ঘড়িটি প্রদর্শন করুন"
+  },
+  "autoFullScreenLabel": {
+    "message": "অটো পূর্ণ স্ক্রিন"
+  },
+  "autoFullScreenDesc": {
+    "message": "কেউ উপস্থাপন করার সময় অটো গো পূর্ণ পর্দা যান"
+  },
+  "transBarLabel": {
+    "message": "স্বচ্ছ বার"
+  },
+  "transBarDesc": {
+    "message": "নীচের অংশটি স্বচ্ছ করুন"
+  },
+  "pinChatLabel": {
+    "message": "অটো-পিন চ্যাট"
+  },
+  "pinChatDesc": {
+    "message": "মিটে যোগদানের সময় চ্যাট ভিউটি স্বয়ংক্রিয়ভাবে পিন করে"
+  },
+  "copyUrlLabel": {
+    "message": "মিট ইউআরএল অটো কপি করুন"
+  },
+  "copyUrlDesc": {
+    "message": "স্বয়ংক্রিয়ভাবে মিলিত URL টি ক্লিপবোর্ডে অনুলিপি করুন"
+  },
+  "hideTopBarLabel": {
+    "message": "শীর্ষ বার স্বয়ংক্রিয়ভাবে লুকান"
+  },
+  "hideTopBarDesc": {
+    "message": "নীচের দণ্ডটি অদৃশ্য হয়ে গেলে উপরের বারটি লুকান"
+  },
+  "darkModeLabel": {
+    "message": "গা .় মোড"
+  },
+  "darkModeDesc": {
+    "message": "গুগলকে ডার্ক মোডে মিলিত করে"
+  },
+  "pipLabel": {
+    "message": "চিত্র-ইন-ছবি"
+  },
+  "pipDesc": {
+    "message": "ছবিতে ছবিতে অংশগ্রহণকারীদের ভিডিও দেখুন"
+  },
+  "mirrorVideosLabel": {
+    "message": "মিরর ভিডিও"
+  },
+  "mirrorVideosDesc": {
+    "message": "মিলিত সমস্ত ভিডিও আয়না"
+  },
+  "activeTabLabel": {
+    "message": "অ্যাক্টিভ মিট ট্যাব সন্ধান করুন"
+  },
+  "activeTabDesc": {
+    "message": "সক্রিয় মিট ট্যাবটি সন্ধান করতে এক্সটেনশন আইকনটিতে ক্লিক করুন"
+  },
+  "quickEmojiLabel": {
+    "message": "দ্রুত ইমোজি প্রতিক্রিয়া"
+  },
+  "quickEmojiDesc": {
+    "message": "চ্যাট উইন্ডোটিতে দ্রুত ইমোজি শর্টকাট যুক্ত করে"
+  },
+  "timerLabel": {
+    "message": "টাইমার সভা"
+  },
+  "timerDesc": {
+    "message": "নীচের ট্যাব বারে একটি মিটিং টাইমার প্রদর্শন করে"
+  },
+  "toggleBarLabel": {
+    "message": "নীচে বার টগল করুন"
+  },
+  "toggleBarDesc": {
+    "message": "প্রদর্শিত করতে নীচের কন্ট্রোল বারটি টগল করুন"
+  },
+  "speakerBorderLabel": {
+    "message": "স্পিকার হাইলাইট"
+  },
+  "speakerBorderDesc": {
+    "message": "অংশগ্রহনকারীদের চারপাশে একটি সীমানা যুক্ত করে"
+  },
+  "autoRejectLabel": {
+    "message": "নতুন প্রবেশকারীদের অটো অস্বীকার করুন"
+  },
+  "autoRejectDesc": {
+    "message": "স্বয়ংক্রিয়ভাবে সভায় নতুন প্রবেশকারীদের অস্বীকার করে"
+  },
+  "autoAdmitLabel": {
+    "message": "নতুন প্রবেশকারীদের অটো ভর্তি করুন"
+  },
+  "autoAdmitDesc": {
+    "message": "স্বয়ংক্রিয়ভাবে সভায় নতুন প্রবেশকারীদের স্বীকার করে"
+  },
+  "autoUnmuteLabel": {
+    "message": "অটো সশব্দ করা"
+  },
+  "autoUnmuteDesc": {
+    "message": "অন্যদের আপনার মাইক নিঃশব্দ করা থেকে বিরত করুন"
+  },
+  "removeAllLabel": {
+    "message": "সব মুছে ফেলুন"
+  },
+  "removeAllDesc": {
+    "message": "অংশগ্রহণকারীদের মেনু হয়ে সমস্ত অংশগ্রহণকারীকে সরান"
+  },
+  "muteAllLabel": {
+    "message": "সবাই নিশ্চুপ"
+  },
+  "muteAllDesc": {
+    "message": "অংশগ্রহণকারীদের মেনু দিয়ে সমস্ত অংশগ্রহণকারীকে নিঃশব্দ করুন"
+  },
+  "attendanceLabel": {
+    "message": "উপস্থিতি নিন"
+  },
+  "attendanceDesc": {
+    "message": "মিটিংয়ের উপস্থিতি ক্যাপচার করুন এবং একটি সিএসভিতে রফতানি করুন"
+  },
+  "doNotDisturbLabel": {
+    "message": "বিরক্ত করবেন না"
+  },
+  "doNotDisturbDesc": {
+    "message": "সমস্ত মিলন বিজ্ঞপ্তির শব্দগুলি নিঃশব্দ করুন, নতুন মন্তব্য লুকান"
+  },
+  "doNotDisturbSoundsDesc": {
+    "message": "সমস্ত মিলন বিজ্ঞপ্তির শব্দগুলি নিঃশব্দ করুন"
+  },
+  "doNotDisturbCommentsDesc": {
+    "message": "মন্তব্যগুলি এবং ব্যবহারকারীদের পপ-আপগুলিতে যোগদান লুকান"
+  },
+  "doNotDisturbCommentsBubbleDesc": {
+    "message": "মন্তব্য বিজ্ঞপ্তি বুদ্বুদ লুকান"
+  },
+  "sortParticipantsLabel": {
+    "message": "অংশগ্রহণকারীদের তালিকা বাছাই করুন"
+  },
+  "sortParticipantsDesc": {
+    "message": "সর্বশেষ নাম অনুসারে বাছাই করতে অংশগ্রহণকারী তালিকায় টগল যুক্ত করে"
+  },
+  "autoRecordLabel": {
+    "message": "অটো রেকর্ড"
+  },
+  "autoRecordDesc": {
+    "message": "স্বয়ংক্রিয়ভাবে মিটিং রেকর্ডিং শুরু করুন (গুগল কর্মক্ষেত্র প্রয়োজন)"
+  },
+  "autoRecordDescOne": {
+    "message": "স্বয়ংক্রিয়ভাবে রেকর্ডিং শুরু করুন"
+  },
+  "autoRecordDescTwo": {
+    "message": "ম্যানুয়ালি রেকর্ডিং শুরু করুন"
+  },
+  "proFeaturesSubHeading": {
+    "message": "প্রো বৈশিষ্ট্য"
+  },
+  "muchMore": {
+    "message": "আরও অনেক কিছু আসতে হবে!"
+  },
+  "viewRoadmap": {
+    "message": "আমাদের রোডম্যাপটি দেখুন"
+  },
+  "seeFeatures": {
+    "message": "আমরা পরিকল্পনা করা সমস্ত বৈশিষ্ট্য দেখতে"
+  },
+  "meetProSectionLabel": {
+    "message": "মিট প্রো পান"
+  },
+  "meetProSectionDesc": {
+    "message": "মিট প্রোতে আপগ্রেড করে আপনি 20 টিরও বেশি নতুন বৈশিষ্ট্যে অ্যাক্সেস পাবেন যা গুগল মিটকে পরবর্তী স্তরে নিয়ে যায়।"
+  },
+  "meetProButtonLabel": {
+    "message": "আজ মিটিং প্রো পান"
+  },
+  "activateLicenseButtonLabel": {
+    "message": "বা সক্রিয় লাইসেন্স"
+  },
+  "activateLabel": {
+    "message": "সক্রিয় করুন"
+  },
+  "emojiToolTipDesc": {
+    "message": "এই বৈশিষ্ট্যটি ডিফল্টরূপে চালু রয়েছে এবং আপনি গুগল মিটে চ্যাট উইন্ডো থেকে এটি অ্যাক্সেস করতে পারেন"
+  },
+  "generalToolTipDesc": {
+    "message": "এই বৈশিষ্ট্যটি ডিফল্টরূপে চালু রয়েছে এবং আপনি এটি Google মিলের অংশগ্রহণকারীদের মেনু থেকে অ্যাক্সেস করতে পারবেন"
+  },
+  "title": {
+    "message": "বর্ধন স্যুট পূরণ করুন"
+  },
+  "basicFeatures": {
+    "message": "মৌলিক বৈশিষ্ট্য"
+  },
+  "pttLabel": {
+    "message": "কথা বলতে চাপুন"
+  },
+  "pttDesc": {
+    "message": "সশব্দ করতে হটকি ধরুন"
+  },
+  "pttUpgrade": {
+    "message": "আপনার নিজের কী বাঁধাই সেট করতে প্রোতে আপগ্রেড করুন"
+  },
+  "autoJoinLabel": {
+    "message": "অটো যোগদান"
+  },
+  "autoJoinDesc": {
+    "message": "স্বয়ংক্রিয়ভাবে সভায় যোগ দিন"
+  },
+  "autoJoinDescOption": {
+    "message": "অংশগ্রহণকারীরা উপস্থিত থাকলেই সভায় যোগ দিন"
+  },
+  "quickLeaveLabel": {
+    "message": "দ্রুত ছুটি"
+  },
+  "quickLeaveDesc": {
+    "message": "কল ছেড়ে যেতে হটকি ব্যবহার করুন"
+  },
+  "leaveConfirmLabel": {
+    "message": "নিশ্চিতকরণ ছেড়ে দিন"
+  },
+  "leaveConfirmDesc": {
+    "message": "আপনি যখন কোনও সভা ছেড়ে যান তা নিশ্চিত করতে জিজ্ঞাসা করুন"
+  },
+  "returnHomeLabel": {
+    "message": "হ্যাঙ্গআপে হোম স্ক্রিনে ফিরে আসুন"
+  },
+  "returnHomeDesc": {
+    "message": "একটি সভা ছেড়ে যাওয়ার পরে হোম স্ক্রিনে ফিরে আসে"
+  },
+  "chimesLabel": {
+    "message": "সর্বদা চিমস খেলুন"
+  },
+  "chimesDesc": {
+    "message": "অংশগ্রহণকারীরা যোগদান এবং ছেড়ে চলে যাওয়ার সময় বা যখন কোনও নতুন চ্যাট বার্তা আসে তখন সর্বদা চিম শব্দ শুনতে পান"
+  },
+  "desktopLabel": {
+    "message": "ডেস্কটপ অ্যাপ্লিকেশনে মিলিত লিঙ্কগুলি খুলুন"
+  },
+  "desktopDesc": {
+    "message": "সমস্ত গুগল ক্যাল লিঙ্কগুলিকে এটিকে খুলুন"
+  },
+  "desktopApp": {
+    "message": "ডেস্কটপ অ্যাপ"
+  },
+  "captionsLabel": {
+    "message": "অটো ক্যাপশন"
+  },
+  "captionsDesc": {
+    "message": "ক্যাপশনগুলি স্বতঃ চালু করুন"
+  },
+  "autoMuteLabel": {
+    "message": "অটো নিঃশব্দ"
+  },
+  "autoMuteDesc": {
+    "message": "যোগদানের সময় অটো নিঃশব্দ মাইক্রোফোন"
+  },
+  "autoVideoLabel": {
+    "message": "অটো ভিডিও অফ"
+  },
+  "autoVideoDesc": {
+    "message": "যোগদান বন্ধ করতে ভিডিও সেট করুন"
+  },
+  "pinBarLabel": {
+    "message": "পিন নীচে বার"
+  },
+  "pinBarDesc": {
+    "message": "স্ক্রিনের নীচে নিয়ন্ত্রণ বারটি পিন করে"
+  },
+  "partVidStyleLabel": {
+    "message": "অংশগ্রহণকারী ভিডিও স্টাইল"
+  },
+  "alwaysShowLabel": {
+    "message": "সর্বদা অংশগ্রহণকারীদের নাম প্রদর্শন করুন"
+  },
+  "hidePartNames": {
+    "message": "অংশগ্রহণকারীদের নাম লুকান"
+  },
+  "hideSpeakingIcons": {
+    "message": "অংশগ্রহণকারীদের কথা বলার আইকনগুলি লুকান"
+  },
+  "bgColorLabel": {
+    "message": "পটভূমির রঙ সেট করুন"
+  },
+  "bgColorDesc": {
+    "message": "মিটে কাস্টম ব্যাকগ্রাউন্ড রঙ সেট করুন"
+  }
+}

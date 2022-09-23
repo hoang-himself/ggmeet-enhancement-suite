@@ -1,0 +1,326 @@
+{
+  "ignorePresentationModalLabel": {
+    "message": "Automātiski ignorēt prezentācijas pārklājumu"
+  },
+  "ignorePresentationModalDesc": {
+    "message": "Automātiski paslēpt bezgalības spoguļa brīdinājumu prezentācijas laikā"
+  },
+  "autoMinimizeLabel": {
+    "message": "Automātiski samazināt video"
+  },
+  "autoMinimizeDesc": {
+    "message": "Automātiski samaziniet video, kad pievienojaties sapulcei"
+  },
+  "meetVolumeLabel": {
+    "message": "Pielāgojiet Meet skaļumu"
+  },
+  "meetVolumeDesc": {
+    "message": "Pielāgojiet Meet skaļuma līmeni"
+  },
+  "extName": {
+    "message": "Google Meet Enhancement Suite"
+  },
+  "extDesc": {
+    "message": "40 jaunas Google Meet funkcijas, piemēram, visu skaņas izslēgšana, visu noņemšana, automātiska atzīšana, emocijzīmes, spoguļu video, fona krāsa un rācijsaziņa!"
+  },
+  "startMeet": {
+    "message": "Sāciet Meet"
+  },
+  "mutePopupLabel": {
+    "message": "Slēpt izslēgto uznirstošo logu"
+  },
+  "mutePopupDesc": {
+    "message": "Slēpj &#39;Vai tu runā?&#39; uznirstošais logs, kad tas ir izslēgts"
+  },
+  "hideAddOthersLabel": {
+    "message": "Slēpt uznirstošo logu “Pievienot citus”"
+  },
+  "hideAddOthersDesc": {
+    "message": "Pievienojoties Meet, slēpj uznirstošo logu “Pievienot citus”"
+  },
+  "displayClockLabel": {
+    "message": "Displeja pulkstenis"
+  },
+  "displayClockDesc": {
+    "message": "Parādīt pulksteni pat tad, ja tas nav pilnekrāna režīmā"
+  },
+  "autoFullScreenLabel": {
+    "message": "Automātiski pilnekrāna režīmā"
+  },
+  "autoFullScreenDesc": {
+    "message": "Automātiski pāriet pilnekrāna režīmā, kad kāds uzstājas"
+  },
+  "transBarLabel": {
+    "message": "Caurspīdīgs bārs"
+  },
+  "transBarDesc": {
+    "message": "Padariet apakšējo joslu caurspīdīgu"
+  },
+  "pinChatLabel": {
+    "message": "Automātiski piespraust tērzēšanu"
+  },
+  "pinChatDesc": {
+    "message": "Pievienojoties Meet, automātiski piesprauž tērzēšanas skatu"
+  },
+  "copyUrlLabel": {
+    "message": "Automātiski kopēt Meet URL"
+  },
+  "copyUrlDesc": {
+    "message": "Automātiski kopēt Meet URL uz starpliktuvi"
+  },
+  "hideTopBarLabel": {
+    "message": "Automātiski paslēpt augšējo joslu"
+  },
+  "hideTopBarDesc": {
+    "message": "Kad apakšējā josla pazūd, paslēpiet augšējo joslu"
+  },
+  "darkModeLabel": {
+    "message": "Tumšais režīms"
+  },
+  "darkModeDesc": {
+    "message": "Padara Google Meet tumšo režīmu"
+  },
+  "pipLabel": {
+    "message": "Attēls attēlā"
+  },
+  "pipDesc": {
+    "message": "Skatiet dalībnieku video attēlu attēlā"
+  },
+  "mirrorVideosLabel": {
+    "message": "Spoguļu video"
+  },
+  "mirrorVideosDesc": {
+    "message": "Spoguļo visus Meet satura videoklipus"
+  },
+  "activeTabLabel": {
+    "message": "Atrodiet cilni Aktīvā tikšanās"
+  },
+  "activeTabDesc": {
+    "message": "Noklikšķiniet uz paplašinājuma ikonas, lai atrastu aktīvo cilni Meet"
+  },
+  "quickEmojiLabel": {
+    "message": "Ātrās emocijzīmju reakcijas"
+  },
+  "quickEmojiDesc": {
+    "message": "Tērzēšanas logā tiek pievienoti ātri emocijzīmju saīsnes"
+  },
+  "timerLabel": {
+    "message": "Tikšanās taimeris"
+  },
+  "timerDesc": {
+    "message": "Apakšējā cilnes joslā tiek parādīts sapulces taimeris"
+  },
+  "toggleBarLabel": {
+    "message": "Pārslēgt apakšējo joslu"
+  },
+  "toggleBarDesc": {
+    "message": "Lai parādītu, pārslēdziet apakšējo vadības joslu"
+  },
+  "speakerBorderLabel": {
+    "message": "Izcelt skaļruni"
+  },
+  "speakerBorderDesc": {
+    "message": "Pievieno robežu ap dalībnieku runāšanu"
+  },
+  "autoRejectLabel": {
+    "message": "Automātiski atteikt jaunpienācējus"
+  },
+  "autoRejectDesc": {
+    "message": "Automātiski liedz jaunajiem dalībniekiem Meet"
+  },
+  "autoAdmitLabel": {
+    "message": "Automātiski uzņemt jaunus dalībniekus"
+  },
+  "autoAdmitDesc": {
+    "message": "Automātiski uzņem jaunus dalībniekus Meet"
+  },
+  "autoUnmuteLabel": {
+    "message": "Automātiska ieslēgšana"
+  },
+  "autoUnmuteDesc": {
+    "message": "Lieciet citiem izslēgt jūsu mikrofona skaņu"
+  },
+  "removeAllLabel": {
+    "message": "Noņemt visus"
+  },
+  "removeAllDesc": {
+    "message": "Noņemiet visus dalībniekus, izmantojot dalībnieku izvēlni"
+  },
+  "muteAllLabel": {
+    "message": "Izslēgt visus"
+  },
+  "muteAllDesc": {
+    "message": "Izslēdziet visus dalībniekus, izmantojot dalībnieku izvēlni"
+  },
+  "attendanceLabel": {
+    "message": "Piedalieties"
+  },
+  "attendanceDesc": {
+    "message": "Uzņemiet sanāksmes apmeklējumu un eksportējiet uz CSV"
+  },
+  "doNotDisturbLabel": {
+    "message": "Netraucēt"
+  },
+  "doNotDisturbDesc": {
+    "message": "Izslēdziet visas Meet paziņojumu skaņas, paslēpiet jaunu komentāru"
+  },
+  "doNotDisturbSoundsDesc": {
+    "message": "Izslēgt visas Meet paziņojumu skaņas"
+  },
+  "doNotDisturbCommentsDesc": {
+    "message": "Slēpt komentārus un lietotāju pievienoties uznirstošajiem logiem"
+  },
+  "doNotDisturbCommentsBubbleDesc": {
+    "message": "Slēpt komentāru paziņojumu burbuli"
+  },
+  "sortParticipantsLabel": {
+    "message": "Kārtot dalībnieku sarakstu"
+  },
+  "sortParticipantsDesc": {
+    "message": "Pievieno pārslēgšanos dalībnieku sarakstam, lai kārtotu pēc uzvārda"
+  },
+  "autoRecordLabel": {
+    "message": "Automātiskā ierakstīšana"
+  },
+  "autoRecordDesc": {
+    "message": "Automātiski sākt ierakstīt Meet (nepieciešama Google darbvieta)"
+  },
+  "autoRecordDescOne": {
+    "message": "Automātiski sākt ierakstīšanu"
+  },
+  "autoRecordDescTwo": {
+    "message": "Sāciet ierakstīšanu manuāli"
+  },
+  "proFeaturesSubHeading": {
+    "message": "Pro funkcijas"
+  },
+  "muchMore": {
+    "message": "Vēl daudz priekšā!"
+  },
+  "viewRoadmap": {
+    "message": "Skatiet mūsu ceļvedi"
+  },
+  "seeFeatures": {
+    "message": "lai redzētu visas funkcijas, kuras esam ieplānojuši"
+  },
+  "meetProSectionLabel": {
+    "message": "Iegūstiet Meet Pro"
+  },
+  "meetProSectionDesc": {
+    "message": "Jauninot uz Meet Pro, jūs saņemsiet piekļuvi vairāk nekā 20 jaunām funkcijām, kas Google Meet pārceļ uz nākamo līmeni."
+  },
+  "meetProButtonLabel": {
+    "message": "Saņemiet Meet Pro jau šodien"
+  },
+  "activateLicenseButtonLabel": {
+    "message": "vai aktivizēt licenci"
+  },
+  "activateLabel": {
+    "message": "Aktivizēt"
+  },
+  "emojiToolTipDesc": {
+    "message": "Šī funkcija pēc noklusējuma ir ieslēgta, un tai varat piekļūt, izmantojot tērzēšanas logu pakalpojumā Google Meet"
+  },
+  "generalToolTipDesc": {
+    "message": "Šī funkcija pēc noklusējuma ir ieslēgta, un tai varat piekļūt, izmantojot Google Meet dalībnieku izvēlni"
+  },
+  "title": {
+    "message": "Iepazīstieties ar Enhancement Suite"
+  },
+  "basicFeatures": {
+    "message": "Pamata funkcijas"
+  },
+  "pttLabel": {
+    "message": "Rācijsaziņa"
+  },
+  "pttDesc": {
+    "message": "Lai ieslēgtu skaņu, turiet nospiestu taustiņu"
+  },
+  "pttUpgrade": {
+    "message": "Jauniniet uz Pro, lai iestatītu savu atslēgu saistīšanu"
+  },
+  "autoJoinLabel": {
+    "message": "Automātiska pievienošanās"
+  },
+  "autoJoinDesc": {
+    "message": "Pievienojieties sapulcei automātiski"
+  },
+  "autoJoinDescOption": {
+    "message": "Pievienojieties sapulcei tikai tad, kad dalībnieki ir klāt"
+  },
+  "quickLeaveLabel": {
+    "message": "Ātra aiziešana"
+  },
+  "quickLeaveDesc": {
+    "message": "Izmantojiet karsto taustiņu, lai atstātu zvanu"
+  },
+  "leaveConfirmLabel": {
+    "message": "Atstājiet apstiprinājumu"
+  },
+  "leaveConfirmDesc": {
+    "message": "Palūdziet apstiprināt, kad atstājat sapulci"
+  },
+  "returnHomeLabel": {
+    "message": "Atgriezieties sākuma ekrānā, kad tiek pārtraukta darbība"
+  },
+  "returnHomeDesc": {
+    "message": "Pēc aiziešanas no Meet, atgriežas Meet sākuma ekrānā"
+  },
+  "chimesLabel": {
+    "message": "Vienmēr spēlē zvanu skaņas"
+  },
+  "chimesDesc": {
+    "message": "Vienmēr dzirdiet skaņas signālus, kad dalībnieki pievienojas un aiziet, vai, kad tiek saņemts jauns tērzēšanas ziņojums"
+  },
+  "desktopLabel": {
+    "message": "Atveriet saites Meet darbvirsmas lietotnē"
+  },
+  "desktopDesc": {
+    "message": "Padariet visas Google Cal saites atvērtas"
+  },
+  "desktopApp": {
+    "message": "darbvirsmas lietotne"
+  },
+  "captionsLabel": {
+    "message": "Automātiskie paraksti"
+  },
+  "captionsDesc": {
+    "message": "Automātiski ieslēgt parakstus"
+  },
+  "autoMuteLabel": {
+    "message": "Automātiska izslēgšana"
+  },
+  "autoMuteDesc": {
+    "message": "Automātiski izslēgt mikrofonu, pievienojoties"
+  },
+  "autoVideoLabel": {
+    "message": "Automātiska video izslēgšana"
+  },
+  "autoVideoDesc": {
+    "message": "Iestatiet video, lai izslēgtu pievienošanu"
+  },
+  "pinBarLabel": {
+    "message": "Piespraudes apakšējā josla"
+  },
+  "pinBarDesc": {
+    "message": "Piespraust vadības joslu ekrāna apakšdaļā"
+  },
+  "partVidStyleLabel": {
+    "message": "Dalībnieka video stils"
+  },
+  "alwaysShowLabel": {
+    "message": "Vienmēr rādīt dalībnieku vārdus"
+  },
+  "hidePartNames": {
+    "message": "Paslēpt dalībnieku vārdus"
+  },
+  "hideSpeakingIcons": {
+    "message": "Paslēpt dalībnieku runāšanas ikonas"
+  },
+  "bgColorLabel": {
+    "message": "Iestatīt fona krāsu"
+  },
+  "bgColorDesc": {
+    "message": "Iestatiet pielāgotu fona krāsu pakalpojumā Meet"
+  }
+}

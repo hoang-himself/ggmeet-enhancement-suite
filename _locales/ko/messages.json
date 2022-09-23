@@ -1,0 +1,326 @@
+{
+  "ignorePresentationModalLabel": {
+    "message": "프레젠테이션 오버레이 자동 무시"
+  },
+  "ignorePresentationModalDesc": {
+    "message": "프레젠테이션 시 자동 숨기기 무한 거울 경고"
+  },
+  "autoMinimizeLabel": {
+    "message": "비디오 자동 최소화"
+  },
+  "autoMinimizeDesc": {
+    "message": "모임에 참여할 때 비디오 자동 최소화"
+  },
+  "meetVolumeLabel": {
+    "message": "미팅 볼륨 조정"
+  },
+  "meetVolumeDesc": {
+    "message": "Meet의 볼륨 레벨 조정"
+  },
+  "extName": {
+    "message": "Google Meet 향상 제품군"
+  },
+  "extDesc": {
+    "message": "모두 음소거, 모두 제거, 자동 승인, 이모티콘, 미러링 비디오, 배경색, 푸시 투 토크와 같은 Google Meet의 40가지 새로운 기능!"
+  },
+  "startMeet": {
+    "message": "미팅 시작"
+  },
+  "mutePopupLabel": {
+    "message": "음소거 팝업 숨기기"
+  },
+  "mutePopupDesc": {
+    "message": "숨김 &#39;지금 말하는거야?&#39; 음소거 시 팝업"
+  },
+  "hideAddOthersLabel": {
+    "message": "&#39;다른 사용자 추가&#39; 팝업 숨기기"
+  },
+  "hideAddOthersDesc": {
+    "message": "Meet에 참여할 때 &#39;다른 사람 추가&#39; 팝업을 숨깁니다."
+  },
+  "displayClockLabel": {
+    "message": "디스플레이 시계"
+  },
+  "displayClockDesc": {
+    "message": "전체 화면이 아닐 때도 시계 표시"
+  },
+  "autoFullScreenLabel": {
+    "message": "자동 전체 화면"
+  },
+  "autoFullScreenDesc": {
+    "message": "누군가 발표할 때 자동으로 전체 화면으로 이동"
+  },
+  "transBarLabel": {
+    "message": "투명 바"
+  },
+  "transBarDesc": {
+    "message": "하단 바를 투명하게 만들기"
+  },
+  "pinChatLabel": {
+    "message": "자동 고정 채팅"
+  },
+  "pinChatDesc": {
+    "message": "Meet에 참여할 때 자동으로 채팅 보기 고정"
+  },
+  "copyUrlLabel": {
+    "message": "미팅 URL 자동 복사"
+  },
+  "copyUrlDesc": {
+    "message": "Meet URL을 클립보드에 자동으로 복사"
+  },
+  "hideTopBarLabel": {
+    "message": "상단 바 자동 숨기기"
+  },
+  "hideTopBarDesc": {
+    "message": "하단 바가 사라지면 상단 바 숨기기"
+  },
+  "darkModeLabel": {
+    "message": "다크 모드"
+  },
+  "darkModeDesc": {
+    "message": "Google Meet을 어두운 모드로 만듭니다."
+  },
+  "pipLabel": {
+    "message": "픽처 인 픽처"
+  },
+  "pipDesc": {
+    "message": "PIP 모드에서 참가자 비디오 보기"
+  },
+  "mirrorVideosLabel": {
+    "message": "미러 비디오"
+  },
+  "mirrorVideosDesc": {
+    "message": "Meet의 모든 동영상 미러링"
+  },
+  "activeTabLabel": {
+    "message": "활성 미팅 탭 찾기"
+  },
+  "activeTabDesc": {
+    "message": "활성화된 Meet 탭을 찾으려면 확장 아이콘을 클릭하세요."
+  },
+  "quickEmojiLabel": {
+    "message": "빠른 이모티콘 반응"
+  },
+  "quickEmojiDesc": {
+    "message": "채팅 창에 빠른 이모티콘 바로 가기 추가"
+  },
+  "timerLabel": {
+    "message": "회의 타이머"
+  },
+  "timerDesc": {
+    "message": "하단 탭 표시줄에 회의 타이머 표시"
+  },
+  "toggleBarLabel": {
+    "message": "하단 바 토글"
+  },
+  "toggleBarDesc": {
+    "message": "하단 컨트롤 막대를 토글하여 표시"
+  },
+  "speakerBorderLabel": {
+    "message": "발표자 하이라이트"
+  },
+  "speakerBorderDesc": {
+    "message": "말하는 참가자 주위에 테두리를 추가합니다."
+  },
+  "autoRejectLabel": {
+    "message": "신규 참가자 자동 거부"
+  },
+  "autoRejectDesc": {
+    "message": "Meet의 새로운 참가자를 자동으로 거부합니다."
+  },
+  "autoAdmitLabel": {
+    "message": "신규 참가자 자동 승인"
+  },
+  "autoAdmitDesc": {
+    "message": "새로운 참가자를 Meet에 자동으로 허용합니다."
+  },
+  "autoUnmuteLabel": {
+    "message": "자동 음소거 해제"
+  },
+  "autoUnmuteDesc": {
+    "message": "다른 사람이 마이크를 음소거하지 못하도록 하세요."
+  },
+  "removeAllLabel": {
+    "message": "모두 제거"
+  },
+  "removeAllDesc": {
+    "message": "참가자 메뉴를 통해 모든 참가자 제거"
+  },
+  "muteAllLabel": {
+    "message": "모두 음소거"
+  },
+  "muteAllDesc": {
+    "message": "참가자 메뉴를 통해 모든 참가자 음소거"
+  },
+  "attendanceLabel": {
+    "message": "출석"
+  },
+  "attendanceDesc": {
+    "message": "회의 참석을 캡처하고 CSV로 내보내기"
+  },
+  "doNotDisturbLabel": {
+    "message": "방해하지 마"
+  },
+  "doNotDisturbDesc": {
+    "message": "모든 Meet 알림 소리 음소거, 새 댓글 숨기기"
+  },
+  "doNotDisturbSoundsDesc": {
+    "message": "모든 행아웃 미팅 알림 소리 음소거"
+  },
+  "doNotDisturbCommentsDesc": {
+    "message": "댓글 및 사용자 참여 팝업 숨기기"
+  },
+  "doNotDisturbCommentsBubbleDesc": {
+    "message": "댓글 알림 풍선 숨기기"
+  },
+  "sortParticipantsLabel": {
+    "message": "참가자 목록 정렬"
+  },
+  "sortParticipantsDesc": {
+    "message": "참가자 목록에 토글을 추가하여 성을 기준으로 정렬합니다."
+  },
+  "autoRecordLabel": {
+    "message": "자동 녹음"
+  },
+  "autoRecordDesc": {
+    "message": "자동으로 Meet 녹화 시작(Google Workspace 필요)"
+  },
+  "autoRecordDescOne": {
+    "message": "자동으로 녹음 시작"
+  },
+  "autoRecordDescTwo": {
+    "message": "수동으로 녹음 시작"
+  },
+  "proFeaturesSubHeading": {
+    "message": "프로 기능"
+  },
+  "muchMore": {
+    "message": "앞으로 더 많이!"
+  },
+  "viewRoadmap": {
+    "message": "로드맵 보기"
+  },
+  "seeFeatures": {
+    "message": "계획한 모든 기능을 보려면"
+  },
+  "meetProSectionLabel": {
+    "message": "Meet Pro 받기"
+  },
+  "meetProSectionDesc": {
+    "message": "Meet Pro로 업그레이드하면 Google Meet을 한 단계 업그레이드하는 20개 이상의 새로운 기능에 액세스할 수 있습니다."
+  },
+  "meetProButtonLabel": {
+    "message": "지금 Meet Pro 받기"
+  },
+  "activateLicenseButtonLabel": {
+    "message": "또는 라이선스 활성화"
+  },
+  "activateLabel": {
+    "message": "활성화"
+  },
+  "emojiToolTipDesc": {
+    "message": "이 기능은 기본적으로 켜져 있으며 Google Meet의 채팅 창에서 액세스할 수 있습니다."
+  },
+  "generalToolTipDesc": {
+    "message": "이 기능은 기본적으로 켜져 있으며 Google Meet의 참가자 메뉴에서 액세스할 수 있습니다."
+  },
+  "title": {
+    "message": "인핸스먼트 스위트를 만나보세요"
+  },
+  "basicFeatures": {
+    "message": "기본 기능"
+  },
+  "pttLabel": {
+    "message": "푸시 투 토크"
+  },
+  "pttDesc": {
+    "message": "음소거를 해제하려면 단축키를 길게 누르세요."
+  },
+  "pttUpgrade": {
+    "message": "나만의 키 바인딩을 설정하려면 Pro로 업그레이드하세요."
+  },
+  "autoJoinLabel": {
+    "message": "자동 가입"
+  },
+  "autoJoinDesc": {
+    "message": "자동으로 회의에 참여"
+  },
+  "autoJoinDescOption": {
+    "message": "참가자가 있는 경우에만 회의에 참여"
+  },
+  "quickLeaveLabel": {
+    "message": "빠른 휴가"
+  },
+  "quickLeaveDesc": {
+    "message": "바로 가기 키를 사용하여 전화를 끊으십시오."
+  },
+  "leaveConfirmLabel": {
+    "message": "탈퇴 확인"
+  },
+  "leaveConfirmDesc": {
+    "message": "회의에서 나갈 때 확인 요청"
+  },
+  "returnHomeLabel": {
+    "message": "전화 끊기 시 홈 화면으로 돌아가기"
+  },
+  "returnHomeDesc": {
+    "message": "행아웃 미팅에서 나간 후 행아웃 미팅 홈 화면으로 돌아갑니다."
+  },
+  "chimesLabel": {
+    "message": "항상 차임을 재생"
+  },
+  "chimesDesc": {
+    "message": "참가자가 참여하고 나갈 때 또는 새 채팅 메시지가 수신될 때 항상 차임 소리를 듣습니다."
+  },
+  "desktopLabel": {
+    "message": "데스크톱 앱에서 Meet 링크 열기"
+  },
+  "desktopDesc": {
+    "message": "모든 Google Cal 링크를"
+  },
+  "desktopApp": {
+    "message": "데스크탑 앱"
+  },
+  "captionsLabel": {
+    "message": "자동 자막"
+  },
+  "captionsDesc": {
+    "message": "캡션 자동 켜기"
+  },
+  "autoMuteLabel": {
+    "message": "자동 음소거"
+  },
+  "autoMuteDesc": {
+    "message": "참여 시 마이크 자동 음소거"
+  },
+  "autoVideoLabel": {
+    "message": "자동 비디오 끄기"
+  },
+  "autoVideoDesc": {
+    "message": "참여 시 비디오를 끄도록 설정"
+  },
+  "pinBarLabel": {
+    "message": "핀 바텀 바"
+  },
+  "pinBarDesc": {
+    "message": "컨트롤 막대를 화면 하단에 고정"
+  },
+  "partVidStyleLabel": {
+    "message": "참가자 비디오 스타일"
+  },
+  "alwaysShowLabel": {
+    "message": "항상 참가자 이름 표시"
+  },
+  "hidePartNames": {
+    "message": "참가자 이름 숨기기"
+  },
+  "hideSpeakingIcons": {
+    "message": "참가자 말하기 아이콘 숨기기"
+  },
+  "bgColorLabel": {
+    "message": "배경색 설정"
+  },
+  "bgColorDesc": {
+    "message": "Meet에서 맞춤 배경색 설정"
+  }
+}

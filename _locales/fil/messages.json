@@ -1,0 +1,326 @@
+{
+  "ignorePresentationModalLabel": {
+    "message": "Auto Ignore Presentation Overlay"
+  },
+  "ignorePresentationModalDesc": {
+    "message": "Awtomatikong itago ang infinity mirror alert kapag nagpe-present"
+  },
+  "autoMinimizeLabel": {
+    "message": "Awtomatikong I-minimize ang video"
+  },
+  "autoMinimizeDesc": {
+    "message": "Awtomatikong i-minimize ang iyong video kapag sumali ka sa isang meet"
+  },
+  "meetVolumeLabel": {
+    "message": "Ayusin ang Volume ng Meet"
+  },
+  "meetVolumeDesc": {
+    "message": "Ayusin ang antas ng lakas ng tunog ng Meet"
+  },
+  "extName": {
+    "message": "Google Meet Enhancement Suite"
+  },
+  "extDesc": {
+    "message": "40 bagong mga tampok para sa Google Meet tulad ng pag-mute sa lahat, alisin ang lahat, awtomatikong aminin, emojis, mirror video, kulay ng background, at itulak upang pag-usapan!"
+  },
+  "startMeet": {
+    "message": "Magsimula ng isang Kilalanin"
+  },
+  "mutePopupLabel": {
+    "message": "Itago ang I-mute ang Popup"
+  },
+  "mutePopupDesc": {
+    "message": "Itinago ang &#39;Nagsasalita ka ba?&#39; pop kapag naka-mute"
+  },
+  "hideAddOthersLabel": {
+    "message": "Itago ang pop-up na &#39;Magdagdag ng Iba&#39;"
+  },
+  "hideAddOthersDesc": {
+    "message": "Itinago ang pop-up na &#39;Magdagdag ng Iba Pa&#39; kapag sumali sa isang Meet"
+  },
+  "displayClockLabel": {
+    "message": "Ipakita ang Orasan"
+  },
+  "displayClockDesc": {
+    "message": "Ipakita ang orasan kahit wala sa fullscreen"
+  },
+  "autoFullScreenLabel": {
+    "message": "Auto Buong Screen"
+  },
+  "autoFullScreenDesc": {
+    "message": "Awtomatikong pumunta sa buong screen kapag may nagtatanghal"
+  },
+  "transBarLabel": {
+    "message": "Transparent Bar"
+  },
+  "transBarDesc": {
+    "message": "Gawing transparent ang ilalim na bar"
+  },
+  "pinChatLabel": {
+    "message": "I-auto-pin ang Chat"
+  },
+  "pinChatDesc": {
+    "message": "Awtomatikong pin ang view ng chat kapag sumali sa Meet"
+  },
+  "copyUrlLabel": {
+    "message": "Auto Copy Meet URL"
+  },
+  "copyUrlDesc": {
+    "message": "Awtomatikong kopyahin ang Meet URL sa clipboard"
+  },
+  "hideTopBarLabel": {
+    "message": "Itago ang Nangungunang Bar"
+  },
+  "hideTopBarDesc": {
+    "message": "Itago ang tuktok na bar kapag nawala ang ilalim na bar"
+  },
+  "darkModeLabel": {
+    "message": "Madilim na Mode"
+  },
+  "darkModeDesc": {
+    "message": "Ginagawang dark mode ang Google Meet"
+  },
+  "pipLabel": {
+    "message": "Larawan-sa-larawan"
+  },
+  "pipDesc": {
+    "message": "Tingnan ang isang kalahok na video sa larawan-sa-larawan"
+  },
+  "mirrorVideosLabel": {
+    "message": "Mga Video ng Salamin"
+  },
+  "mirrorVideosDesc": {
+    "message": "Sinasalamin ang lahat ng mga video sa Meet"
+  },
+  "activeTabLabel": {
+    "message": "Maghanap ng Tab na Aktibong Makipagkita"
+  },
+  "activeTabDesc": {
+    "message": "I-click ang icon ng extension upang makita ang aktibong tab na Meet"
+  },
+  "quickEmojiLabel": {
+    "message": "Mabilis na Mga Reaksyon ng Emoji"
+  },
+  "quickEmojiDesc": {
+    "message": "Nagdaragdag ng mabilis na mga shortcut sa emoji sa window ng pag-chat"
+  },
+  "timerLabel": {
+    "message": "Tagatakda ng Timer"
+  },
+  "timerDesc": {
+    "message": "Nagpapakita ng isang timer ng pagpupulong sa ilalim ng bar ng bar"
+  },
+  "toggleBarLabel": {
+    "message": "I-toggle ang Bottom Bar"
+  },
+  "toggleBarDesc": {
+    "message": "I-toggle ang control bar sa ibaba upang lumitaw"
+  },
+  "speakerBorderLabel": {
+    "message": "Speaker Highlight"
+  },
+  "speakerBorderDesc": {
+    "message": "Nagdaragdag ng isang hangganan sa paligid ng mga kalahok sa pagsasalita"
+  },
+  "autoRejectLabel": {
+    "message": "Tanggihan ng Mga Bagong Entrant ang Auto"
+  },
+  "autoRejectDesc": {
+    "message": "Awtomatikong tinanggihan ang mga bagong pumapasok sa Meet"
+  },
+  "autoAdmitLabel": {
+    "message": "Auto Admit New Entrants"
+  },
+  "autoAdmitDesc": {
+    "message": "Awtomatikong tinatanggap ang mga bagong pumapasok sa Meet"
+  },
+  "autoUnmuteLabel": {
+    "message": "Awtomatikong I-unmute"
+  },
+  "autoUnmuteDesc": {
+    "message": "Pigilan ang iba na mai-mute ang iyong mic"
+  },
+  "removeAllLabel": {
+    "message": "Alisin lahat"
+  },
+  "removeAllDesc": {
+    "message": "Alisin ang lahat ng mga kalahok sa pamamagitan ng menu ng mga kasali"
+  },
+  "muteAllLabel": {
+    "message": "I-mute ang Lahat"
+  },
+  "muteAllDesc": {
+    "message": "I-mute ang lahat ng mga kalahok sa pamamagitan ng menu ng mga kasali"
+  },
+  "attendanceLabel": {
+    "message": "Pagdalo"
+  },
+  "attendanceDesc": {
+    "message": "Kunan ang pagdalo ng meet at i-export sa isang CSV"
+  },
+  "doNotDisturbLabel": {
+    "message": "Huwag abalahin"
+  },
+  "doNotDisturbDesc": {
+    "message": "I-mute ang lahat ng tunog ng notification ng Meet, itago ang bagong komento"
+  },
+  "doNotDisturbSoundsDesc": {
+    "message": "I-mute ang lahat ng tunog ng notification sa Meet"
+  },
+  "doNotDisturbCommentsDesc": {
+    "message": "Itago ang mga komento at sumali ang mga pop-up ng gumagamit"
+  },
+  "doNotDisturbCommentsBubbleDesc": {
+    "message": "Itago ang bubble ng notification sa komento"
+  },
+  "sortParticipantsLabel": {
+    "message": "Pagbukud-bukurin ang Listahan ng Kalahok"
+  },
+  "sortParticipantsDesc": {
+    "message": "Nagdaragdag ng toggle sa listahan ng kalahok upang pag-uri-uriin sa apelyido"
+  },
+  "autoRecordLabel": {
+    "message": "Auto Record"
+  },
+  "autoRecordDesc": {
+    "message": "Awtomatikong simulang i-record ang Kilalanin (kinakailangan ng Google Workspace)"
+  },
+  "autoRecordDescOne": {
+    "message": "Awtomatikong simulang magrekord"
+  },
+  "autoRecordDescTwo": {
+    "message": "Mano-manong simulan ang pagrekord"
+  },
+  "proFeaturesSubHeading": {
+    "message": "Mga Tampok ng Pro"
+  },
+  "muchMore": {
+    "message": "Marami pang darating!"
+  },
+  "viewRoadmap": {
+    "message": "Tingnan ang aming roadmap"
+  },
+  "seeFeatures": {
+    "message": "upang makita ang lahat ng mga tampok na aming pinlano"
+  },
+  "meetProSectionLabel": {
+    "message": "Get Meet Pro"
+  },
+  "meetProSectionDesc": {
+    "message": "Sa pamamagitan ng pag-upgrade sa Meet Pro makakakuha ka ng access sa higit sa 20 mga bagong tampok na dadalhin sa susunod na antas ang Google Meet."
+  },
+  "meetProButtonLabel": {
+    "message": "Get Meet Pro ngayon"
+  },
+  "activateLicenseButtonLabel": {
+    "message": "o Paganahin ang Lisensya"
+  },
+  "activateLabel": {
+    "message": "Buhayin"
+  },
+  "emojiToolTipDesc": {
+    "message": "Ang tampok na ito ay naka-on bilang default at maa-access mo ito mula sa window ng chat sa Google Meet"
+  },
+  "generalToolTipDesc": {
+    "message": "Ang tampok na ito ay naka-on bilang default at maa-access mo ito mula sa menu ng mga kasali sa Google Meet"
+  },
+  "title": {
+    "message": "Kilalanin ang Enhancement Suite"
+  },
+  "basicFeatures": {
+    "message": "Pangunahing tampok"
+  },
+  "pttLabel": {
+    "message": "Push to Talk"
+  },
+  "pttDesc": {
+    "message": "Pindutin nang matagal ang hotkey upang i-unmute"
+  },
+  "pttUpgrade": {
+    "message": "Mag-upgrade sa Pro upang maitakda ang iyong sariling key binding"
+  },
+  "autoJoinLabel": {
+    "message": "Auto Sumali"
+  },
+  "autoJoinDesc": {
+    "message": "Awtomatiko na sumali sa pagpupulong"
+  },
+  "autoJoinDescOption": {
+    "message": "Sumali lamang sa pagpupulong kapag naroroon ang mga kalahok"
+  },
+  "quickLeaveLabel": {
+    "message": "Mabilis na Pag-iwan"
+  },
+  "quickLeaveDesc": {
+    "message": "Gumamit ng hotkey upang mag-iwan ng tawag"
+  },
+  "leaveConfirmLabel": {
+    "message": "Iwanan ang Pagkumpirma"
+  },
+  "leaveConfirmDesc": {
+    "message": "Hilinging kumpirmahin kapag umalis ka sa isang pagpupulong"
+  },
+  "returnHomeLabel": {
+    "message": "Bumalik sa home screen sa hangup"
+  },
+  "returnHomeDesc": {
+    "message": "Bumalik sa Meet home screen pagkatapos umalis sa isang Meet"
+  },
+  "chimesLabel": {
+    "message": "Palaging Maglaro ng mga Chime"
+  },
+  "chimesDesc": {
+    "message": "Palaging marinig ang tunog ng huni kapag sumali at umalis ang mga kalahok, o isang kapag natanggap ang isang bagong mensahe sa chat"
+  },
+  "desktopLabel": {
+    "message": "Buksan ang mga link sa Meet sa desktop app"
+  },
+  "desktopDesc": {
+    "message": "Gawing bukas ang lahat ng mga link ng Google Cal sa"
+  },
+  "desktopApp": {
+    "message": "desktop app"
+  },
+  "captionsLabel": {
+    "message": "Mga Auto Caption"
+  },
+  "captionsDesc": {
+    "message": "Awtomatikong i-on ang mga caption"
+  },
+  "autoMuteLabel": {
+    "message": "Awtomatikong i-mute"
+  },
+  "autoMuteDesc": {
+    "message": "Awtomatikong i-mute ang mikropono sa pagsali"
+  },
+  "autoVideoLabel": {
+    "message": "Patay ang Auto Video"
+  },
+  "autoVideoDesc": {
+    "message": "Itakda ang video upang i-off ang pagsali"
+  },
+  "pinBarLabel": {
+    "message": "Pin Bottom Bar"
+  },
+  "pinBarDesc": {
+    "message": "Pin ang control bar sa ilalim ng screen"
+  },
+  "partVidStyleLabel": {
+    "message": "Estilo ng Kalahok ng Video"
+  },
+  "alwaysShowLabel": {
+    "message": "Palaging ipakita ang mga pangalan ng kalahok"
+  },
+  "hidePartNames": {
+    "message": "Itago ang mga pangalan ng kalahok"
+  },
+  "hideSpeakingIcons": {
+    "message": "Itago ang mga icon ng pagsasalita ng kalahok"
+  },
+  "bgColorLabel": {
+    "message": "Itakda ang Kulay sa Background"
+  },
+  "bgColorDesc": {
+    "message": "Itakda ang kulay ng pasadyang background sa Meet"
+  }
+}

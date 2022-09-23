@@ -1,0 +1,326 @@
+{
+  "ignorePresentationModalLabel": {
+    "message": "自动忽略演示叠加"
+  },
+  "ignorePresentationModalDesc": {
+    "message": "演示时自动隐藏无限远镜警报"
+  },
+  "autoMinimizeLabel": {
+    "message": "自动最小化视频"
+  },
+  "autoMinimizeDesc": {
+    "message": "加入会议时自动最小化视频"
+  },
+  "meetVolumeLabel": {
+    "message": "调整会议音量"
+  },
+  "meetVolumeDesc": {
+    "message": "调整 Meet 的音量"
+  },
+  "extName": {
+    "message": "Google Meet 增强套件"
+  },
+  "extDesc": {
+    "message": "Google Meet 的 40 项新功能，例如全部静音、全部删除、自动承认、表情符号、镜像视频、背景颜色和一键通！"
+  },
+  "startMeet": {
+    "message": "发起会议"
+  },
+  "mutePopupLabel": {
+    "message": "隐藏静音弹出窗口"
+  },
+  "mutePopupDesc": {
+    "message": "隐藏“你在说话吗？”静音时弹出"
+  },
+  "hideAddOthersLabel": {
+    "message": "隐藏“添加其他人”弹出窗口"
+  },
+  "hideAddOthersDesc": {
+    "message": "加入会议时隐藏“添加其他人”弹出窗口"
+  },
+  "displayClockLabel": {
+    "message": "显示时钟"
+  },
+  "displayClockDesc": {
+    "message": "即使不是全屏显示时钟"
+  },
+  "autoFullScreenLabel": {
+    "message": "自动全屏"
+  },
+  "autoFullScreenDesc": {
+    "message": "有人演示时自动全屏"
+  },
+  "transBarLabel": {
+    "message": "透明条"
+  },
+  "transBarDesc": {
+    "message": "使底部栏透明"
+  },
+  "pinChatLabel": {
+    "message": "自动固定聊天"
+  },
+  "pinChatDesc": {
+    "message": "加入 Meet 时自动固定聊天视图"
+  },
+  "copyUrlLabel": {
+    "message": "自动复制会议网址"
+  },
+  "copyUrlDesc": {
+    "message": "自动将 Meet 网址复制到剪贴板"
+  },
+  "hideTopBarLabel": {
+    "message": "自动隐藏顶栏"
+  },
+  "hideTopBarDesc": {
+    "message": "当底部栏消失时隐藏顶部栏"
+  },
+  "darkModeLabel": {
+    "message": "黑暗模式"
+  },
+  "darkModeDesc": {
+    "message": "使 Google Meet 暗模式"
+  },
+  "pipLabel": {
+    "message": "画中画"
+  },
+  "pipDesc": {
+    "message": "在画中画中查看参与者视频"
+  },
+  "mirrorVideosLabel": {
+    "message": "镜像视频"
+  },
+  "mirrorVideosDesc": {
+    "message": "镜像 Meet 中的所有视频"
+  },
+  "activeTabLabel": {
+    "message": "查找活动会议选项卡"
+  },
+  "activeTabDesc": {
+    "message": "单击扩展程序图标以找到活动的 Meet 选项卡"
+  },
+  "quickEmojiLabel": {
+    "message": "快速表情符号反应"
+  },
+  "quickEmojiDesc": {
+    "message": "将快速表情符号快捷方式添加到聊天窗口"
+  },
+  "timerLabel": {
+    "message": "会议计时器"
+  },
+  "timerDesc": {
+    "message": "在底部标签栏中显示会议计时器"
+  },
+  "toggleBarLabel": {
+    "message": "切换底部栏"
+  },
+  "toggleBarDesc": {
+    "message": "切换底部控制栏出现"
+  },
+  "speakerBorderLabel": {
+    "message": "演讲者亮点"
+  },
+  "speakerBorderDesc": {
+    "message": "在发言参与者周围添加边框"
+  },
+  "autoRejectLabel": {
+    "message": "自动拒绝新进入者"
+  },
+  "autoRejectDesc": {
+    "message": "自动拒绝新成员加入 Meet"
+  },
+  "autoAdmitLabel": {
+    "message": "自动录取新进入者"
+  },
+  "autoAdmitDesc": {
+    "message": "自动接纳新参与者加入 Meet"
+  },
+  "autoUnmuteLabel": {
+    "message": "自动取消静音"
+  },
+  "autoUnmuteDesc": {
+    "message": "阻止其他人将您的麦克风静音"
+  },
+  "removeAllLabel": {
+    "message": "移除所有"
+  },
+  "removeAllDesc": {
+    "message": "通过参与者菜单删除所有参与者"
+  },
+  "muteAllLabel": {
+    "message": "全部静音"
+  },
+  "muteAllDesc": {
+    "message": "通过参与者菜单将所有参与者静音"
+  },
+  "attendanceLabel": {
+    "message": "参加"
+  },
+  "attendanceDesc": {
+    "message": "捕获会议的出席情况并导出到 CSV"
+  },
+  "doNotDisturbLabel": {
+    "message": "请勿打扰"
+  },
+  "doNotDisturbDesc": {
+    "message": "将所有 Meet 通知声音静音，隐藏新评论"
+  },
+  "doNotDisturbSoundsDesc": {
+    "message": "将所有 Meet 通知声音静音"
+  },
+  "doNotDisturbCommentsDesc": {
+    "message": "隐藏评论和用户加入弹出窗口"
+  },
+  "doNotDisturbCommentsBubbleDesc": {
+    "message": "隐藏评论通知气泡"
+  },
+  "sortParticipantsLabel": {
+    "message": "排序参与者列表"
+  },
+  "sortParticipantsDesc": {
+    "message": "添加切换到参与者列表以按姓氏排序"
+  },
+  "autoRecordLabel": {
+    "message": "自动记录"
+  },
+  "autoRecordDesc": {
+    "message": "自动开始录制会议（需要 Google Workspace）"
+  },
+  "autoRecordDescOne": {
+    "message": "自动开始录音"
+  },
+  "autoRecordDescTwo": {
+    "message": "手动开始录音"
+  },
+  "proFeaturesSubHeading": {
+    "message": "专业功能"
+  },
+  "muchMore": {
+    "message": "还有更多！"
+  },
+  "viewRoadmap": {
+    "message": "查看我们的路线图"
+  },
+  "seeFeatures": {
+    "message": "查看我们计划的所有功能"
+  },
+  "meetProSectionLabel": {
+    "message": "获取 Meet Pro"
+  },
+  "meetProSectionDesc": {
+    "message": "通过升级到 Meet Pro，您可以使用 20 多项将 Google Meet 提升到新水平的新功能。"
+  },
+  "meetProButtonLabel": {
+    "message": "立即获取 Meet Pro"
+  },
+  "activateLicenseButtonLabel": {
+    "message": "或激活许可证"
+  },
+  "activateLabel": {
+    "message": "启用"
+  },
+  "emojiToolTipDesc": {
+    "message": "此功能默认开启，您可以从 Google Meet 的聊天窗口访问它"
+  },
+  "generalToolTipDesc": {
+    "message": "默认情况下，此功能处于开启状态，您可以从 Google Meet 的参与者菜单中访问它"
+  },
+  "title": {
+    "message": "满足增强套件"
+  },
+  "basicFeatures": {
+    "message": "基本功能"
+  },
+  "pttLabel": {
+    "message": "一键通"
+  },
+  "pttDesc": {
+    "message": "按住热键取消静音"
+  },
+  "pttUpgrade": {
+    "message": "升级到 Pro 以设置您自己的按键绑定"
+  },
+  "autoJoinLabel": {
+    "message": "自动加入"
+  },
+  "autoJoinDesc": {
+    "message": "自动加入会议"
+  },
+  "autoJoinDescOption": {
+    "message": "仅当参与者在场时加入会议"
+  },
+  "quickLeaveLabel": {
+    "message": "快速离开"
+  },
+  "quickLeaveDesc": {
+    "message": "使用热键离开电话"
+  },
+  "leaveConfirmLabel": {
+    "message": "请假确认"
+  },
+  "leaveConfirmDesc": {
+    "message": "离开会议时要求确认"
+  },
+  "returnHomeLabel": {
+    "message": "挂断时返回主屏幕"
+  },
+  "returnHomeDesc": {
+    "message": "离开 Meet 后返回 Meet 主屏幕"
+  },
+  "chimesLabel": {
+    "message": "总是播放钟声"
+  },
+  "chimesDesc": {
+    "message": "当参与者加入和离开时，或收到新的聊天消息时，始终听到提示音"
+  },
+  "desktopLabel": {
+    "message": "在桌面应用中打开 Meet 链接"
+  },
+  "desktopDesc": {
+    "message": "使所有 Google Cal 链接在"
+  },
+  "desktopApp": {
+    "message": "桌面应用程序"
+  },
+  "captionsLabel": {
+    "message": "自动字幕"
+  },
+  "captionsDesc": {
+    "message": "自动打开字幕"
+  },
+  "autoMuteLabel": {
+    "message": "自动静音"
+  },
+  "autoMuteDesc": {
+    "message": "加入时自动静音麦克风"
+  },
+  "autoVideoLabel": {
+    "message": "自动视频关闭"
+  },
+  "autoVideoDesc": {
+    "message": "将视频设置为在加入时关闭"
+  },
+  "pinBarLabel": {
+    "message": "销底栏"
+  },
+  "pinBarDesc": {
+    "message": "将控制栏固定到屏幕底部"
+  },
+  "partVidStyleLabel": {
+    "message": "参与者视频风格"
+  },
+  "alwaysShowLabel": {
+    "message": "始终显示参与者姓名"
+  },
+  "hidePartNames": {
+    "message": "隐藏参与者姓名"
+  },
+  "hideSpeakingIcons": {
+    "message": "隐藏参与者发言图标"
+  },
+  "bgColorLabel": {
+    "message": "设置背景颜色"
+  },
+  "bgColorDesc": {
+    "message": "在 Meet 中设置自定义背景颜色"
+  }
+}

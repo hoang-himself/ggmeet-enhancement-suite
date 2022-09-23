@@ -1,0 +1,326 @@
+{
+  "ignorePresentationModalLabel": {
+    "message": "Αυτόματη παράβλεψη επικάλυψης παρουσίασης"
+  },
+  "ignorePresentationModalDesc": {
+    "message": "Αυτόματη απόκρυψη ειδοποίησης καθρέφτη απείρου κατά την παρουσίαση"
+  },
+  "autoMinimizeLabel": {
+    "message": "Αυτόματη ελαχιστοποίηση βίντεο"
+  },
+  "autoMinimizeDesc": {
+    "message": "Ελαχιστοποιήστε αυτόματα το βίντεό σας όταν συμμετέχετε σε μια συνάντηση"
+  },
+  "meetVolumeLabel": {
+    "message": "Προσαρμογή έντασης Meet"
+  },
+  "meetVolumeDesc": {
+    "message": "Ρυθμίστε το επίπεδο έντασης του Meet"
+  },
+  "extName": {
+    "message": "Google Meet Enhancement Suite"
+  },
+  "extDesc": {
+    "message": "40 νέες λειτουργίες για το Google Meet, όπως σίγαση όλων, κατάργηση όλων, αυτόματη αποδοχή, emoji, βίντεο καθρέφτη, χρώμα φόντου και push to talk!"
+  },
+  "startMeet": {
+    "message": "Ξεκινήστε μια συνάντηση"
+  },
+  "mutePopupLabel": {
+    "message": "Απόκρυψη σίγασης αναδυόμενου παραθύρου"
+  },
+  "mutePopupDesc": {
+    "message": "Απόκρυψη &quot;Μιλάτε;&quot; αναδυόμενο παράθυρο σε σίγαση"
+  },
+  "hideAddOthersLabel": {
+    "message": "Απόκρυψη αναδυόμενου &quot;Προσθήκη άλλων&quot;"
+  },
+  "hideAddOthersDesc": {
+    "message": "Κρύβει το αναδυόμενο παράθυρο &quot;Προσθήκη άλλων&quot; όταν συμμετέχετε σε μια συνάντηση"
+  },
+  "displayClockLabel": {
+    "message": "Ρολόι οθόνης"
+  },
+  "displayClockDesc": {
+    "message": "Εμφανίστε το ρολόι ακόμα και όταν δεν βρίσκεστε σε πλήρη οθόνη"
+  },
+  "autoFullScreenLabel": {
+    "message": "Αυτόματη πλήρης οθόνη"
+  },
+  "autoFullScreenDesc": {
+    "message": "Αυτόματη μετάβαση σε πλήρη οθόνη όταν κάποιος παρουσιάζει"
+  },
+  "transBarLabel": {
+    "message": "Διαφανής μπάρα"
+  },
+  "transBarDesc": {
+    "message": "Κάντε την κάτω μπάρα διαφανή"
+  },
+  "pinChatLabel": {
+    "message": "Αυτόματη συνομιλία"
+  },
+  "pinChatDesc": {
+    "message": "Καρφώνει αυτόματα την προβολή συνομιλίας κατά τη συμμετοχή στο Meet"
+  },
+  "copyUrlLabel": {
+    "message": "Αυτόματη αντιγραφή URL Meet"
+  },
+  "copyUrlDesc": {
+    "message": "Αντιγράψτε αυτόματα το URL Meet στο πρόχειρο"
+  },
+  "hideTopBarLabel": {
+    "message": "Αυτόματη απόκρυψη κορυφαίας γραμμής"
+  },
+  "hideTopBarDesc": {
+    "message": "Κρύψτε την επάνω γραμμή όταν εξαφανιστεί η κάτω γραμμή"
+  },
+  "darkModeLabel": {
+    "message": "Σκοτεινή λειτουργία"
+  },
+  "darkModeDesc": {
+    "message": "Κάνει το Google Meet σκοτεινή λειτουργία"
+  },
+  "pipLabel": {
+    "message": "Εικόνα-σε-εικόνα"
+  },
+  "pipDesc": {
+    "message": "Δείτε το βίντεο των συμμετεχόντων στην εικόνα-σε-εικόνα"
+  },
+  "mirrorVideosLabel": {
+    "message": "Βίντεο καθρέφτη"
+  },
+  "mirrorVideosDesc": {
+    "message": "Αντικατοπτρίζει όλα τα βίντεο στο Meet"
+  },
+  "activeTabLabel": {
+    "message": "Βρείτε ενεργή καρτέλα Meet"
+  },
+  "activeTabDesc": {
+    "message": "Κάντε κλικ στο εικονίδιο επέκτασης για να βρείτε την ενεργή καρτέλα Meet"
+  },
+  "quickEmojiLabel": {
+    "message": "Γρήγορες αντιδράσεις Emoji"
+  },
+  "quickEmojiDesc": {
+    "message": "Προσθέτει γρήγορες συντομεύσεις emoji στο παράθυρο συνομιλίας"
+  },
+  "timerLabel": {
+    "message": "Χρονόμετρο συνάντησης"
+  },
+  "timerDesc": {
+    "message": "Εμφανίζει ένα χρονόμετρο σύσκεψης στην κάτω γραμμή καρτελών"
+  },
+  "toggleBarLabel": {
+    "message": "Εναλλαγή κάτω μπάρας"
+  },
+  "toggleBarDesc": {
+    "message": "Ενεργοποιήστε την κάτω γραμμή ελέγχου για να εμφανιστεί"
+  },
+  "speakerBorderLabel": {
+    "message": "Επισήμανση ηχείου"
+  },
+  "speakerBorderDesc": {
+    "message": "Προσθέτει περίγραμμα γύρω από τους συμμετέχοντες που μιλούν"
+  },
+  "autoRejectLabel": {
+    "message": "Αυτόματη άρνηση νέων συμμετεχόντων"
+  },
+  "autoRejectDesc": {
+    "message": "Απορρίπτει αυτόματα τους νεοεισερχόμενους στο Meet"
+  },
+  "autoAdmitLabel": {
+    "message": "Αυτόματη αποδοχή νέων συμμετεχόντων"
+  },
+  "autoAdmitDesc": {
+    "message": "Αποδέχεται αυτόματα νεοεισερχόμενους στο Meet"
+  },
+  "autoUnmuteLabel": {
+    "message": "Αυτόματη σίγαση"
+  },
+  "autoUnmuteDesc": {
+    "message": "Σταματήστε τους άλλους από τη σίγαση του μικροφώνου σας"
+  },
+  "removeAllLabel": {
+    "message": "Αφαίρεση όλων"
+  },
+  "removeAllDesc": {
+    "message": "Καταργήστε όλους τους συμμετέχοντες μέσω του μενού των συμμετεχόντων"
+  },
+  "muteAllLabel": {
+    "message": "Σίγαση όλων"
+  },
+  "muteAllDesc": {
+    "message": "Σίγαση όλων των συμμετεχόντων μέσω του μενού συμμετεχόντων"
+  },
+  "attendanceLabel": {
+    "message": "Προσέξτε"
+  },
+  "attendanceDesc": {
+    "message": "Καταγράψτε την παρουσία της συνάντησης και εξαγάγετε σε CSV"
+  },
+  "doNotDisturbLabel": {
+    "message": "Μην ενοχλείτε"
+  },
+  "doNotDisturbDesc": {
+    "message": "Σίγαση όλων των ήχων ειδοποιήσεων Meet, απόκρυψη νέου σχολίου"
+  },
+  "doNotDisturbSoundsDesc": {
+    "message": "Σίγαση όλων των ήχων ειδοποίησης Meet"
+  },
+  "doNotDisturbCommentsDesc": {
+    "message": "Απόκρυψη σχολίων και αναδυόμενα παράθυρα"
+  },
+  "doNotDisturbCommentsBubbleDesc": {
+    "message": "Απόκρυψη συννεφάκι ειδοποιήσεων σχολίων"
+  },
+  "sortParticipantsLabel": {
+    "message": "Ταξινόμηση λίστας συμμετεχόντων"
+  },
+  "sortParticipantsDesc": {
+    "message": "Προσθέτει εναλλαγή στη λίστα συμμετεχόντων για ταξινόμηση κατά επώνυμο"
+  },
+  "autoRecordLabel": {
+    "message": "Αυτόματη εγγραφή"
+  },
+  "autoRecordDesc": {
+    "message": "Ξεκινήστε αυτόματα την εγγραφή του Meet (απαιτείται χώρος εργασίας Google)"
+  },
+  "autoRecordDescOne": {
+    "message": "Ξεκινήστε αυτόματα την εγγραφή"
+  },
+  "autoRecordDescTwo": {
+    "message": "Ξεκινήστε χειροκίνητα την εγγραφή"
+  },
+  "proFeaturesSubHeading": {
+    "message": "Χαρακτηριστικά Pro"
+  },
+  "muchMore": {
+    "message": "Πολύ ακόμη να έρθουν"
+  },
+  "viewRoadmap": {
+    "message": "Δείτε τον χάρτη πορείας μας"
+  },
+  "seeFeatures": {
+    "message": "για να δείτε όλες τις δυνατότητες που έχουμε σχεδιάσει"
+  },
+  "meetProSectionLabel": {
+    "message": "Αποκτήστε το Meet Pro"
+  },
+  "meetProSectionDesc": {
+    "message": "Με την αναβάθμιση σε Meet Pro αποκτάτε πρόσβαση σε περισσότερες από 20 νέες δυνατότητες που οδηγούν το Google Meet στο επόμενο επίπεδο."
+  },
+  "meetProButtonLabel": {
+    "message": "Αποκτήστε το Meet Pro σήμερα"
+  },
+  "activateLicenseButtonLabel": {
+    "message": "ή Ενεργοποίηση άδειας"
+  },
+  "activateLabel": {
+    "message": "Θέτω εις ενέργειαν"
+  },
+  "emojiToolTipDesc": {
+    "message": "Αυτή η λειτουργία είναι ενεργοποιημένη από προεπιλογή και μπορείτε να αποκτήσετε πρόσβαση σε αυτήν από το παράθυρο συνομιλίας στο Google Meet"
+  },
+  "generalToolTipDesc": {
+    "message": "Αυτή η λειτουργία είναι ενεργοποιημένη από προεπιλογή και μπορείτε να αποκτήσετε πρόσβαση σε αυτήν από το μενού συμμετεχόντων στο Google Meet"
+  },
+  "title": {
+    "message": "Γνωρίστε το Enhancement Suite"
+  },
+  "basicFeatures": {
+    "message": "Βασικά χαρακτηριστικά"
+  },
+  "pttLabel": {
+    "message": "Push to Talk"
+  },
+  "pttDesc": {
+    "message": "Κρατήστε το πλήκτρο πρόσβασης για σίγαση"
+  },
+  "pttUpgrade": {
+    "message": "Αναβαθμίστε σε Pro για να ορίσετε τη δική σας σύνδεση"
+  },
+  "autoJoinLabel": {
+    "message": "Αυτόματη συμμετοχή"
+  },
+  "autoJoinDesc": {
+    "message": "Εγγραφείτε αυτόματα στη σύσκεψη"
+  },
+  "autoJoinDescOption": {
+    "message": "Λάβετε μέρος στη σύσκεψη μόνο όταν είναι παρόντες οι συμμετέχοντες"
+  },
+  "quickLeaveLabel": {
+    "message": "Γρήγορη αναχώρηση"
+  },
+  "quickLeaveDesc": {
+    "message": "Χρησιμοποιήστε το πλήκτρο πρόσβασης για να αφήσετε μια κλήση"
+  },
+  "leaveConfirmLabel": {
+    "message": "Αφήστε την επιβεβαίωση"
+  },
+  "leaveConfirmDesc": {
+    "message": "Ζητήστε επιβεβαίωση όταν αποχωρείτε από μια συνάντηση"
+  },
+  "returnHomeLabel": {
+    "message": "Επιστροφή στην αρχική οθόνη κατά το κλείσιμο"
+  },
+  "returnHomeDesc": {
+    "message": "Επιστρέφει στην αρχική οθόνη του Meet μετά την έξοδο από το Meet"
+  },
+  "chimesLabel": {
+    "message": "Παίξτε πάντα χτύπημα"
+  },
+  "chimesDesc": {
+    "message": "Να ακούτε πάντα ήχους ήχου όταν συμμετέχουν και αποχωρούν οι συμμετέχοντες ή όταν λαμβάνεται ένα νέο μήνυμα συνομιλίας"
+  },
+  "desktopLabel": {
+    "message": "Ανοίξτε τους συνδέσμους Meet στην εφαρμογή για υπολογιστές"
+  },
+  "desktopDesc": {
+    "message": "Ανοίξτε όλους τους συνδέσμους Google Cal στο"
+  },
+  "desktopApp": {
+    "message": "εφαρμογή για επιτραπέζιους υπολογιστές"
+  },
+  "captionsLabel": {
+    "message": "Αυτόματες λεζάντες"
+  },
+  "captionsDesc": {
+    "message": "Αυτόματη ενεργοποίηση υπότιτλων"
+  },
+  "autoMuteLabel": {
+    "message": "Αυτόματη σίγαση"
+  },
+  "autoMuteDesc": {
+    "message": "Αυτόματη σίγαση μικροφώνου κατά τη συμμετοχή"
+  },
+  "autoVideoLabel": {
+    "message": "Αυτόματη απενεργοποίηση βίντεο"
+  },
+  "autoVideoDesc": {
+    "message": "Ρύθμιση βίντεο για απενεργοποίηση της συμμετοχής"
+  },
+  "pinBarLabel": {
+    "message": "Καρφίτσα κάτω μπάρα"
+  },
+  "pinBarDesc": {
+    "message": "Καρφιτσώνει τη γραμμή ελέγχου στο κάτω μέρος της οθόνης"
+  },
+  "partVidStyleLabel": {
+    "message": "Στυλ βίντεο συμμετεχόντων"
+  },
+  "alwaysShowLabel": {
+    "message": "Να εμφανίζονται πάντα τα ονόματα των συμμετεχόντων"
+  },
+  "hidePartNames": {
+    "message": "Απόκρυψη ονομάτων συμμετεχόντων"
+  },
+  "hideSpeakingIcons": {
+    "message": "Απόκρυψη εικονιδίων ομιλίας συμμετέχοντα"
+  },
+  "bgColorLabel": {
+    "message": "Ορισμός χρώματος φόντου"
+  },
+  "bgColorDesc": {
+    "message": "Ορίστε προσαρμοσμένο χρώμα φόντου στο Meet"
+  }
+}
