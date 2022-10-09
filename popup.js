@@ -39,46 +39,46 @@
     ga("set", "checkProtocolTask", null),
     ga("send", "pageview", "/popup");
   const i = [
-    "addChimes",
-    "adjustVolume",
-    "autoAdmit",
-    "autoCaptions",
-    "autoChat",
-    "autoCopyURL",
-    "autoJoin",
-    "autoJoinParticipants",
-    "autoRecord",
-    "autoReject",
-    "autoUnmute",
-    "backgroundColor",
-    "borderColor",
-    "darkMode",
-    "displayClock",
-    "hideCommentBubble",
-    "hideComments",
-    "hideNames",
-    "hideTalkIcons",
-    "homeOnLeave",
-    "ignorePresentationModal",
-    "keyCode",
-    "leavePrompt",
-    "manualRecord",
-    "meetingTimer",
-    "minimizeVideo",
-    "mirrorVideos",
-    "muteMicrophone",
-    "mutePopup",
-    "muteVideo",
-    "noAddOthers",
-    "pictureInPicture",
-    "quickLeave",
-    "setBackgroundColor",
-    "showNames",
-    "smartUnmute",
-    "speakerBorder",
-    "toggleBottomBar",
-    "transBar",
-  ],
+      "addChimes",
+      "adjustVolume",
+      "autoAdmit",
+      "autoCaptions",
+      "autoChat",
+      "autoCopyURL",
+      "autoJoin",
+      "autoJoinParticipants",
+      "autoRecord",
+      "autoReject",
+      "autoUnmute",
+      "backgroundColor",
+      "borderColor",
+      "darkMode",
+      "displayClock",
+      "hideCommentBubble",
+      "hideComments",
+      "hideNames",
+      "hideTalkIcons",
+      "homeOnLeave",
+      "ignorePresentationModal",
+      "keyCode",
+      "leavePrompt",
+      "manualRecord",
+      "meetingTimer",
+      "minimizeVideo",
+      "mirrorVideos",
+      "muteMicrophone",
+      "mutePopup",
+      "muteVideo",
+      "noAddOthers",
+      "pictureInPicture",
+      "quickLeave",
+      "setBackgroundColor",
+      "showNames",
+      "smartUnmute",
+      "speakerBorder",
+      "toggleBottomBar",
+      "transBar",
+    ],
     d = i.reduce((e, t) => ({ ...e, [t]: !1 }), {});
   function l() {
     let e = d;
@@ -86,12 +86,12 @@
       "backgroundColor" == t
         ? (e[t] = document.getElementById("backgroundColorPicker").value)
         : "borderColor" == t
-          ? (e[t] = document.getElementById("borderColor").value)
-          : "adjustVolume" == t
-            ? (e[t] = document.getElementById("adjustVolume").value)
-            : "keyCode" == t
-              ? delete e.keyCode
-              : (e[t] = document.getElementById(t).checked);
+        ? (e[t] = document.getElementById("borderColor").value)
+        : "adjustVolume" == t
+        ? (e[t] = document.getElementById("adjustVolume").value)
+        : "keyCode" == t
+        ? delete e.keyCode
+        : (e[t] = document.getElementById(t).checked);
     }),
       chrome.storage.sync.set(e);
   }
@@ -115,10 +115,10 @@
             "backgroundColor" === t
               ? (document.getElementById("backgroundColorPicker").value = e[t])
               : "borderColor" === t
-                ? (document.getElementById("borderColor").value = e[t])
-                : "adjustVolume" === t
-                  ? (document.getElementById("adjustVolume").value = e[t])
-                  : (document.getElementById(t).checked = e[t]);
+              ? (document.getElementById("borderColor").value = e[t])
+              : "adjustVolume" === t
+              ? (document.getElementById("adjustVolume").value = e[t])
+              : (document.getElementById(t).checked = e[t]);
         });
       }),
         (function () {
@@ -141,17 +141,17 @@
   u.addEventListener("click", () => {
     "false" === y.getAttribute("data-active") &&
       (y.setAttribute("data-active", "true"),
-        u.setAttribute("style", "display: none"),
-        m.setAttribute("style", "display: block"),
-        document.body.addEventListener("keydown", g));
+      u.setAttribute("style", "display: none"),
+      m.setAttribute("style", "display: block"),
+      document.body.addEventListener("keydown", g));
   }),
     m.addEventListener("click", () => {
       "true" === y.getAttribute("data-active") &&
         (y.setAttribute("data-active", "false"),
-          u.setAttribute("style", "display: block"),
-          m.setAttribute("style", "display: none"),
-          document.body.removeEventListener("keydown", g),
-          chrome.storage.sync.set({ keyCode: p.keys }));
+        u.setAttribute("style", "display: block"),
+        m.setAttribute("style", "display: none"),
+        document.body.removeEventListener("keydown", g),
+        chrome.storage.sync.set({ keyCode: p.keys }));
     }),
     document.addEventListener("click", (e) => {
       "true" === y.getAttribute("data-active") &&
@@ -159,10 +159,10 @@
         e.target != m &&
         e.target != u &&
         (y.setAttribute("data-active", "false"),
-          u.setAttribute("style", "display: block"),
-          m.setAttribute("style", "display: none"),
-          document.body.removeEventListener("keydown", g),
-          chrome.storage.sync.set({ keyCode: p.keys }));
+        u.setAttribute("style", "display: block"),
+        m.setAttribute("style", "display: none"),
+        document.body.removeEventListener("keydown", g),
+        chrome.storage.sync.set({ keyCode: p.keys }));
     });
   class h {
     constructor({
@@ -204,7 +204,7 @@
       return (o = E[n.toLowerCase()])
         ? o
         : (o = K[n.toLowerCase()]) ||
-        (1 === n.length ? n.charCodeAt(0) : void 0);
+            (1 === n.length ? n.charCodeAt(0) : void 0);
     }
     keyStrings() {
       return [
@@ -246,32 +246,32 @@
       (document.getElementById("activationForm").style.display = "contents");
   });
   const k = (e, t, o) => {
-    fetch(
-      "https://hoang-himself.github.io/api/v1/ggmeet-enhancement-suite/index.json"
-    )
-      .then((e) => e.json())
-      .then((n) => {
-        if (n.success) {
-          const e = new Date().getTime(),
-            r =
-              (Date.parse(n.purchase.subscription_cancelled_at) - e) / 864e5;
-          ("keyfermath@gmail.com" === n.purchase.email ||
-            ("(Single License)" === n.purchase.variants && n.uses <= 11) ||
-            ("(Ten Licenses)" === n.purchase.variants && n.uses <= 15) ||
-            ("(Fifty Licenses)" === n.purchase.variants && n.uses <= 60) ||
-            "(Unlimited Licenses)" === n.purchase.variants) &&
+      fetch(
+        "https://hoang-himself.github.io/api/v1/ggmeet-enhancement-suite/index.json"
+      )
+        .then((e) => e.json())
+        .then((n) => {
+          if (n.success) {
+            const e = new Date().getTime(),
+              r =
+                (Date.parse(n.purchase.subscription_cancelled_at) - e) / 864e5;
+            ("keyfermath@gmail.com" === n.purchase.email ||
+              ("(Single License)" === n.purchase.variants && n.uses <= 11) ||
+              ("(Ten Licenses)" === n.purchase.variants && n.uses <= 15) ||
+              ("(Fifty Licenses)" === n.purchase.variants && n.uses <= 60) ||
+              "(Unlimited Licenses)" === n.purchase.variants) &&
             (r > 0 || !n.purchase.subscription_cancelled_at) &&
             !n.purchase.subscription_failed_at
-            ? t
-              ? f(t)
-              : f()
-            : null != o
+              ? t
+                ? f(t)
+                : f()
+              : null != o
               ? b("error")
               : b();
-        } else v(e, t, o);
-      })
-      .catch(() => { });
-  },
+          } else v(e, t, o);
+        })
+        .catch(() => {});
+    },
     v = (e, t, o) => {
       let n = e;
       (n.body = JSON.parse(n.body)),
@@ -291,17 +291,17 @@
                 ("(Ten Licenses)" === e.purchase.variants && e.uses <= 15) ||
                 ("(Fifty Licenses)" === e.purchase.variants && e.uses <= 60) ||
                 "(Unlimited Licenses)" === e.purchase.variants) &&
-                (r > 0 || !e.purchase.subscription_cancelled_at) &&
-                !e.purchase.subscription_failed_at
+              (r > 0 || !e.purchase.subscription_cancelled_at) &&
+              !e.purchase.subscription_failed_at
                 ? null != t
                   ? f(t)
                   : f()
                 : null != o
-                  ? b("error")
-                  : b();
+                ? b("error")
+                : b();
             } else null != o ? b("error") : b();
           })
-          .catch(() => { });
+          .catch(() => {});
     };
   function f(e) {
     e && chrome.storage.sync.set({ licenseKey: e }),
@@ -319,8 +319,8 @@
   function b(e) {
     "error" === e &&
       ((document.getElementById("licenseKey").style.border = "2px"),
-        (document.getElementById("licenseKey").style.borderStyle = "solid"),
-        (document.getElementById("licenseKey").style.borderColor = "red")),
+      (document.getElementById("licenseKey").style.borderStyle = "solid"),
+      (document.getElementById("licenseKey").style.borderColor = "red")),
       chrome.storage.sync.set({ licenseKey: void 0 }),
       (document.getElementById("proUpgrade").style.display = "block"),
       (document.getElementById("proFeatures").style.display = "none"),
@@ -390,50 +390,50 @@
       }
     });
   var E = {
-    backspace: 8,
-    tab: 9,
-    enter: 13,
-    shift: 16,
-    ctrl: 17,
-    alt: 18,
-    "pause/break": 19,
-    "caps lock": 20,
-    esc: 27,
-    space: 32,
-    "page up": 33,
-    "page down": 34,
-    end: 35,
-    home: 36,
-    left: 37,
-    up: 38,
-    right: 39,
-    down: 40,
-    insert: 45,
-    delete: 46,
-    command: 91,
-    "left command": 91,
-    "right command": 93,
-    "numpad *": 106,
-    "numpad +": 107,
-    "numpad -": 109,
-    "numpad .": 110,
-    "numpad /": 111,
-    "num lock": 144,
-    "scroll lock": 145,
-    "my computer": 182,
-    "my calculator": 183,
-    ";": 186,
-    "=": 187,
-    ",": 188,
-    "-": 189,
-    ".": 190,
-    "/": 191,
-    "`": 192,
-    "[": 219,
-    "\\": 220,
-    "]": 221,
-    "'": 222,
-  },
+      backspace: 8,
+      tab: 9,
+      enter: 13,
+      shift: 16,
+      ctrl: 17,
+      alt: 18,
+      "pause/break": 19,
+      "caps lock": 20,
+      esc: 27,
+      space: 32,
+      "page up": 33,
+      "page down": 34,
+      end: 35,
+      home: 36,
+      left: 37,
+      up: 38,
+      right: 39,
+      down: 40,
+      insert: 45,
+      delete: 46,
+      command: 91,
+      "left command": 91,
+      "right command": 93,
+      "numpad *": 106,
+      "numpad +": 107,
+      "numpad -": 109,
+      "numpad .": 110,
+      "numpad /": 111,
+      "num lock": 144,
+      "scroll lock": 145,
+      "my computer": 182,
+      "my calculator": 183,
+      ";": 186,
+      "=": 187,
+      ",": 188,
+      "-": 189,
+      ".": 190,
+      "/": 191,
+      "`": 192,
+      "[": 219,
+      "\\": 220,
+      "]": 221,
+      "'": 222,
+    },
     K = {
       windows: 91,
       "⇧": 16,
