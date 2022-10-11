@@ -682,7 +682,7 @@
         document.querySelector('[aria-label="Close"]').click();
   }
   function ue(e) {
-    document.querySelector(".jlGyUd").style.display = e ? "flex" : "none";
+    document.querySelector(".NcEtne").style.display = e ? "flex" : "none";
   }
   function pe(e) {
     e
