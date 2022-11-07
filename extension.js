@@ -41,7 +41,7 @@
           .querySelector('[jsname="FSwbPd"]')
           .insertAdjacentHTML(
             "afterend",
-            "<div id='hangupUpsell' style='margin-top: 12px; display: flex; align-items: flex-start; background: #EBF7F1; border-radius: 13px; padding: 18px 10px 18px 10px; text-align: left; width: 340px;'><img style='margin: 10px 15px 0px 0px;' src='https://www.meetenhancementsuite.com/assets/icon-mes.svg'><div><p style='font-size: initial; font-weight: bold; margin: 0 0 0 0;'>Upgrade to Meet Pro today</p><p style='margin-top: 6px;'>Add over 25 new features to Google Meet, including mute all, dark mode, quick emojis, and so much more!</p><a style='background: #00211D; color: #fff; border-radius: 20px; padding: 6px 8px 6px 8px; margin-right: 12px;' href='https://www.meetenhancementsuite.com/meetpro/?utm_source=extension&utm_medium=banner&utm_campaign=hangup_page/#pricingSection'>Start 7-day free trial →</a><span id='hangupUpsellDismiss' style='text-decoration: underline; cursor: pointer;'>Dismiss</span></div></div>"
+            "<div id='hangupUpsell' style='margin-top: 12px; display: flex; align-items: flex-start; background: #EBF7F1; border-radius: 13px; padding: 18px 10px 18px 10px; text-align: left; width: 340px;'><img style='margin: 10px 15px 0px 0px;' src='https://www.meetenhancementsuite.com/assets/icon-mes.svg'><div><p style='font-size: initial; font-weight: bold; margin: 0 0 0 0;'>Upgrade to Meet Pro today</p><p style='margin-top: 6px;'>Add over 25 new features to Google Meet, including mute all, dark mode, quick emojis, and so much more!</p><div style='margin-top: 18px;'><a style='background: #00211D; color: #fff; border-radius: 20px; padding: 6px 8px 6px 8px; margin-right: 12px;' href='https://www.meetenhancementsuite.com/meetpro/?utm_source=extension&utm_medium=banner&utm_campaign=hangup_page/#pricingSection'>Start 7-day free trial →</a><span id='hangupUpsellDismiss' style='text-decoration: underline; cursor: pointer;'>Dismiss</span></div></div></div>"
           ),
         document
           .getElementById("hangupUpsellDismiss")
@@ -587,7 +587,7 @@
       clearInterval(f),
         (f = setInterval(() => {
           const e = document.querySelectorAll("video");
-          document.querySelector(".MON6Vd") &&
+          document.querySelector('[jscontroller="E9nYD"]') &&
             document.querySelectorAll("video")[1].setAttribute("mesMirror", !0),
             e.forEach((e) => {
               !e.getAttribute("mesMirror") &&
@@ -1477,8 +1477,8 @@
     if ("keyup" === t.type && !e.matchKeyup(t)) return;
     t.preventDefault();
     const r = document
-      .querySelector('[jscontroller="QWZd7"]')
-      .querySelector(((e) => `button[data-is-muted*='${e}']`)(n));
+      ?.querySelector('[jscontroller="QWZd7"]')
+      ?.querySelector(((e) => `button[data-is-muted*='${e}']`)(n));
     r && r.click();
   };
   function Ve(e) {
