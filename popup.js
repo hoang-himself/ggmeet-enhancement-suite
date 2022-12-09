@@ -1,4 +1,8 @@
 (() => {
+  var e, t, o, n, r, s;
+  function c(e) {
+    ga("send", "event", e.target.id, e.target.checked);
+  }
   chrome.runtime.sendMessage("popupOpen", (e) => e),
     (function () {
       for (
@@ -13,32 +17,34 @@
           });
         r !== n && (o.innerHTML = r);
       }
-    })();
-  const e = "AgEOO";
-  var t, o, n, r, s, a;
-  function c(e) {
-    ga("send", "event", e.target.id, e.target.checked);
-  }
-  (t = window),
-    (o = document),
-    (n = "script"),
-    (r = "ga"),
-    (t.GoogleAnalyticsObject = r),
-    (t.ga =
-      t.ga ||
+    })(),
+    (function () {
+      const e = document.getElementById("purchaseLinkWithVersion"),
+        t = `https://www.meetenhancementsuite.com/meetpro/?version=${
+          chrome.runtime.getManifest().version
+        }&utm_source=extension&utm_medium=pro_button&utm_campaign=extension_button/#pricingSection`;
+      e.href = t;
+    })(),
+    (e = window),
+    (t = document),
+    (o = "script"),
+    (n = "ga"),
+    (e.GoogleAnalyticsObject = n),
+    (e.ga =
+      e.ga ||
       function () {
-        (t.ga.q = t.ga.q || []).push(arguments);
+        (e.ga.q = e.ga.q || []).push(arguments);
       }),
-    (t.ga.l = 1 * new Date()),
-    (s = o.createElement(n)),
-    (a = o.getElementsByTagName(n)[0]),
-    (s.async = 1),
-    (s.src = "./ga.js"),
-    a.parentNode.insertBefore(s, a),
+    (e.ga.l = 1 * new Date()),
+    (r = t.createElement(o)),
+    (s = t.getElementsByTagName(o)[0]),
+    (r.async = 1),
+    (r.src = "./ga.js"),
+    s.parentNode.insertBefore(r, s),
     ga("create", "UA-162757005-1", "auto"),
     ga("set", "checkProtocolTask", null),
     ga("send", "pageview", "/popup");
-  const i = [
+  const d = [
       "addChimes",
       "adjustVolume",
       "autoAdmit",
@@ -79,10 +85,10 @@
       "toggleBottomBar",
       "transBar",
     ],
-    d = i.reduce((e, t) => ({ ...e, [t]: !1 }), {});
-  function l() {
-    let e = d;
-    i.forEach((t) => {
+    a = d.reduce((e, t) => ({ ...e, [t]: !1 }), {});
+  function i() {
+    let e = a;
+    d.forEach((t) => {
       "backgroundColor" == t
         ? (e[t] = document.getElementById("backgroundColorPicker").value)
         : "borderColor" == t
@@ -95,19 +101,19 @@
     }),
       chrome.storage.sync.set(e);
   }
-  (d.keyCode = {
+  (a.keyCode = {
     keyCode: 32,
     ctrlKey: !1,
     altKey: !1,
     shiftKey: !1,
     metaKey: !1,
   }),
-    (d.backgroundColor = "#111111"),
-    (d.borderColor = "#669df6"),
-    (d.adjustVolume = "10"),
+    (a.backgroundColor = "#111111"),
+    (a.borderColor = "#669df6"),
+    (a.adjustVolume = "10"),
     document.addEventListener("DOMContentLoaded", () => {
-      chrome.storage.sync.get(d, function (e) {
-        i.forEach((t) => {
+      chrome.storage.sync.get(a, function (e) {
+        d.forEach((t) => {
           if ("keyCode" === t) {
             const o = new h(h.keysFromEvent(e[t]));
             document.getElementById("hotkey_edit").innerText = o.display();
@@ -125,44 +131,44 @@
           const e = document.getElementById("featureList");
           Object.values(e.getElementsByTagName("input")).forEach((e) => {
             "checkbox" === e.type &&
-              ((e.onchange = l), e.addEventListener("click", c));
+              ((e.onchange = i), e.addEventListener("click", c));
           });
         })();
     });
-  const y = document.getElementById("hotkey_edit"),
-    u = document.getElementById("editHotkey"),
+  const l = document.getElementById("hotkey_edit"),
+    y = document.getElementById("editHotkey"),
     m = document.getElementById("saveHotkey");
-  let p;
+  let u;
   const g = (e) => {
     e.preventDefault(),
-      (p = new h(h.keysFromEvent(e))),
-      (y.innerText = p.display());
+      (u = new h(h.keysFromEvent(e))),
+      (l.innerText = u.display());
   };
-  u.addEventListener("click", () => {
-    "false" === y.getAttribute("data-active") &&
-      (y.setAttribute("data-active", "true"),
-      u.setAttribute("style", "display: none"),
+  y.addEventListener("click", () => {
+    "false" === l.getAttribute("data-active") &&
+      (l.setAttribute("data-active", "true"),
+      y.setAttribute("style", "display: none"),
       m.setAttribute("style", "display: block"),
       document.body.addEventListener("keydown", g));
   }),
     m.addEventListener("click", () => {
-      "true" === y.getAttribute("data-active") &&
-        (y.setAttribute("data-active", "false"),
-        u.setAttribute("style", "display: block"),
+      "true" === l.getAttribute("data-active") &&
+        (l.setAttribute("data-active", "false"),
+        y.setAttribute("style", "display: block"),
         m.setAttribute("style", "display: none"),
         document.body.removeEventListener("keydown", g),
-        chrome.storage.sync.set({ keyCode: p.keys }));
+        chrome.storage.sync.set({ keyCode: u.keys }));
     }),
     document.addEventListener("click", (e) => {
-      "true" === y.getAttribute("data-active") &&
-        null != p &&
+      "true" === l.getAttribute("data-active") &&
+        null != u &&
         e.target != m &&
-        e.target != u &&
-        (y.setAttribute("data-active", "false"),
-        u.setAttribute("style", "display: block"),
+        e.target != y &&
+        (l.setAttribute("data-active", "false"),
+        y.setAttribute("style", "display: block"),
         m.setAttribute("style", "display: none"),
         document.body.removeEventListener("keydown", g),
-        chrome.storage.sync.set({ keyCode: p.keys }));
+        chrome.storage.sync.set({ keyCode: u.keys }));
     });
   class h {
     constructor({
@@ -198,12 +204,12 @@
         var t = e.which || e.keyCode || e.charCode;
         t && (e = t);
       }
-      if ("number" == typeof e) return L[e];
+      if ("number" == typeof e) return E[e];
       var o,
         n = String(e);
-      return (o = E[n.toLowerCase()])
+      return (o = f[n.toLowerCase()])
         ? o
-        : (o = K[n.toLowerCase()]) ||
+        : (o = b[n.toLowerCase()]) ||
             (1 === n.length ? n.charCodeAt(0) : void 0);
     }
     keyStrings() {
@@ -212,7 +218,7 @@
         this.keys.altKey && "Alt",
         this.keys.shiftKey && "Shift",
         this.keys.metaKey && "Command",
-        this.keys.keyCode && C(this.keys.keyCode),
+        this.keys.keyCode && v(this.keys.keyCode),
       ].filter((e) => e);
     }
     display() {
@@ -241,69 +247,7 @@
       );
     }
   }
-  document.getElementById("activateLink").addEventListener("click", () => {
-    (document.getElementById("proLinks").style.display = "none"),
-      (document.getElementById("activationForm").style.display = "contents");
-  });
-  const k = (e, t, o) => {
-      fetch(
-        "https://hoang-himself.github.io/api/v1/ggmeet-enhancement-suite/index.json"
-      )
-        .then((e) => e.json())
-        .then((n) => {
-          if (n.success) {
-            const e = new Date().getTime(),
-              r =
-                (Date.parse(n.purchase.subscription_cancelled_at) - e) / 864e5;
-            ("keyfermath@gmail.com" === n.purchase.email ||
-              ("(Single License)" === n.purchase.variants && n.uses <= 11) ||
-              ("(Ten Licenses)" === n.purchase.variants && n.uses <= 15) ||
-              ("(Fifty Licenses)" === n.purchase.variants && n.uses <= 60) ||
-              "(Unlimited Licenses)" === n.purchase.variants) &&
-            (r > 0 || !n.purchase.subscription_cancelled_at) &&
-            !n.purchase.subscription_failed_at
-              ? t
-                ? f(t)
-                : f()
-              : null != o
-              ? b("error")
-              : b();
-          } else v(e, t, o);
-        })
-        .catch(() => {});
-    },
-    v = (e, t, o) => {
-      let n = e;
-      (n.body = JSON.parse(n.body)),
-        (n.body.product_permalink = n.body.product_permalink = "OOSyDN"),
-        (n.body = JSON.stringify(n.body)),
-        fetch(
-          "https://hoang-himself.github.io/api/v1/ggmeet-enhancement-suite/index.json"
-        )
-          .then((e) => e.json())
-          .then((e) => {
-            if (e.success) {
-              const n = new Date().getTime();
-              let r =
-                (Date.parse(e.purchase.subscription_cancelled_at) - n) / 864e5;
-              ("keyfermath@gmail.com" === e.purchase.email ||
-                ("(Single License)" === e.purchase.variants && e.uses <= 11) ||
-                ("(Ten Licenses)" === e.purchase.variants && e.uses <= 15) ||
-                ("(Fifty Licenses)" === e.purchase.variants && e.uses <= 60) ||
-                "(Unlimited Licenses)" === e.purchase.variants) &&
-              (r > 0 || !e.purchase.subscription_cancelled_at) &&
-              !e.purchase.subscription_failed_at
-                ? null != t
-                  ? f(t)
-                  : f()
-                : null != o
-                ? b("error")
-                : b();
-            } else null != o ? b("error") : b();
-          })
-          .catch(() => {});
-    };
-  function f(e) {
+  function k(e) {
     e && chrome.storage.sync.set({ licenseKey: e }),
       (document.getElementById("proUpgrade").style.display = "none"),
       (document.getElementById("proFeatures").style.display = "block"),
@@ -316,7 +260,7 @@
       (document.getElementById("hotkeyTooltip").innerText =
         "Click to begin listening, click again to save.");
   }
-  function b(e) {
+  function p(e) {
     "error" === e &&
       ((document.getElementById("licenseKey").style.border = "2px"),
       (document.getElementById("licenseKey").style.borderStyle = "solid"),
@@ -329,67 +273,91 @@
       (document.getElementById("hotkeyTooltip").innerText =
         "Upgrade to Pro to set your own key binding.");
   }
-  function C(e) {
+  function v(e) {
     if (e && "object" == typeof e) {
       var t = e.which || e.keyCode || e.charCode;
       t && (e = t);
     }
-    if ("number" == typeof e) return L[e];
+    if ("number" == typeof e) return E[e];
     var o,
       n = String(e);
-    return (o = E[n.toLowerCase()])
+    return (o = f[n.toLowerCase()])
       ? o
-      : (o = K[n.toLowerCase()]) || (1 === n.length ? n.charCodeAt(0) : void 0);
+      : (o = b[n.toLowerCase()]) || (1 === n.length ? n.charCodeAt(0) : void 0);
   }
-  chrome.storage.sync.get("licenseKey", (t) => {
-    if (t.licenseKey) {
-      const o = {
+  document.getElementById("activateLink").addEventListener("click", () => {
+    (document.getElementById("proLinks").style.display = "none"),
+      (document.getElementById("activationForm").style.display = "contents");
+  }),
+    chrome.storage.sync.get("licenseKey", (e) => {
+      if (!e.licenseKey) return void p();
+      const t = {
         method: "POST",
         headers: {
           Accept: "application/json",
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          product_permalink: e,
-          license_key: t.licenseKey,
+          license_key: e.licenseKey,
           increment_uses_count: "false",
         }),
       };
-      k(o);
-    } else b();
-  }),
+      fetch("https://hoang-himself.github.io/api/v1/ggmeet-enhancement-suite/index.json")
+        .then((e) => e.json())
+        .then((e) => {
+          e.success && e.isPro
+            ? e.licenseKey
+              ? k(e.licenseKey)
+              : k()
+            : p("error");
+        })
+        .catch(() => {
+          p("error");
+        });
+    }),
     document
       .getElementById("activationForm")
-      .addEventListener("submit", (t) => {
-        t.preventDefault();
-        const o = document.getElementById("licenseKey").value,
-          n = {
-            method: "POST",
-            headers: {
-              Accept: "application/json",
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-              product_permalink: e,
-              license_key: o,
-              increment_uses_count: "true",
-            }),
-          };
-        k(n, o, "error");
+      .addEventListener("submit", (e) => {
+        e.preventDefault();
+        const t = document.getElementById("licenseKey").value;
+        if (!t) return void p("error");
+        const o = {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            license_key: t.trim(),
+            increment_uses_count: "true",
+          }),
+        };
+        fetch("https://hoang-himself.github.io/api/v1/ggmeet-enhancement-suite/index.json")
+          .then((e) => e.json())
+          .then((e) => {
+            e.success && e.isPro
+              ? e.licenseKey
+                ? k(e.licenseKey)
+                : k()
+              : p("error");
+          })
+          .catch(() => {
+            p("error");
+          });
       }),
-    (C.isEventKey = function (e, t) {
+    (v.isEventKey = function (e, t) {
       if (e && "object" == typeof e) {
         var o = e.which || e.keyCode || e.charCode;
         if (null == o) return !1;
         if ("string" == typeof t) {
           var n;
-          if ((n = E[t.toLowerCase()])) return n === o;
-          if ((n = K[t.toLowerCase()])) return n === o;
+          if ((n = f[t.toLowerCase()])) return n === o;
+          if ((n = b[t.toLowerCase()])) return n === o;
         } else if ("number" == typeof t) return t === o;
         return !1;
       }
     });
-  var E = {
+  var f = {
       backspace: 8,
       tab: 9,
       enter: 13,
@@ -434,7 +402,7 @@
       "]": 221,
       "'": 222,
     },
-    K = {
+    b = {
       windows: 91,
       "⇧": 16,
       "⌥": 18,
@@ -459,42 +427,42 @@
   /*!
    * Programatically add the following
    */
-  for (B = 97; B < 123; B++) E[String.fromCharCode(B)] = B - 32;
-  for (var B = 48; B < 58; B++) E[B - 48] = B;
-  for (B = 1; B < 13; B++) E["f" + B] = B + 111;
-  for (B = 0; B < 10; B++) E["numpad " + B] = B + 96;
-  var L = {};
-  for (B in E) L[E[B]] = B;
-  for (var I in K) E[I] = K[I];
-  let w = document.getElementById("adjustVolume");
-  w.addEventListener("change", () => {
-    chrome.storage.sync.set({ adjustVolume: w.value });
+  for (C = 97; C < 123; C++) f[String.fromCharCode(C)] = C - 32;
+  for (var C = 48; C < 58; C++) f[C - 48] = C;
+  for (C = 1; C < 13; C++) f["f" + C] = C + 111;
+  for (C = 0; C < 10; C++) f["numpad " + C] = C + 96;
+  var E = {};
+  for (C in f) E[f[C]] = C;
+  for (var K in b) f[K] = b[K];
+  let B = document.getElementById("adjustVolume");
+  B.addEventListener("change", () => {
+    chrome.storage.sync.set({ adjustVolume: B.value });
   }),
-    w.addEventListener("keydown", (e) => {
+    B.addEventListener("keydown", (e) => {
       e.preventDefault();
     });
-  let _ = document.querySelector("#backgroundColorPicker");
-  _.addEventListener("change", function () {
-    chrome.storage.sync.set({ backgroundColor: _.value });
+  let I = document.querySelector("#backgroundColorPicker");
+  I.addEventListener("change", function () {
+    chrome.storage.sync.set({ backgroundColor: I.value });
   });
-  let S = document.querySelector("#borderColor"),
-    j = "#64ffda";
+  let w = document.querySelector("#borderColor"),
+    L = "#64ffda";
   chrome.storage.sync.get("borderColor", (e) => {
     setTimeout(() => {
       0 == e.borderColor &&
-        (chrome.storage.sync.set({ borderColor: j }), (S.value = j));
+        (chrome.storage.sync.set({ borderColor: L }), (w.value = L));
     }, 500);
   }),
-    S.addEventListener("change", function () {
-      chrome.storage.sync.set({ borderColor: S.value });
+    w.addEventListener("change", function () {
+      chrome.storage.sync.set({ borderColor: w.value });
     });
-  const A = document.getElementById("autoRecord"),
-    T = document.getElementById("manualRecord");
-  A.addEventListener("click", () => {
-    A.checked && (T.checked = !1);
+  const j = document.getElementById("autoRecord"),
+    S = document.getElementById("manualRecord");
+  j.addEventListener("click", () => {
+    j.checked && (S.checked = !1);
   }),
-    T.addEventListener("click", () => {
-      T && (A.checked = !1);
+    S.addEventListener("click", () => {
+      S && (j.checked = !1);
     });
   document.querySelectorAll(".disabledCheckbox").forEach((e) => {
     e.addEventListener("click", () => {

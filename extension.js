@@ -36,39 +36,45 @@
     };
   function j() {
     chrome.storage.sync.get("licenseKey", (e) => {
-      !1 === e.licenseKey &&
-        (document
+      if (!1 === e.licenseKey) {
+        const e = chrome.runtime.getManifest().version;
+        document
           .querySelector('[jsname="FSwbPd"]')
           .insertAdjacentHTML(
             "afterend",
-            "<div id='hangupUpsell' style='margin-top: 12px; display: flex; align-items: flex-start; background: #EBF7F1; border-radius: 13px; padding: 18px 10px 18px 10px; text-align: left; width: 340px;'><img style='margin: 10px 15px 0px 0px;' src='https://www.meetenhancementsuite.com/assets/icon-mes.svg'><div><p style='font-size: initial; font-weight: bold; margin: 0 0 0 0;'>Upgrade to Meet Pro today</p><p style='margin-top: 6px;'>Add over 25 new features to Google Meet, including mute all, dark mode, quick emojis, and so much more!</p><div style='margin-top: 18px;'><a style='background: #00211D; color: #fff; border-radius: 20px; padding: 6px 8px 6px 8px; margin-right: 12px;' href='https://www.meetenhancementsuite.com/meetpro/?utm_source=extension&utm_medium=banner&utm_campaign=hangup_page/#pricingSection'>Start 7-day free trial →</a><span id='hangupUpsellDismiss' style='text-decoration: underline; cursor: pointer;'>Dismiss</span></div></div></div>"
+            `<div id='hangupUpsell' style='margin-top: 12px; display: flex; align-items: flex-start; background: #EBF7F1; border-radius: 13px; padding: 18px 10px 18px 10px; text-align: left; width: 340px;'><img style='margin: 10px 15px 0px 0px;' src='https://www.meetenhancementsuite.com/assets/icon-mes.svg'><div><p style='font-size: initial; font-weight: bold; margin: 0 0 0 0;'>Upgrade to Meet Pro today</p><p style='margin-top: 6px;'>Add over 25 new features to Google Meet, including mute all, dark mode, quick emojis, and so much more!</p><div style='margin-top: 18px;'><a style='background: #00211D; color: #fff; border-radius: 20px; padding: 6px 8px 6px 8px; margin-right: 12px;' href='https://www.meetenhancementsuite.com/meetpro/?version=${e}&utm_source=extension&utm_medium=banner&utm_campaign=hangup_page/#pricingSection'>Start 7-day free trial →</a><span id='hangupUpsellDismiss' style='text-decoration: underline; cursor: pointer;'>Dismiss</span></div></div></div>`
           ),
-        document
-          .getElementById("hangupUpsellDismiss")
-          .addEventListener("click", D));
+          document
+            .getElementById("hangupUpsellDismiss")
+            .addEventListener("click", D);
+      }
     });
   }
   function P() {
-    document.querySelector(".CWHuqf") &&
-      (document
+    if (document.querySelector(".CWHuqf")) {
+      const e = chrome.runtime.getManifest().version;
+      document
         .querySelector(".CWHuqf")
         .insertAdjacentHTML(
           "afterbegin",
-          "<div id='mainPageUpsell' style='height: 40px; background: #EBF7F1;text-align: center;'><div style='margin-top: 12px; display: inline-block;'><div style='background: red; border-radius: 30px; padding: 6px; color: white; margin-right: 10px; font-weight: 700; font-size: 10px; display: inline;'>REMINDER</div><p style='display: inline; vertical-align: middle'>Upgrade to <strong>Meet Pro</strong> and unlock over 25 new features that make Google Meet more like Zoom! <a href='https://www.meetenhancementsuite.com/meetpro/?utm_source=extension&utm_medium=banner&utm_campaign=main_page/#pricingSection' target='_blank'>Learn more <span>→</span></a></p></div> <div id='dismissMainPageUpsell' style='position: absolute; right: 18px; top: 12px; cursor: pointer;'><svg width='14' height='14' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M3.53516 0L0 3.53552L11.3252 14.8603L0 26.1851L3.53613 29.7206L14.8604 18.3959L26.1855 29.7206L29.7207 26.1851L18.3955 14.8605L29.7207 3.53552L26.1855 0L14.8604 11.325L3.53516 0Z' fill='#212121'/></svg></div></div>"
+          `<div id='mainPageUpsell' style='height: 40px; background: #EBF7F1;text-align: center;'><div style='margin-top: 12px; display: inline-block;'><div style='background: red; border-radius: 30px; padding: 6px; color: white; margin-right: 10px; font-weight: 700; font-size: 10px; display: inline;'>REMINDER</div><p style='display: inline; vertical-align: middle'>Upgrade to <strong>Meet Pro</strong> and unlock over 25 new features that make Google Meet more like Zoom! <a href='https://www.meetenhancementsuite.com/meetpro/?version=${e}&utm_source=extension&utm_medium=banner&utm_campaign=main_page/#pricingSection' target='_blank'>Learn more <span>→</span></a></p></div> <div id='dismissMainPageUpsell' style='position: absolute; right: 18px; top: 12px; cursor: pointer;'><svg width='14' height='14' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M3.53516 0L0 3.53552L11.3252 14.8603L0 26.1851L3.53613 29.7206L14.8604 18.3959L26.1855 29.7206L29.7207 26.1851L18.3955 14.8605L29.7207 3.53552L26.1855 0L14.8604 11.325L3.53516 0Z' fill='#212121'/></svg></div></div>`
         ),
-      document
-        .getElementById("dismissMainPageUpsell")
-        .addEventListener("click", T)),
-      document.querySelector(".pGxpHc") &&
-        (document
-          .querySelector(".pGxpHc")
-          .insertAdjacentHTML(
-            "afterbegin",
-            "<div id='mainPageUpsell' style='height: 40px; background: #EBF7F1;text-align: center;'><div style='margin-top: 12px; display: inline-block;'><div style='background: red; border-radius: 30px; padding: 6px; color: white; margin-right: 10px; font-weight: 700; font-size: 10px; display: inline;'>REMINDER</div><p style='display: inline; vertical-align: middle'>Upgrade to <strong>Meet Pro</strong> and unlock over 25 new features that make Google Meet more like Zoom! <a href='https://www.meetenhancementsuite.com/meetpro/?utm_source=extension&utm_medium=banner&utm_campaign=main_page/#pricingSection' target='_blank'>Learn more <span>→</span></a></p></div> <div id='dismissMainPageUpsell' style='position: absolute; right: 18px; top: 12px; cursor: pointer;'><svg width='14' height='14' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M3.53516 0L0 3.53552L11.3252 14.8603L0 26.1851L3.53613 29.7206L14.8604 18.3959L26.1855 29.7206L29.7207 26.1851L18.3955 14.8605L29.7207 3.53552L26.1855 0L14.8604 11.325L3.53516 0Z' fill='#212121'/></svg></div></div>"
-          ),
         document
           .getElementById("dismissMainPageUpsell")
-          .addEventListener("click", T));
+          .addEventListener("click", T);
+    }
+    if (document.querySelector(".pGxpHc")) {
+      const e = chrome.runtime.getManifest().version;
+      document
+        .querySelector(".pGxpHc")
+        .insertAdjacentHTML(
+          "afterbegin",
+          `<div id='mainPageUpsell' style='height: 40px; background: #EBF7F1;text-align: center;'><div style='margin-top: 12px; display: inline-block;'><div style='background: red; border-radius: 30px; padding: 6px; color: white; margin-right: 10px; font-weight: 700; font-size: 10px; display: inline;'>REMINDER</div><p style='display: inline; vertical-align: middle'>Upgrade to <strong>Meet Pro</strong> and unlock over 25 new features that make Google Meet more like Zoom! <a href='https://www.meetenhancementsuite.com/meetpro/?version=${e}&utm_source=extension&utm_medium=banner&utm_campaign=main_page/#pricingSection' target='_blank'>Learn more <span>→</span></a></p></div> <div id='dismissMainPageUpsell' style='position: absolute; right: 18px; top: 12px; cursor: pointer;'><svg width='14' height='14' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M3.53516 0L0 3.53552L11.3252 14.8603L0 26.1851L3.53613 29.7206L14.8604 18.3959L26.1855 29.7206L29.7207 26.1851L18.3955 14.8605L29.7207 3.53552L26.1855 0L14.8604 11.325L3.53516 0Z' fill='#212121'/></svg></div></div>`
+        ),
+        document
+          .getElementById("dismissMainPageUpsell")
+          .addEventListener("click", T);
+    }
   }
   function T() {
     document.getElementById("mainPageUpsell").style.display = "none";
@@ -118,24 +124,25 @@
   function H() {
     chrome.storage.sync.get("licenseKey", (e) => {
       if (!1 === e.licenseKey) {
+        const e = chrome.runtime.getManifest().version;
         document
           .querySelector('[jsname="H5qcZ"]')
           .insertAdjacentHTML(
             "beforeend",
-            "<div id='upsellBanner'><div id='upsellCopy'><h1 style='margin-bottom: 0px; margin-top: 18px;'>Google Meet, with super powers ⚡️</h1><p style='font-size: 13px; margin-top: 6px; line-height: 17px;'>Meet Pro adds over 25 new features to Google Meet, including Mute All, Mirror Videos, Dark Mode, Quick Emojis, and so much more.</p><div style='margin-top: 22px;'><a target='_blank' id='upsellButton' href='https://www.meetenhancementsuite.com/meetpro/?utm_source=extension&utm_medium=banner&utm_campaign=join_page/#pricingSection'>Start 7-day free trial →</a><div id='upsellDismiss' style='display: inline; margin-left: 18px; text-decoration: underline; cursor: pointer;'>Dismiss</div></div></div></div>"
+            `<div id='upsellBanner'><div id='upsellCopy'><h1 style='margin-bottom: 0px; margin-top: 18px;'>Google Meet, with super powers ⚡️</h1><p style='font-size: 13px; margin-top: 6px; line-height: 17px;'>Meet Pro adds over 25 new features to Google Meet, including Mute All, Mirror Videos, Dark Mode, Quick Emojis, and so much more.</p><div style='margin-top: 22px;'><a target='_blank' id='upsellButton' href='https://www.meetenhancementsuite.com/meetpro/?version=${e}&utm_source=extension&utm_medium=banner&utm_campaign=join_page/#pricingSection'>Start 7-day free trial →</a><div id='upsellDismiss' style='display: inline; margin-left: 18px; text-decoration: underline; cursor: pointer;'>Dismiss</div></div></div></div>`
           );
-        const e = document.getElementById("upsellBanner"),
-          n = document.getElementById("upsellCopy"),
-          t = document.getElementById("upsellButton");
+        const n = document.getElementById("upsellBanner"),
+          t = document.getElementById("upsellCopy"),
+          o = document.getElementById("upsellButton");
         (document.querySelector(".oORaUb").style.boxShadow = "none"),
           (document.querySelector('[jsname="jlQN5e"]').style.borderRadius =
             "8px"),
           (document.querySelector(".mWzGw").style.borderRadius = "8px"),
           document.getElementById("upsellDismiss").addEventListener("click", L),
-          (e.style.cssText =
+          (n.style.cssText =
             "width: 100%; height: 154px; margin-top: 20px; border-radius: 8px; background-image: url('https://www.meetenhancementsuite.com/assets/upsellBackgroundImage.png'); background-size: cover; background-repeat: no-repeat;"),
-          (n.style.cssText = "color: #fff; margin-left: 16px; width: 420px"),
-          (t.style.cssText =
+          (t.style.cssText = "color: #fff; margin-left: 16px; width: 420px"),
+          (o.style.cssText =
             "font-weight: bold; background: #EBF7F1; color: #09201D; border-radius: 30px; padding: 10px 20px 10px 20px; margin-top: 10px;");
       }
     });
