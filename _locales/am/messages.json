@@ -1,189 +1,186 @@
 {
   "ignorePresentationModalLabel": {
-    "message": "የዝግጅት አቀራረብ ተደራቢን በራስ- ችላ በል"
+    "message": "የዝግጅት አቀራረብ ተደራቢን በራስ-ይተው"
   },
   "ignorePresentationModalDesc": {
-    "message": "በሚያቀርቡበት ጊዜ የማያልቅ የመስታወት ማንቂያ ደብቅ"
+    "message": "በሚያቀርቡበት ጊዜ የ&#39;infinity mirror&#39; ማንቂያን በራስ ሰር ደብቅ"
   },
   "autoMinimizeLabel": {
-    "message": "ቪዲዮን በራስ-አሳንስ"
+    "message": "ቪዲዮን በራስ-ሰር አሳንስ"
   },
   "autoMinimizeDesc": {
-    "message": "ስብሰባን ሲቀላቀሉ ቪዲዮዎን በራስ-ሰር ይቀንሱ"
+    "message": "ስብሰባ ሲቀላቀሉ ቪዲዮዎን በራስ-አሳንስ"
   },
   "meetVolumeLabel": {
-    "message": "የስብሰባውን መጠን ያስተካክሉ"
+    "message": "የስብሰባ መጠንን አስተካክል።"
   },
   "meetVolumeDesc": {
-    "message": "የስብሰባውን የድምፅ መጠን ያስተካክሉ"
+    "message": "የMeet የድምጽ ደረጃን ያስተካክሉ"
   },
   "extName": {
-    "message": "ጉግል ተገናኝ ማሻሻያ ስብስብ"
+    "message": "Google Meet ማበልጸጊያ ስዊት"
   },
   "extDesc": {
-    "message": "40 አዳዲስ ነገሮች ለጉግል ስብሰባ ሁሉንም ድምጸ-ከል ያድርጉ ፣ ሁሉንም ያስወግዱ ፣ በራስ-ሰር ይቀበላሉ ፣ ስሜት ገላጭ ምስሎች ፣ የመስታወት ቪዲዮዎች ፣ የበስተጀርባ ቀለም እና ለመናገር ይገፋፉ!"
+    "message": "40 አዳዲስ ባህሪያት ለ Google Meet እንደ ሁሉንም ድምጸ-ከል ማድረግ፣ ሁሉንም ማስወገድ፣ በራስ ሰር መቀበል፣ ስሜት ገላጭ ምስሎች፣ የመስታወት ቪዲዮዎች፣ የበስተጀርባ ቀለም እና ለመናገር መግፋት!"
   },
   "startMeet": {
-    "message": "ስብሰባ ይጀምሩ"
+    "message": "ስብሰባ ጀምር"
   },
   "mutePopupLabel": {
-    "message": "ብቅ-ባይ ድምጸ-ከል ደብቅ"
+    "message": "ብቅ-ባይ ድምጸ-ከልን ደብቅ"
   },
   "mutePopupDesc": {
-    "message": "ይደብቃል &#39;እየተናገሩ ነው?&#39; ድምጸ-ከል ሲደረግ ብቅ-ባይ"
+    "message": "እየተናገረ ነው?&#39; ድምጸ-ከል ሲደረግ ብቅ-ባይ"
   },
   "hideAddOthersLabel": {
-    "message": "“የሌሎችን አክል” ብቅ-ባይ ደብቅ"
+    "message": "&#39;ሌሎች አክል&#39; ብቅ ባይን ደብቅ"
   },
   "hideAddOthersDesc": {
-    "message": "ከስብሰባ ጋር ሲቀላቀሉ የ ‹ሌሎችን አክል› ብቅ-ባይ ይደብቃል"
+    "message": "Meetን በሚቀላቀሉበት ጊዜ የ&#39;ሌሎችን አክል&#39; ብቅ ባይን ይደብቃል"
   },
   "displayClockLabel": {
     "message": "የማሳያ ሰዓት"
   },
   "displayClockDesc": {
-    "message": "በሙሉ ማያ ገጽ ውስጥ ባይሆንም ሰዓቱን ያሳዩ"
+    "message": "በሙሉ ስክሪን ላይ ባይሆንም ሰዓቱን አሳይ"
   },
   "autoFullScreenLabel": {
     "message": "ራስ-ሰር ሙሉ ማያ ገጽ"
   },
   "autoFullScreenDesc": {
-    "message": "አንድ ሰው ሲያቀርብ በራስ-ሰር ወደ ሙሉ ማያ ይሂዱ"
+    "message": "አንድ ሰው ሲያቀርብ በራስ-ሰር ወደ ሙሉ ማያ ገጽ ይሂዱ"
   },
   "transBarLabel": {
-    "message": "ገላጭ አሞሌ"
+    "message": "ግልጽ ባር"
   },
   "transBarDesc": {
-    "message": "የታችኛውን አሞሌ ግልፅ ያድርጉ"
+    "message": "የታችኛው አሞሌ ግልፅ ያድርጉት"
   },
   "pinChatLabel": {
-    "message": "ራስ-ሚስማር ውይይት"
+    "message": "በራስ-ፒን ውይይት"
   },
   "pinChatDesc": {
-    "message": "Meet ን ሲቀላቀሉ በራስ-ሰር የውይይት እይታን ይሰኩ"
+    "message": "Meetን በሚቀላቀሉበት ጊዜ የውይይት እይታን በራስ-ሰር ይሰኩት"
   },
   "copyUrlLabel": {
-    "message": "የስብሰባ ዩአርኤልን በራስ-ሰር ቅዳ"
+    "message": "Meet ዩአርኤልን በራስ ቅዳ"
   },
   "copyUrlDesc": {
-    "message": "የስብሰባ ዩ.አር.ኤልን ወደ ቅንጥብ ሰሌዳ በራስ-ሰር ይቅዱ"
+    "message": "Meet URLን በራስ ሰር ወደ ቅንጥብ ሰሌዳ ይቅዱ"
   },
   "hideTopBarLabel": {
-    "message": "ከፍተኛ አሞሌን በራስ-ሰር ደብቅ"
+    "message": "ከፍተኛ አሞሌን በራስ-ደብቅ"
   },
   "hideTopBarDesc": {
-    "message": "የታችኛው አሞሌ ሲጠፋ የላይኛው አሞሌን ይደብቁ"
+    "message": "የታችኛው አሞሌ ሲጠፋ የላይኛውን አሞሌ ደብቅ"
   },
   "darkModeLabel": {
     "message": "ጨለማ ሁነታ"
   },
   "darkModeDesc": {
-    "message": "ጉግል Meet ጨለማ ሁነታን ያደርገዋል"
+    "message": "Google Meet ጨለማ ሁነታን ያደርገዋል"
   },
   "pipLabel": {
-    "message": "ስዕል-በ-ስዕል"
+    "message": "ሥዕል-በሥዕል"
   },
   "pipDesc": {
-    "message": "የተሳታፊዎችን ቪዲዮ በስዕል-ውስጥ ይመልከቱ"
+    "message": "የተሳታፊዎችን ቪዲዮ በሥዕል-በሥዕል ይመልከቱ"
   },
   "mirrorVideosLabel": {
-    "message": "የመስታወት ቪዲዮዎች"
+    "message": "ቪዲዮዎችን ያንጸባርቁ"
   },
   "mirrorVideosDesc": {
-    "message": "በስብሰባው ውስጥ ሁሉንም ቪዲዮዎች መስተዋቱን ያንፀባርቃል"
+    "message": "በMeet ውስጥ ያሉትን ሁሉንም ቪዲዮዎች ያንጸባርቃል"
   },
   "activeTabLabel": {
-    "message": "ንቁ የስብሰባ ትርን ያግኙ"
+    "message": "ንቁ Meet ትርን ያግኙ"
   },
   "activeTabDesc": {
-    "message": "ገባሪውን የስብ ትርን ለማግኘት የቅጥያ አዶውን ጠቅ ያድርጉ"
+    "message": "ንቁ የMeet ትርን ለማግኘት የኤክስቴንሽን አዶውን ጠቅ ያድርጉ"
   },
   "quickEmojiLabel": {
-    "message": "ፈጣን የኢሞጂ ምላሾች"
+    "message": "ፈጣን ስሜት ገላጭ ምስሎች"
   },
   "quickEmojiDesc": {
-    "message": "በውይይት መስኮቱ ላይ ፈጣን የኢሞጂ አቋራጮችን ያክላል"
+    "message": "ፈጣን የኢሞጂ አቋራጮችን ወደ የውይይት መስኮት ያክላል"
   },
   "timerLabel": {
     "message": "የስብሰባ ሰዓት ቆጣሪ"
   },
   "timerDesc": {
-    "message": "በታችኛው የትር አሞሌ ውስጥ የስብሰባ ሰዓት ቆጣሪ ያሳያል"
+    "message": "የስብሰባ ሰዓት ቆጣሪን ከታች ትር አሞሌ ያሳያል"
   },
   "toggleBarLabel": {
-    "message": "የታች አሞሌን ይቀያይሩ"
+    "message": "የታች አሞሌን ቀያይር"
   },
   "toggleBarDesc": {
-    "message": "ለመታየት የታችኛው መቆጣጠሪያ አሞሌን ይቀያይሩ"
+    "message": "ለመታየት የታችኛው መቆጣጠሪያ አሞሌን ቀያይር"
   },
   "speakerBorderLabel": {
-    "message": "የድምፅ ማጉያ ትኩረት ይስጡ"
+    "message": "የድምጽ ማጉያ ማድመቂያ"
   },
   "speakerBorderDesc": {
-    "message": "በንግግር ተሳታፊዎች ዙሪያ ድንበር ይጨምራል"
+    "message": "በንግግር ተሳታፊዎች ዙሪያ ድንበር ያክላል"
   },
   "autoRejectLabel": {
-    "message": "አዲስ መጪዎችን በራስ-ሰር ይክዱ"
+    "message": "አዲስ ገቢዎችን በራስ ሰር ከልክል።"
   },
   "autoRejectDesc": {
-    "message": "ለስብሰባው አዲስ መጪዎችን በራስ-ሰር ይክዳል"
+    "message": "ወደ Meet አዲስ ገቢዎችን በራስ ሰር ይከለክላል"
   },
   "autoAdmitLabel": {
-    "message": "አዲስ መግቢያዎችን በራስ-ሰር ያስገቡ"
+    "message": "አዲስ ገቢዎችን በራስ-ሰር አስገባ"
   },
   "autoAdmitDesc": {
-    "message": "አዲስ መጪዎችን ለስብሰባው በራስ-ሰር ይቀበላል"
+    "message": "አዲስ ገቢዎችን በራስ-ሰር ወደ Meet ይቀበላል"
   },
   "autoUnmuteLabel": {
-    "message": "ራስ-ሰር አንሳ"
+    "message": "በራስ-ሰር ድምጸ-ከል አንሳ"
   },
   "autoUnmuteDesc": {
-    "message": "ሌሎች ማይክሮፎንዎን ድምጸ-ከል እንዳያደርጉ ያቁሙ"
+    "message": "ሌሎች ማይክሮፎንዎን ድምጸ-ከል እንዳይያደርጉ አቁም።"
   },
   "removeAllLabel": {
     "message": "ሁሉንም አስወግድ"
   },
   "removeAllDesc": {
-    "message": "በተሳታፊዎች ምናሌ በኩል ሁሉንም ተሳታፊዎች ያስወግዱ"
+    "message": "ሁሉንም ተሳታፊዎች በተሳታፊዎች ምናሌ በኩል ያስወግዱ"
   },
   "muteAllLabel": {
-    "message": "ሁሉንም ድምጸ-ከል ያድርጉ"
+    "message": "ሁሉንም ድምጸ-ከል አድርግ"
   },
   "muteAllDesc": {
-    "message": "በተሳታፊዎች ምናሌ በኩል ሁሉንም ተሳታፊዎች ድምጸ-ከል ያድርጉባቸው"
+    "message": "ሁሉንም ተሳታፊዎች በተሳታፊዎች ምናሌ በኩል ድምጸ-ከል ያድርጉ"
   },
   "attendanceLabel": {
-    "message": "ተሰብሳቢ ሁን"
+    "message": "ተካፋይ ይሁኑ"
   },
   "attendanceDesc": {
-    "message": "የስብሰባውን መገኘት ይያዙ እና ወደ ሲኤስቪ ይላኩ"
+    "message": "የስብሰባውን ተሳትፎ ያንሱ እና ወደ CSV ይላኩ።"
   },
   "doNotDisturbLabel": {
     "message": "አትረብሽ"
   },
   "doNotDisturbDesc": {
-    "message": "ሁሉንም የስብሰባ ማሳወቂያ ድምፆችን ድምጸ-ከል ያድርጉ ፣ አዲስ አስተያየት ይደብቁ"
-  },
-  "doNotDisturbSoundsDesc": {
-    "message": "ሁሉንም የስብሰባ ማሳወቂያ ድምፆችን ድምጸ-ከል ያድርጉባቸው"
+    "message": "አዲስ አስተያየት ደብቅ"
   },
   "doNotDisturbCommentsDesc": {
-    "message": "አስተያየቶችን ደብቅ እና ብቅ-ባዮችን ይቀላቀሉ"
+    "message": "አስተያየቶችን ይደብቁ እና ተጠቃሚ ብቅ-ባዮችን ይቀላቀሉ"
   },
   "doNotDisturbCommentsBubbleDesc": {
-    "message": "የአስተያየት ማሳወቂያ አረፋውን ደብቅ"
+    "message": "የአስተያየት ማሳወቂያ አረፋን ደብቅ"
   },
   "sortParticipantsLabel": {
-    "message": "የተሣታፊ ዝርዝርን ደርድር"
+    "message": "የተሳታፊዎችን ዝርዝር ደርድር"
   },
   "sortParticipantsDesc": {
-    "message": "በአያት ስም ለመደርደር ወደ የተሳታፊዎች ዝርዝር መቀያየርን ያክላል"
+    "message": "በአያት ስም ለመደርደር ወደ ተሳታፊ ዝርዝር መቀያየርን ያክላል"
   },
   "autoRecordLabel": {
     "message": "ራስ-ሰር መዝገብ"
   },
   "autoRecordDesc": {
-    "message": "ስብሰባውን በራስ-ሰር መቅዳት ይጀምሩ (የጉግል የሥራ ቦታ ያስፈልጋል)"
+    "message": "Meetን በራስ ሰር መቅዳት ጀምር (Google Workspace ያስፈልጋል)"
   },
   "autoRecordDescOne": {
     "message": "በራስ-ሰር መቅዳት ይጀምሩ"
@@ -191,59 +188,62 @@
   "autoRecordDescTwo": {
     "message": "በእጅ መቅዳት ይጀምሩ"
   },
+  "autoRecordDescThree": {
+    "message": "በራስ-ሰር ወደ ጽሑፍ መገልበጥ ይጀምሩ"
+  },
   "proFeaturesSubHeading": {
     "message": "Pro ባህሪዎች"
   },
   "muchMore": {
-    "message": "ብዙ ተጨማሪ ይመጣሉ!"
+    "message": "ብዙ ተጨማሪ ይመጣል!"
   },
   "viewRoadmap": {
     "message": "የእኛን የመንገድ ካርታ ይመልከቱ"
   },
   "seeFeatures": {
-    "message": "ያቀድናቸውን ሁሉንም ባህሪዎች ለማየት"
+    "message": "ያቀድናቸው ሁሉንም ባህሪያት ለማየት"
   },
   "meetProSectionLabel": {
-    "message": "ያግኙ ፕሮ"
+    "message": "Meet Proን ያግኙ"
   },
   "meetProSectionDesc": {
-    "message": "ወደ Meet Pro በማሻሻል ጉግል ሜትን ወደ ቀጣዩ ደረጃ የሚወስዱ ከ 20 በላይ አዳዲስ ባህሪያትን ያገኛሉ ፡፡"
+    "message": "ወደ Meet Pro በማደግ ጉግል Meetን ወደሚቀጥለው ደረጃ የሚወስዱ ከ25 በላይ አዳዲስ ባህሪያትን ያገኛሉ።"
   },
   "meetProButtonLabel": {
-    "message": "ዛሬ Meet Pro ን ያግኙ"
+    "message": "የ7-ቀን ነጻ ሙከራ ይጀምሩ"
   },
   "activateLicenseButtonLabel": {
-    "message": "ወይም ፈቃድ አግብር"
+    "message": "ወይም ፍቃድ አግብር"
   },
   "activateLabel": {
     "message": "አግብር"
   },
   "emojiToolTipDesc": {
-    "message": "ይህ ባህሪ በነባሪነት በርቷል እና በ Google Meet ውስጥ ከሚገኘው የውይይት መስኮት ሊደርሱበት ይችላሉ"
+    "message": "ይህ ባህሪ በነባሪነት የበራ ሲሆን በGoogle Meet ውስጥ ካለው የውይይት መስኮት ሊያገኙት ይችላሉ።"
   },
   "generalToolTipDesc": {
-    "message": "ይህ ባህሪ በነባሪነት በርቷል እናም በ Google Meet ውስጥ ካሉ የተሳታፊዎች ምናሌ ሊደርሱበት ይችላሉ"
+    "message": "ይህ ባህሪ በነባሪነት የበራ ሲሆን በGoogle Meet ውስጥ ካለው የተሳታፊዎች ምናሌ ሊደርሱበት ይችላሉ።"
   },
   "title": {
-    "message": "ማሟያ ስብስብን ይገናኙ"
+    "message": "Meet Enhancement Suite"
   },
   "basicFeatures": {
-    "message": "መሰረታዊ ባህሪዎች"
+    "message": "መሰረታዊ ባህሪያት"
   },
   "pttLabel": {
-    "message": "ለመናገር ግፋ"
+    "message": "ለመነጋገር ግፋ"
   },
   "pttDesc": {
-    "message": "ድምጸ-ከል ያንሱ hotkey ይያዙ"
+    "message": "ድምጸ-ከል ለማድረግ የሙቅ ቁልፍን ይያዙ"
   },
   "pttUpgrade": {
-    "message": "የራስዎን ቁልፍ ማሰሪያ ለማዘጋጀት ወደ ፕሮ ያልቁ"
+    "message": "የራስዎን የቁልፍ ማሰሪያ ለማዘጋጀት ወደ ፕሮ ያሻሽሉ።"
   },
   "autoJoinLabel": {
     "message": "ራስ-ሰር ይቀላቀሉ"
   },
   "autoJoinDesc": {
-    "message": "ስብሰባውን በራስ-ሰር ይቀላቀሉ"
+    "message": "ስብሰባውን በቀጥታ ይቀላቀሉ"
   },
   "autoJoinDescOption": {
     "message": "ተሳታፊዎች በሚገኙበት ጊዜ ብቻ ስብሰባውን ይቀላቀሉ"
@@ -252,75 +252,75 @@
     "message": "ፈጣን ፈቃድ"
   },
   "quickLeaveDesc": {
-    "message": "ጥሪ ለመተው ሆትኪን ይጠቀሙ"
+    "message": "ጥሪ ለመተው hotkey ይጠቀሙ"
   },
   "leaveConfirmLabel": {
-    "message": "ማረጋገጫውን ይተው"
+    "message": "ማረጋገጫን ተወው"
   },
   "leaveConfirmDesc": {
     "message": "ከስብሰባ ሲወጡ ለማረጋገጥ ይጠይቁ"
   },
   "returnHomeLabel": {
-    "message": "በ hangup ላይ ወደ መነሻ ማያ ገጽ ይመለሱ"
+    "message": "በ hangup ላይ ወደ መነሻ ማያ ገጽ ተመለስ"
   },
   "returnHomeDesc": {
-    "message": "ከስብሰባ ከወጡ በኋላ ወደ መገናኘት መነሻ ማያ ገጽ ይመለሳል"
+    "message": "ከMet ከወጡ በኋላ ወደ Meet መነሻ ማያ ገጽ ይመለሳል"
   },
   "chimesLabel": {
-    "message": "ሁልጊዜ ቺምስ ይጫወቱ"
+    "message": "ሁልጊዜ ቺምስን ተጫወት"
   },
   "chimesDesc": {
-    "message": "ተሳታፊዎች ሲቀላቀሉ እና ሲወጡ ወይም አዲስ የውይይት መልእክት ሲደርሳቸው ሁል ጊዜ የኪሜ ድምጾችን ይስሙ"
+    "message": "ሁልጊዜ ተሳታፊዎች ሲቀላቀሉ እና ሲወጡ ወይም አዲስ የውይይት መልእክት ሲደርስ የቻይም ድምፆችን ይስሙ"
   },
   "desktopLabel": {
-    "message": "በዴስክቶፕ መተግበሪያ ውስጥ Meet Meet አገናኞችን ይክፈቱ"
+    "message": "የMeet አገናኞችን በዴስክቶፕ መተግበሪያ ውስጥ ይክፈቱ"
   },
   "desktopDesc": {
-    "message": "ሁሉም የጉግል ካል አገናኞች በ ውስጥ እንዲከፈቱ ያድርጉ"
+    "message": "በ ውስጥ ሁሉንም የጉግል ካል አገናኞች ይክፈቱ"
   },
   "desktopApp": {
     "message": "የዴስክቶፕ መተግበሪያ"
   },
   "captionsLabel": {
-    "message": "ራስ-ሰር መግለጫ ጽሑፎች"
+    "message": "ራስ-ሰር መግለጫዎች"
   },
   "captionsDesc": {
-    "message": "መግለጫ ጽሑፎችን በራስ-ሰር ያብሩ"
+    "message": "መግለጫ ጽሑፎችን በራስ-ሰር አብራ"
   },
   "autoMuteLabel": {
-    "message": "ራስ-ሰር ድምጸ-ከል ያድርጉ"
+    "message": "በራስ-ሰር ድምጸ-ከል ያድርጉ"
   },
   "autoMuteDesc": {
-    "message": "በመቀላቀል ላይ በራስ-ሰር ድምጸ-ከል ያድርጉ ማይክሮፎን"
+    "message": "በመቀላቀል ላይ ማይክሮፎን በራስ-ሰር ድምጸ-ከል ያድርጉ"
   },
   "autoVideoLabel": {
     "message": "ራስ-ሰር ቪዲዮ ጠፍቷል"
   },
   "autoVideoDesc": {
-    "message": "በመቀላቀል ላይ ለማጥፋት ቪዲዮ ያዘጋጁ"
+    "message": "መቀላቀልን ለማጥፋት ቪዲዮ ያዘጋጁ"
   },
   "pinBarLabel": {
-    "message": "የታችኛው አሞሌን ይሰኩ"
+    "message": "የታች ባርን ይሰኩ"
   },
   "pinBarDesc": {
-    "message": "ከማያ ገጹ ታችኛው ክፍል ላይ የመቆጣጠሪያ አሞሌው ካስማዎች"
+    "message": "የመቆጣጠሪያ አሞሌውን ከማያ ገጹ ግርጌ ይሰኩት"
   },
   "partVidStyleLabel": {
     "message": "የተሳታፊ ቪዲዮ ዘይቤ"
   },
   "alwaysShowLabel": {
-    "message": "ሁል ጊዜ የተሳታፊ ስሞችን ያሳዩ"
+    "message": "ሁልጊዜ የተሳታፊ ስሞችን አሳይ"
   },
   "hidePartNames": {
-    "message": "የተሳታፊ ስሞችን ደብቅ"
+    "message": "የተሳታፊዎችን ስም ደብቅ"
   },
   "hideSpeakingIcons": {
-    "message": "የተሳታፊ ተናጋሪ አዶዎችን ይደብቁ"
+    "message": "የተሳታፊ ተናጋሪ አዶዎችን ደብቅ"
   },
   "bgColorLabel": {
-    "message": "የጀርባ ቀለም ያዘጋጁ"
+    "message": "የበስተጀርባ ቀለም ያዘጋጁ"
   },
   "bgColorDesc": {
-    "message": "በስብሰባው ውስጥ ብጁ የጀርባ ቀለም ያዘጋጁ"
+    "message": "በMet ውስጥ ብጁ የጀርባ ቀለም ያዘጋጁ"
   }
 }

@@ -9,10 +9,10 @@
     "message": "Pienennä video automaattisesti"
   },
   "autoMinimizeDesc": {
-    "message": "Pienennä videosi automaattisesti, kun liityt tapaamiseen"
+    "message": "Pienennä videosi automaattisesti, kun liityt kokoukseen"
   },
   "meetVolumeLabel": {
-    "message": "Säädä Meet -äänenvoimakkuutta"
+    "message": "Säädä Meetin äänenvoimakkuutta"
   },
   "meetVolumeDesc": {
     "message": "Säädä Meetin äänenvoimakkuutta"
@@ -21,70 +21,70 @@
     "message": "Google Meet Enhancement Suite"
   },
   "extDesc": {
-    "message": "40 uutta ominaisuutta Google Meetille, kuten mykistys, kaikkien poistaminen, automaattinen hyväksyntä, emojit, peilivideot, taustaväri ja pikayhteys!"
+    "message": "40 uutta ominaisuutta Google Meetille, kuten mykistä kaikki, poista kaikki, automaattinen hyväksyntä, hymiöt, peilivideot, taustaväri ja pikayhteys!"
   },
   "startMeet": {
-    "message": "Aloita Meet"
+    "message": "Aloita tapaaminen"
   },
   "mutePopupLabel": {
-    "message": "Piilota mykistysikkuna"
+    "message": "Piilota Mykistä ponnahdusikkuna"
   },
   "mutePopupDesc": {
-    "message": "Piilottaa &#39;Puhutko?&#39; ponnahdusikkuna mykistettynä"
+    "message": "Piilottaa &#39;Puhutko sinä?&#39; ponnahdusikkuna mykistettynä"
   },
   "hideAddOthersLabel": {
     "message": "Piilota Lisää muita -ponnahdusikkuna"
   },
   "hideAddOthersDesc": {
-    "message": "Piilottaa Lisää muita -ponnahdusikkunan liittyessään Meetiin"
+    "message": "Piilottaa Lisää muita -ponnahdusikkunan, kun liityt Meetiin"
   },
   "displayClockLabel": {
     "message": "Näytä kello"
   },
   "displayClockDesc": {
-    "message": "Näytä kello silloinkin, kun se ei ole koko näytössä"
+    "message": "Näytä kello, vaikka se ei olisi koko näytön tilassa"
   },
   "autoFullScreenLabel": {
     "message": "Automaattinen koko näyttö"
   },
   "autoFullScreenDesc": {
-    "message": "Automaattinen siirtyminen koko näytöllä, kun joku esiintyy"
+    "message": "Siirry automaattisesti koko näytölle, kun joku esittää"
   },
   "transBarLabel": {
-    "message": "Läpinäkyvä baari"
+    "message": "Läpinäkyvä palkki"
   },
   "transBarDesc": {
-    "message": "Tee pohjapalkki läpinäkyväksi"
+    "message": "Tee alapalkista läpinäkyvä"
   },
   "pinChatLabel": {
     "message": "Kiinnitä chat automaattisesti"
   },
   "pinChatDesc": {
-    "message": "Kiinnittää chat-näkymän automaattisesti, kun liityt Meetiin"
+    "message": "Kiinnittää automaattisesti chat-näkymän liittyessään Meetiin"
   },
   "copyUrlLabel": {
-    "message": "Kopioi Meet-URL-osoite automaattisesti"
+    "message": "Kopioi Meetin URL-osoite automaattisesti"
   },
   "copyUrlDesc": {
-    "message": "Kopioi Meet-URL automaattisesti leikepöydälle"
+    "message": "Kopioi Meetin URL-osoite automaattisesti leikepöydälle"
   },
   "hideTopBarLabel": {
     "message": "Piilota yläpalkki automaattisesti"
   },
   "hideTopBarDesc": {
-    "message": "Piilota ylempi palkki, kun alempi palkki katoaa"
+    "message": "Piilota yläpalkki, kun alapalkki katoaa"
   },
   "darkModeLabel": {
     "message": "Tumma tila"
   },
   "darkModeDesc": {
-    "message": "Tekee Google Meetin pimeästä tilasta"
+    "message": "Tekee Google Meetistä tumman tilan"
   },
   "pipLabel": {
     "message": "Kuva kuvassa"
   },
   "pipDesc": {
-    "message": "Katso osallistujien video kuvassa-kuvassa"
+    "message": "Katso osallistujien video kuva kuvassa"
   },
   "mirrorVideosLabel": {
     "message": "Peilivideot"
@@ -99,43 +99,43 @@
     "message": "Napsauta laajennuskuvaketta löytääksesi aktiivisen Meet-välilehden"
   },
   "quickEmojiLabel": {
-    "message": "Nopeat emoji-reaktiot"
+    "message": "Nopeat emojireaktiot"
   },
   "quickEmojiDesc": {
-    "message": "Lisää pikakuvakkeet pikanäppäimiin chat-ikkunaan"
+    "message": "Lisää nopeat emoji-pikakuvakkeet chat-ikkunaan"
   },
   "timerLabel": {
-    "message": "Kokousajastin"
+    "message": "Kokouksen ajastin"
   },
   "timerDesc": {
-    "message": "Näyttää kokousajastimen alalaidassa"
+    "message": "Näyttää kokousajastimen alavälilehtipalkissa"
   },
   "toggleBarLabel": {
-    "message": "Vaihda pohjapalkki"
+    "message": "Vaihda alapalkki"
   },
   "toggleBarDesc": {
-    "message": "Vaihda alempi ohjauspalkki näkyviin"
+    "message": "Ota alaspäin ohjauspalkki näkyviin"
   },
   "speakerBorderLabel": {
     "message": "Kaiuttimen korostus"
   },
   "speakerBorderDesc": {
-    "message": "Lisää reunan puhuvien osallistujien ympärille"
+    "message": "Lisää reunuksen puhuvien osallistujien ympärille"
   },
   "autoRejectLabel": {
-    "message": "Estä uudet tulokkaat automaattisesti"
+    "message": "Automaattinen uusien tulokkaiden kieltäminen"
   },
   "autoRejectDesc": {
-    "message": "Estää automaattisesti uudet tulokkaat Meetiin"
+    "message": "Kielletään automaattisesti uudet osallistujat Meetiin"
   },
   "autoAdmitLabel": {
-    "message": "Uusien tulokkaiden automaattinen hyväksyminen"
+    "message": "Uusien osallistujien automaattinen hyväksyminen"
   },
   "autoAdmitDesc": {
-    "message": "Uusien tulokkaiden automaattinen hyväksyminen Meetiin"
+    "message": "Hyväksyy automaattisesti uudet osallistujat Meetiin"
   },
   "autoUnmuteLabel": {
-    "message": "Automaattinen mykistys"
+    "message": "Automaattinen mykistyksen poisto"
   },
   "autoUnmuteDesc": {
     "message": "Estä muita mykistämästä mikrofoniasi"
@@ -144,31 +144,28 @@
     "message": "Poista kaikki"
   },
   "removeAllDesc": {
-    "message": "Poista kaikki osallistujat osallistujavalikosta"
+    "message": "Poista kaikki osallistujat osallistujavalikon kautta"
   },
   "muteAllLabel": {
     "message": "Mykistä kaikki"
   },
   "muteAllDesc": {
-    "message": "Mykistä kaikki osallistujat osallistujavalikosta"
+    "message": "Mykistä kaikki osallistujat osallistujavalikon kautta"
   },
   "attendanceLabel": {
     "message": "Ota läsnäolo"
   },
   "attendanceDesc": {
-    "message": "Tallenna tapaamisen läsnäolo ja vie CSV-tiedostoon"
+    "message": "Tallenna kokouksen osallistuminen ja vie CSV-tiedostoon"
   },
   "doNotDisturbLabel": {
     "message": "Älä häiritse"
   },
   "doNotDisturbDesc": {
-    "message": "Mykistä kaikki Meet-ilmoitukset, piilota uusi kommentti"
-  },
-  "doNotDisturbSoundsDesc": {
-    "message": "Mykistä kaikki Meet-ilmoituksen äänet"
+    "message": "Piilota uusi kommentti"
   },
   "doNotDisturbCommentsDesc": {
-    "message": "Piilota kommentit ja liity ponnahdusikkunoihin"
+    "message": "Piilota kommentit ja käyttäjien liittymisponnahdusikkunat"
   },
   "doNotDisturbCommentsBubbleDesc": {
     "message": "Piilota kommentti-ilmoituskupla"
@@ -177,13 +174,13 @@
     "message": "Lajittele osallistujaluettelo"
   },
   "sortParticipantsDesc": {
-    "message": "Lisää vaihtajan osallistujaluetteloon lajittelemiseksi sukunimen mukaan"
+    "message": "Lisää osallistujaluetteloon kytkimen lajitellaksesi sukunimen mukaan"
   },
   "autoRecordLabel": {
-    "message": "Automaattinen tallennus"
+    "message": "Auto Record"
   },
   "autoRecordDesc": {
-    "message": "Aloita Meetin nauhoittaminen automaattisesti (vaaditaan Google-työtila)"
+    "message": "Aloita Meetin tallennus automaattisesti (edellyttää Google Workspacea)"
   },
   "autoRecordDescOne": {
     "message": "Aloita tallennus automaattisesti"
@@ -191,26 +188,29 @@
   "autoRecordDescTwo": {
     "message": "Aloita tallennus manuaalisesti"
   },
+  "autoRecordDescThree": {
+    "message": "Aloita transkriptio automaattisesti"
+  },
   "proFeaturesSubHeading": {
     "message": "Pro-ominaisuudet"
   },
   "muchMore": {
-    "message": "Paljon enemmän tulossa!"
+    "message": "Paljon lisää tulossa!"
   },
   "viewRoadmap": {
-    "message": "Katso etenemissuunnitelmaamme"
+    "message": "Katso tiekarttamme"
   },
   "seeFeatures": {
-    "message": "nähdä kaikki suunnitellut ominaisuudet"
+    "message": "nähdäksesi kaikki suunnittelemamme ominaisuudet"
   },
   "meetProSectionLabel": {
     "message": "Hanki Meet Pro"
   },
   "meetProSectionDesc": {
-    "message": "Päivittämällä Meet Prohon saat käyttöösi yli 20 uutta ominaisuutta, jotka vievät Google Meetin seuraavalle tasolle."
+    "message": "Päivittämällä Meet Prohon saat käyttöösi yli 25 uutta ominaisuutta, jotka vievät Google Meetin uudelle tasolle."
   },
   "meetProButtonLabel": {
-    "message": "Hanki Meet Pro tänään"
+    "message": "Aloita 7 päivän ilmainen kokeilu"
   },
   "activateLicenseButtonLabel": {
     "message": "tai Aktivoi lisenssi"
@@ -219,13 +219,13 @@
     "message": "Aktivoida"
   },
   "emojiToolTipDesc": {
-    "message": "Tämä ominaisuus on oletusarvoisesti käytössä, ja voit käyttää sitä Google Meetin chat-ikkunasta"
+    "message": "Tämä ominaisuus on oletuksena käytössä, ja voit käyttää sitä Google Meetin chat-ikkunasta"
   },
   "generalToolTipDesc": {
-    "message": "Tämä ominaisuus on oletusarvoisesti käytössä, ja voit käyttää sitä Google Meetin osallistujavalikosta"
+    "message": "Tämä ominaisuus on oletuksena käytössä, ja voit käyttää sitä Google Meetin osallistujavalikosta"
   },
   "title": {
-    "message": "Tapaa Enhancement Suite"
+    "message": "Tutustu Enhancement Suiteen"
   },
   "basicFeatures": {
     "message": "Perusominaisuudet"
@@ -237,7 +237,7 @@
     "message": "Poista mykistys pitämällä pikanäppäintä painettuna"
   },
   "pttUpgrade": {
-    "message": "Päivitä Pro-sovellukseen, jotta voit määrittää oman avaimen sidonnan"
+    "message": "Päivitä Pro-versioon määrittääksesi oman avaimensidon"
   },
   "autoJoinLabel": {
     "message": "Automaattinen liittyminen"
@@ -246,10 +246,10 @@
     "message": "Liity kokoukseen automaattisesti"
   },
   "autoJoinDescOption": {
-    "message": "Liity kokoukseen vain, kun osallistujia on läsnä"
+    "message": "Liity kokoukseen vain osallistujien läsnä ollessa"
   },
   "quickLeaveLabel": {
-    "message": "Nopea lähtö"
+    "message": "Pikalähtö"
   },
   "quickLeaveDesc": {
     "message": "Käytä pikanäppäintä poistuaksesi puhelusta"
@@ -258,25 +258,25 @@
     "message": "Jätä vahvistus"
   },
   "leaveConfirmDesc": {
-    "message": "Pyydä vahvistusta, kun poistut kokouksesta"
+    "message": "Pyydä vahvistusta, kun lähdet kokouksesta"
   },
   "returnHomeLabel": {
-    "message": "Palaa aloitusnäyttöön hangupissa"
+    "message": "Palaa aloitusnäyttöön puhelun päätyttyä"
   },
   "returnHomeDesc": {
-    "message": "Palaa Meetin aloitusnäyttöön poistuttuaan Meetista"
+    "message": "Palaa Meetin aloitusnäyttöön poistuttuaan Meetistä"
   },
   "chimesLabel": {
-    "message": "Toista aina soittoääniä"
+    "message": "Soita aina kelloja"
   },
   "chimesDesc": {
-    "message": "Kuule aina merkkiääni, kun osallistujat liittyvät ja lähtevät tai kun uusi chat-viesti vastaanotetaan"
+    "message": "Kuulet aina äänimerkin, kun osallistujat liittyvät ja lähtevät, tai a kun uusi chat-viesti vastaanotetaan"
   },
   "desktopLabel": {
     "message": "Avaa Meet-linkit työpöytäsovelluksessa"
   },
   "desktopDesc": {
-    "message": "Tee kaikki Google Cal -linkit auki"
+    "message": "Avaa kaikki Google Cal -linkit"
   },
   "desktopApp": {
     "message": "työpöytäsovellus"
@@ -285,22 +285,22 @@
     "message": "Automaattiset tekstitykset"
   },
   "captionsDesc": {
-    "message": "Ota tekstitykset käyttöön automaattisesti"
+    "message": "Ota tekstitykset automaattisesti käyttöön"
   },
   "autoMuteLabel": {
     "message": "Automaattinen mykistys"
   },
   "autoMuteDesc": {
-    "message": "Mykistä mikrofoni automaattisesti liittyessä"
+    "message": "Mikrofonin automaattinen mykistys liittyessä"
   },
   "autoVideoLabel": {
-    "message": "Automaattinen videon sammutus"
+    "message": "Automaattinen videopois"
   },
   "autoVideoDesc": {
-    "message": "Aseta video sammuttamaan liittyminen"
+    "message": "Aseta video kytkeytymään pois päältä"
   },
   "pinBarLabel": {
-    "message": "Tappi pohjapalkki"
+    "message": "Pin Bottom Bar"
   },
   "pinBarDesc": {
     "message": "Kiinnittää ohjauspalkin näytön alareunaan"
@@ -315,12 +315,12 @@
     "message": "Piilota osallistujien nimet"
   },
   "hideSpeakingIcons": {
-    "message": "Piilota osallistujan puhekuvakkeet"
+    "message": "Piilota osallistujien puhekuvakkeet"
   },
   "bgColorLabel": {
     "message": "Aseta taustaväri"
   },
   "bgColorDesc": {
-    "message": "Aseta mukautettu taustaväri Meetissa"
+    "message": "Aseta mukautettu taustaväri Meetissä"
   }
 }

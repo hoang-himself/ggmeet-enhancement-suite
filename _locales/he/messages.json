@@ -3,7 +3,7 @@
     "message": "התעלמות אוטומטית של כיסוי מצגת"
   },
   "ignorePresentationModalDesc": {
-    "message": "הסתרה אוטומטית של התראת מראה אינסוף בעת הצגת"
+    "message": "הסתר אוטומטית התראת &#39;מראה אינסוף&#39; בעת הצגת"
   },
   "autoMinimizeLabel": {
     "message": "מזעור וידאו אוטומטי"
@@ -15,19 +15,19 @@
     "message": "התאם את עוצמת הקול של Meet"
   },
   "meetVolumeDesc": {
-    "message": "התאם את עוצמת הקול של Meet"
+    "message": "התאם את עוצמת הקול של ה-Meet"
   },
   "extName": {
-    "message": "חבילת Google Meet Enhancement"
+    "message": "Google Meet Enhancement Suite"
   },
   "extDesc": {
-    "message": "40 תכונות חדשות עבור Google Meet כגון השתקת הכל, הסרת הכל, הודאה אוטומטית, אמוג&#39;י, מראה סרטונים, צבע רקע ודחיפה לדבר!"
+    "message": "40 תכונות חדשות ל-Google Meet כמו השתקת הכל, הסר הכל, הודאה אוטומטית, אימוג&#39;ים, סרטוני מראה, צבע רקע ו-Push to talk!"
   },
   "startMeet": {
-    "message": "התחל מפגש"
+    "message": "התחל פגישה"
   },
   "mutePopupLabel": {
-    "message": "הסתר חלון קופץ אילם"
+    "message": "הסתר חלון השתק"
   },
   "mutePopupDesc": {
     "message": "מסתיר &#39;אתה מדבר?&#39; קופץ כאשר מושתק"
@@ -36,40 +36,40 @@
     "message": "הסתר את החלון הקופץ &#39;הוסף אחרים&#39;"
   },
   "hideAddOthersDesc": {
-    "message": "מסתיר את החלון הקופץ &#39;הוסף אחרים&#39; בעת ההצטרפות ל- Meet"
+    "message": "מסתיר את החלון הקופץ &#39;הוסף אחרים&#39; בעת הצטרפות ל-Meet"
   },
   "displayClockLabel": {
-    "message": "שעון תצוגה"
+    "message": "הצג שעון"
   },
   "displayClockDesc": {
-    "message": "הציגו את השעון גם כשלא במסך מלא"
+    "message": "הצג את השעון גם כאשר אינו במסך מלא"
   },
   "autoFullScreenLabel": {
     "message": "מסך מלא אוטומטי"
   },
   "autoFullScreenDesc": {
-    "message": "עבור אוטומטית למסך מלא כשמישהו מציג"
+    "message": "מעבר אוטומטי למסך מלא כאשר מישהו מציג"
   },
   "transBarLabel": {
     "message": "בר שקוף"
   },
   "transBarDesc": {
-    "message": "הפוך את הסרגל התחתון לשקוף"
+    "message": "הפוך את הפס התחתון לשקוף"
   },
   "pinChatLabel": {
-    "message": "הצמדה אוטומטית של צ&#39;אט"
+    "message": "הצמד צ&#39;אט אוטומטי"
   },
   "pinChatDesc": {
-    "message": "מצמיד אוטומטית את תצוגת הצ&#39;אט בעת ההצטרפות ל- Meet"
+    "message": "מצמיד אוטומטית תצוגת צ&#39;אט בעת הצטרפות ל-Meet"
   },
   "copyUrlLabel": {
-    "message": "העתק אוטומטית כתובת URL לפגישה"
+    "message": "העתק אוטומטית את כתובת האתר של Meet"
   },
   "copyUrlDesc": {
-    "message": "העתק אוטומטית את כתובת ה- Meet של האתר ללוח"
+    "message": "העתק אוטומטית את כתובת האתר של Meet ללוח"
   },
   "hideTopBarLabel": {
-    "message": "הסתר אוטומטית את הסרגל העליון"
+    "message": "הסתר אוטומטית בסרגל העליון"
   },
   "hideTopBarDesc": {
     "message": "הסתר את הסרגל העליון כאשר הסרגל התחתון נעלם"
@@ -78,37 +78,37 @@
     "message": "מצב כהה"
   },
   "darkModeDesc": {
-    "message": "הופך את מצב ה- Google Meet לחשוך"
+    "message": "הופך את Google Meet למצב כהה"
   },
   "pipLabel": {
     "message": "תמונה בתמונה"
   },
   "pipDesc": {
-    "message": "צפו בסרטון המשתתפים בתמונה-בתמונה"
+    "message": "צפה בסרטון המשתתפים בתמונה-בתמונה"
   },
   "mirrorVideosLabel": {
     "message": "סרטוני מראה"
   },
   "mirrorVideosDesc": {
-    "message": "משקף את כל הסרטונים ב- Meet"
+    "message": "משקף את כל הסרטונים ב-Meet"
   },
   "activeTabLabel": {
-    "message": "מצא את הכרטיסייה Active Meet"
+    "message": "מצא את כרטיסיית Meet פעילה"
   },
   "activeTabDesc": {
-    "message": "לחץ על סמל התוסף כדי למצוא את כרטיסיית ה- Meet הפעילה"
+    "message": "לחץ על סמל התוסף כדי למצוא את כרטיסיית Meet הפעילה"
   },
   "quickEmojiLabel": {
-    "message": "תגובות אימוג&#39;י מהירות"
+    "message": "תגובות אמוג&#39;י מהירות"
   },
   "quickEmojiDesc": {
-    "message": "מוסיף קיצורי דרך מהירים לאימוג&#39;י לחלון הצ&#39;אט"
+    "message": "מוסיף קיצורי אמוג&#39;י מהירים לחלון הצ&#39;אט"
   },
   "timerLabel": {
-    "message": "טיימר פגישה"
+    "message": "טיימר פגישות"
   },
   "timerDesc": {
-    "message": "מציג טיימר לפגישות בסרגל הכרטיסיות התחתון"
+    "message": "מציג טיימר לפגישה בסרגל הכרטיסיות התחתון"
   },
   "toggleBarLabel": {
     "message": "החלף את הסרגל התחתון"
@@ -117,28 +117,28 @@
     "message": "החלף את סרגל הבקרה התחתון כדי להופיע"
   },
   "speakerBorderLabel": {
-    "message": "הדגשת הרמקול"
+    "message": "הדגשת רמקול"
   },
   "speakerBorderDesc": {
-    "message": "מוסיף גבול סביב משתתפי הדיבור"
+    "message": "מוסיף גבול סביב משתתפים מדברים"
   },
   "autoRejectLabel": {
-    "message": "דחה אוטומטית נכנסים חדשים"
+    "message": "דחיית מצטרפים חדשים אוטומטית"
   },
   "autoRejectDesc": {
-    "message": "שולל אוטומטית נכנסים חדשים ל- Meet"
+    "message": "דוחה באופן אוטומטי משתתפים חדשים למפגש"
   },
   "autoAdmitLabel": {
-    "message": "קבלו אוטומטית משתמשים חדשים"
+    "message": "קבלה אוטומטית של מצטרפים חדשים"
   },
   "autoAdmitDesc": {
-    "message": "מכניסה אוטומטית משתתפים חדשים ל- Meet"
+    "message": "מקבל באופן אוטומטי משתתפים חדשים למפגש"
   },
   "autoUnmuteLabel": {
-    "message": "בטל השתקה אוטומטית"
+    "message": "ביטול השתקה אוטומטי"
   },
   "autoUnmuteDesc": {
-    "message": "עצור מאחרים להשתיק את המיקרופון שלך"
+    "message": "מנע מאחרים להשתיק את המיקרופון שלך"
   },
   "removeAllLabel": {
     "message": "להסיר את כל"
@@ -156,34 +156,31 @@
     "message": "תיקח נוכחות"
   },
   "attendanceDesc": {
-    "message": "צלם את הנוכחות לפגישה וייצא ל- CSV"
+    "message": "צלם את הנוכחות במפגש וייצא ל-CSV"
   },
   "doNotDisturbLabel": {
     "message": "אל תפריע"
   },
   "doNotDisturbDesc": {
-    "message": "השתק את כל צלילי ההודעות של Meet, הסתיר תגובה חדשה"
-  },
-  "doNotDisturbSoundsDesc": {
-    "message": "השתק את כל צלילי ההתראות של Meet"
+    "message": "הסתר תגובה חדשה"
   },
   "doNotDisturbCommentsDesc": {
-    "message": "הסתר תגובות והמשתמשים מצטרפים לחלונות קופצים"
+    "message": "הסתר הערות והצטרפות משתמשים"
   },
   "doNotDisturbCommentsBubbleDesc": {
-    "message": "הסתר בועת התראות על תגובות"
+    "message": "הסתר את בועת ההתראה על הערות"
   },
   "sortParticipantsLabel": {
-    "message": "מיין את רשימת המשתתפים"
+    "message": "מיין רשימת משתתפים"
   },
   "sortParticipantsDesc": {
-    "message": "מוסיף מחליף לרשימת המשתתפים למיון לפי שם משפחה"
+    "message": "מוסיף מתג לרשימת המשתתפים כדי למיין לפי שם משפחה"
   },
   "autoRecordLabel": {
     "message": "הקלטה אוטומטית"
   },
   "autoRecordDesc": {
-    "message": "התחל להקליט את ה- Meet באופן אוטומטי (דרוש סביבת עבודה של Google)"
+    "message": "התחל אוטומטית להקליט את ה-Meet (דרוש Google Workspace)"
   },
   "autoRecordDescOne": {
     "message": "התחל להקליט באופן אוטומטי"
@@ -191,8 +188,11 @@
   "autoRecordDescTwo": {
     "message": "התחל להקליט באופן ידני"
   },
+  "autoRecordDescThree": {
+    "message": "התחל אוטומטית את התמלול"
+  },
   "proFeaturesSubHeading": {
-    "message": "תכונות מקצועיות"
+    "message": "תכונות פרו"
   },
   "muchMore": {
     "message": "עוד הרבה לבוא!"
@@ -201,16 +201,16 @@
     "message": "צפו במפת הדרכים שלנו"
   },
   "seeFeatures": {
-    "message": "לראות את כל התכונות שתכננו"
+    "message": "כדי לראות את כל התכונות שתכננו"
   },
   "meetProSectionLabel": {
     "message": "קבל את Meet Pro"
   },
   "meetProSectionDesc": {
-    "message": "על ידי שדרוג ל- Meet Pro אתה מקבל גישה ליותר מ -20 תכונות חדשות שמעלות את Google Meet לשלב הבא."
+    "message": "על ידי שדרוג ל-Meet Pro אתה מקבל גישה ליותר מ-25 תכונות חדשות שלוקחות את Google Meet לשלב הבא."
   },
   "meetProButtonLabel": {
-    "message": "קבל את Meet Pro עוד היום"
+    "message": "התחל ניסיון חינם למשך 7 ימים"
   },
   "activateLicenseButtonLabel": {
     "message": "או הפעל רישיון"
@@ -219,13 +219,13 @@
     "message": "לְהַפְעִיל"
   },
   "emojiToolTipDesc": {
-    "message": "תכונה זו מופעלת כברירת מחדל ותוכלו לגשת אליה מחלון הצ&#39;אט ב- Google Meet"
+    "message": "תכונה זו מופעלת כברירת מחדל ותוכל לגשת אליה מחלון הצ&#39;אט ב-Google Meet"
   },
   "generalToolTipDesc": {
-    "message": "תכונה זו מופעלת כברירת מחדל ותוכלו לגשת אליה מתפריט המשתתפים ב- Google Meet"
+    "message": "תכונה זו מופעלת כברירת מחדל ותוכל לגשת אליה מתפריט המשתתפים ב-Google Meet"
   },
   "title": {
-    "message": "הכירו את חבילת Enhancement"
+    "message": "הכירו את Suite Enhancement"
   },
   "basicFeatures": {
     "message": "תכונות בסיסיות"
@@ -234,10 +234,10 @@
     "message": "לחץ לדיבור"
   },
   "pttDesc": {
-    "message": "לחץ לחיצה ממושכת על מקש הקישור כדי לבטל את ההשתקה"
+    "message": "החזק את מקש הקיצור כדי לבטל את ההשתקה"
   },
   "pttUpgrade": {
-    "message": "שדרג ל- Pro כדי להגדיר כריכת מפתח משלך"
+    "message": "שדרג ל-Pro כדי להגדיר כריכת מפתח משלך"
   },
   "autoJoinLabel": {
     "message": "הצטרפות אוטומטית"
@@ -249,58 +249,58 @@
     "message": "הצטרף לפגישה רק כאשר המשתתפים נוכחים"
   },
   "quickLeaveLabel": {
-    "message": "עזוב מהיר"
+    "message": "עזיבה מהירה"
   },
   "quickLeaveDesc": {
-    "message": "השתמש במקש הקיצור כדי להשאיר שיחה"
+    "message": "השתמש במקש הקיצור כדי לעזוב שיחה"
   },
   "leaveConfirmLabel": {
-    "message": "השאר אישור"
+    "message": "השאירו אישור"
   },
   "leaveConfirmDesc": {
-    "message": "בקש לאשר מתי שאתה עוזב פגישה"
+    "message": "בקש לאשר כאשר אתה עוזב פגישה"
   },
   "returnHomeLabel": {
-    "message": "חזור למסך הבית בטלפון"
+    "message": "חזור למסך הבית בעת ניתוק"
   },
   "returnHomeDesc": {
-    "message": "חוזר למסך הבית של Meet לאחר שעזב את Meet"
+    "message": "חוזר למסך הבית של Meet לאחר יציאה מ-Meet"
   },
   "chimesLabel": {
-    "message": "תמיד שחק פעמונים"
+    "message": "הפעל תמיד פעמונים"
   },
   "chimesDesc": {
-    "message": "שמע תמיד צלילי צלצול כאשר המשתתפים מצטרפים ועוזבים, או כאשר מתקבלת הודעת צ&#39;אט חדשה"
+    "message": "שמע תמיד צלילי צליל כאשר משתתפים מצטרפים ועוזבים, או כאשר מתקבלת הודעת צ&#39;אט חדשה"
   },
   "desktopLabel": {
     "message": "פתח קישורי Meet באפליקציית שולחן העבודה"
   },
   "desktopDesc": {
-    "message": "הפוך את כל קישורי Google Cal לפתוח ב"
+    "message": "הפוך את כל הקישורים של Google Cal פתוחים ב-"
   },
   "desktopApp": {
-    "message": "יישום שולחן עבודה"
+    "message": "אפליקציית שולחן העבודה"
   },
   "captionsLabel": {
-    "message": "כיתוב אוטומטי"
+    "message": "כתוביות אוטומטיות"
   },
   "captionsDesc": {
-    "message": "הפעל כיתוב אוטומטי"
+    "message": "הפעלה אוטומטית של כתוביות"
   },
   "autoMuteLabel": {
-    "message": "השתקה אוטומטית"
+    "message": "השתק אוטומטי"
   },
   "autoMuteDesc": {
-    "message": "השתק אוטומטי מיקרופון בהצטרפות"
+    "message": "השתקה אוטומטית של מיקרופון בעת הצטרפות"
   },
   "autoVideoLabel": {
-    "message": "וידאו אוטומטי כבוי"
+    "message": "כיבוי אוטומטי של וידאו"
   },
   "autoVideoDesc": {
-    "message": "הגדר את הסרטון לכיבוי בהצטרפות"
+    "message": "הגדר את הסרטון כדי לכבות את ההצטרפות"
   },
   "pinBarLabel": {
-    "message": "בר פינתי תחתון"
+    "message": "סרגל תחתון סיכה"
   },
   "pinBarDesc": {
     "message": "מצמיד את סרגל הבקרה לתחתית המסך"
@@ -309,18 +309,18 @@
     "message": "סגנון וידאו משתתף"
   },
   "alwaysShowLabel": {
-    "message": "הראה תמיד שמות משתתפים"
+    "message": "הצג תמיד את שמות המשתתפים"
   },
   "hidePartNames": {
-    "message": "הסתר שמות משתתפים"
+    "message": "הסתר את שמות המשתתפים"
   },
   "hideSpeakingIcons": {
-    "message": "הסתר סמלי דיבור של משתתף"
+    "message": "הסתר סמלים של דיבור משתתף"
   },
   "bgColorLabel": {
     "message": "הגדר צבע רקע"
   },
   "bgColorDesc": {
-    "message": "הגדר צבע רקע מותאם אישית ב- Meet"
+    "message": "הגדר צבע רקע מותאם אישית ב-Meet"
   }
 }

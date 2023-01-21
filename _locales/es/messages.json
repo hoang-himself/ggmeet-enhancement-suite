@@ -3,25 +3,25 @@
     "message": "Ignorar superposición de presentación automática"
   },
   "ignorePresentationModalDesc": {
-    "message": "Ocultar automáticamente la alerta de espejo infinito al presentar"
+    "message": "Ocultar automáticamente la alerta de &#39;espejo infinito&#39; al presentar"
   },
   "autoMinimizeLabel": {
-    "message": "Minimizar automáticamente el video"
+    "message": "Minimizar vídeo automáticamente"
   },
   "autoMinimizeDesc": {
-    "message": "Minimice automáticamente su video cuando se una a una reunión"
+    "message": "Minimiza automáticamente tu video cuando te unes a una reunión"
   },
   "meetVolumeLabel": {
     "message": "Ajustar el volumen de la reunión"
   },
   "meetVolumeDesc": {
-    "message": "Ajustar el nivel de volumen del Meet"
+    "message": "Ajustar el nivel de volumen de Meet"
   },
   "extName": {
-    "message": "Google Meet Enhancement Suite"
+    "message": "Paquete de mejoras de Google Meet"
   },
   "extDesc": {
-    "message": "¡40 funciones nuevas para Google Meet, como silenciar todo, eliminar todo, admitir automáticamente, emojis, reflejar videos, color de fondo y pulsar para hablar!"
+    "message": "¡40 funciones nuevas para Google Meet, como silenciar todo, eliminar todo, admisión automática, emojis, videos espejo, color de fondo y pulsar para hablar!"
   },
   "startMeet": {
     "message": "Iniciar una reunión"
@@ -30,16 +30,16 @@
     "message": "Ocultar ventana emergente de silencio"
   },
   "mutePopupDesc": {
-    "message": "Se esconde '¿Estás hablando?' emergente cuando está silenciado"
+    "message": "Oculta &#39;¿Estás hablando?&#39; emergente cuando está silenciado"
   },
   "hideAddOthersLabel": {
-    "message": "Ocultar la ventana emergente 'Agregar otros'"
+    "message": "Ocultar la ventana emergente &quot;Agregar otros&quot;"
   },
   "hideAddOthersDesc": {
-    "message": "Oculta la ventana emergente 'Agregar otros' al unirse a una reunión."
+    "message": "Oculta la ventana emergente &#39;Agregar a otros&#39; cuando se une a una reunión"
   },
   "displayClockLabel": {
-    "message": "Reloj de pantalla"
+    "message": "reloj de pantalla"
   },
   "displayClockDesc": {
     "message": "Muestra el reloj incluso cuando no está en pantalla completa"
@@ -48,31 +48,31 @@
     "message": "Pantalla completa automática"
   },
   "autoFullScreenDesc": {
-    "message": "Auto ir a pantalla completa cuando alguien está presentando"
+    "message": "Ir automáticamente a pantalla completa cuando alguien está presentando"
   },
   "transBarLabel": {
-    "message": "Barra transparente"
+    "message": "barra transparente"
   },
   "transBarDesc": {
-    "message": "Haz que la barra inferior sea transparente"
+    "message": "Hacer la barra inferior transparente"
   },
   "pinChatLabel": {
-    "message": "Chat con pin automático"
+    "message": "Chat de pin automático"
   },
   "pinChatDesc": {
-    "message": "Fija automáticamente la vista de chat al unirse a Meet"
+    "message": "Fija automáticamente la vista de chat cuando te unes a Meet"
   },
   "copyUrlLabel": {
-    "message": "Copiar automáticamente la URL de la reunión"
+    "message": "URL de reunión de copia automática"
   },
   "copyUrlDesc": {
-    "message": "Copiar automáticamente la URL de Meet al portapapeles"
+    "message": "Copie automáticamente la URL de Meet al portapapeles"
   },
   "hideTopBarLabel": {
     "message": "Ocultar automáticamente la barra superior"
   },
   "hideTopBarDesc": {
-    "message": "Ocultar la barra superior cuando la barra inferior desaparece"
+    "message": "Ocultar la barra superior cuando desaparezca la barra inferior"
   },
   "darkModeLabel": {
     "message": "Modo oscuro"
@@ -84,28 +84,28 @@
     "message": "Imagen en imagen"
   },
   "pipDesc": {
-    "message": "Ver un video de participantes en imagen en imagen"
+    "message": "Ver un video de los participantes en imagen en imagen"
   },
   "mirrorVideosLabel": {
-    "message": "Espejo Videos"
+    "message": "Espejo Vídeos"
   },
   "mirrorVideosDesc": {
-    "message": "Refleja todos los videos de Meet"
+    "message": "Refleja todos los videos en Meet"
   },
   "activeTabLabel": {
-    "message": "Buscar pestaña de Meet activa"
+    "message": "Buscar pestaña Meet activa"
   },
   "activeTabDesc": {
-    "message": "Haga clic en el icono de la extensión para encontrar la pestaña Meet activa"
+    "message": "Haz clic en el ícono de la extensión para encontrar la pestaña Meet activa"
   },
   "quickEmojiLabel": {
-    "message": "Reacciones rápidas de Emoji"
+    "message": "Reacciones rápidas de emoji"
   },
   "quickEmojiDesc": {
     "message": "Agrega atajos rápidos de emoji a la ventana de chat"
   },
   "timerLabel": {
-    "message": "Temporizador de reuniones"
+    "message": "Temporizador de reunión"
   },
   "timerDesc": {
     "message": "Muestra un temporizador de reunión en la barra de pestañas inferior"
@@ -114,28 +114,28 @@
     "message": "Alternar barra inferior"
   },
   "toggleBarDesc": {
-    "message": "Alternar la barra de control inferior para que aparezca"
+    "message": "Alterne la barra de control inferior para que aparezca"
   },
   "speakerBorderLabel": {
-    "message": "Resaltado del altavoz"
+    "message": "Altavoz destacado"
   },
   "speakerBorderDesc": {
     "message": "Agrega un borde alrededor de los participantes que hablan"
   },
   "autoRejectLabel": {
-    "message": "Rechazo automático de nuevos participantes"
+    "message": "Denegación automática de nuevos participantes"
   },
   "autoRejectDesc": {
-    "message": "Niega automáticamente nuevos participantes al Meet"
+    "message": "Automáticamente niega nuevos participantes a la reunión"
   },
   "autoAdmitLabel": {
     "message": "Admisión automática de nuevos participantes"
   },
   "autoAdmitDesc": {
-    "message": "Admite automáticamente nuevos participantes al Meet"
+    "message": "Admite automáticamente nuevos participantes en Meet"
   },
   "autoUnmuteLabel": {
-    "message": "Activar sonido automáticamente"
+    "message": "Activar silencio automáticamente"
   },
   "autoUnmuteDesc": {
     "message": "Evita que otros silencien tu micrófono"
@@ -156,16 +156,13 @@
     "message": "Tomar la asistencia"
   },
   "attendanceDesc": {
-    "message": "Capture la asistencia de la reunión y exporte a un CSV"
+    "message": "Capture la asistencia de la reunión y expórtela a un CSV"
   },
   "doNotDisturbLabel": {
     "message": "No molestar"
   },
   "doNotDisturbDesc": {
-    "message": "Silenciar todos los sonidos de notificación de Meet, ocultar comentarios nuevos"
-  },
-  "doNotDisturbSoundsDesc": {
-    "message": "Silenciar todos los sonidos de notificación de Meet"
+    "message": "Ocultar nuevo comentario"
   },
   "doNotDisturbCommentsDesc": {
     "message": "Ocultar comentarios y ventanas emergentes para unirse al usuario"
@@ -180,19 +177,22 @@
     "message": "Agrega alternar a la lista de participantes para ordenar por apellido"
   },
   "autoRecordLabel": {
-    "message": "Grabación automática"
+    "message": "Registro automático"
   },
   "autoRecordDesc": {
-    "message": "Iniciar automáticamente la grabación de Meet (se requiere Google Workspace)"
+    "message": "Comienza a grabar automáticamente la reunión (se requiere Google Workspace)"
   },
   "autoRecordDescOne": {
-    "message": "Iniciar automáticamente la grabación"
+    "message": "Comenzar a grabar automáticamente"
   },
   "autoRecordDescTwo": {
-    "message": "Iniciar manualmente la grabación"
+    "message": "Empezar a grabar manualmente"
+  },
+  "autoRecordDescThree": {
+    "message": "Iniciar automáticamente la transcripción"
   },
   "proFeaturesSubHeading": {
-    "message": "Funciones Pro"
+    "message": "Funciones profesionales"
   },
   "muchMore": {
     "message": "¡Mucho más por venir!"
@@ -201,64 +201,64 @@
     "message": "Ver nuestra hoja de ruta"
   },
   "seeFeatures": {
-    "message": "para ver todas las funciones que hemos planeado"
+    "message": "para ver todas las características que hemos planeado"
   },
   "meetProSectionLabel": {
-    "message": "Obtén Meet Pro"
+    "message": "Consigue Meet Pro"
   },
   "meetProSectionDesc": {
-    "message": "Al actualizar a Meet Pro, obtiene acceso a más de 20 funciones nuevas que llevan a Google Meet al siguiente nivel."
+    "message": "Al actualizarse a Meet Pro, obtiene acceso a más de 25 funciones nuevas que llevan a Google Meet al siguiente nivel."
   },
   "meetProButtonLabel": {
-    "message": "Obtén Meet Pro hoy"
+    "message": "Comience la prueba gratuita de 7 días"
   },
   "activateLicenseButtonLabel": {
-    "message": "o activar licencia"
+    "message": "o Activar Licencia"
   },
   "activateLabel": {
     "message": "Activar"
   },
   "emojiToolTipDesc": {
-    "message": "Esta función está activada de forma predeterminada y puede acceder a ella desde la ventana de chat en Google Meet."
+    "message": "Esta función está activada de forma predeterminada y puede acceder a ella desde la ventana de chat en Google Meet"
   },
   "generalToolTipDesc": {
-    "message": "Esta función está activada de forma predeterminada y puede acceder a ella desde el menú de participantes en Google Meet."
+    "message": "Esta función está activada de forma predeterminada y puede acceder a ella desde el menú de participantes en Google Meet"
   },
   "title": {
-    "message": "Conozca Enhancement Suite"
+    "message": "Paquete de mejora de Meet"
   },
   "basicFeatures": {
     "message": "Caracteristicas basicas"
   },
   "pttLabel": {
-    "message": "Push to Talk"
+    "message": "Pulsar para hablar"
   },
   "pttDesc": {
-    "message": "Mantenga presionada la tecla de acceso rápido para activar el sonido"
+    "message": "Mantenga presionada la tecla de acceso rápido para activar el silencio"
   },
   "pttUpgrade": {
-    "message": "Actualice a Pro para configurar su propia vinculación de teclas"
+    "message": "Actualice a Pro para configurar su propia combinación de teclas"
   },
   "autoJoinLabel": {
     "message": "Unión automática"
   },
   "autoJoinDesc": {
-    "message": "Únase a la reunión automáticamente"
+    "message": "Unirse a la reunión automáticamente"
   },
   "autoJoinDescOption": {
-    "message": "Únase a la reunión solo cuando haya participantes presentes"
+    "message": "Unirse a la reunión solo cuando los participantes estén presentes"
   },
   "quickLeaveLabel": {
     "message": "Salida rápida"
   },
   "quickLeaveDesc": {
-    "message": "Use la tecla de acceso rápido para dejar una llamada"
+    "message": "Use la tecla de acceso directo para dejar una llamada"
   },
   "leaveConfirmLabel": {
     "message": "Dejar Confirmación"
   },
   "leaveConfirmDesc": {
-    "message": "Solicitar confirmación cuando abandone una reunión"
+    "message": "Solicitar confirmación al salir de una reunión"
   },
   "returnHomeLabel": {
     "message": "Volver a la pantalla de inicio al colgar"
@@ -267,16 +267,16 @@
     "message": "Vuelve a la pantalla de inicio de Meet después de salir de Meet"
   },
   "chimesLabel": {
-    "message": "Siempre toca campanillas"
+    "message": "Siempre toca campanas"
   },
   "chimesDesc": {
-    "message": "Escuche siempre los sonidos de campanillas cuando los participantes se unan y se vayan, o cuando se reciba un nuevo mensaje de chat"
+    "message": "Escuche siempre los sonidos del timbre cuando los participantes se unan y se vayan, o cuando se reciba un nuevo mensaje de chat."
   },
   "desktopLabel": {
     "message": "Abrir enlaces de Meet en la aplicación de escritorio"
   },
   "desktopDesc": {
-    "message": "Haga que todos los enlaces de Google Cal se abran en el"
+    "message": "Haz que todos los enlaces de Google Cal se abran en el"
   },
   "desktopApp": {
     "message": "aplicación de escritorio"
@@ -297,13 +297,13 @@
     "message": "Apagado automático de video"
   },
   "autoVideoDesc": {
-    "message": "Configurar video para desactivar al unirse"
+    "message": "Configurar el video para que se desactive al unirse"
   },
   "pinBarLabel": {
     "message": "Barra inferior del pasador"
   },
   "pinBarDesc": {
-    "message": "Fija la barra de control a la parte inferior de la pantalla"
+    "message": "Fija la barra de control en la parte inferior de la pantalla."
   },
   "partVidStyleLabel": {
     "message": "Estilo de video del participante"
@@ -312,10 +312,10 @@
     "message": "Mostrar siempre los nombres de los participantes"
   },
   "hidePartNames": {
-    "message": "Ocultar los nombres de los participantes"
+    "message": "Ocultar nombres de participantes"
   },
   "hideSpeakingIcons": {
-    "message": "Ocultar los iconos de los participantes que hablan"
+    "message": "Ocultar iconos de participantes que hablan"
   },
   "bgColorLabel": {
     "message": "Establecer color de fondo"

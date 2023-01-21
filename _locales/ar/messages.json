@@ -3,7 +3,7 @@
     "message": "تجاهل تلقائي لتراكب العرض التقديمي"
   },
   "ignorePresentationModalDesc": {
-    "message": "إخفاء تلقائي لتنبيه المرآة اللانهائية عند التقديم"
+    "message": "الإخفاء التلقائي لتنبيه &quot;المرآة اللانهائية&quot; عند التقديم"
   },
   "autoMinimizeLabel": {
     "message": "تصغير الفيديو تلقائيًا"
@@ -15,7 +15,7 @@
     "message": "ضبط مستوى صوت Meet"
   },
   "meetVolumeDesc": {
-    "message": "اضبط مستوى صوت تطبيق Meet"
+    "message": "اضبط مستوى الصوت في Meet"
   },
   "extName": {
     "message": "مجموعة تحسين Google Meet"
@@ -93,10 +93,10 @@
     "message": "يعكس جميع مقاطع الفيديو في Meet"
   },
   "activeTabLabel": {
-    "message": "ابحث عن علامة تبويب اللقاء النشط"
+    "message": "ابحث عن علامة تبويب الاجتماع النشط"
   },
   "activeTabDesc": {
-    "message": "انقر على رمز الملحق للعثور على علامة تبويب Meet النشطة"
+    "message": "انقر على رمز الامتداد للعثور على علامة تبويب Meet النشطة"
   },
   "quickEmojiLabel": {
     "message": "ردود الفعل السريعة على الرموز التعبيرية"
@@ -129,7 +129,7 @@
     "message": "يرفض تلقائيًا الوافدين الجدد إلى Meet"
   },
   "autoAdmitLabel": {
-    "message": "القبول التلقائي للوافدين الجدد"
+    "message": "الدخول التلقائي للوافدين الجدد"
   },
   "autoAdmitDesc": {
     "message": "يسمح تلقائيًا للوافدين الجدد إلى تطبيق Meet"
@@ -162,10 +162,7 @@
     "message": "لا تخل"
   },
   "doNotDisturbDesc": {
-    "message": "كتم صوت جميع أصوات إشعارات Meet وإخفاء التعليق الجديد"
-  },
-  "doNotDisturbSoundsDesc": {
-    "message": "كتم صوت جميع أصوات إشعارات Meet"
+    "message": "إخفاء التعليق الجديد"
   },
   "doNotDisturbCommentsDesc": {
     "message": "إخفاء التعليقات والانضمام إلى النوافذ المنبثقة"
@@ -191,6 +188,9 @@
   "autoRecordDescTwo": {
     "message": "ابدأ التسجيل يدويًا"
   },
+  "autoRecordDescThree": {
+    "message": "ابدأ النسخ تلقائيًا"
+  },
   "proFeaturesSubHeading": {
     "message": "الميزات الاحترافية"
   },
@@ -207,10 +207,10 @@
     "message": "احصل على Meet Pro"
   },
   "meetProSectionDesc": {
-    "message": "من خلال الترقية إلى Meet Pro ، يمكنك الوصول إلى أكثر من 20 ميزة جديدة تنقل Google Meet إلى المستوى التالي."
+    "message": "من خلال الترقية إلى Meet Pro ، يمكنك الوصول إلى أكثر من 25 ميزة جديدة تنقل Google Meet إلى المستوى التالي."
   },
   "meetProButtonLabel": {
-    "message": "احصل على Meet Pro اليوم"
+    "message": "ابدأ نسخة تجريبية مجانية لمدة 7 أيام"
   },
   "activateLicenseButtonLabel": {
     "message": "أو تفعيل الترخيص"

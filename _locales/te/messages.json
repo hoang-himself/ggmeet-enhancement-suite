@@ -1,320 +1,326 @@
 {
-    "autoMinimizeLabel": {
-        "message": "స్వీయ-కనిష్టీకరణ వీడియో"
-    },
-    "autoMinimizeDesc": {
-        "message": "మీరు మీట్‌లో చేరినప్పుడు మీ వీడియోని స్వయంచాలకంగా కనిష్టీకరించండి"
-    },
-    "meetVolumeLabel": {
-        "message": "మీట్ వాల్యూమ్‌ను సర్దుబాటు చేయండి"
-    },
-    "meetVolumeDesc": {
-        "message": "మీట్ యొక్క వాల్యూమ్ స్థాయిని సర్దుబాటు చేయండి"
-    },
-    "extName": {
-        "message": "గూగుల్ మీట్ ఎన్‌హాన్స్‌మెంట్ సూట్"
-    },
-    "extDesc": {
-        "message": "గూగుల్ మీట్ కోసం 40 కొత్త ఫీచర్లు, అన్నీ మ్యూట్ చేయండి, అన్నీ తొలగించండి, ఆటో అడ్మిట్, ఎమోజిలు, మిర్రర్ వీడియోలు, బ్యాక్‌గ్రౌండ్ కలర్ మరియు మాట్లాడటానికి నెట్టడం!"
-    },
-    "startMeet": {
-        "message": "మీట్ ప్రారంభించండి"
-    },
-    "mutePopupLabel": {
-        "message": "మ్యూట్ పాపప్‌ను దాచండి"
-    },
-    "mutePopupDesc": {
-        "message": "&#39;మీరు మాట్లాడుతున్నారా?&#39; మ్యూట్ చేసినప్పుడు పాపప్"
-    },
-    "hideAddOthersLabel": {
-        "message": "&#39;ఇతరులను జోడించు&#39; పాప్-అప్‌ను దాచండి"
-    },
-    "hideAddOthersDesc": {
-        "message": "మీట్‌లో చేరినప్పుడు &#39;ఇతరులను జోడించు&#39; పాప్-అప్‌ను దాచిపెడుతుంది"
-    },
-    "displayClockLabel": {
-        "message": "ప్రదర్శన గడియారం"
-    },
-    "displayClockDesc": {
-        "message": "పూర్తి స్క్రీన్‌లో లేనప్పుడు కూడా గడియారాన్ని ప్రదర్శించండి"
-    },
-    "autoFullScreenLabel": {
-        "message": "ఆటో పూర్తి స్క్రీన్"
-    },
-    "autoFullScreenDesc": {
-        "message": "ఎవరైనా ప్రదర్శిస్తున్నప్పుడు ఆటో పూర్తి స్క్రీన్‌కు వెళ్లండి"
-    },
-    "transBarLabel": {
-        "message": "పారదర్శక బార్"
-    },
-    "transBarDesc": {
-        "message": "దిగువ పట్టీని పారదర్శకంగా చేయండి"
-    },
-    "pinChatLabel": {
-        "message": "ఆటో-పిన్ చాట్"
-    },
-    "pinChatDesc": {
-        "message": "మీట్‌లో చేరినప్పుడు స్వయంచాలకంగా పిన్స్ చాట్ వీక్షణ"
-    },
-    "copyUrlLabel": {
-        "message": "ఆటో కాపీ మీట్ URL"
-    },
-    "copyUrlDesc": {
-        "message": "మీట్ URL ను క్లిప్‌బోర్డ్‌కు స్వయంచాలకంగా కాపీ చేయండి"
-    },
-    "hideTopBarLabel": {
-        "message": "ఆటో దాచు టాప్ బార్"
-    },
-    "hideTopBarDesc": {
-        "message": "దిగువ పట్టీ అదృశ్యమైనప్పుడు ఎగువ పట్టీని దాచండి"
-    },
-    "darkModeLabel": {
-        "message": "డార్క్ మోడ్"
-    },
-    "darkModeDesc": {
-        "message": "గూగుల్ మీట్ డార్క్ మోడ్ చేస్తుంది"
-    },
-    "pipLabel": {
-        "message": "పిక్చర్-ఇన్-పిక్చర్"
-    },
-    "pipDesc": {
-        "message": "పిక్చర్-ఇన్-పిక్చర్‌లో పాల్గొనేవారి వీడియోను చూడండి"
-    },
-    "mirrorVideosLabel": {
-        "message": "అద్దం వీడియోలు"
-    },
-    "mirrorVideosDesc": {
-        "message": "మీట్‌లోని అన్ని వీడియోలకు అద్దం పడుతుంది"
-    },
-    "activeTabLabel": {
-        "message": "యాక్టివ్ మీట్ టాబ్‌ను కనుగొనండి"
-    },
-    "activeTabDesc": {
-        "message": "క్రియాశీల మీట్ టాబ్‌ను కనుగొనడానికి పొడిగింపు చిహ్నాన్ని క్లిక్ చేయండి"
-    },
-    "quickEmojiLabel": {
-        "message": "శీఘ్ర ఎమోజి ప్రతిచర్యలు"
-    },
-    "quickEmojiDesc": {
-        "message": "చాట్ విండోకు శీఘ్ర ఎమోజి సత్వరమార్గాలను జోడిస్తుంది"
-    },
-    "timerLabel": {
-        "message": "టైమర్ సమావేశం"
-    },
-    "timerDesc": {
-        "message": "దిగువ టాబ్ బార్‌లో సమావేశ టైమర్‌ను ప్రదర్శిస్తుంది"
-    },
-    "toggleBarLabel": {
-        "message": "దిగువ బార్‌ను టోగుల్ చేయండి"
-    },
-    "toggleBarDesc": {
-        "message": "కనిపించడానికి దిగువ నియంత్రణ పట్టీని టోగుల్ చేయండి"
-    },
-    "speakerBorderLabel": {
-        "message": "స్పీకర్ హైలైట్"
-    },
-    "speakerBorderDesc": {
-        "message": "మాట్లాడే పాల్గొనేవారి చుట్టూ సరిహద్దును జోడిస్తుంది"
-    },
-    "autoRejectLabel": {
-        "message": "కొత్తగా ప్రవేశించినవారిని ఆటో తిరస్కరించండి"
-    },
-    "autoRejectDesc": {
-        "message": "మీట్‌కు కొత్తగా ప్రవేశించినవారిని స్వయంచాలకంగా తిరస్కరిస్తుంది"
-    },
-    "autoAdmitLabel": {
-        "message": "కొత్తగా ప్రవేశించినవారిని ఆటో అంగీకరించండి"
-    },
-    "autoAdmitDesc": {
-        "message": "మీట్‌కు కొత్తగా ప్రవేశించినవారిని స్వయంచాలకంగా అంగీకరిస్తుంది"
-    },
-    "autoUnmuteLabel": {
-        "message": "ఆటో అన్‌మ్యూట్"
-    },
-    "autoUnmuteDesc": {
-        "message": "మీ మైక్ మ్యూట్ చేయకుండా ఇతరులను ఆపండి"
-    },
-    "removeAllLabel": {
-        "message": "అన్ని తీసివెయ్"
-    },
-    "removeAllDesc": {
-        "message": "పాల్గొనేవారి మెను ద్వారా పాల్గొనే వారందరినీ తొలగించండి"
-    },
-    "muteAllLabel": {
-        "message": "అన్నీ మ్యూట్ చేయండి"
-    },
-    "muteAllDesc": {
-        "message": "పాల్గొనేవారి మెను ద్వారా పాల్గొనే వారందరినీ మ్యూట్ చేయండి"
-    },
-    "attendanceLabel": {
-        "message": "హాజరు తీసుకోండి"
-    },
-    "attendanceDesc": {
-        "message": "మీట్ హాజరును సంగ్రహించి, ఒక CSV కి ఎగుమతి చేయండి"
-    },
-    "doNotDisturbLabel": {
-        "message": "డిస్టర్బ్ చేయకు"
-    },
-    "doNotDisturbDesc": {
-        "message": "అన్నీ మ్యూట్ నోటిఫికేషన్ శబ్దాలు, క్రొత్త వ్యాఖ్యను దాచండి"
-    },
-    "doNotDisturbSoundsDesc": {
-        "message": "మీట్ నోటిఫికేషన్ శబ్దాలను మ్యూట్ చేయండి"
-    },
-    "doNotDisturbCommentsDesc": {
-        "message": "వ్యాఖ్యలను దాచండి మరియు వినియోగదారు పాప్-అప్లలో చేరండి"
-    },
-    "doNotDisturbCommentsBubbleDesc": {
-        "message": "వ్యాఖ్య నోటిఫికేషన్ బబుల్ దాచండి"
-    },
-    "sortParticipantsLabel": {
-        "message": "పాల్గొనేవారి జాబితాను క్రమబద్ధీకరించండి"
-    },
-    "sortParticipantsDesc": {
-        "message": "చివరి పేరు ద్వారా క్రమబద్ధీకరించడానికి పాల్గొనేవారి జాబితాకు టోగుల్ చేస్తుంది"
-    },
-    "autoRecordLabel": {
-        "message": "ఆటో రికార్డ్"
-    },
-    "autoRecordDesc": {
-        "message": "మీట్‌ను స్వయంచాలకంగా రికార్డ్ చేయడం ప్రారంభించండి (గూగుల్ వర్క్‌స్పేస్ అవసరం)"
-    },
-    "autoRecordDescOne": {
-        "message": "స్వయంచాలకంగా రికార్డింగ్ ప్రారంభించండి"
-    },
-    "autoRecordDescTwo": {
-        "message": "మానవీయంగా రికార్డింగ్ ప్రారంభించండి"
-    },
-    "proFeaturesSubHeading": {
-        "message": "ప్రో ఫీచర్స్"
-    },
-    "muchMore": {
-        "message": "ఇంకా చాలా రాబోతున్నాయి!"
-    },
-    "viewRoadmap": {
-        "message": "మా రోడ్‌మ్యాప్‌ను చూడండి"
-    },
-    "seeFeatures": {
-        "message": "మేము ప్లాన్ చేసిన అన్ని లక్షణాలను చూడటానికి"
-    },
-    "meetProSectionLabel": {
-        "message": "మీట్ ప్రో పొందండి"
-    },
-    "meetProSectionDesc": {
-        "message": "మీట్ ప్రోకు అప్‌గ్రేడ్ చేయడం ద్వారా గూగుల్ మీట్‌ను తదుపరి స్థాయికి తీసుకెళ్లే 20 కి పైగా కొత్త ఫీచర్లకు మీరు ప్రాప్యత పొందుతారు."
-    },
-    "meetProButtonLabel": {
-        "message": "ఈ రోజు మీట్ ప్రో పొందండి"
-    },
-    "activateLicenseButtonLabel": {
-        "message": "లేదా లైసెన్స్ సక్రియం చేయండి"
-    },
-    "activateLabel": {
-        "message": "సక్రియం చేయండి"
-    },
-    "emojiToolTipDesc": {
-        "message": "ఈ లక్షణం అప్రమేయంగా ఆన్‌లో ఉంది మరియు మీరు దీన్ని Google మీట్‌లోని చాట్ విండో నుండి యాక్సెస్ చేయవచ్చు"
-    },
-    "generalToolTipDesc": {
-        "message": "ఈ లక్షణం అప్రమేయంగా ఆన్‌లో ఉంది మరియు మీరు దీన్ని Google మీట్‌లో పాల్గొనేవారి మెను నుండి యాక్సెస్ చేయవచ్చు"
-    },
-    "title": {
-        "message": "మీట్ ఎన్‌హాన్స్‌మెంట్ సూట్"
-    },
-    "basicFeatures": {
-        "message": "ప్రాథమిక లక్షణాలు"
-    },
-    "pttLabel": {
-        "message": "మాట్లాడుటకు నొక్కండి"
-    },
-    "pttDesc": {
-        "message": "అన్‌మ్యూట్ చేయడానికి హాట్‌కీని పట్టుకోండి"
-    },
-    "pttUpgrade": {
-        "message": "మీ స్వంత కీ బైండింగ్‌ను సెట్ చేయడానికి ప్రోకు అప్‌గ్రేడ్ చేయండి"
-    },
-    "autoJoinLabel": {
-        "message": "ఆటో చేరండి"
-    },
-    "autoJoinDesc": {
-        "message": "సమావేశంలో స్వయంచాలకంగా చేరండి"
-    },
-    "autoJoinDescOption": {
-        "message": "పాల్గొనేవారు మాత్రమే సమావేశంలో చేరండి"
-    },
-    "quickLeaveLabel": {
-        "message": "త్వరిత సెలవు"
-    },
-    "quickLeaveDesc": {
-        "message": "కాల్ చేయడానికి హాట్‌కీని ఉపయోగించండి"
-    },
-    "leaveConfirmLabel": {
-        "message": "నిర్ధారణను వదిలివేయండి"
-    },
-    "leaveConfirmDesc": {
-        "message": "మీరు మీటింగ్ నుండి బయలుదేరినప్పుడు ధృవీకరించమని అడగండి"
-    },
-    "returnHomeLabel": {
-        "message": "హ్యాంగప్‌లో హోమ్ స్క్రీన్‌కు తిరిగి వెళ్ళు"
-    },
-    "returnHomeDesc": {
-        "message": "మీట్ నుండి నిష్క్రమించిన తర్వాత మీట్ హోమ్ స్క్రీన్‌కు తిరిగి వస్తుంది"
-    },
-    "chimesLabel": {
-        "message": "ఎల్లప్పుడూ గంటలను ప్లే చేయండి"
-    },
-    "chimesDesc": {
-        "message": "పాల్గొనేవారు చేరినప్పుడు మరియు బయలుదేరినప్పుడు లేదా క్రొత్త చాట్ సందేశం వచ్చినప్పుడు ఎల్లప్పుడూ చిమ్ శబ్దాలు వినండి"
-    },
-    "desktopLabel": {
-        "message": "డెస్క్‌టాప్ అనువర్తనంలో మీట్ లింక్‌లను తెరవండి"
-    },
-    "desktopDesc": {
-        "message": "అన్ని Google Cal లింక్‌లను తెరవండి"
-    },
-    "desktopApp": {
-        "message": "డెస్క్‌టాప్ అనువర్తనం"
-    },
-    "captionsLabel": {
-        "message": "ఆటో శీర్షికలు"
-    },
-    "captionsDesc": {
-        "message": "శీర్షికలను ఆటో ఆన్ చేయండి"
-    },
-    "autoMuteLabel": {
-        "message": "ఆటో మ్యూట్"
-    },
-    "autoMuteDesc": {
-        "message": "చేరినప్పుడు ఆటో మ్యూట్ మైక్రోఫోన్"
-    },
-    "autoVideoLabel": {
-        "message": "ఆటో వీడియో ఆఫ్"
-    },
-    "autoVideoDesc": {
-        "message": "చేరడాన్ని ఆపివేయడానికి వీడియోను సెట్ చేయండి"
-    },
-    "pinBarLabel": {
-        "message": "పిన్ బాటమ్ బార్"
-    },
-    "pinBarDesc": {
-        "message": "నియంత్రణ పట్టీని స్క్రీన్ దిగువకు పిన్స్ చేస్తుంది"
-    },
-    "partVidStyleLabel": {
-        "message": "పాల్గొనే వీడియో శైలి"
-    },
-    "alwaysShowLabel": {
-        "message": "పాల్గొనేవారి పేర్లను ఎల్లప్పుడూ చూపించు"
-    },
-    "hidePartNames": {
-        "message": "పాల్గొనేవారి పేర్లను దాచండి"
-    },
-    "hideSpeakingIcons": {
-        "message": "పాల్గొనే మాట్లాడే చిహ్నాలను దాచండి"
-    },
-    "bgColorLabel": {
-        "message": "నేపథ్య రంగును సెట్ చేయండి"
-    },
-    "bgColorDesc": {
-        "message": "మీట్‌లో అనుకూల నేపథ్య రంగును సెట్ చేయండి"
-    }
+  "ignorePresentationModalLabel": {
+    "message": "ప్రెజెంటేషన్ అతివ్యాప్తిని స్వయంచాలకంగా విస్మరించు"
+  },
+  "ignorePresentationModalDesc": {
+    "message": "ప్రదర్శించేటప్పుడు &#39;ఇన్ఫినిటీ మిర్రర్&#39; హెచ్చరికను స్వయంచాలకంగా దాచండి"
+  },
+  "autoMinimizeLabel": {
+    "message": "వీడియోను స్వయంచాలకంగా కనిష్టీకరించండి"
+  },
+  "autoMinimizeDesc": {
+    "message": "మీరు మీట్‌లో చేరినప్పుడు మీ వీడియోను స్వయంచాలకంగా కనిష్టీకరించండి"
+  },
+  "meetVolumeLabel": {
+    "message": "Meet వాల్యూమ్‌ని సర్దుబాటు చేయండి"
+  },
+  "meetVolumeDesc": {
+    "message": "Meet వాల్యూమ్ స్థాయిని సర్దుబాటు చేయండి"
+  },
+  "extName": {
+    "message": "Google Meet మెరుగుదల సూట్"
+  },
+  "extDesc": {
+    "message": "Google Meet కోసం అందరినీ మ్యూట్ చేయడం, అన్నింటినీ తీసివేయడం, ఆటో అడ్మిట్, ఎమోజీలు, మిర్రర్ వీడియోలు, బ్యాక్‌గ్రౌండ్ కలర్ మరియు మాట్లాడటానికి పుష్ వంటి 40 కొత్త ఫీచర్లు!"
+  },
+  "startMeet": {
+    "message": "మీట్‌ని ప్రారంభించండి"
+  },
+  "mutePopupLabel": {
+    "message": "మ్యూట్ పాప్‌అప్‌ని దాచండి"
+  },
+  "mutePopupDesc": {
+    "message": "&#39;మీరు మాట్లాడుతున్నారా?&#39; మ్యూట్ చేసినప్పుడు పాపప్"
+  },
+  "hideAddOthersLabel": {
+    "message": "&#39;ఇతరులను జోడించు&#39; పాప్-అప్‌ను దాచండి"
+  },
+  "hideAddOthersDesc": {
+    "message": "Meetలో చేరినప్పుడు &#39;ఇతరులను జోడించు&#39; పాప్-అప్‌ను దాచిపెడుతుంది"
+  },
+  "displayClockLabel": {
+    "message": "ప్రదర్శన గడియారం"
+  },
+  "displayClockDesc": {
+    "message": "పూర్తి స్క్రీన్‌లో లేనప్పుడు కూడా గడియారాన్ని ప్రదర్శించండి"
+  },
+  "autoFullScreenLabel": {
+    "message": "స్వీయ పూర్తి స్క్రీన్"
+  },
+  "autoFullScreenDesc": {
+    "message": "ఎవరైనా ప్రదర్శిస్తున్నప్పుడు స్వయంచాలకంగా పూర్తి స్క్రీన్‌కి వెళ్లండి"
+  },
+  "transBarLabel": {
+    "message": "పారదర్శక బార్"
+  },
+  "transBarDesc": {
+    "message": "దిగువ పట్టీని పారదర్శకంగా చేయండి"
+  },
+  "pinChatLabel": {
+    "message": "ఆటో-పిన్ చాట్"
+  },
+  "pinChatDesc": {
+    "message": "Meetలో చేరినప్పుడు ఆటోమేటిక్‌గా చాట్ వీక్షణను పిన్ చేస్తుంది"
+  },
+  "copyUrlLabel": {
+    "message": "Meet URLని స్వీయ కాపీ చేయండి"
+  },
+  "copyUrlDesc": {
+    "message": "Meet URLని ఆటోమేటిక్‌గా క్లిప్‌బోర్డ్‌కి కాపీ చేయండి"
+  },
+  "hideTopBarLabel": {
+    "message": "ఎగువ పట్టీని స్వయంచాలకంగా దాచు"
+  },
+  "hideTopBarDesc": {
+    "message": "దిగువ పట్టీ అదృశ్యమైనప్పుడు ఎగువ పట్టీని దాచండి"
+  },
+  "darkModeLabel": {
+    "message": "డార్క్ మోడ్"
+  },
+  "darkModeDesc": {
+    "message": "Google Meet డార్క్ మోడ్‌ను చేస్తుంది"
+  },
+  "pipLabel": {
+    "message": "పిక్చర్-ఇన్-పిక్చర్"
+  },
+  "pipDesc": {
+    "message": "పిక్చర్-ఇన్-పిక్చర్‌లో పాల్గొనేవారి వీడియోను వీక్షించండి"
+  },
+  "mirrorVideosLabel": {
+    "message": "మిర్రర్ వీడియోలు"
+  },
+  "mirrorVideosDesc": {
+    "message": "మీట్‌లోని అన్ని వీడియోలను ప్రతిబింబిస్తుంది"
+  },
+  "activeTabLabel": {
+    "message": "Active Meet ట్యాబ్‌ను కనుగొనండి"
+  },
+  "activeTabDesc": {
+    "message": "సక్రియ Meet ట్యాబ్‌ను కనుగొనడానికి పొడిగింపు చిహ్నాన్ని క్లిక్ చేయండి"
+  },
+  "quickEmojiLabel": {
+    "message": "త్వరిత ఎమోజి ప్రతిచర్యలు"
+  },
+  "quickEmojiDesc": {
+    "message": "చాట్ విండోకు త్వరిత ఎమోజి షార్ట్‌కట్‌లను జోడిస్తుంది"
+  },
+  "timerLabel": {
+    "message": "మీటింగ్ టైమర్"
+  },
+  "timerDesc": {
+    "message": "దిగువ ట్యాబ్ బార్‌లో మీటింగ్ టైమర్‌ని ప్రదర్శిస్తుంది"
+  },
+  "toggleBarLabel": {
+    "message": "దిగువ పట్టీని టోగుల్ చేయండి"
+  },
+  "toggleBarDesc": {
+    "message": "కనిపించడానికి దిగువ నియంత్రణ పట్టీని టోగుల్ చేయండి"
+  },
+  "speakerBorderLabel": {
+    "message": "స్పీకర్ హైలైట్"
+  },
+  "speakerBorderDesc": {
+    "message": "మాట్లాడే పాల్గొనేవారి చుట్టూ అంచుని జోడిస్తుంది"
+  },
+  "autoRejectLabel": {
+    "message": "కొత్తగా ప్రవేశించిన వారిని స్వయంచాలకంగా తిరస్కరించండి"
+  },
+  "autoRejectDesc": {
+    "message": "Meetలో కొత్తగా ప్రవేశించిన వారిని స్వయంచాలకంగా తిరస్కరిస్తుంది"
+  },
+  "autoAdmitLabel": {
+    "message": "కొత్తగా చేరిన వారిని ఆటో అడ్మిట్ చేయండి"
+  },
+  "autoAdmitDesc": {
+    "message": "మీట్‌లో కొత్తగా చేరిన వారిని ఆటోమేటిక్‌గా అడ్మిట్ చేస్తుంది"
+  },
+  "autoUnmuteLabel": {
+    "message": "స్వయంచాలకంగా అన్‌మ్యూట్ చేయండి"
+  },
+  "autoUnmuteDesc": {
+    "message": "ఇతరులు మీ మైక్‌ని మ్యూట్ చేయకుండా ఆపండి"
+  },
+  "removeAllLabel": {
+    "message": "అన్ని తీసివెయ్"
+  },
+  "removeAllDesc": {
+    "message": "పాల్గొనేవారి మెను ద్వారా పాల్గొనే వారందరినీ తీసివేయండి"
+  },
+  "muteAllLabel": {
+    "message": "అన్నింటినీ మ్యూట్ చేయండి"
+  },
+  "muteAllDesc": {
+    "message": "పార్టిసిపెంట్స్ మెను ద్వారా పార్టిసిపెంట్‌లందరినీ మ్యూట్ చేయండి"
+  },
+  "attendanceLabel": {
+    "message": "హాజరు తీసుకోండి"
+  },
+  "attendanceDesc": {
+    "message": "మీట్ యొక్క హాజరును క్యాప్చర్ చేయండి మరియు CSVకి ఎగుమతి చేయండి"
+  },
+  "doNotDisturbLabel": {
+    "message": "డిస్టర్బ్ చేయకు"
+  },
+  "doNotDisturbDesc": {
+    "message": "కొత్త వ్యాఖ్యను దాచు"
+  },
+  "doNotDisturbCommentsDesc": {
+    "message": "వ్యాఖ్యలను దాచండి మరియు వినియోగదారు పాప్-అప్‌లలో చేరండి"
+  },
+  "doNotDisturbCommentsBubbleDesc": {
+    "message": "వ్యాఖ్య నోటిఫికేషన్ బబుల్‌ను దాచండి"
+  },
+  "sortParticipantsLabel": {
+    "message": "పాల్గొనేవారి జాబితాను క్రమబద్ధీకరించండి"
+  },
+  "sortParticipantsDesc": {
+    "message": "చివరి పేరు ద్వారా క్రమబద్ధీకరించడానికి పాల్గొనేవారి జాబితాకు టోగుల్‌ని జోడిస్తుంది"
+  },
+  "autoRecordLabel": {
+    "message": "ఆటో రికార్డ్"
+  },
+  "autoRecordDesc": {
+    "message": "Meet రికార్డింగ్‌ని ఆటోమేటిక్‌గా ప్రారంభించండి (Google Workspace అవసరం)"
+  },
+  "autoRecordDescOne": {
+    "message": "స్వయంచాలకంగా రికార్డింగ్ ప్రారంభించండి"
+  },
+  "autoRecordDescTwo": {
+    "message": "మాన్యువల్‌గా రికార్డింగ్ ప్రారంభించండి"
+  },
+  "autoRecordDescThree": {
+    "message": "స్వయంచాలకంగా లిప్యంతరీకరణను ప్రారంభించండి"
+  },
+  "proFeaturesSubHeading": {
+    "message": "ప్రో ఫీచర్లు"
+  },
+  "muchMore": {
+    "message": "ఇంకా చాలా రావాలి!"
+  },
+  "viewRoadmap": {
+    "message": "మా రోడ్‌మ్యాప్‌ని వీక్షించండి"
+  },
+  "seeFeatures": {
+    "message": "మేము ప్లాన్ చేసిన అన్ని లక్షణాలను చూడటానికి"
+  },
+  "meetProSectionLabel": {
+    "message": "మీట్ ప్రోని పొందండి"
+  },
+  "meetProSectionDesc": {
+    "message": "Meet Proకి అప్‌గ్రేడ్ చేయడం ద్వారా మీరు Google Meetని తదుపరి స్థాయికి తీసుకెళ్లే 25కి పైగా కొత్త ఫీచర్‌లకు యాక్సెస్ పొందుతారు."
+  },
+  "meetProButtonLabel": {
+    "message": "7 రోజుల ఉచిత ట్రయల్‌ని ప్రారంభించండి"
+  },
+  "activateLicenseButtonLabel": {
+    "message": "లేదా లైసెన్స్‌ని యాక్టివేట్ చేయండి"
+  },
+  "activateLabel": {
+    "message": "యాక్టివేట్ చేయండి"
+  },
+  "emojiToolTipDesc": {
+    "message": "ఈ ఫీచర్ డిఫాల్ట్‌గా ఆన్‌లో ఉంది మరియు మీరు దీన్ని Google Meetలోని చాట్ విండో నుండి యాక్సెస్ చేయవచ్చు"
+  },
+  "generalToolTipDesc": {
+    "message": "ఈ ఫీచర్ డిఫాల్ట్‌గా ఆన్‌లో ఉంది మరియు మీరు Google Meetలో పాల్గొనేవారి మెను నుండి దీన్ని యాక్సెస్ చేయవచ్చు"
+  },
+  "title": {
+    "message": "ఎన్‌హాన్స్‌మెంట్ సూట్‌ని కలవండి"
+  },
+  "basicFeatures": {
+    "message": "ప్రాథమిక లక్షణాలు"
+  },
+  "pttLabel": {
+    "message": "మాట్లాడుటకు నొక్కండి"
+  },
+  "pttDesc": {
+    "message": "అన్‌మ్యూట్ చేయడానికి హాట్‌కీని పట్టుకోండి"
+  },
+  "pttUpgrade": {
+    "message": "మీ స్వంత కీ బైండింగ్‌ని సెట్ చేయడానికి ప్రోకి అప్‌గ్రేడ్ చేయండి"
+  },
+  "autoJoinLabel": {
+    "message": "ఆటో చేరండి"
+  },
+  "autoJoinDesc": {
+    "message": "సమావేశంలో స్వయంచాలకంగా చేరండి"
+  },
+  "autoJoinDescOption": {
+    "message": "పాల్గొనేవారు ఉన్నప్పుడే మీటింగ్‌లో చేరండి"
+  },
+  "quickLeaveLabel": {
+    "message": "త్వరిత సెలవు"
+  },
+  "quickLeaveDesc": {
+    "message": "కాల్ నుండి నిష్క్రమించడానికి హాట్‌కీని ఉపయోగించండి"
+  },
+  "leaveConfirmLabel": {
+    "message": "నిర్ధారణను వదిలివేయండి"
+  },
+  "leaveConfirmDesc": {
+    "message": "మీరు సమావేశం నుండి నిష్క్రమించినప్పుడు నిర్ధారించమని అడగండి"
+  },
+  "returnHomeLabel": {
+    "message": "హ్యాంగ్‌అప్‌లో హోమ్ స్క్రీన్‌కి తిరిగి వెళ్లండి"
+  },
+  "returnHomeDesc": {
+    "message": "Meet నుండి నిష్క్రమించిన తర్వాత Meet హోమ్ స్క్రీన్‌కి తిరిగి వస్తుంది"
+  },
+  "chimesLabel": {
+    "message": "ఎల్లప్పుడూ చైమ్స్ ప్లే చేయండి"
+  },
+  "chimesDesc": {
+    "message": "పాల్గొనేవారు చేరినప్పుడు మరియు నిష్క్రమించినప్పుడు లేదా కొత్త చాట్ సందేశాన్ని స్వీకరించినప్పుడు ఎల్లప్పుడూ చైమ్ సౌండ్‌లను వినండి"
+  },
+  "desktopLabel": {
+    "message": "డెస్క్‌టాప్ యాప్‌లో Meet లింక్‌లను తెరవండి"
+  },
+  "desktopDesc": {
+    "message": "అన్ని Google కాల్ లింక్‌లను తెరవండి"
+  },
+  "desktopApp": {
+    "message": "డెస్క్‌టాప్ యాప్"
+  },
+  "captionsLabel": {
+    "message": "స్వీయ శీర్షికలు"
+  },
+  "captionsDesc": {
+    "message": "శీర్షికలను స్వయంచాలకంగా ఆన్ చేయండి"
+  },
+  "autoMuteLabel": {
+    "message": "ఆటో మ్యూట్"
+  },
+  "autoMuteDesc": {
+    "message": "చేరినప్పుడు మైక్రోఫోన్‌ని స్వయంచాలకంగా మ్యూట్ చేయండి"
+  },
+  "autoVideoLabel": {
+    "message": "ఆటో వీడియో ఆఫ్"
+  },
+  "autoVideoDesc": {
+    "message": "చేరడాన్ని ఆఫ్ చేయడానికి వీడియోను సెట్ చేయండి"
+  },
+  "pinBarLabel": {
+    "message": "పిన్ బాటమ్ బార్"
+  },
+  "pinBarDesc": {
+    "message": "కంట్రోల్ బార్‌ని స్క్రీన్ దిగువకు పిన్ చేస్తుంది"
+  },
+  "partVidStyleLabel": {
+    "message": "పార్టిసిపెంట్ వీడియో స్టైల్"
+  },
+  "alwaysShowLabel": {
+    "message": "ఎల్లప్పుడూ పాల్గొనేవారి పేర్లను చూపండి"
+  },
+  "hidePartNames": {
+    "message": "పాల్గొనేవారి పేర్లను దాచండి"
+  },
+  "hideSpeakingIcons": {
+    "message": "పాల్గొనేవారు మాట్లాడే చిహ్నాలను దాచండి"
+  },
+  "bgColorLabel": {
+    "message": "నేపథ్య రంగును సెట్ చేయండి"
+  },
+  "bgColorDesc": {
+    "message": "Meetలో అనుకూల నేపథ్య రంగును సెట్ చేయండి"
+  }
 }

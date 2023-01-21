@@ -3,52 +3,52 @@
     "message": "Presentatie-overlay automatisch negeren"
   },
   "ignorePresentationModalDesc": {
-    "message": "Waarschuwing voor oneindige spiegel automatisch verbergen bij presenteren"
+    "message": "Automatisch verbergen &#39;oneindigheidsspiegel&#39;-waarschuwing bij presenteren"
   },
   "autoMinimizeLabel": {
     "message": "Video automatisch minimaliseren"
   },
   "autoMinimizeDesc": {
-    "message": "Je video automatisch minimaliseren wanneer je deelneemt aan een meet"
+    "message": "Minimaliseer uw video automatisch wanneer u deelneemt aan een bijeenkomst"
   },
   "meetVolumeLabel": {
-    "message": "Meetvolume aanpassen"
+    "message": "Pas het Meet-volume aan"
   },
   "meetVolumeDesc": {
-    "message": "Pas het volumeniveau van de Meet . aan"
+    "message": "Pas het volumeniveau van de Meet aan"
   },
   "extName": {
-    "message": "Google Meet-verbeteringssuite"
+    "message": "Google Meet Enhancement-suite"
   },
   "extDesc": {
-    "message": "40 nieuwe functies voor Google Meet, zoals alles dempen, alles verwijderen, automatisch toegeven, emoji&#39;s, video&#39;s spiegelen, achtergrondkleur en push-to-talk!"
+    "message": "40 nieuwe functies voor Google Meet, zoals alles dempen, alles verwijderen, automatisch toelaten, emoji&#39;s, video&#39;s spiegelen, achtergrondkleur en push-to-talk!"
   },
   "startMeet": {
-    "message": "Start een ontmoeting"
+    "message": "Start een bijeenkomst"
   },
   "mutePopupLabel": {
     "message": "Pop-up dempen verbergen"
   },
   "mutePopupDesc": {
-    "message": "Verbergt &#39;Spreekt u?&#39; pop-up wanneer gedempt"
+    "message": "Verbergt &#39;Bent u aan het woord?&#39; pop-up wanneer gedempt"
   },
   "hideAddOthersLabel": {
     "message": "Pop-up &#39;Anderen toevoegen&#39; verbergen"
   },
   "hideAddOthersDesc": {
-    "message": "Verbergt de pop-up &#39;Anderen toevoegen&#39; bij deelname aan een Meet"
+    "message": "Verbergt de pop-up &#39;Anderen toevoegen&#39; wanneer u deelneemt aan een Meet"
   },
   "displayClockLabel": {
     "message": "Klok weergeven"
   },
   "displayClockDesc": {
-    "message": "Geef de klok weer, zelfs als deze niet op volledig scherm is"
+    "message": "Geef de klok weer, zelfs als deze niet op volledig scherm wordt weergegeven"
   },
   "autoFullScreenLabel": {
     "message": "Automatisch volledig scherm"
   },
   "autoFullScreenDesc": {
-    "message": "Automatisch naar volledig scherm gaan wanneer iemand presenteert"
+    "message": "Ga automatisch naar volledig scherm wanneer iemand presenteert"
   },
   "transBarLabel": {
     "message": "Transparante balk"
@@ -57,19 +57,19 @@
     "message": "Maak de onderste balk transparant"
   },
   "pinChatLabel": {
-    "message": "Chat automatisch vastzetten"
+    "message": "Auto-pin Chat"
   },
   "pinChatDesc": {
-    "message": "Zet de chatweergave automatisch vast wanneer je deelneemt aan Meet"
+    "message": "Zet de chatweergave automatisch vast wanneer u deelneemt aan Meet"
   },
   "copyUrlLabel": {
     "message": "Meet-URL automatisch kopiëren"
   },
   "copyUrlDesc": {
-    "message": "Automatisch Meet-URL kopiëren naar klembord"
+    "message": "Kopieer de Meet-URL automatisch naar het klembord"
   },
   "hideTopBarLabel": {
-    "message": "Bovenbalk automatisch verbergen"
+    "message": "Bovenste balk automatisch verbergen"
   },
   "hideTopBarDesc": {
     "message": "Verberg de bovenste balk wanneer de onderste balk verdwijnt"
@@ -84,16 +84,16 @@
     "message": "Foto in foto"
   },
   "pipDesc": {
-    "message": "Bekijk een deelnemersvideo in beeld-in-beeld"
+    "message": "Bekijk een video van een deelnemer in beeld-in-beeld"
   },
   "mirrorVideosLabel": {
-    "message": "Spiegelvideo&#39;s"
+    "message": "Spiegel video&#39;s"
   },
   "mirrorVideosDesc": {
     "message": "Spiegelt alle video&#39;s in de Meet"
   },
   "activeTabLabel": {
-    "message": "Zoek het tabblad Actieve Meet"
+    "message": "Zoek het actieve Meet-tabblad"
   },
   "activeTabDesc": {
     "message": "Klik op het extensiepictogram om het actieve Meet-tabblad te vinden"
@@ -111,10 +111,10 @@
     "message": "Geeft een vergadertimer weer in de onderste tabbladbalk"
   },
   "toggleBarLabel": {
-    "message": "Onderste balk wisselen"
+    "message": "Schakel onderste balk in"
   },
   "toggleBarDesc": {
-    "message": "Schakel de onderste bedieningsbalk om te verschijnen"
+    "message": "Schakel de onderste bedieningsbalk in om te verschijnen"
   },
   "speakerBorderLabel": {
     "message": "Spreker hoogtepunt"
@@ -123,22 +123,22 @@
     "message": "Voegt een rand toe rond sprekende deelnemers"
   },
   "autoRejectLabel": {
-    "message": "Nieuwe deelnemers automatisch weigeren"
+    "message": "Nieuwkomers automatisch weigeren"
   },
   "autoRejectDesc": {
     "message": "Weigert automatisch nieuwe deelnemers aan de Meet"
   },
   "autoAdmitLabel": {
-    "message": "Nieuwe deelnemers automatisch toestaan"
+    "message": "Nieuwe deelnemers automatisch toelaten"
   },
   "autoAdmitDesc": {
-    "message": "Laat automatisch nieuwe deelnemers toe tot de Meet"
+    "message": "Laat nieuwe deelnemers automatisch toe aan de Meet"
   },
   "autoUnmuteLabel": {
     "message": "Automatisch dempen opheffen"
   },
   "autoUnmuteDesc": {
-    "message": "Voorkom dat anderen je microfoon dempen"
+    "message": "Voorkom dat anderen uw microfoon dempen"
   },
   "removeAllLabel": {
     "message": "Verwijder alles"
@@ -150,31 +150,28 @@
     "message": "Alles dempen"
   },
   "muteAllDesc": {
-    "message": "Alle deelnemers dempen via het deelnemersmenu"
+    "message": "Zet alle deelnemers op mute via het deelnemersmenu"
   },
   "attendanceLabel": {
-    "message": "Aanwezigheid nemen"
+    "message": "Neem aanwezigheid"
   },
   "attendanceDesc": {
-    "message": "Leg de aanwezigheid van de bijeenkomst vast en exporteer naar een CSV"
+    "message": "Leg de opkomst van de bijeenkomst vast en exporteer naar een CSV"
   },
   "doNotDisturbLabel": {
     "message": "Niet storen"
   },
   "doNotDisturbDesc": {
-    "message": "Demp alle Meet-meldingsgeluiden, verberg nieuwe reactie"
-  },
-  "doNotDisturbSoundsDesc": {
-    "message": "Alle Meet-meldingsgeluiden dempen"
+    "message": "Verberg nieuwe reactie"
   },
   "doNotDisturbCommentsDesc": {
-    "message": "Verberg opmerkingen en pop-ups voor gebruikersaanmelding"
+    "message": "Verberg opmerkingen en voeg pop-ups toe aan gebruikers"
   },
   "doNotDisturbCommentsBubbleDesc": {
-    "message": "Meldingsballon voor opmerkingen verbergen"
+    "message": "Verberg opmerkingsballon"
   },
   "sortParticipantsLabel": {
-    "message": "Deelnemerslijst sorteren"
+    "message": "Sorteer deelnemerslijst"
   },
   "sortParticipantsDesc": {
     "message": "Voegt schakelaar toe aan de deelnemerslijst om op achternaam te sorteren"
@@ -183,13 +180,16 @@
     "message": "Automatisch opnemen"
   },
   "autoRecordDesc": {
-    "message": "Start automatisch met het opnemen van de Meet (Google Workspace vereist)"
+    "message": "Begin automatisch met het opnemen van de Meet (Google Workspace vereist)"
   },
   "autoRecordDescOne": {
-    "message": "Automatisch starten met opnemen"
+    "message": "Start automatisch met opnemen"
   },
   "autoRecordDescTwo": {
-    "message": "Handmatig beginnen met opnemen"
+    "message": "Begin handmatig met opnemen"
+  },
+  "autoRecordDescThree": {
+    "message": "Start automatisch de transcriptie"
   },
   "proFeaturesSubHeading": {
     "message": "Pro-functies"
@@ -198,19 +198,19 @@
     "message": "Er komt nog veel meer!"
   },
   "viewRoadmap": {
-    "message": "Bekijk onze roadmap"
+    "message": "Bekijk ons stappenplan"
   },
   "seeFeatures": {
     "message": "om alle functies te zien die we hebben gepland"
   },
   "meetProSectionLabel": {
-    "message": "Maak kennis met Pro"
+    "message": "Download Meet Pro"
   },
   "meetProSectionDesc": {
-    "message": "Door te upgraden naar Meet Pro krijgt u toegang tot meer dan 20 nieuwe functies die Google Meet naar een hoger niveau tillen."
+    "message": "Door te upgraden naar Meet Pro krijgt u toegang tot meer dan 25 nieuwe functies die Google Meet naar een hoger niveau tillen."
   },
   "meetProButtonLabel": {
-    "message": "Ontvang vandaag nog Meet Pro"
+    "message": "Start een gratis proefperiode van 7 dagen"
   },
   "activateLicenseButtonLabel": {
     "message": "of Licentie activeren"
@@ -219,19 +219,19 @@
     "message": "Activeren"
   },
   "emojiToolTipDesc": {
-    "message": "Deze functie is standaard ingeschakeld en je hebt er toegang toe vanuit het chatvenster in Google Meet"
+    "message": "Deze functie is standaard ingeschakeld en is toegankelijk via het chatvenster in Google Meet"
   },
   "generalToolTipDesc": {
-    "message": "Deze functie is standaard ingeschakeld en je kunt deze openen via het deelnemersmenu in Google Meet"
+    "message": "Deze functie is standaard ingeschakeld en is toegankelijk via het deelnemersmenu in Google Meet"
   },
   "title": {
-    "message": "Meet Enhancement Suite"
+    "message": "Maak kennis met Enhancement Suite"
   },
   "basicFeatures": {
     "message": "Basis kenmerken"
   },
   "pttLabel": {
-    "message": "Push-to-talk"
+    "message": "Druk om te praten"
   },
   "pttDesc": {
     "message": "Houd de sneltoets ingedrukt om het dempen op te heffen"
@@ -243,46 +243,46 @@
     "message": "Automatisch deelnemen"
   },
   "autoJoinDesc": {
-    "message": "Automatisch deelnemen aan de vergadering"
+    "message": "Neem automatisch deel aan de vergadering"
   },
   "autoJoinDescOption": {
-    "message": "Alleen deelnemen aan de vergadering als deelnemers aanwezig zijn"
+    "message": "Neem alleen deel aan de vergadering als er deelnemers aanwezig zijn"
   },
   "quickLeaveLabel": {
-    "message": "Snel vertrekken"
+    "message": "Snel vertrek"
   },
   "quickLeaveDesc": {
-    "message": "Gebruik de sneltoets om een oproep te verlaten"
+    "message": "Gebruik de sneltoets om een gesprek achter te laten"
   },
   "leaveConfirmLabel": {
-    "message": "Laat bevestiging"
+    "message": "Bevestiging verlaten"
   },
   "leaveConfirmDesc": {
-    "message": "Bevestiging vragen bij het verlaten van een vergadering"
+    "message": "Vraag om bevestiging wanneer u een vergadering verlaat"
   },
   "returnHomeLabel": {
     "message": "Keer terug naar het startscherm bij ophangen"
   },
   "returnHomeDesc": {
-    "message": "Keert terug naar het startscherm van Meet na het verlaten van een Meet"
+    "message": "Keert terug naar het Meet-startscherm na het verlaten van een Meet"
   },
   "chimesLabel": {
     "message": "Speel altijd klokkenspel"
   },
   "chimesDesc": {
-    "message": "Hoor altijd gonggeluiden wanneer deelnemers deelnemen en vertrekken, of wanneer een nieuw chatbericht wordt ontvangen"
+    "message": "Hoor altijd een belgeluid wanneer deelnemers binnenkomen en vertrekken, of wanneer een nieuw chatbericht wordt ontvangen"
   },
   "desktopLabel": {
     "message": "Open Meet-links in desktop-app"
   },
   "desktopDesc": {
-    "message": "Maak alle Google Cal-links open in de"
+    "message": "Open alle Google Cal-links in het"
   },
   "desktopApp": {
     "message": "desktop-app"
   },
   "captionsLabel": {
-    "message": "Automatische bijschriften"
+    "message": "Automatische ondertiteling"
   },
   "captionsDesc": {
     "message": "Ondertiteling automatisch inschakelen"
@@ -291,36 +291,36 @@
     "message": "Automatisch dempen"
   },
   "autoMuteDesc": {
-    "message": "Microfoon automatisch dempen bij deelnemen"
+    "message": "Microfoon automatisch dempen bij deelname"
   },
   "autoVideoLabel": {
     "message": "Automatische video uit"
   },
   "autoVideoDesc": {
-    "message": "Video instellen om uit te schakelen bij deelname"
+    "message": "Stel video in om uit te schakelen bij deelname"
   },
   "pinBarLabel": {
-    "message": "Onderste balk vastzetten"
+    "message": "Pin onderste balk"
   },
   "pinBarDesc": {
     "message": "Zet de bedieningsbalk vast aan de onderkant van het scherm"
   },
   "partVidStyleLabel": {
-    "message": "Videostijl deelnemer"
+    "message": "Videostijl van deelnemer"
   },
   "alwaysShowLabel": {
-    "message": "Altijd namen van deelnemers weergeven"
+    "message": "Toon altijd de namen van deelnemers"
   },
   "hidePartNames": {
-    "message": "Namen van deelnemers verbergen"
+    "message": "Verberg namen van deelnemers"
   },
   "hideSpeakingIcons": {
-    "message": "Sprekende pictogrammen van deelnemers verbergen"
+    "message": "Verberg sprekende iconen van deelnemers"
   },
   "bgColorLabel": {
     "message": "Achtergrondkleur instellen"
   },
   "bgColorDesc": {
-    "message": "Aangepaste achtergrondkleur instellen in Meet the"
+    "message": "Stel een aangepaste achtergrondkleur in de Meet in"
   }
 }

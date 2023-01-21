@@ -3,7 +3,7 @@
     "message": "Ignora automàticament la superposició de presentació"
   },
   "ignorePresentationModalDesc": {
-    "message": "Amaga automàticament l&#39;alerta de mirall infinit quan es presenta"
+    "message": "Amaga automàticament l&#39;alerta &quot;mirall infinit&quot; quan es presenta"
   },
   "autoMinimizeLabel": {
     "message": "Minimitza automàticament el vídeo"
@@ -15,40 +15,40 @@
     "message": "Ajusta el volum de Meet"
   },
   "meetVolumeDesc": {
-    "message": "Ajusteu el nivell de volum de Meet"
+    "message": "Ajusteu el nivell de volum del Meet"
   },
   "extName": {
     "message": "Suite de millora de Google Meet"
   },
   "extDesc": {
-    "message": "Hi ha 40 funcions noves per a Google Meet, com ara silenciar-les totes, suprimir-les totes, admetre-les automàticament, emojis, reflectir vídeos, color de fons i prémer per parlar."
+    "message": "40 funcions noves per a Google Meet, com ara silenciar-ho tot, eliminar-ho tot, admetre automàticament, emojis, vídeos mirall, color de fons i pressionar per parlar!"
   },
   "startMeet": {
-    "message": "Comenceu una trobada"
+    "message": "Comença una trobada"
   },
   "mutePopupLabel": {
-    "message": "Amaga la finestra emergent de silenci"
+    "message": "Amaga la finestra emergent Mute"
   },
   "mutePopupDesc": {
-    "message": "Oculta 'Estàs parlant?' emergent quan es silenciï"
+    "message": "Amaga &#39;Estàs parlant?&#39; emergent quan està silenciat"
   },
   "hideAddOthersLabel": {
-    "message": "Amaga la finestra emergent 'Afegeix altres'"
+    "message": "Amaga la finestra emergent &quot;Afegeix altres&quot;."
   },
   "hideAddOthersDesc": {
-    "message": "Amaga la finestra emergent 'Afegeix altres' quan uneix a Meet"
+    "message": "Amaga la finestra emergent &quot;Afegeix altres&quot; quan us uniu a una reunió"
   },
   "displayClockLabel": {
-    "message": "Rellotge de visualització"
+    "message": "Mostra el rellotge"
   },
   "displayClockDesc": {
-    "message": "Mostra el rellotge encara que no estigui en pantalla completa"
+    "message": "Mostra el rellotge encara que no estigui a pantalla completa"
   },
   "autoFullScreenLabel": {
     "message": "Pantalla completa automàtica"
   },
   "autoFullScreenDesc": {
-    "message": "Vés automàticament a pantalla completa quan algú presenta"
+    "message": "Passa automàticament a pantalla completa quan algú es presenta"
   },
   "transBarLabel": {
     "message": "Barra transparent"
@@ -60,115 +60,112 @@
     "message": "Fixa automàticament el xat"
   },
   "pinChatDesc": {
-    "message": "Es fixa automàticament la visualització de xat quan s uneix a Meet"
+    "message": "Fixa automàticament la vista de xat quan us uniu a Meet"
   },
   "copyUrlLabel": {
-    "message": "Copia automàtica URL Meet"
+    "message": "Copia automàticament l&#39;URL de Meet"
   },
   "copyUrlDesc": {
-    "message": "Copieu automàticament l URL de Meet al porta-retalls"
+    "message": "Copia automàticament l&#39;URL de Meet al porta-retalls"
   },
   "hideTopBarLabel": {
-    "message": "Amaga la barra superior automàticament"
+    "message": "Oculta automàticament la barra superior"
   },
   "hideTopBarDesc": {
-    "message": "Amagueu la barra superior quan la barra inferior desaparegui"
+    "message": "Amaga la barra superior quan desaparegui la barra inferior"
   },
   "darkModeLabel": {
     "message": "Mode fosc"
   },
   "darkModeDesc": {
-    "message": "Fa que el mode fosc de Google Meet"
+    "message": "Fa Google Meet en mode fosc"
   },
   "pipLabel": {
     "message": "Imatge en imatge"
   },
   "pipDesc": {
-    "message": "Visualitzeu un vídeo dels participants en imatge en imatge"
+    "message": "Veure un vídeo dels participants en imatge en imatge"
   },
   "mirrorVideosLabel": {
-    "message": "Mirall de vídeos"
+    "message": "Vídeos miralls"
   },
   "mirrorVideosDesc": {
-    "message": "Es reflecteixen tots els vídeos de Meet"
+    "message": "Reflecteix tots els vídeos del Meet"
   },
   "activeTabLabel": {
-    "message": "Pestanya Cerca activa"
+    "message": "Trobeu la pestanya Active Meet"
   },
   "activeTabDesc": {
-    "message": "Feu clic a la icona de l extensió per trobar la pestanya Meet activa"
+    "message": "Feu clic a la icona de l&#39;extensió per trobar la pestanya de Meet activa"
   },
   "quickEmojiLabel": {
-    "message": "Reaccions ràpides d emoji"
+    "message": "Reaccions ràpides amb emoji"
   },
   "quickEmojiDesc": {
-    "message": "Afegeix dreceres ràpides d emoji a la finestra del xat"
+    "message": "Afegeix dreceres ràpides d&#39;emojis a la finestra de xat"
   },
   "timerLabel": {
     "message": "Temporitzador de reunions"
   },
   "timerDesc": {
-    "message": "Mostra un temporitzador de reunions a la barra de pestanyes inferior"
+    "message": "Mostra un temporitzador de reunió a la barra de pestanyes inferior"
   },
   "toggleBarLabel": {
-    "message": "Commuta la barra inferior"
+    "message": "Alterna la barra inferior"
   },
   "toggleBarDesc": {
-    "message": "Alterneu la barra de control inferior perquè aparegui"
+    "message": "Commuta la barra de control inferior perquè aparegui"
   },
   "speakerBorderLabel": {
-    "message": "Destacat dels altaveus"
+    "message": "Destacat de l&#39;altaveu"
   },
   "speakerBorderDesc": {
-    "message": "Afegeix una vora al voltant dels participants parlants"
+    "message": "Afegeix una vora al voltant dels participants que parlen"
   },
   "autoRejectLabel": {
-    "message": "Denegació automàtica de nous entrants"
+    "message": "Denegació automàtica de nous participants"
   },
   "autoRejectDesc": {
-    "message": "Denega automàticament els nous participants al Meet"
+    "message": "Denega automàticament nous participants al Meet"
   },
   "autoAdmitLabel": {
-    "message": "Admet automàticament entrants nous"
+    "message": "Admissió automàtica de nous participants"
   },
   "autoAdmitDesc": {
-    "message": "Admet automàticament els nous participants al Meet"
+    "message": "Admet automàticament nous participants al Meet"
   },
   "autoUnmuteLabel": {
-    "message": "Deixa de silenciar automàticament"
+    "message": "Activació automàtica del so"
   },
   "autoUnmuteDesc": {
-    "message": "Deixeu que altres persones silenciïn el vostre micròfon"
+    "message": "Eviteu que altres persones silenciin el vostre micròfon"
   },
   "removeAllLabel": {
     "message": "Esborra-ho tot"
   },
   "removeAllDesc": {
-    "message": "Elimineu tots els participants mitjançant el menú de participants"
+    "message": "Elimina tots els participants mitjançant el menú de participants"
   },
   "muteAllLabel": {
-    "message": "Silencia tots"
+    "message": "Silencia tot"
   },
   "muteAllDesc": {
-    "message": "Silencia tots els participants mitjançant el menú dels participants"
+    "message": "Silencia tots els participants mitjançant el menú de participants"
   },
   "attendanceLabel": {
-    "message": "Prendre assistència"
+    "message": "Pren Assistència"
   },
   "attendanceDesc": {
-    "message": "Captureu l assistència a la reunió i exporteu-la a un CSV"
+    "message": "Captura l&#39;assistència a la reunió i exporta a un CSV"
   },
   "doNotDisturbLabel": {
     "message": "No molestar"
   },
   "doNotDisturbDesc": {
-    "message": "Silencia tots els sons de les notificacions de Meet, amaga el comentari nou"
-  },
-  "doNotDisturbSoundsDesc": {
-    "message": "Silencia tots els sons de les notificacions de Meet"
+    "message": "Amaga el comentari nou"
   },
   "doNotDisturbCommentsDesc": {
-    "message": "Amaga els comentaris i s uneixen les finestres emergents"
+    "message": "Amaga els comentaris i les finestres emergents d&#39;unió dels usuaris"
   },
   "doNotDisturbCommentsBubbleDesc": {
     "message": "Amaga la bombolla de notificació de comentaris"
@@ -177,136 +174,139 @@
     "message": "Ordena la llista de participants"
   },
   "sortParticipantsDesc": {
-    "message": "Afegeix un commutador a la llista de participants per ordenar per cognom"
+    "message": "Afegeix un commutador a la llista de participants per ordenar-los per cognom"
   },
   "autoRecordLabel": {
     "message": "Enregistrament automàtic"
   },
   "autoRecordDesc": {
-    "message": "Comenceu a gravar automàticament Meet (es requereix Google Workspace)"
+    "message": "Comença automàticament a gravar el Meet (cal Google Workspace)"
   },
   "autoRecordDescOne": {
-    "message": "Comenceu a gravar automàticament"
+    "message": "Inicia la gravació automàticament"
   },
   "autoRecordDescTwo": {
-    "message": "Comenceu a gravar manualment"
+    "message": "Inicia la gravació manualment"
+  },
+  "autoRecordDescThree": {
+    "message": "Inicia la transcripció automàticament"
   },
   "proFeaturesSubHeading": {
-    "message": "Funcions Pro"
+    "message": "Característiques Pro"
   },
   "muchMore": {
     "message": "Molt més per venir!"
   },
   "viewRoadmap": {
-    "message": "Consulteu el nostre full de ruta"
+    "message": "Consulta el nostre full de ruta"
   },
   "seeFeatures": {
     "message": "per veure totes les funcions que tenim previstes"
   },
   "meetProSectionLabel": {
-    "message": "Obteniu Meet Pro"
+    "message": "Aconsegueix Meet Pro"
   },
   "meetProSectionDesc": {
-    "message": "Si actualitzeu a Meet Pro, obtindreu accés a més de 20 funcions noves que portaran Google Meet al següent nivell."
+    "message": "Si actualitzeu a Meet Pro, teniu accés a més de 25 funcions noves que porten Google Meet al següent nivell."
   },
   "meetProButtonLabel": {
-    "message": "Obteniu Meet Pro avui"
+    "message": "Inicieu la prova gratuïta de 7 dies"
   },
   "activateLicenseButtonLabel": {
-    "message": "o Activa la llicència"
+    "message": "o Activar la llicència"
   },
   "activateLabel": {
-    "message": "Activa"
+    "message": "Activar"
   },
   "emojiToolTipDesc": {
-    "message": "Aquesta funció està activada de manera predeterminada i podeu accedir-hi des de la finestra de xat de Google Meet"
+    "message": "Aquesta funció està activada de manera predeterminada i hi podeu accedir des de la finestra de xat de Google Meet"
   },
   "generalToolTipDesc": {
-    "message": "Aquesta funció està activada de manera predeterminada i podeu accedir-hi des del menú de participants a Google Meet"
+    "message": "Aquesta funció està activada de manera predeterminada i hi podeu accedir des del menú de participants de Google Meet"
   },
   "title": {
-    "message": "Meet Enhancement Suite"
+    "message": "Coneix Enhancement Suite"
   },
   "basicFeatures": {
-    "message": "Funcions bàsiques"
+    "message": "Característiques bàsiques"
   },
   "pttLabel": {
-    "message": "Push to Talk"
+    "message": "Premeu per parlar"
   },
   "pttDesc": {
-    "message": "Mantingueu premuda la tecla de selecció ràpida per deixar de silenciar"
+    "message": "Mantén premuda la tecla d&#39;accés ràpid per activar el so"
   },
   "pttUpgrade": {
-    "message": "Actualitzeu a Pro per configurar la vostra pròpia vinculació de claus"
+    "message": "Actualitza a Pro per configurar la teva pròpia vinculació de claus"
   },
   "autoJoinLabel": {
     "message": "Unió automàtica"
   },
   "autoJoinDesc": {
-    "message": "Uniu-vos a la reunió automàticament"
+    "message": "Uneix-te a la reunió automàticament"
   },
   "autoJoinDescOption": {
-    "message": "Uniu-vos a la reunió només quan els participants hi siguin presents"
+    "message": "Uniu-vos a la reunió només quan hi hagi participants presents"
   },
   "quickLeaveLabel": {
-    "message": "Permís ràpid"
+    "message": "Excedència ràpida"
   },
   "quickLeaveDesc": {
-    "message": "Utilitzeu la tecla de drecera per deixar una trucada"
+    "message": "Utilitzeu la tecla d&#39;accés ràpid per deixar una trucada"
   },
   "leaveConfirmLabel": {
     "message": "Deixa la confirmació"
   },
   "leaveConfirmDesc": {
-    "message": "Demaneu confirmació quan sortiu de la reunió"
+    "message": "Demaneu confirmació quan sortiu d&#39;una reunió"
   },
   "returnHomeLabel": {
-    "message": "Torna a la pantalla d inici en penjar"
+    "message": "Torna a la pantalla d&#39;inici en penjar"
   },
   "returnHomeDesc": {
-    "message": "Torna a la pantalla d inici de Meet després de sortir de Meet"
+    "message": "Torna a la pantalla d&#39;inici de Meet després de sortir d&#39;un Meet"
   },
   "chimesLabel": {
-    "message": "Sempre juga a campanades"
+    "message": "Toca sempre Chimes"
   },
   "chimesDesc": {
-    "message": "Escolteu sempre els sons de la campanada quan els participants s’uneixen i surten, o un quan es rep un missatge de xat nou"
+    "message": "Escolteu sempre els sons de campana quan els participants s&#39;uneixen i surten, o quan es rep un missatge de xat nou"
   },
   "desktopLabel": {
-    "message": "Obriu els enllaços Meet a l aplicació d escriptori"
+    "message": "Obriu els enllaços de Meet a l&#39;aplicació d&#39;escriptori"
   },
   "desktopDesc": {
-    "message": "Feu que tots els enllaços de Google Cal s obrin a"
+    "message": "Feu que tots els enllaços de Google Cal s&#39;obrin al"
   },
   "desktopApp": {
-    "message": "aplicació d escriptori"
+    "message": "aplicació d&#39;escriptori"
   },
   "captionsLabel": {
     "message": "Subtítols automàtics"
   },
   "captionsDesc": {
-    "message": "Activa els subtítols automàticament"
+    "message": "Activació automàtica dels subtítols"
   },
   "autoMuteLabel": {
-    "message": "Silencia automàtic"
+    "message": "Silència automàtica"
   },
   "autoMuteDesc": {
-    "message": "Silencia el micròfon automàticament en unir-se"
+    "message": "Silencia automàticament el micròfon en unir-se"
   },
   "autoVideoLabel": {
-    "message": "Desactivació automàtica del vídeo"
+    "message": "Vídeo apagat automàticament"
   },
   "autoVideoDesc": {
-    "message": "Estableix el vídeo per desactivar la participació"
+    "message": "Estableix el vídeo per desactivar-se en unir-se"
   },
   "pinBarLabel": {
-    "message": "Barra inferior de pin"
+    "message": "Pin Barra inferior"
   },
   "pinBarDesc": {
-    "message": "Fixeu la barra de control a la part inferior de la pantalla"
+    "message": "Fixa la barra de control a la part inferior de la pantalla"
   },
   "partVidStyleLabel": {
-    "message": "Estil de vídeo participant"
+    "message": "Estil de vídeo del participant"
   },
   "alwaysShowLabel": {
     "message": "Mostra sempre els noms dels participants"
@@ -315,12 +315,12 @@
     "message": "Amaga els noms dels participants"
   },
   "hideSpeakingIcons": {
-    "message": "Amaga les icones que parlen els participants"
+    "message": "Amaga les icones de parlant dels participants"
   },
   "bgColorLabel": {
     "message": "Estableix el color de fons"
   },
   "bgColorDesc": {
-    "message": "Definiu un color de fons personalitzat a Meet"
+    "message": "Estableix el color de fons personalitzat al Meet"
   }
 }

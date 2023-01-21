@@ -3,16 +3,16 @@
     "message": "Ignorer presentasjonsoverlegg automatisk"
   },
   "ignorePresentationModalDesc": {
-    "message": "Skjul automatisk uendelig speilvarsel når du presenterer"
+    "message": "Skjul &quot;uendelig speil&quot;-varsel automatisk når du presenterer"
   },
   "autoMinimizeLabel": {
     "message": "Minimer video automatisk"
   },
   "autoMinimizeDesc": {
-    "message": "Minimer videoen din automatisk når du blir med på et møte"
+    "message": "Minimer videoen automatisk når du blir med på et møte"
   },
   "meetVolumeLabel": {
-    "message": "Juster Meet -volumet"
+    "message": "Juster Meet-volumet"
   },
   "meetVolumeDesc": {
     "message": "Juster volumnivået til Meet"
@@ -21,22 +21,22 @@
     "message": "Google Meet Enhancement Suite"
   },
   "extDesc": {
-    "message": "40 nye funksjoner for Google Meet, for eksempel å dempe alt, fjerne alt, automatisk innrømme, emojis, speilvideoer, bakgrunnsfarge og trykk og snakk!"
+    "message": "40 nye funksjoner for Google Meet, for eksempel dempe alle, fjern alle, automatisk innrømme, emojier, speilvideoer, bakgrunnsfarge og trykk og snakk!"
   },
   "startMeet": {
     "message": "Start et møte"
   },
   "mutePopupLabel": {
-    "message": "Skjul Mute Pop-up"
+    "message": "Skjul Demp popup"
   },
   "mutePopupDesc": {
     "message": "Skjuler &#39;Snakker du?&#39; popup når dempet"
   },
   "hideAddOthersLabel": {
-    "message": "Skjul popup-vinduet &quot;Legg til andre&quot;"
+    "message": "Skjul «Legg til andre»-popup"
   },
   "hideAddOthersDesc": {
-    "message": "Skjuler popup-vinduet &quot;Legg til andre&quot; når du blir med på et Meet"
+    "message": "Skjuler «Legg til andre»-popup-vinduet når du blir med i et Meet"
   },
   "displayClockLabel": {
     "message": "Vis klokke"
@@ -45,7 +45,7 @@
     "message": "Vis klokken selv når den ikke er i fullskjerm"
   },
   "autoFullScreenLabel": {
-    "message": "Automatisk fullskjerm"
+    "message": "Auto fullskjerm"
   },
   "autoFullScreenDesc": {
     "message": "Gå automatisk til fullskjerm når noen presenterer"
@@ -54,16 +54,16 @@
     "message": "Gjennomsiktig bar"
   },
   "transBarDesc": {
-    "message": "Gjør bunnstangen gjennomsiktig"
+    "message": "Gjør bunnlinjen gjennomsiktig"
   },
   "pinChatLabel": {
     "message": "Auto-pin Chat"
   },
   "pinChatDesc": {
-    "message": "Fest automatisk chatvisning når du blir med i Meet"
+    "message": "Fester chattevisning automatisk når du blir med i Meet"
   },
   "copyUrlLabel": {
-    "message": "URL for automatisk kopiering av møte"
+    "message": "Autokopier Meet URL"
   },
   "copyUrlDesc": {
     "message": "Kopier Meet URL automatisk til utklippstavlen"
@@ -84,13 +84,13 @@
     "message": "Bilde-i-bilde"
   },
   "pipDesc": {
-    "message": "Se en deltakers video i bilde-i-bilde"
+    "message": "Se en deltakervideo i bilde-i-bilde"
   },
   "mirrorVideosLabel": {
     "message": "Speilvideoer"
   },
   "mirrorVideosDesc": {
-    "message": "Speiler alle videoene i Meet"
+    "message": "Speiler alle videoer i Meet"
   },
   "activeTabLabel": {
     "message": "Finn Active Meet-fanen"
@@ -102,115 +102,115 @@
     "message": "Raske Emoji-reaksjoner"
   },
   "quickEmojiDesc": {
-    "message": "Legger til hurtige emoji-snarveier i chat-vinduet"
+    "message": "Legger til raske emoji-snarveier i chattevinduet"
   },
   "timerLabel": {
-    "message": "Møtetidsur"
+    "message": "Møtetimer"
   },
   "timerDesc": {
-    "message": "Viser en møtetimer i nederste fane"
+    "message": "Viser en møtetidtaker i nederste fanelinje"
   },
   "toggleBarLabel": {
-    "message": "Bytt bunnlinje"
+    "message": "Slå av bunnlinjen"
   },
   "toggleBarDesc": {
-    "message": "Bytt bunnkontrollinjen for å vises"
+    "message": "Slå den nederste kontrolllinjen for å vises"
   },
   "speakerBorderLabel": {
     "message": "Høyttalerhøydepunkt"
   },
   "speakerBorderDesc": {
-    "message": "Legger til en grense rundt talende deltakere"
+    "message": "Legger til en ramme rundt talende deltakere"
   },
   "autoRejectLabel": {
-    "message": "Auto nekt nye deltagere"
+    "message": "Auto nekte nye deltakere"
   },
   "autoRejectDesc": {
-    "message": "Nekter automatisk nye deltagere til Meet"
+    "message": "Avviser automatisk nye deltakere til Meet"
   },
   "autoAdmitLabel": {
-    "message": "Autoriser nye deltakere"
+    "message": "Ta automatisk inn nye deltakere"
   },
   "autoAdmitDesc": {
-    "message": "Innrømmer automatisk nye deltakere på Meet"
+    "message": "Tillater automatisk nye deltakere til Meet"
   },
   "autoUnmuteLabel": {
     "message": "Slå på lyden automatisk"
   },
   "autoUnmuteDesc": {
-    "message": "Stopp andre fra å dempe mikrofonen din"
+    "message": "Hindre andre fra å dempe mikrofonen din"
   },
   "removeAllLabel": {
     "message": "Fjern alle"
   },
   "removeAllDesc": {
-    "message": "Fjern alle deltakerne via deltakermenyen"
+    "message": "Fjern alle deltakere via deltakermenyen"
   },
   "muteAllLabel": {
     "message": "Demp alle"
   },
   "muteAllDesc": {
-    "message": "Demp alle deltakerne via deltakermenyen"
+    "message": "Demp alle deltakere via deltakermenyen"
   },
   "attendanceLabel": {
     "message": "Ta oppmøte"
   },
   "attendanceDesc": {
-    "message": "Fang opp møtedeltakelsen og eksporter til en CSV"
+    "message": "Fang opp deltakelsen på møtet og eksporter til en CSV"
   },
   "doNotDisturbLabel": {
     "message": "Ikke forstyrr"
   },
   "doNotDisturbDesc": {
-    "message": "Demp alle møtelydene fra Meet, skjul ny kommentar"
-  },
-  "doNotDisturbSoundsDesc": {
-    "message": "Demp alle Meet-varslingslyder"
+    "message": "Skjul ny kommentar"
   },
   "doNotDisturbCommentsDesc": {
-    "message": "Skjul kommentarer og brukere blir med i forgrunnsvinduer"
+    "message": "Skjul kommentarer og popup-vinduer for brukerblir"
   },
   "doNotDisturbCommentsBubbleDesc": {
-    "message": "Skjul varselboble for kommentarer"
+    "message": "Skjul kommentarvarslingsboblen"
   },
   "sortParticipantsLabel": {
     "message": "Sorter deltakerliste"
   },
   "sortParticipantsDesc": {
-    "message": "Legg til bytter til deltakerlisten for å sortere etter etternavn"
+    "message": "Legger til bryter i deltakerlisten for å sortere etter etternavn"
   },
   "autoRecordLabel": {
-    "message": "Automatisk opptak"
+    "message": "Autoopptak"
   },
   "autoRecordDesc": {
     "message": "Start automatisk opptak av Meet (Google Workspace kreves)"
   },
   "autoRecordDescOne": {
-    "message": "Start opptak automatisk"
+    "message": "Start opptaket automatisk"
   },
   "autoRecordDescTwo": {
-    "message": "Start innspillingen manuelt"
+    "message": "Start opptaket manuelt"
+  },
+  "autoRecordDescThree": {
+    "message": "Start transkripsjon automatisk"
   },
   "proFeaturesSubHeading": {
     "message": "Pro-funksjoner"
   },
   "muchMore": {
-    "message": "Mye mer fremover!"
+    "message": "Mye mer kommer!"
   },
   "viewRoadmap": {
-    "message": "Se veikartet vårt"
+    "message": "Se vårt veikart"
   },
   "seeFeatures": {
     "message": "for å se alle funksjonene vi har planlagt"
   },
   "meetProSectionLabel": {
-    "message": "Få Meet Pro"
+    "message": "Skaff deg Meet Pro"
   },
   "meetProSectionDesc": {
-    "message": "Ved å oppgradere til Meet Pro får du tilgang til over 20 nye funksjoner som tar Google Meet til neste nivå."
+    "message": "Ved å oppgradere til Meet Pro får du tilgang til over 25 nye funksjoner som tar Google Meet til neste nivå."
   },
   "meetProButtonLabel": {
-    "message": "Få Meet Pro i dag"
+    "message": "Start en 7-dagers gratis prøveperiode"
   },
   "activateLicenseButtonLabel": {
     "message": "eller Aktiver lisens"
@@ -219,10 +219,10 @@
     "message": "Aktiver"
   },
   "emojiToolTipDesc": {
-    "message": "Denne funksjonen er slått på som standard, og du kan få tilgang til den fra chattevinduet i Google Meet"
+    "message": "Denne funksjonen er på som standard, og du får tilgang til den fra chattevinduet i Google Meet"
   },
   "generalToolTipDesc": {
-    "message": "Denne funksjonen er slått på som standard, og du kan få tilgang til den fra deltakermenyen i Google Meet"
+    "message": "Denne funksjonen er på som standard, og du får tilgang til den fra deltakermenyen i Google Meet"
   },
   "title": {
     "message": "Møt Enhancement Suite"
@@ -234,34 +234,34 @@
     "message": "Trykk for å snakke"
   },
   "pttDesc": {
-    "message": "Hold hurtigtasten nede for å slå på lyden"
+    "message": "Hold nede hurtigtasten for å slå på lyden"
   },
   "pttUpgrade": {
     "message": "Oppgrader til Pro for å angi din egen nøkkelbinding"
   },
   "autoJoinLabel": {
-    "message": "Auto Join"
+    "message": "Bli med automatisk"
   },
   "autoJoinDesc": {
     "message": "Bli med på møtet automatisk"
   },
   "autoJoinDescOption": {
-    "message": "Bli med på møtet bare når deltakerne er til stede"
+    "message": "Bli med på møte kun når deltakere er tilstede"
   },
   "quickLeaveLabel": {
     "message": "Rask permisjon"
   },
   "quickLeaveDesc": {
-    "message": "Bruk hurtigtast for å ringe"
+    "message": "Bruk hurtigtasten for å forlate en samtale"
   },
   "leaveConfirmLabel": {
-    "message": "La bekreftelse"
+    "message": "Forlat bekreftelse"
   },
   "leaveConfirmDesc": {
     "message": "Be om å bekrefte når du forlater et møte"
   },
   "returnHomeLabel": {
-    "message": "Gå tilbake til startskjermbildet når du legger på"
+    "message": "Gå tilbake til startskjermen når du legger på"
   },
   "returnHomeDesc": {
     "message": "Går tilbake til Meet-startskjermen etter å ha forlatt et Meet"
@@ -270,43 +270,43 @@
     "message": "Spill alltid klokkespill"
   },
   "chimesDesc": {
-    "message": "Hør alltid klokkelyd når deltakerne blir med og forlater, eller når en ny chat-melding mottas"
+    "message": "Hør alltid ringelyder når deltakere blir med og går, eller når en ny chat-melding mottas"
   },
   "desktopLabel": {
-    "message": "Åpne Meet-koblinger i desktop-appen"
+    "message": "Åpne Meet-koblinger i skrivebordsappen"
   },
   "desktopDesc": {
     "message": "Gjør alle Google Cal-koblinger åpne i"
   },
   "desktopApp": {
-    "message": "desktop-app"
+    "message": "skrivebordsapp"
   },
   "captionsLabel": {
-    "message": "Auto Captions"
+    "message": "Auto bildetekster"
   },
   "captionsDesc": {
-    "message": "Slå på billedtekst automatisk"
+    "message": "Slå på teksting automatisk"
   },
   "autoMuteLabel": {
-    "message": "Demp automatisk"
+    "message": "Autodemp"
   },
   "autoMuteDesc": {
-    "message": "Demp mikrofonen automatisk ved sammenkobling"
+    "message": "Automatisk demping av mikrofon ved deltakelse"
   },
   "autoVideoLabel": {
     "message": "Automatisk video av"
   },
   "autoVideoDesc": {
-    "message": "Still inn video slik at den slås av når du blir med"
+    "message": "Angi video til å slå av deltakelse"
   },
   "pinBarLabel": {
-    "message": "Pinnebunnstang"
+    "message": "Pin Bottom Bar"
   },
   "pinBarDesc": {
-    "message": "Fest kontrollpanelet til bunnen av skjermen"
+    "message": "Fester kontrolllinjen til bunnen av skjermen"
   },
   "partVidStyleLabel": {
-    "message": "Deltaker Video Style"
+    "message": "Deltakervideostil"
   },
   "alwaysShowLabel": {
     "message": "Vis alltid deltakernavn"
@@ -315,12 +315,12 @@
     "message": "Skjul deltakernavn"
   },
   "hideSpeakingIcons": {
-    "message": "Skjul ikoner for deltakertaler"
+    "message": "Skjul deltaker som snakker ikoner"
   },
   "bgColorLabel": {
-    "message": "Sett bakgrunnsfarge"
+    "message": "Angi bakgrunnsfarge"
   },
   "bgColorDesc": {
-    "message": "Angi tilpasset bakgrunnsfarge i Meet"
+    "message": "Angi egendefinert bakgrunnsfarge i Meet"
   }
 }

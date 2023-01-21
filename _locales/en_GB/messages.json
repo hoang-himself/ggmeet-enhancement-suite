@@ -177,7 +177,7 @@
     "message": "Adds toggle to the participant list to sort by last name"
   },
   "autoRecordLabel": {
-    "message": "Auto Record"
+    "message": "Auto Record & Transcribe"
   },
   "autoRecordDesc": {
     "message": "Automatically start recording the Meet (Google Workspace required)"
@@ -187,6 +187,9 @@
   },
   "autoRecordDescTwo": {
     "message": "Manually start recording"
+  },
+  "autoRecordDescThree": {
+    "message": "Automatically start transcription"
   },
   "proFeaturesSubHeading": {
     "message": "Pro Features"

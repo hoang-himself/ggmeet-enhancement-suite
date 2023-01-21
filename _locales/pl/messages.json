@@ -1,15 +1,15 @@
 {
   "ignorePresentationModalLabel": {
-    "message": "Automatycznie ignoruj nakładkę prezentacji"
+    "message": "Automatyczne ignorowanie nakładki prezentacji"
   },
   "ignorePresentationModalDesc": {
-    "message": "Automatyczne ukrywanie alertu lustra nieskończoności podczas prezentacji"
+    "message": "Automatyczne ukrywanie alertu „lustro nieskończoności” podczas prezentacji"
   },
   "autoMinimizeLabel": {
-    "message": "Automatycznie minimalizuj wideo"
+    "message": "Automatyczna minimalizacja wideo"
   },
   "autoMinimizeDesc": {
-    "message": "Automatycznie minimalizuj swój film, gdy dołączasz do spotkania"
+    "message": "Automatycznie minimalizuj wideo, gdy dołączasz do spotkania"
   },
   "meetVolumeLabel": {
     "message": "Dostosuj głośność spotkania"
@@ -18,10 +18,10 @@
     "message": "Dostosuj poziom głośności Meet"
   },
   "extName": {
-    "message": "Google Meet Enhancement Suite"
+    "message": "Pakiet ulepszeń Google Meet"
   },
   "extDesc": {
-    "message": "40 nowych funkcji Google Meet, takich jak wyciszenie, usunięcie wszystkich, automatyczne przyznanie, emotikony, lustrzane odbicia wideo, kolor tła i funkcja „Naciśnij i mów”."
+    "message": "40 nowych funkcji Google Meet, takich jak wyciszanie wszystkich, usuwanie wszystkich, automatyczne przyjmowanie, emotikony, lustrzane odbicie wideo, kolor tła i funkcja „Naciśnij i mów”!"
   },
   "startMeet": {
     "message": "Rozpocznij spotkanie"
@@ -30,19 +30,19 @@
     "message": "Ukryj wyskakujące okienko wyciszenia"
   },
   "mutePopupDesc": {
-    "message": "Ukrywa „Czy mówisz?” wyskakujące okienko po wyciszeniu"
+    "message": "Ukrywa „Czy mówisz?” wyskakujące okienko, gdy jest wyciszony"
   },
   "hideAddOthersLabel": {
-    "message": "Ukryj wyskakujące okienko „Dodaj inne”"
+    "message": "Ukryj wyskakujące okienko „Dodaj innych”."
   },
   "hideAddOthersDesc": {
-    "message": "Ukrywa wyskakujące okienko „Dodaj inne” podczas dołączania do Meet"
+    "message": "Ukrywa wyskakujące okienko „Dodaj innych” podczas dołączania do spotkania"
   },
   "displayClockLabel": {
     "message": "Wyświetl zegar"
   },
   "displayClockDesc": {
-    "message": "Wyświetlaj zegar, nawet gdy nie jest w trybie pełnoekranowym"
+    "message": "Wyświetlaj zegar, nawet jeśli nie jest w trybie pełnego ekranu"
   },
   "autoFullScreenLabel": {
     "message": "Automatyczny pełny ekran"
@@ -57,43 +57,43 @@
     "message": "Spraw, aby dolny pasek był przezroczysty"
   },
   "pinChatLabel": {
-    "message": "Automatyczne przypinanie czatu"
+    "message": "Czat z automatycznym przypinaniem"
   },
   "pinChatDesc": {
     "message": "Automatycznie przypina widok czatu podczas dołączania do Meet"
   },
   "copyUrlLabel": {
-    "message": "Automatycznie kopiuj adres URL Meet"
+    "message": "Automatycznie kopiuj URL Meet"
   },
   "copyUrlDesc": {
-    "message": "Automatycznie skopiuj adres URL Meet do schowka"
+    "message": "Automatycznie kopiuj adres URL Meet do schowka"
   },
   "hideTopBarLabel": {
-    "message": "Automatycznie ukryj górny pasek"
+    "message": "Automatyczne ukrywanie górnego paska"
   },
   "hideTopBarDesc": {
-    "message": "Ukryj górny pasek, gdy zniknie dolny"
+    "message": "Ukryj górny pasek, gdy dolny pasek zniknie"
   },
   "darkModeLabel": {
     "message": "Tryb ciemny"
   },
   "darkModeDesc": {
-    "message": "Włącza tryb ciemny w Google Meet"
+    "message": "Przełącza Google Meet w tryb ciemny"
   },
   "pipLabel": {
     "message": "Obrazek w obrazku"
   },
   "pipDesc": {
-    "message": "Obejrzyj wideo uczestników w trybie „obraz w obrazie”"
+    "message": "Zobacz wideo uczestników w trybie obrazu w obrazie"
   },
   "mirrorVideosLabel": {
-    "message": "Odbicie lustrzane wideo"
+    "message": "Lustrzane filmy"
   },
   "mirrorVideosDesc": {
     "message": "Odzwierciedla wszystkie filmy w Meet"
   },
   "activeTabLabel": {
-    "message": "Znajdź kartę aktywnego spotkania"
+    "message": "Znajdź aktywną kartę Meet"
   },
   "activeTabDesc": {
     "message": "Kliknij ikonę rozszerzenia, aby znaleźć aktywną kartę Meet"
@@ -105,7 +105,7 @@
     "message": "Dodaje szybkie skróty emoji do okna czatu"
   },
   "timerLabel": {
-    "message": "Minutnik spotkań"
+    "message": "Minutnik spotkania"
   },
   "timerDesc": {
     "message": "Wyświetla licznik czasu spotkania na dolnym pasku kart"
@@ -114,31 +114,31 @@
     "message": "Przełącz dolny pasek"
   },
   "toggleBarDesc": {
-    "message": "Przełącz dolny pasek sterowania, aby się pojawił"
+    "message": "Przełącz dolny pasek kontrolny, aby się pojawił"
   },
   "speakerBorderLabel": {
-    "message": "Podświetlenie głośnika"
+    "message": "Wyróżnienie głośnika"
   },
   "speakerBorderDesc": {
-    "message": "Dodaje ramkę wokół mówiących uczestników"
+    "message": "Dodaje obramowanie wokół mówiących uczestników"
   },
   "autoRejectLabel": {
-    "message": "Automatycznie odmawiaj nowym uczestnikom"
+    "message": "Automatyczne odrzucanie nowych uczestników"
   },
   "autoRejectDesc": {
-    "message": "Automatycznie odmawia nowym uczestnikom spotkania"
+    "message": "Automatycznie odrzuca nowych uczestników spotkania"
   },
   "autoAdmitLabel": {
     "message": "Automatyczne przyjmowanie nowych uczestników"
   },
   "autoAdmitDesc": {
-    "message": "Automatycznie przyjmuje nowych uczestników do Meet"
+    "message": "Automatycznie dopuszcza nowych uczestników do spotkania"
   },
   "autoUnmuteLabel": {
-    "message": "Automatyczne wyłączanie wyciszenia"
+    "message": "Automatyczne wyłączenie wyciszenia"
   },
   "autoUnmuteDesc": {
-    "message": "Nie pozwól innym wyciszyć Twojego mikrofonu"
+    "message": "Powstrzymaj innych przed wyciszeniem Twojego mikrofonu"
   },
   "removeAllLabel": {
     "message": "Usuń wszystko"
@@ -162,10 +162,7 @@
     "message": "Nie przeszkadzać"
   },
   "doNotDisturbDesc": {
-    "message": "Wycisz wszystkie dźwięki powiadomień Meet, ukryj nowy komentarz"
-  },
-  "doNotDisturbSoundsDesc": {
-    "message": "Wycisz wszystkie dźwięki powiadomień Meet"
+    "message": "Ukryj nowy komentarz"
   },
   "doNotDisturbCommentsDesc": {
     "message": "Ukryj komentarze i wyskakujące okienka dołączania użytkowników"
@@ -177,19 +174,22 @@
     "message": "Sortuj listę uczestników"
   },
   "sortParticipantsDesc": {
-    "message": "Dodaje przełącznik do listy uczestników, aby sortować według nazwiska"
+    "message": "Dodaje przełącznik do listy uczestników w celu sortowania według nazwiska"
   },
   "autoRecordLabel": {
     "message": "Automatyczne nagrywanie"
   },
   "autoRecordDesc": {
-    "message": "Automatycznie rozpocznij nagrywanie Meet (wymagane Google Workspace)"
+    "message": "Automatycznie rozpocznij nagrywanie Meet (wymagany Google Workspace)"
   },
   "autoRecordDescOne": {
     "message": "Automatycznie rozpocznij nagrywanie"
   },
   "autoRecordDescTwo": {
-    "message": "Ręczne rozpoczęcie nagrywania"
+    "message": "Ręcznie rozpocznij nagrywanie"
+  },
+  "autoRecordDescThree": {
+    "message": "Automatycznie rozpocznij transkrypcję"
   },
   "proFeaturesSubHeading": {
     "message": "Funkcje profesjonalne"
@@ -204,13 +204,13 @@
     "message": "aby zobaczyć wszystkie funkcje, które zaplanowaliśmy"
   },
   "meetProSectionLabel": {
-    "message": "Poznaj Pro"
+    "message": "Pobierz Meet Pro"
   },
   "meetProSectionDesc": {
-    "message": "Przechodząc na Meet Pro, zyskujesz dostęp do ponad 20 nowych funkcji, które przenoszą Google Meet na wyższy poziom."
+    "message": "Przechodząc na Meet Pro, zyskujesz dostęp do ponad 25 nowych funkcji, które przenoszą Google Meet na wyższy poziom."
   },
   "meetProButtonLabel": {
-    "message": "Zdobądź Meet Pro już dziś"
+    "message": "Rozpocznij 7-dniowy bezpłatny okres próbny"
   },
   "activateLicenseButtonLabel": {
     "message": "lub Aktywuj licencję"
@@ -219,7 +219,7 @@
     "message": "Aktywuj"
   },
   "emojiToolTipDesc": {
-    "message": "Ta funkcja jest domyślnie włączona i możesz uzyskać do niej dostęp w oknie czatu w Google Meet"
+    "message": "Ta funkcja jest domyślnie włączona i możesz uzyskać do niej dostęp z okna czatu w Google Meet"
   },
   "generalToolTipDesc": {
     "message": "Ta funkcja jest domyślnie włączona i możesz uzyskać do niej dostęp z menu uczestników w Google Meet"
@@ -237,7 +237,7 @@
     "message": "Przytrzymaj klawisz skrótu, aby wyłączyć wyciszenie"
   },
   "pttUpgrade": {
-    "message": "Uaktualnij do wersji Pro, aby ustawić własne powiązanie klawiszy"
+    "message": "Zaktualizuj do wersji Pro, aby ustawić własne powiązanie klawiszy"
   },
   "autoJoinLabel": {
     "message": "Dołącz automatycznie"
@@ -246,64 +246,64 @@
     "message": "Dołącz do spotkania automatycznie"
   },
   "autoJoinDescOption": {
-    "message": "Dołącz do spotkania tylko wtedy, gdy uczestnicy są obecni"
+    "message": "Dołącz do spotkania tylko wtedy, gdy obecni są uczestnicy"
   },
   "quickLeaveLabel": {
-    "message": "Szybkie wyjście"
+    "message": "Szybki urlop"
   },
   "quickLeaveDesc": {
-    "message": "Użyj skrótu, aby opuścić połączenie"
+    "message": "Użyj klawisza skrótu, aby opuścić połączenie"
   },
   "leaveConfirmLabel": {
-    "message": "Potwierdzenie wyjazdu"
+    "message": "Zostaw potwierdzenie"
   },
   "leaveConfirmDesc": {
-    "message": "Poproś o potwierdzenie, kiedy opuścisz spotkanie"
+    "message": "Poproś o potwierdzenie opuszczania spotkania"
   },
   "returnHomeLabel": {
-    "message": "Wróć do ekranu głównego po rozłączeniu"
+    "message": "Powrót do ekranu głównego po rozłączeniu"
   },
   "returnHomeDesc": {
-    "message": "Powraca do ekranu głównego Meet po opuszczeniu Meet"
+    "message": "Powrót do ekranu głównego Meet po opuszczeniu Meet"
   },
   "chimesLabel": {
-    "message": "Zawsze graj w dzwonki"
+    "message": "Zawsze odtwarzaj dzwonki"
   },
   "chimesDesc": {
-    "message": "Zawsze słysz dźwięki gongu, gdy uczestnicy dołączają i wychodzą lub gdy odbierana jest nowa wiadomość na czacie"
+    "message": "Zawsze słuchaj dźwięków gongu, gdy uczestnicy dołączają i wychodzą, lub gdy odbierana jest nowa wiadomość na czacie"
   },
   "desktopLabel": {
-    "message": "Otwórz linki do Meet w aplikacji komputerowej"
+    "message": "Otwórz linki Meet w aplikacji komputerowej"
   },
   "desktopDesc": {
-    "message": "Spraw, by wszystkie linki Google Cal były otwarte w in"
+    "message": "Otwórz wszystkie linki Google Cal w"
   },
   "desktopApp": {
     "message": "aplikacja komputerowa"
   },
   "captionsLabel": {
-    "message": "Automatyczne napisy"
+    "message": "Napisy automatyczne"
   },
   "captionsDesc": {
     "message": "Automatyczne włączanie napisów"
   },
   "autoMuteLabel": {
-    "message": "Automatyczne wyciszanie"
+    "message": "Automatyczne wyciszenie"
   },
   "autoMuteDesc": {
-    "message": "Automatycznie wycisz mikrofon przy dołączaniu"
+    "message": "Automatyczne wyciszanie mikrofonu po dołączeniu"
   },
   "autoVideoLabel": {
-    "message": "Automatyczne wył. wideo"
+    "message": "Automatyczne wyłączanie wideo"
   },
   "autoVideoDesc": {
-    "message": "Ustaw wideo, aby wyłączyć przy dołączaniu"
+    "message": "Ustaw wideo, aby wyłączało się przy dołączaniu"
   },
   "pinBarLabel": {
     "message": "Przypnij dolny pasek"
   },
   "pinBarDesc": {
-    "message": "Przypina pasek sterowania na dole ekranu"
+    "message": "Przypina pasek kontrolny u dołu ekranu"
   },
   "partVidStyleLabel": {
     "message": "Styl wideo uczestnika"
@@ -315,7 +315,7 @@
     "message": "Ukryj nazwy uczestników"
   },
   "hideSpeakingIcons": {
-    "message": "Ukryj ikony mówiące uczestnika"
+    "message": "Ukryj ikony mówiącego uczestnika"
   },
   "bgColorLabel": {
     "message": "Ustaw kolor tła"

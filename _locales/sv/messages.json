@@ -3,16 +3,16 @@
     "message": "Ignorera presentationsöverlägg automatiskt"
   },
   "ignorePresentationModalDesc": {
-    "message": "Automatisk dölj oändlighetsspegelvarning vid presentation"
+    "message": "Dölj &quot;oändlighetsspegel&quot;-varning automatiskt när du presenterar"
   },
   "autoMinimizeLabel": {
-    "message": "Minimera video automatiskt"
+    "message": "Auto-minimera video"
   },
   "autoMinimizeDesc": {
     "message": "Minimera din video automatiskt när du går med i ett möte"
   },
   "meetVolumeLabel": {
-    "message": "Justera Meet -volymen"
+    "message": "Justera Meet-volymen"
   },
   "meetVolumeDesc": {
     "message": "Justera volymnivån för Meet"
@@ -21,22 +21,22 @@
     "message": "Google Meet Enhancement Suite"
   },
   "extDesc": {
-    "message": "40 nya funktioner för Google Meet, som att stänga av alla, ta bort alla, automatiskt erkänna, emojis, spegla videor, bakgrundsfärg och tryck och prata!"
+    "message": "40 nya funktioner för Google Meet som tysta alla, ta bort alla, automatiskt erkänna, emojis, spegelvideor, bakgrundsfärg och talknappstjänst!"
   },
   "startMeet": {
     "message": "Starta ett möte"
   },
   "mutePopupLabel": {
-    "message": "Dölj Mute Popup"
+    "message": "Dölj tyst popup"
   },
   "mutePopupDesc": {
-    "message": "Döljer &quot;Pratar du?&quot; popup när den är avstängd"
+    "message": "Döljer &#39;Pratar du?&#39; popup när ljudet är avstängt"
   },
   "hideAddOthersLabel": {
-    "message": "Dölj popup-fönstret &quot;Lägg till andra&quot;"
+    "message": "Dölj popup-fönstret &quot;Lägg till andra&quot;."
   },
   "hideAddOthersDesc": {
-    "message": "Döljer popup-fönstret &quot;Lägg till andra&quot; när du går med i ett Meet"
+    "message": "Döljer popup-fönstret &quot;Lägg till andra&quot; när du går med i ett möte"
   },
   "displayClockLabel": {
     "message": "Visa klocka"
@@ -48,31 +48,31 @@
     "message": "Auto helskärm"
   },
   "autoFullScreenDesc": {
-    "message": "Gå automatiskt till helskärmsläge när någon presenterar"
+    "message": "Gå automatiskt till helskärm när någon presenterar"
   },
   "transBarLabel": {
     "message": "Transparent bar"
   },
   "transBarDesc": {
-    "message": "Gör bottenstången transparent"
+    "message": "Gör den nedre stapeln genomskinlig"
   },
   "pinChatLabel": {
-    "message": "Auto-pin chatt"
+    "message": "Auto-pin Chat"
   },
   "pinChatDesc": {
-    "message": "Stiftar automatiskt chattvyn när du går med i Meet"
+    "message": "Fäst chattvy automatiskt när du går med i Meet"
   },
   "copyUrlLabel": {
-    "message": "URL för automatisk kopiering av möte"
+    "message": "Kopiera Meet URL automatiskt"
   },
   "copyUrlDesc": {
-    "message": "Kopiera Meet-URL automatiskt till Urklipp"
+    "message": "Kopiera Meet URL automatiskt till urklipp"
   },
   "hideTopBarLabel": {
-    "message": "Dölj automatisk översta fältet"
+    "message": "Auto Hide Top Bar"
   },
   "hideTopBarDesc": {
-    "message": "Dölj det övre fältet när det nedre fältet försvinner"
+    "message": "Göm den översta raden när den nedre fältet försvinner"
   },
   "darkModeLabel": {
     "message": "Mörkt läge"
@@ -81,10 +81,10 @@
     "message": "Gör Google Meet mörkt läge"
   },
   "pipLabel": {
-    "message": "Bild i bild"
+    "message": "Bild-i-bild"
   },
   "pipDesc": {
-    "message": "Visa en deltagares video i bild-i-bild"
+    "message": "Se en deltagares video i bild-i-bild"
   },
   "mirrorVideosLabel": {
     "message": "Spegelvideor"
@@ -93,49 +93,49 @@
     "message": "Speglar alla videor i Meet"
   },
   "activeTabLabel": {
-    "message": "Hitta fliken Active Meet"
+    "message": "Hitta Active Meet-fliken"
   },
   "activeTabDesc": {
     "message": "Klicka på tilläggsikonen för att hitta den aktiva Meet-fliken"
   },
   "quickEmojiLabel": {
-    "message": "Snabba Emoji-reaktioner"
+    "message": "Snabba emoji-reaktioner"
   },
   "quickEmojiDesc": {
-    "message": "Lägger till snabba emoji-genvägar i chattfönstret"
+    "message": "Lägger till snabba emoji-genvägar till chattfönstret"
   },
   "timerLabel": {
-    "message": "Mötestimern"
+    "message": "Mötestimer"
   },
   "timerDesc": {
-    "message": "Visar en mötestimer i nedre flikfältet"
+    "message": "Visar en mötestimer i nedre flikraden"
   },
   "toggleBarLabel": {
-    "message": "Växla nedre stapeln"
+    "message": "Växla nedre fältet"
   },
   "toggleBarDesc": {
-    "message": "Växla det nedre kontrollfältet för att visas"
+    "message": "Växla den nedre kontrollfältet för att visas"
   },
   "speakerBorderLabel": {
-    "message": "Högtalarhöjdpunkt"
+    "message": "Högtalare"
   },
   "speakerBorderDesc": {
-    "message": "Lägger till en gräns runt talande deltagare"
+    "message": "Lägger till en ram runt talande deltagare"
   },
   "autoRejectLabel": {
     "message": "Auto neka nya deltagare"
   },
   "autoRejectDesc": {
-    "message": "Nekar automatiskt nya deltagare till Meet"
+    "message": "Avvisar automatiskt nya deltagare till mötet"
   },
   "autoAdmitLabel": {
-    "message": "Godkänn nya deltagare automatiskt"
+    "message": "Automatiskt släpp in nya deltagare"
   },
   "autoAdmitDesc": {
-    "message": "Medger automatiskt nya deltagare till Meet"
+    "message": "Tillåter automatiskt nya deltagare till mötet"
   },
   "autoUnmuteLabel": {
-    "message": "Slå på ljudet automatiskt"
+    "message": "Automatisk avstängning"
   },
   "autoUnmuteDesc": {
     "message": "Stoppa andra från att stänga av din mikrofon"
@@ -144,46 +144,43 @@
     "message": "Ta bort alla"
   },
   "removeAllDesc": {
-    "message": "Ta bort alla deltagare via deltagarnas meny"
+    "message": "Ta bort alla deltagare via deltagarmenyn"
   },
   "muteAllLabel": {
     "message": "Tysta alla"
   },
   "muteAllDesc": {
-    "message": "Stäng av alla deltagare via deltagarnas meny"
+    "message": "Stäng av alla deltagare via deltagarmenyn"
   },
   "attendanceLabel": {
     "message": "Ta närvaro"
   },
   "attendanceDesc": {
-    "message": "Fånga mötets närvaro och exportera till en CSV"
+    "message": "Fånga närvaron av mötet och exportera till en CSV"
   },
   "doNotDisturbLabel": {
     "message": "Stör inte"
   },
   "doNotDisturbDesc": {
-    "message": "Stäng av alla Meet-meddelandeljud, dölj ny kommentar"
-  },
-  "doNotDisturbSoundsDesc": {
-    "message": "Stäng av alla Meet-ljud"
+    "message": "Dölj ny kommentar"
   },
   "doNotDisturbCommentsDesc": {
-    "message": "Dölj kommentarer och popup-fönster för användare går med"
+    "message": "Dölj kommentarer och popup-fönster för användaranslutning"
   },
   "doNotDisturbCommentsBubbleDesc": {
-    "message": "Dölj kommentarbubblan"
+    "message": "Dölj kommentarsaviseringsbubblan"
   },
   "sortParticipantsLabel": {
     "message": "Sortera deltagarlista"
   },
   "sortParticipantsDesc": {
-    "message": "Lägg till växlar till deltagarlistan för att sortera efter efternamn"
+    "message": "Lägger till växel i deltagarlistan för att sortera efter efternamn"
   },
   "autoRecordLabel": {
-    "message": "Autoinspelning"
+    "message": "Automatisk inspelning"
   },
   "autoRecordDesc": {
-    "message": "Börja spela in automatiskt Meet (Google Workspace krävs)"
+    "message": "Börja spela in Meet automatiskt (Google Workspace krävs)"
   },
   "autoRecordDescOne": {
     "message": "Starta inspelningen automatiskt"
@@ -191,11 +188,14 @@
   "autoRecordDescTwo": {
     "message": "Starta inspelningen manuellt"
   },
+  "autoRecordDescThree": {
+    "message": "Starta transkription automatiskt"
+  },
   "proFeaturesSubHeading": {
     "message": "Pro-funktioner"
   },
   "muchMore": {
-    "message": "Mycket mer framöver!"
+    "message": "Mycket mer kommer!"
   },
   "viewRoadmap": {
     "message": "Se vår färdplan"
@@ -207,10 +207,10 @@
     "message": "Skaffa Meet Pro"
   },
   "meetProSectionDesc": {
-    "message": "Genom att uppgradera till Meet Pro får du tillgång till över 20 nya funktioner som tar Google Meet till nästa nivå."
+    "message": "Genom att uppgradera till Meet Pro får du tillgång till över 25 nya funktioner som tar Google Meet till nästa nivå."
   },
   "meetProButtonLabel": {
-    "message": "Skaffa Meet Pro idag"
+    "message": "Starta 7-dagars gratis provperiod"
   },
   "activateLicenseButtonLabel": {
     "message": "eller Aktivera licens"
@@ -219,10 +219,10 @@
     "message": "Aktivera"
   },
   "emojiToolTipDesc": {
-    "message": "Den här funktionen är aktiverad som standard och du kan komma åt den från chattfönstret i Google Meet"
+    "message": "Den här funktionen är på som standard och du kan komma åt den från chattfönstret i Google Meet"
   },
   "generalToolTipDesc": {
-    "message": "Den här funktionen är aktiverad som standard och du kan komma åt den från deltagarnas meny i Google Meet"
+    "message": "Den här funktionen är på som standard och du kan komma åt den från deltagarmenyn i Google Meet"
   },
   "title": {
     "message": "Möt Enhancement Suite"
@@ -234,43 +234,43 @@
     "message": "Tryck för att prata"
   },
   "pttDesc": {
-    "message": "Håll snabbtangenten nedtryckt för att aktivera ljudet"
+    "message": "Håll ned snabbtangenten för att slå på ljudet"
   },
   "pttUpgrade": {
     "message": "Uppgradera till Pro för att ställa in din egen nyckelbindning"
   },
   "autoJoinLabel": {
-    "message": "Automatisk anslutning"
+    "message": "Auto Join"
   },
   "autoJoinDesc": {
     "message": "Gå med i mötet automatiskt"
   },
   "autoJoinDescOption": {
-    "message": "Gå med i mötet endast när deltagarna är närvarande"
+    "message": "Gå med i mötet endast när deltagare är närvarande"
   },
   "quickLeaveLabel": {
-    "message": "Snabb ledighet"
+    "message": "Snabbt lämna"
   },
   "quickLeaveDesc": {
-    "message": "Använd snabbtangenten för att ringa ett samtal"
+    "message": "Använd snabbtangenten för att lämna ett samtal"
   },
   "leaveConfirmLabel": {
     "message": "Lämna bekräftelse"
   },
   "leaveConfirmDesc": {
-    "message": "Be om att bekräfta när du lämnar ett möte"
+    "message": "Be att få bekräftat när du lämnar ett möte"
   },
   "returnHomeLabel": {
-    "message": "Återgå till startskärmen när du har lagt på"
+    "message": "Återgå till startskärmen när du lägger på"
   },
   "returnHomeDesc": {
-    "message": "Återgår till Meet-startskärmen efter att ha lämnat ett Meet"
+    "message": "Återgår till Meets startskärm efter att ha lämnat ett Meet"
   },
   "chimesLabel": {
-    "message": "Spela alltid klockor"
+    "message": "Spela alltid Chimes"
   },
   "chimesDesc": {
-    "message": "Hör alltid klangljud när deltagarna går med och lämnar, eller när ett nytt chattmeddelande tas emot"
+    "message": "Hör alltid ringsignaler när deltagare går med och går, eller när ett nytt chattmeddelande tas emot"
   },
   "desktopLabel": {
     "message": "Öppna Meet-länkar i skrivbordsappen"
@@ -282,40 +282,40 @@
     "message": "skrivbordsapp"
   },
   "captionsLabel": {
-    "message": "Automatisk bildtext"
+    "message": "Auto bildtexter"
   },
   "captionsDesc": {
-    "message": "Slå på bildtexter automatiskt"
+    "message": "Slå på textning automatiskt"
   },
   "autoMuteLabel": {
-    "message": "Tyst automatiskt"
+    "message": "Auto Mute"
   },
   "autoMuteDesc": {
-    "message": "Stäng av mikrofonen automatiskt vid anslutning"
+    "message": "Automatisk avstängning av mikrofonen vid anslutning"
   },
   "autoVideoLabel": {
-    "message": "Auto video av"
+    "message": "Auto Video av"
   },
   "autoVideoDesc": {
-    "message": "Ställ in videon så att den stängs av vid anslutning"
+    "message": "Ställ in videon för att inaktivera gå med"
   },
   "pinBarLabel": {
-    "message": "Stift i botten"
+    "message": "Pin Bottom Bar"
   },
   "pinBarDesc": {
     "message": "Fäster kontrollfältet längst ner på skärmen"
   },
   "partVidStyleLabel": {
-    "message": "Deltagarvideostil"
+    "message": "Videostil för deltagare"
   },
   "alwaysShowLabel": {
-    "message": "Visa alltid deltagarnamn"
+    "message": "Visa alltid deltagarnas namn"
   },
   "hidePartNames": {
-    "message": "Dölj deltagarnamn"
+    "message": "Dölj deltagarnas namn"
   },
   "hideSpeakingIcons": {
-    "message": "Dölj deltagares samtalsikoner"
+    "message": "Dölj deltagare som talar ikoner"
   },
   "bgColorLabel": {
     "message": "Ställ in bakgrundsfärg"

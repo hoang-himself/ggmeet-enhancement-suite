@@ -1,9 +1,9 @@
 {
   "ignorePresentationModalLabel": {
-    "message": "自動忽略演示疊加"
+    "message": "自動忽略演示文稿覆蓋"
   },
   "ignorePresentationModalDesc": {
-    "message": "演示時自動隱藏無限遠鏡警報"
+    "message": "演示時自動隱藏“無限鏡”警報"
   },
   "autoMinimizeLabel": {
     "message": "自動最小化視頻"
@@ -24,7 +24,7 @@
     "message": "Google Meet 的 40 項新功能，例如全部靜音、全部刪除、自動承認、表情符號、鏡像視頻、背景顏色和一鍵通！"
   },
   "startMeet": {
-    "message": "發起會議"
+    "message": "開始見面"
   },
   "mutePopupLabel": {
     "message": "隱藏靜音彈出窗口"
@@ -42,19 +42,19 @@
     "message": "顯示時鐘"
   },
   "displayClockDesc": {
-    "message": "即使不在全屏模式下也能顯示時鐘"
+    "message": "即使不在全屏模式下也顯示時鐘"
   },
   "autoFullScreenLabel": {
     "message": "自動全屏"
   },
   "autoFullScreenDesc": {
-    "message": "有人演示時自動全屏"
+    "message": "有人演示時自動進入全屏"
   },
   "transBarLabel": {
     "message": "透明條"
   },
   "transBarDesc": {
-    "message": "使底部欄透明"
+    "message": "使底欄透明"
   },
   "pinChatLabel": {
     "message": "自動固定聊天"
@@ -66,19 +66,19 @@
     "message": "自動複製會議網址"
   },
   "copyUrlDesc": {
-    "message": "自動將 Meet 網址複製到剪貼板"
+    "message": "自動將會議 URL 複製到剪貼板"
   },
   "hideTopBarLabel": {
     "message": "自動隱藏頂欄"
   },
   "hideTopBarDesc": {
-    "message": "當底部欄消失時隱藏頂部欄"
+    "message": "底部欄消失時隱藏頂部欄"
   },
   "darkModeLabel": {
-    "message": "黑暗模式"
+    "message": "深色模式"
   },
   "darkModeDesc": {
-    "message": "使 Google Meet 暗模式"
+    "message": "使 Google Meet 成為黑暗模式"
   },
   "pipLabel": {
     "message": "畫中畫"
@@ -93,16 +93,16 @@
     "message": "鏡像 Meet 中的所有視頻"
   },
   "activeTabLabel": {
-    "message": "查找活動會議選項卡"
+    "message": "查找活躍的 Meet 選項卡"
   },
   "activeTabDesc": {
-    "message": "單擊擴展程序圖標以找到活動的 Meet 選項卡"
+    "message": "單擊擴展圖標以找到活動的 Meet 選項卡"
   },
   "quickEmojiLabel": {
     "message": "快速表情符號反應"
   },
   "quickEmojiDesc": {
-    "message": "將快速表情符號快捷方式添加到聊天窗口"
+    "message": "向聊天窗口添加快速表情符號快捷方式"
   },
   "timerLabel": {
     "message": "會議計時器"
@@ -111,13 +111,13 @@
     "message": "在底部標籤欄中顯示會議計時器"
   },
   "toggleBarLabel": {
-    "message": "切換底部欄"
+    "message": "切換底欄"
   },
   "toggleBarDesc": {
-    "message": "切換底部控制欄出現"
+    "message": "切換底部控制欄以顯示"
   },
   "speakerBorderLabel": {
-    "message": "演講者亮點"
+    "message": "演講嘉賓亮點"
   },
   "speakerBorderDesc": {
     "message": "在發言參與者周圍添加邊框"
@@ -126,13 +126,13 @@
     "message": "自動拒絕新進入者"
   },
   "autoRejectDesc": {
-    "message": "自動拒絕新成員加入 Meet"
+    "message": "自動拒絕新加入者加入會議"
   },
   "autoAdmitLabel": {
-    "message": "自動錄取新進入者"
+    "message": "自動接納新進入者"
   },
   "autoAdmitDesc": {
-    "message": "自動接納新參與者加入 Meet"
+    "message": "自動接納新成員加入會議"
   },
   "autoUnmuteLabel": {
     "message": "自動取消靜音"
@@ -153,19 +153,16 @@
     "message": "通過參與者菜單將所有參與者靜音"
   },
   "attendanceLabel": {
-    "message": "參加"
+    "message": "考勤"
   },
   "attendanceDesc": {
-    "message": "捕獲會議的出席情況並導出到 CSV"
+    "message": "捕獲會議出席情況並導出為 CSV"
   },
   "doNotDisturbLabel": {
     "message": "請勿打擾"
   },
   "doNotDisturbDesc": {
-    "message": "將所有 Meet 通知聲音靜音，隱藏新評論"
-  },
-  "doNotDisturbSoundsDesc": {
-    "message": "將所有 Meet 通知聲音靜音"
+    "message": "隱藏新評論"
   },
   "doNotDisturbCommentsDesc": {
     "message": "隱藏評論和用戶加入彈出窗口"
@@ -177,19 +174,22 @@
     "message": "排序參與者列表"
   },
   "sortParticipantsDesc": {
-    "message": "添加切換到參與者列表以按姓氏排序"
+    "message": "向參與者列表添加切換以按姓氏排序"
   },
   "autoRecordLabel": {
     "message": "自動記錄"
   },
   "autoRecordDesc": {
-    "message": "自動開始錄製會議（需要 Google Workspace）"
+    "message": "自動開始錄製 Meet（需要 Google Workspace）"
   },
   "autoRecordDescOne": {
     "message": "自動開始錄音"
   },
   "autoRecordDescTwo": {
     "message": "手動開始錄音"
+  },
+  "autoRecordDescThree": {
+    "message": "自動開始轉錄"
   },
   "proFeaturesSubHeading": {
     "message": "專業功能"
@@ -207,10 +207,10 @@
     "message": "獲取 Meet Pro"
   },
   "meetProSectionDesc": {
-    "message": "通過升級到 Meet Pro，您可以使用 20 多項將 Google Meet 提升到新水平的新功能。"
+    "message": "升級到 Meet Pro 後，您可以使用超過 25 種新功能，這些功能將 Google Meet 提升到一個新的水平。"
   },
   "meetProButtonLabel": {
-    "message": "立即獲取 Meet Pro"
+    "message": "開始 7 天免費試用"
   },
   "activateLicenseButtonLabel": {
     "message": "或激活許可證"
@@ -219,16 +219,16 @@
     "message": "啟用"
   },
   "emojiToolTipDesc": {
-    "message": "此功能默認開啟，您可以從 Google Meet 的聊天窗口訪問它"
+    "message": "此功能默認處於啟用狀態，您可以從 Google Meet 的聊天窗口訪問它"
   },
   "generalToolTipDesc": {
-    "message": "默認情況下，此功能處於開啟狀態，您可以從 Google Meet 的參與者菜單中訪問它"
+    "message": "此功能默認處於啟用狀態，您可以從 Google Meet 的參與者菜單中訪問它"
   },
   "title": {
     "message": "滿足增強套件"
   },
   "basicFeatures": {
-    "message": "基本功能"
+    "message": "基本特徵"
   },
   "pttLabel": {
     "message": "一鍵通"
@@ -237,7 +237,7 @@
     "message": "按住熱鍵取消靜音"
   },
   "pttUpgrade": {
-    "message": "升級到 Pro 以設置您自己的按鍵綁定"
+    "message": "升級到專業版以設置您自己的鍵綁定"
   },
   "autoJoinLabel": {
     "message": "自動加入"
@@ -246,7 +246,7 @@
     "message": "自動加入會議"
   },
   "autoJoinDescOption": {
-    "message": "僅當參與者在場時加入會議"
+    "message": "僅在參與者在場時加入會議"
   },
   "quickLeaveLabel": {
     "message": "快速離開"
@@ -255,22 +255,22 @@
     "message": "使用熱鍵離開電話"
   },
   "leaveConfirmLabel": {
-    "message": "請假確認"
+    "message": "離開確認"
   },
   "leaveConfirmDesc": {
     "message": "離開會議時要求確認"
   },
   "returnHomeLabel": {
-    "message": "掛斷時返回主屏幕"
+    "message": "掛斷後返回主屏幕"
   },
   "returnHomeDesc": {
     "message": "離開 Meet 後返回 Meet 主屏幕"
   },
   "chimesLabel": {
-    "message": "總是播放鐘聲"
+    "message": "永遠演奏鐘聲"
   },
   "chimesDesc": {
-    "message": "當參與者加入和離開時，或收到新的聊天消息時，始終聽到提示音"
+    "message": "當參與者加入和離開時，或收到新的聊天消息時，總是會聽到提示音"
   },
   "desktopLabel": {
     "message": "在桌面應用中打開 Meet 鏈接"
@@ -300,13 +300,13 @@
     "message": "將視頻設置為在加入時關閉"
   },
   "pinBarLabel": {
-    "message": "銷底欄"
+    "message": "固定底欄"
   },
   "pinBarDesc": {
     "message": "將控制欄固定到屏幕底部"
   },
   "partVidStyleLabel": {
-    "message": "參與者視頻風格"
+    "message": "參與者視頻樣式"
   },
   "alwaysShowLabel": {
     "message": "始終顯示參與者姓名"
@@ -315,7 +315,7 @@
     "message": "隱藏參與者姓名"
   },
   "hideSpeakingIcons": {
-    "message": "隱藏參與者發言圖標"
+    "message": "隱藏與會者發言圖標"
   },
   "bgColorLabel": {
     "message": "設置背景顏色"

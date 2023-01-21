@@ -54,6 +54,7 @@
       "autoJoin",
       "autoJoinParticipants",
       "autoRecord",
+      "autoTranscribe",
       "autoReject",
       "autoUnmute",
       "backgroundColor",
