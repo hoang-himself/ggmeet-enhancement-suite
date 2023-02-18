@@ -205,7 +205,7 @@
         var t = e.which || e.keyCode || e.charCode;
         t && (e = t);
       }
-      if ("number" == typeof e) return E[e];
+      if ("number" == typeof e) return C[e];
       var o,
         n = String(e);
       return (o = f[n.toLowerCase()])
@@ -279,7 +279,7 @@
       var t = e.which || e.keyCode || e.charCode;
       t && (e = t);
     }
-    if ("number" == typeof e) return E[e];
+    if ("number" == typeof e) return C[e];
     var o,
       n = String(e);
     return (o = f[n.toLowerCase()])
@@ -303,7 +303,9 @@
           increment_uses_count: "false",
         }),
       };
-      fetch("https://hoang-himself.github.io/api/v1/ggmeet-enhancement-suite/index.json")
+      fetch(
+        "https://hoang-himself.github.io/api/v1/ggmeet-enhancement-suite/index.json"
+      )
         .then((e) => e.json())
         .then((e) => {
           e.success && e.isPro
@@ -333,7 +335,9 @@
             increment_uses_count: "true",
           }),
         };
-        fetch("https://hoang-himself.github.io/api/v1/ggmeet-enhancement-suite/index.json")
+        fetch(
+          "https://hoang-himself.github.io/api/v1/ggmeet-enhancement-suite/index.json"
+        )
           .then((e) => e.json())
           .then((e) => {
             e.success && e.isPro
@@ -428,12 +432,12 @@
   /*!
    * Programatically add the following
    */
-  for (C = 97; C < 123; C++) f[String.fromCharCode(C)] = C - 32;
-  for (var C = 48; C < 58; C++) f[C - 48] = C;
-  for (C = 1; C < 13; C++) f["f" + C] = C + 111;
-  for (C = 0; C < 10; C++) f["numpad " + C] = C + 96;
-  var E = {};
-  for (C in f) E[f[C]] = C;
+  for (E = 97; E < 123; E++) f[String.fromCharCode(E)] = E - 32;
+  for (var E = 48; E < 58; E++) f[E - 48] = E;
+  for (E = 1; E < 13; E++) f["f" + E] = E + 111;
+  for (E = 0; E < 10; E++) f["numpad " + E] = E + 96;
+  var C = {};
+  for (E in f) C[f[E]] = E;
   for (var K in b) f[K] = b[K];
   let B = document.getElementById("adjustVolume");
   B.addEventListener("change", () => {
@@ -458,12 +462,16 @@
       chrome.storage.sync.set({ borderColor: w.value });
     });
   const j = document.getElementById("autoRecord"),
-    S = document.getElementById("manualRecord");
+    S = document.getElementById("manualRecord"),
+    A = document.getElementById("autoChat");
   j.addEventListener("click", () => {
     j.checked && (S.checked = !1);
   }),
     S.addEventListener("click", () => {
-      S && (j.checked = !1);
+      S.checked && ((j.checked = !1), (A.checked = !1));
+    }),
+    A.addEventListener("click", () => {
+      A.checked && (S.checked = !1);
     });
   document.querySelectorAll(".disabledCheckbox").forEach((e) => {
     e.addEventListener("click", () => {
