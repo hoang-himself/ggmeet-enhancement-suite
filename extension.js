@@ -9,8 +9,8 @@
     c,
     s,
     d,
-    u,
     m,
+    u,
     p,
     f,
     g,
@@ -22,21 +22,21 @@
     x,
     w,
     S,
-    q,
     C,
-    A,
+    q,
     B,
+    A,
     I,
     E,
     j = [],
     M = !1,
-    P = {
+    T = {
       interval: void 0,
       isPresenting: !1,
       curPresenter: "",
       enabledFullScreen: !1,
     };
-  function T() {
+  function P() {
     chrome.storage.sync.get("licenseKey", (e) => {
       if (!1 === e.licenseKey) {
         const e = chrome.runtime.getManifest().version;
@@ -150,7 +150,7 @@
       }
     });
   }
-  function K(e) {
+  function N(e) {
     e
       ? (a = setInterval(() => {
           let e = document.querySelector('button[jsname="Ta2Is"]');
@@ -158,7 +158,7 @@
         }, 500))
       : clearInterval(a);
   }
-  function N(e) {
+  function K(e) {
     if (e)
       s = setInterval(() => {
         let e = document.querySelector('[jsname="FZJQDc"]'),
@@ -181,6 +181,13 @@
               "afterbegin",
               '<div id="transcribeBlock" style="background: transparent; width: 100%; height: 100%; position: absolute; z-index: 2001;"></div>'
             ),
+          setTimeout(() => {
+            const e = document.getElementById("transcribeBlock");
+            e && (e.style.display = "none");
+            try {
+              clearInterval(c), document.body.removeAttribute("mesLock");
+            } catch (e) {}
+          }, 1e4),
           (c = setInterval(() => {
             const e = document.body.getAttribute("mesLock");
             if (e && "autoTranscribe" !== e) return;
@@ -215,11 +222,15 @@
                   }, 1e3)
                 );
               }
-              t &&
-                !t.getAttribute("mesTransClicked") &&
-                (xe(t), t.setAttribute("mesTransClicked", "true"));
+              if (t && !t.getAttribute("mesTransClicked"))
+                return xe(t), void t.setAttribute("mesTransClicked", "true");
               const o = document.querySelector('[jsname="uAYExb"');
-              if (!o) return;
+              if (!o)
+                return void (
+                  t &&
+                  t.getAttribute("mesTransClicked") &&
+                  t.removeAttribute("mesTransClicked")
+                );
               const r = o.querySelector('[jsname="z0F4cd"');
               r &&
                 !r.getAttribute("mesTransStartClick") &&
@@ -230,22 +241,25 @@
               i &&
                 !r.getAttribute("mesModelStartClick") &&
                 (xe(i), r.setAttribute("mesModelStartClick", "true"));
-              const l = document.querySelector('button[jscontroller="soHxf"]');
-              l && l.click(), n.setAttribute("mesAlreadyTranscribed", "true");
+              const l = document.querySelector('[jsname="ME4pNd"]');
+              l &&
+                l.className &&
+                !l.className.includes("qdulke") &&
+                (n.click(), l.classList.add("qdulke")),
+                n.setAttribute("mesAlreadyTranscribed", "true");
             }
-            const o = document.querySelector('[jscontroller="JZWtHb"] #c3');
+            const o = document.querySelector('[jscontroller="FrtQld"]');
             o &&
               o.textContent &&
               o.textContent.includes("This call is being transcribed") &&
-              (console.log("transcription started"),
-              (document.getElementById("transcribeBlock").style.display =
+              ((document.getElementById("transcribeBlock").style.display =
                 "none"),
               clearInterval(c),
               document.body.removeAttribute("mesLock"));
           }, 100)))
         : clearInterval(c));
   }
-  function G(e, t) {
+  function F(e, t) {
     e
       ? (document
           .querySelector("body")
@@ -253,13 +267,20 @@
             "afterbegin",
             '<div id="recordBlock" style="background: transparent; width: 100%; height: 100%; position: absolute; z-index: 2001;"></div>'
           ),
+        setTimeout(() => {
+          const e = document.getElementById("recordBlock");
+          e && (e.style.display = "none");
+          try {
+            clearInterval(l), document.body.removeAttribute("mesLock");
+          } catch (e) {}
+        }, 1e4),
         (l = setInterval(() => {
           const e = document.body.getAttribute("mesLock");
           if (e && "autoRecord" !== e) return;
           e || document.body.setAttribute("mesLock", "autoRecord");
           let n = document.querySelector('[jsname="ME4pNd"]');
           if (!n) return;
-          let o = document.querySelector('[jscontroller="HVHelf"]'),
+          let o = document.querySelector('[jscontroller="s0ZIXe"]'),
             r = document
               .querySelector(".M5zXed")
               .querySelector('[jsname="NakZHc"]'),
@@ -268,19 +289,15 @@
             c = document.querySelectorAll('[jsname="A0ONe"'),
             s = c.length ? c[c.length - 1] : null,
             d = document.querySelector('[jscontroller="ZakeSe"'),
-            u = document.querySelector(".VfPpkd-T0kwCb");
-          if (o.firstChild)
+            m = document.querySelector(".VfPpkd-T0kwCb");
+          if (o && o.textContent && o.textContent.includes("Recording"))
             (document.getElementById("recordBlock").style.display = "none"),
               clearInterval(l),
               document.body.removeAttribute("mesLock");
           else {
             r &&
               !r.getAttribute("mesClicked") &&
-              (r.click(),
-              r.setAttribute("mesClicked", "true"),
-              setTimeout(() => {
-                document.getElementById("recordBlock").style.display = "none";
-              }, 1500)),
+              (r.click(), r.setAttribute("mesClicked", "true")),
               i &&
                 !i.getAttribute("mesClicked") &&
                 (xe(i), i.setAttribute("mesClicked", "true"));
@@ -307,10 +324,11 @@
                 (xe(s), s.setAttribute("mesClicked", "true")),
               d)
             ) {
-              u.children[1].click(),
+              m.children[1].click(),
                 n.classList.add("qdulke"),
                 clearInterval(l),
-                document.body.removeAttribute("mesLock");
+                document.body.removeAttribute("mesLock"),
+                (document.getElementById("recordBlock").style.display = "none");
             }
             a &&
               !i &&
@@ -319,12 +337,13 @@
               ),
               r.click(),
               clearInterval(l),
-              document.body.removeAttribute("mesLock"));
+              document.body.removeAttribute("mesLock"),
+              (document.getElementById("recordBlock").style.display = "none"));
           }
         }, 100)))
       : clearInterval(l);
   }
-  function F(e, t) {
+  function G(e, t) {
     e
       ? (document
           .querySelector("body")
@@ -332,17 +351,24 @@
             "afterbegin",
             '<div id="recordBlock" style="background: transparent; width: 100%; height: 100%; position: absolute; z-index: 2001;"></div>'
           ),
+        setTimeout(() => {
+          const e = document.getElementById("recordBlock");
+          e && (e.style.display = "none");
+          try {
+            clearInterval(l), document.body.removeAttribute("mesLock");
+          } catch (e) {}
+        }, 1e4),
         (l = setInterval(() => {
           const e = document.body.getAttribute("mesLock");
           if (e && "manualRecord" !== e) return;
           e || document.body.setAttribute("mesLock", "manualRecord");
-          let n = document.querySelector('[jscontroller="HVHelf"]'),
+          let n = document.querySelector('[jscontroller="s0ZIXe"]'),
             o = document
               .querySelector(".M5zXed")
               .querySelector('[jsname="NakZHc"]'),
             r = document.querySelector('[jscontroller="ywOR5c"][jsowner]'),
             a = document.querySelector('[jsname="wcuPXe"]');
-          if (n.firstChild)
+          if (n && n.textContent && n.textContent.includes("Recording"))
             (document.getElementById("recordBlock").style.display = "none"),
               clearInterval(l),
               document.body.removeAttribute("mesLock");
@@ -648,9 +674,9 @@
   function ae(e) {
     e
       ? (h = setInterval(() => {
-          (A = document.querySelectorAll("[data-self-name]")),
+          (B = document.querySelectorAll("[data-self-name]")),
             (I = document.querySelectorAll(".pZFrDd")),
-            A.forEach(function (e) {
+            B.forEach(function (e) {
               e.style.display = "none";
             }),
             I.forEach((e) => {
@@ -658,8 +684,8 @@
             });
         }, 500))
       : (clearInterval(h),
-        A &&
-          A.forEach(function (e) {
+        B &&
+          B.forEach(function (e) {
             e.style.display = "";
           }),
         I &&
@@ -671,14 +697,14 @@
   function ie(e) {
     e
       ? (k = setInterval(() => {
-          (B = document.querySelectorAll('[jscontroller="mUJV5"]')),
-            B.forEach((e) => {
+          (A = document.querySelectorAll('[jscontroller="mUJV5"]')),
+            A.forEach((e) => {
               e.style.display = "none";
             });
         }, 500))
-      : B &&
+      : A &&
         (clearInterval(k),
-        B.forEach((e) => {
+        A.forEach((e) => {
           e.style.display = "";
         }));
   }
@@ -753,45 +779,45 @@
   }
   function de(e) {
     e
-      ? (m = setInterval(() => {
+      ? (u = setInterval(() => {
           const e = document.querySelector(
             '[aria-label="Are you talking? Your mic is off."]'
           );
           e && e.remove();
         }, 100))
-      : clearInterval(m);
+      : clearInterval(u);
   }
-  function ue(e) {
+  function me(e) {
     e
-      ? (P.interval = setInterval(() => {
+      ? (T.interval = setInterval(() => {
           const e = document.querySelector(".z1gyye.bGuvKd");
           e
-            ? ((P.isPresenting = !0), (P.curPresenter = e.textContent))
+            ? ((T.isPresenting = !0), (T.curPresenter = e.textContent))
             : ((document.fullscreenElement ||
                 document.webkitFullscreenElement ||
                 document.mozFullScreenElement) &&
-                !0 === P.enabledFullScreen &&
+                !0 === T.enabledFullScreen &&
                 document.exitFullscreen(),
-              (P = {
+              (T = {
                 isPresenting: !1,
                 curPresenter: "",
                 enabledFullScreen: !1,
               })),
-            P.isPresenting &&
-              "You are presenting" !== P.curPresenter &&
-              (P.enabledFullScreen ||
-                ((P.enabledFullScreen = !0),
+            T.isPresenting &&
+              "You are presenting" !== T.curPresenter &&
+              (T.enabledFullScreen ||
+                ((T.enabledFullScreen = !0),
                 document.body.requestFullscreen()));
         }, 1e3))
-      : (clearInterval(P.interval),
-        (P = {
+      : (clearInterval(T.interval),
+        (T = {
           interval: void 0,
           isPresenting: !1,
           curPresenter: "",
           enabledFullScreen: !1,
         }));
   }
-  function me(e) {
+  function ue(e) {
     (e.target &&
       (["chatTextInput", "chatTextArea", "textInput", "textArea"].includes(
         e.target.name
@@ -868,8 +894,8 @@
   }
   function be(e) {
     e
-      ? (clearInterval(u),
-        (u = setInterval(() => {
+      ? (clearInterval(m),
+        (m = setInterval(() => {
           if (
             document.querySelector(
               '[aria-label="One or more people want to join this call"]'
@@ -909,7 +935,7 @@
               )
               .click();
         }, 1e3)))
-      : clearInterval(u);
+      : clearInterval(m);
   }
   function he(e) {
     if (e) {
@@ -982,35 +1008,35 @@
       (x.textContent = ""),
       (w = document.createElement("style")),
       (w.textContent = ""),
-      (q = document.createElement("style")),
-      (q.textContent = ""),
       (C = document.createElement("style")),
       (C.textContent = ""),
+      (q = document.createElement("style")),
+      (q.textContent = ""),
       document.head.append(e),
       document.head.append(x),
       document.head.append(w),
-      document.head.append(q),
-      document.head.append(C);
-  }
-  function qe(e) {
-    C.textContent = e
-      ? "\n      .IxCbn.spYiI {\n        display: none;\n      }\n    "
-      : "";
+      document.head.append(C),
+      document.head.append(q);
   }
   function Ce(e) {
     q.textContent = e
+      ? "\n      .IxCbn.spYiI {\n        display: none;\n      }\n    "
+      : "";
+  }
+  function qe(e) {
+    C.textContent = e
       ? "\n      .Ota2jd {\n        display: none;\n      }\n\n      .ZuRxkd {\n        display: none;\n      }\n    "
       : "";
   }
-  function Ae(e) {
+  function Be(e) {
     (x.textContent = e
       ? '\n      i.google-material-icons.W59Cyb {\n        color: black;\n      }\n\n\n      i.google-material-icons.W59Cyb {\n        color: #fff !important;\n      }\n\n      .rG0ybd, .UnvNgf {\n        box-shadow: none !important;\n        background-color: transparent !important;\n      }\n\n      .xPh1xb.P9KVBf {\n        background-color: transparent !important;\n      }\n\n      .ZPasfd {\n        border-color: #d93025 !important;\n      }\n\n      [jsname="NeC6gb"] {\n        color: white !important;\n      }\n\n      .A00RE .uJNmj .bkbMM {\n        fill: #fff;\n      }\n\n      .srzwD {\n        background-color: #fff;\n      }\n\n      .XFtqNb {\n        color: #fff;\n      }\n\n      .I98jWb {\n        color: #fff !important;\n      }\n\n      span.DPvwYc.o9fq9d {\n        color: #fff;\n      }\n\n      .YhIwSc {\n        color: #fff !important;\n      }\n\n      .c7fp5b {\n        color: #fff\n      }\n\n    '
       : ""),
       chrome.storage.sync.get("darkMode", (e) => {
-        Be(e.darkMode);
+        Ae(e.darkMode);
       });
   }
-  function Be(e) {
+  function Ae(e) {
     e
       ? chrome.storage.sync.get("transBar", (e) => {
           w.textContent = (function (e) {
@@ -1102,7 +1128,7 @@
       }, 100);
     }
   }
-  function Pe() {
+  function Te() {
     const e = document.querySelector('[jsname="b0t70b"]');
     (e.scrollTop = e.scrollHeight),
       setTimeout(() => {
@@ -1119,7 +1145,7 @@
         document.getElementById("attendancePopup").style.opacity = "0";
       }, 1800);
   }
-  function Te() {
+  function Pe() {
     var e = j.join("\n"),
       t = window.document.createElement("a");
     t.setAttribute(
@@ -1200,11 +1226,11 @@
                   "Meet" !== document.title &&
                   "Google Meet" !== document.title &&
                   (void 0 === x &&
-                    void 0 === q &&
                     void 0 === C &&
+                    void 0 === q &&
                     void 0 === w &&
                     Se(),
-                  e.darkMode && Be(e.darkMode)),
+                  e.darkMode && Ae(e.darkMode)),
                 "complete" === document.readyState &&
                   "Meet" !== document.title &&
                   "Google Meet" !== document.title)
@@ -1226,7 +1252,9 @@
                     (joinInverval = setInterval(() => {
                       (n = document.querySelector('[jsname="Qx7uuf"]')),
                         e.autoJoinParticipants ||
-                          (n && (n.click(), clearInterval(joinInverval)));
+                          (n &&
+                            !n.disabled &&
+                            (n.click(), clearInterval(joinInverval)));
                     }, 500)),
                   e.autoJoinParticipants &&
                     (o = setInterval(() => {
@@ -1246,8 +1274,8 @@
                 (clearInterval(n),
                 e.licenseKey &&
                   ((void 0 !== x &&
-                    void 0 !== q &&
                     void 0 !== C &&
+                    void 0 !== q &&
                     void 0 !== w) ||
                     Se(),
                   Ie(),
@@ -1312,10 +1340,10 @@
                           ),
                         document
                           .getElementById("attendanceButton")
-                          .addEventListener("click", Pe),
+                          .addEventListener("click", Te),
                         document
                           .getElementById("downloadAttendanceButton")
-                          .addEventListener("click", Te);
+                          .addEventListener("click", Pe);
                     }
                   }, 500),
                   setInterval(() => {
@@ -1354,13 +1382,13 @@
                         });
                     }, 500);
                   }),
-                  e.minimizeVideo && N(e.minimizeVideo),
-                  e.autoRecord && G(e.autoRecord, e.autoTranscribe),
+                  e.minimizeVideo && K(e.minimizeVideo),
+                  e.autoRecord && F(e.autoRecord, e.autoTranscribe),
                   e.autoTranscribe &&
                     O(e.autoTranscribe, e.autoRecord || e.manualRecord),
                   e.manualRecord &&
                     !e.autoRecord &&
-                    F(e.manualRecord, e.autoTranscribe),
+                    G(e.manualRecord, e.autoTranscribe),
                   e.hideTopBar && _(e.hideTopBar),
                   e.autoCopyURL && X(e.autoCopyURL),
                   e.speakerBorder && $(e.speakerBorder),
@@ -1372,12 +1400,12 @@
                   e.mirrorVideos && ce(e.mirrorVideos),
                   e.autoChat && fe(e.autoChat),
                   e.displayClock && ge(e.displayClock),
-                  e.autoFullScreen && ue(e.autoFullScreen),
+                  e.autoFullScreen && me(e.autoFullScreen),
                   e.mutePopup && de(e.mutePopup),
-                  e.hideCommentBubble && qe(e.hideCommentBubble),
-                  e.hideComments && Ce(e.hideComments),
-                  e.transBar && Ae(e.transBar)),
-                e.ignorePresentationModal && K(e.ignorePresentationModal),
+                  e.hideCommentBubble && Ce(e.hideCommentBubble),
+                  e.hideComments && qe(e.hideComments),
+                  e.transBar && Be(e.transBar)),
+                e.ignorePresentationModal && N(e.ignorePresentationModal),
                 e.muteMicrophone && he(e.muteMicrophone),
                 e.muteVideo && ve(e.muteVideo),
                 e.addChimes && J(e.addChimes),
@@ -1476,7 +1504,7 @@
                 e.meetingTimer && le(e.meetingTimer),
                 e.pinBottomBar && se(e.pinBottomBar),
                 e.toggleBottomBar && ne(e.toggleBottomBar),
-                e.quickLeave && document.addEventListener("keydown", me),
+                e.quickLeave && document.addEventListener("keydown", ue),
                 e.smartUnmute)
               ) {
                 He(new ze(e.keyCode));
@@ -1495,9 +1523,9 @@
                   ? e.hideHangupPageUpsell &&
                     chrome.storage.sync.get("hideHangupPageUpsellDate", (e) => {
                       new Date().getTime() >
-                        new Date(e.hideHangupPageUpsellDate).getTime() && T();
+                        new Date(e.hideHangupPageUpsellDate).getTime() && P();
                     })
-                  : T();
+                  : P();
               }
             }, 100),
             a = setInterval(() => {
@@ -1506,7 +1534,7 @@
                 "Google Meet" === document.title) &&
                 (clearInterval(a),
                 Se(),
-                e.darkMode && Be(e.darkMode),
+                e.darkMode && Ae(e.darkMode),
                 chrome.storage.sync.get("licenseKey", (t) => {
                   !1 !== t.licenseKey || e.hideMainPageUpsell
                     ? !1 === t.licenseKey &&
@@ -1526,11 +1554,11 @@
           const n = e[t];
           if (document.querySelector("c-wiz")) {
             if (
-              ("ignorePresentationModal" === t && K(n.newValue),
-              "autoRecord" === t && G(n.newValue, e.autoTranscribe.newValue),
+              ("ignorePresentationModal" === t && N(n.newValue),
+              "autoRecord" === t && F(n.newValue, e.autoTranscribe.newValue),
               "autoTranscribe" === t &&
                 O(n.newValue, e.autoRecord.newValue || e.manualRecord.newValue),
-              "manualRecord" === t && F(n.newValue, e.autoTranscribe.newValue),
+              "manualRecord" === t && G(n.newValue, e.autoTranscribe.newValue),
               "addChimes" === t && J(n.newValue),
               "setBackgroundColor" === t && Q(n.newValue),
               "hideTopBar" === t && _(n.newValue),
@@ -1565,24 +1593,24 @@
             }
             if (
               ("licenseKey" === t && !1 !== n.newValue && (Ie(), Se()),
-              "minimizeVideo" === t && N(n.newValue),
+              "minimizeVideo" === t && K(n.newValue),
               "autoCopyURL" === t && X(n.newValue),
               "autoAdmit" === t && ye(n.newValue),
               "autoReject" === t && be(n.newValue),
               "noAddOthers" === t && ke(n.newValue),
               "autoChat" === t && fe(n.newValue),
               "displayClock" === t && ge(n.newValue),
-              "darkMode" === t && Be(n.newValue),
-              "autoFullScreen" === t && ue(n.newValue),
+              "darkMode" === t && Ae(n.newValue),
+              "autoFullScreen" === t && me(n.newValue),
               "mutePopup" === t && de(n.newValue),
-              "hideCommentBubble" === t && qe(n.newValue),
-              "hideComments" === t && Ce(n.newValue),
-              "transBar" === t && Ae(n.newValue),
+              "hideCommentBubble" === t && Ce(n.newValue),
+              "hideComments" === t && qe(n.newValue),
+              "transBar" === t && Be(n.newValue),
               "autoCaptions" === t && pe(n.newValue),
               "quickLeave" === t &&
                 (n.newValue
-                  ? document.addEventListener("keydown", me)
-                  : document.removeEventListener("keydown", me)),
+                  ? document.addEventListener("keydown", ue)
+                  : document.removeEventListener("keydown", ue)),
               "smartUnmute" === t &&
                 (n.newValue
                   ? chrome.storage.sync.get("keyCode", (e) => {
