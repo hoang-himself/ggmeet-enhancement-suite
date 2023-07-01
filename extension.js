@@ -9,8 +9,8 @@
     c,
     s,
     d,
-    m,
     u,
+    m,
     p,
     f,
     g,
@@ -19,24 +19,24 @@
     h,
     v,
     k,
-    x,
     w,
+    x,
     S,
+    A,
+    B,
     C,
     q,
-    B,
-    A,
     I,
     E,
     j = [],
     M = !1,
-    T = {
+    P = {
       interval: void 0,
       isPresenting: !1,
       curPresenter: "",
       enabledFullScreen: !1,
     };
-  function P() {
+  function T() {
     chrome.storage.sync.get("licenseKey", (e) => {
       if (!1 === e.licenseKey) {
         const e = chrome.runtime.getManifest().version;
@@ -124,7 +124,7 @@
         }, 500));
     });
   }
-  function R() {
+  function K() {
     chrome.storage.sync.get("licenseKey", (e) => {
       if (!1 === e.licenseKey) {
         const e = chrome.runtime.getManifest().version;
@@ -158,7 +158,7 @@
         }, 500))
       : clearInterval(a);
   }
-  function K(e) {
+  function R(e) {
     if (e)
       s = setInterval(() => {
         let e = document.querySelector('[jsname="FZJQDc"]'),
@@ -223,7 +223,7 @@
                 );
               }
               if (t && !t.getAttribute("mesTransClicked"))
-                return xe(t), void t.setAttribute("mesTransClicked", "true");
+                return we(t), void t.setAttribute("mesTransClicked", "true");
               const o = document.querySelector('[jsname="uAYExb"');
               if (!o)
                 return void (
@@ -234,13 +234,13 @@
               const r = o.querySelector('[jsname="z0F4cd"');
               r &&
                 !r.getAttribute("mesTransStartClick") &&
-                (xe(r), r.setAttribute("mesTransStartClick", "true"));
+                (we(r), r.setAttribute("mesTransStartClick", "true"));
               const a = document.querySelector(".VfPpkd-P5QLlc");
               if (!a) return;
               const i = a.querySelector(".VfPpkd-T0kwCb").children[1];
               i &&
                 !r.getAttribute("mesModelStartClick") &&
-                (xe(i), r.setAttribute("mesModelStartClick", "true"));
+                (we(i), r.setAttribute("mesModelStartClick", "true"));
               const l = document.querySelector('[jsname="ME4pNd"]');
               l &&
                 l.className &&
@@ -289,7 +289,7 @@
             c = document.querySelectorAll('[jsname="A0ONe"'),
             s = c.length ? c[c.length - 1] : null,
             d = document.querySelector('[jscontroller="ZakeSe"'),
-            m = document.querySelector(".VfPpkd-T0kwCb");
+            u = document.querySelector(".VfPpkd-T0kwCb");
           if (o && o.textContent && o.textContent.includes("Recording"))
             (document.getElementById("recordBlock").style.display = "none"),
               clearInterval(l),
@@ -300,7 +300,7 @@
               (r.click(), r.setAttribute("mesClicked", "true")),
               i &&
                 !i.getAttribute("mesClicked") &&
-                (xe(i), i.setAttribute("mesClicked", "true"));
+                (we(i), i.setAttribute("mesClicked", "true"));
             const e = document.querySelectorAll(
               '[jscontroller="etBPYb"][jsname="AXUMc"]'
             );
@@ -321,10 +321,10 @@
             if (
               (s &&
                 !s.getAttribute("mesClicked") &&
-                (xe(s), s.setAttribute("mesClicked", "true")),
+                (we(s), s.setAttribute("mesClicked", "true")),
               d)
             ) {
-              m.children[1].click(),
+              u.children[1].click(),
                 n.classList.add("qdulke"),
                 clearInterval(l),
                 document.body.removeAttribute("mesLock"),
@@ -382,7 +382,7 @@
               }, 1500)),
               a &&
                 !a.getAttribute("mesClicked") &&
-                (xe(a),
+                (we(a),
                 a.setAttribute("mesClicked", "true"),
                 t ||
                   (clearInterval(l), document.body.removeAttribute("mesLock")));
@@ -398,7 +398,7 @@
                 r.textContent.includes("Also start a transcript") &&
                 o &&
                 !1 === o.checked &&
-                xe(r),
+                we(r),
                 clearInterval(l),
                 document.body.removeAttribute("mesLock");
             }
@@ -460,10 +460,10 @@
         t.volume = e / 10;
       });
   }
-  function Y(t) {
+  function Q(t) {
     void 0 !== e && (e.style.background = t);
   }
-  function Q(t) {
+  function Y(t) {
     t
       ? ((e = document.querySelector(".p2ZbV")),
         chrome.storage.sync.get("backgroundColor", (t) => {
@@ -674,9 +674,9 @@
   function ae(e) {
     e
       ? (h = setInterval(() => {
-          (B = document.querySelectorAll("[data-self-name]")),
+          (C = document.querySelectorAll("[data-self-name]")),
             (I = document.querySelectorAll(".pZFrDd")),
-            B.forEach(function (e) {
+            C.forEach(function (e) {
               e.style.display = "none";
             }),
             I.forEach((e) => {
@@ -684,8 +684,8 @@
             });
         }, 500))
       : (clearInterval(h),
-        B &&
-          B.forEach(function (e) {
+        C &&
+          C.forEach(function (e) {
             e.style.display = "";
           }),
         I &&
@@ -697,14 +697,14 @@
   function ie(e) {
     e
       ? (k = setInterval(() => {
-          (A = document.querySelectorAll('[jscontroller="mUJV5"]')),
-            A.forEach((e) => {
+          (q = document.querySelectorAll('[jscontroller="mUJV5"]')),
+            q.forEach((e) => {
               e.style.display = "none";
             });
         }, 500))
-      : A &&
+      : q &&
         (clearInterval(k),
-        A.forEach((e) => {
+        q.forEach((e) => {
           e.style.display = "";
         }));
   }
@@ -779,45 +779,45 @@
   }
   function de(e) {
     e
-      ? (u = setInterval(() => {
+      ? (m = setInterval(() => {
           const e = document.querySelector(
             '[aria-label="Are you talking? Your mic is off."]'
           );
           e && e.remove();
         }, 100))
-      : clearInterval(u);
+      : clearInterval(m);
   }
-  function me(e) {
+  function ue(e) {
     e
-      ? (T.interval = setInterval(() => {
+      ? (P.interval = setInterval(() => {
           const e = document.querySelector(".z1gyye.bGuvKd");
           e
-            ? ((T.isPresenting = !0), (T.curPresenter = e.textContent))
+            ? ((P.isPresenting = !0), (P.curPresenter = e.textContent))
             : ((document.fullscreenElement ||
                 document.webkitFullscreenElement ||
                 document.mozFullScreenElement) &&
-                !0 === T.enabledFullScreen &&
+                !0 === P.enabledFullScreen &&
                 document.exitFullscreen(),
-              (T = {
+              (P = {
                 isPresenting: !1,
                 curPresenter: "",
                 enabledFullScreen: !1,
               })),
-            T.isPresenting &&
-              "You are presenting" !== T.curPresenter &&
-              (T.enabledFullScreen ||
-                ((T.enabledFullScreen = !0),
+            P.isPresenting &&
+              "You are presenting" !== P.curPresenter &&
+              (P.enabledFullScreen ||
+                ((P.enabledFullScreen = !0),
                 document.body.requestFullscreen()));
         }, 1e3))
-      : (clearInterval(T.interval),
-        (T = {
+      : (clearInterval(P.interval),
+        (P = {
           interval: void 0,
           isPresenting: !1,
           curPresenter: "",
           enabledFullScreen: !1,
         }));
   }
-  function ue(e) {
+  function me(e) {
     (e.target &&
       (["chatTextInput", "chatTextArea", "textInput", "textArea"].includes(
         e.target.name
@@ -852,90 +852,78 @@
     e
       ? (clearInterval(d),
         (d = setInterval(() => {
-          if (
-            document.querySelector(
-              '[aria-label="One or more people want to join this call"]'
-            ) ||
-            document.querySelector(
-              '[aria-label="Uma ou mais pessoas querem participar desta chamada"]'
-            ) ||
-            document.querySelector(
-              '[aria-label="Una o más personas quieren unirse a esta llamada"]'
-            ) ||
-            document.querySelector(
-              '[aria-label="Andere möchten an diesem Anruf teilnehmen"]'
-            ) ||
-            document.querySelector(
-              '[aria-label="Uma ou mais pessoas querem participar nesta chamada."]'
-            ) ||
-            document.querySelector(
-              "#yDmH0d > div.llhEMd.iWO5td > div > div.g3VIld.BgY0gf.vDc8Ic.J9Nfi.iWO5td > div.R6Lfte.tOrNgd.qRUolc > div.PNenzf"
-            )
-          ) {
-            document.querySelectorAll("span").forEach((e) => {
-              ("Admit" !== e.textContent &&
-                "Permitir" !== e.textContent &&
-                "Zulassen" !== e.textContent &&
-                "Accepter" !== e.textContent &&
-                "Aceitar" !== e.textContent) ||
-                e.click();
-            });
-          }
-          document.querySelector(
-            '[jscontroller="soHxf"][data-mdc-dialog-action="accept"]'
-          ) &&
+          const e = document.querySelector(
+              '[data-announce-message="Someone wants to join this call"]'
+            ),
+            t = document.querySelector('button[aria-label="Show everyone"]');
+          if (e && t) {
+            const e = document.querySelector(
+              '[jsname="ME4pNd"] [data-panel-container-id="sidePanel1subPanel0"]'
+            );
+            if (!e)
+              return (
+                t.setAttribute("closePanelAfterOpen", "true"), void t.click()
+              );
+            const n = e.querySelector(
+              '[jsname="b0t70b"] button[aria-label="Close"]'
+            );
+            if (!n) return;
+            "true" === t.getAttribute("closePanelAfterOpen") &&
+              (t.setAttribute("closePanelAfterOpen", "false"), n.click());
             document
-              .querySelector(
-                '[jscontroller="soHxf"][data-mdc-dialog-action="accept"]'
+              .querySelectorAll(
+                '[aria-label="Waiting to be admitted"][role="list"] [role="listitem"]'
               )
-              .click();
+              .forEach((e) => {
+                const t = e.querySelector("button");
+                t && t.textContent.includes("Admit") && t.click();
+              });
+          }
         }, 1e3)))
       : clearInterval(d);
   }
   function be(e) {
     e
-      ? (clearInterval(m),
-        (m = setInterval(() => {
-          if (
-            document.querySelector(
-              '[aria-label="One or more people want to join this call"]'
-            ) ||
-            document.querySelector(
-              '[aria-label="Uma ou mais pessoas querem participar desta chamada"]'
-            ) ||
-            document.querySelector(
-              '[aria-label="Una o más personas quieren unirse a esta llamada"]'
-            ) ||
-            document.querySelector(
-              '[aria-label="Andere möchten an diesem Anruf teilnehmen"]'
-            ) ||
-            document.querySelector(
-              '[aria-label="Uma ou mais pessoas querem participar nesta chamada."]'
-            ) ||
-            document.querySelector(
-              "#yDmH0d > div.llhEMd.iWO5td > div > div.g3VIld.BgY0gf.vDc8Ic.J9Nfi.iWO5td"
-            )
-          ) {
-            document.querySelectorAll("span").forEach((e) => {
-              ("Deny entry" !== e.textContent &&
-                "Rechazar" !== e.textContent &&
-                "Teilnahme ablehnen" !== e.textContent &&
-                "Recusar pedido" !== e.textContent &&
-                "Negar" !== e.textContent &&
-                "Refuser l'accès" !== e.textContent) ||
-                e.click();
-            });
+      ? (clearInterval(u),
+        (u = setInterval(() => {
+          const e = document.querySelector(
+              '[data-announce-message="Someone wants to join this call"]'
+            ),
+            t = document.querySelector('button[aria-label="Show everyone"]');
+          if (e && t) {
+            const e = document.querySelector(
+              '[jsname="ME4pNd"] [data-panel-container-id="sidePanel1subPanel0"]'
+            );
+            if (!e)
+              return (
+                t.setAttribute("closePanelAfterOpen", "true"), void t.click()
+              );
+            const n = e.querySelector(
+              '[jsname="b0t70b"] button[aria-label="Close"]'
+            );
+            if (!n) return;
+            "true" === t.getAttribute("closePanelAfterOpen") &&
+              (t.setAttribute("closePanelAfterOpen", "false"), n.click());
+            const o = document.querySelectorAll(
+              '[aria-label="Waiting to be admitted"][role="list"] [role="listitem"]'
+            )[0];
+            if (o) {
+              const e = o.querySelector('[jsname="mu2b5d"] .jKwXVe'),
+                t = o.querySelectorAll("button")[1];
+              if (e && t) {
+                const n = e.textContent;
+                t.click(),
+                  setTimeout(() => {
+                    const e = document.querySelector(
+                      `[aria-label="Deny ${n}"]`
+                    );
+                    e && e.click();
+                  }, 100);
+              }
+            }
           }
-          document.querySelector(
-            '[jscontroller="soHxf"][data-mdc-dialog-action="decline"]'
-          ) &&
-            document
-              .querySelector(
-                '[jscontroller="soHxf"][data-mdc-dialog-action="decline"]'
-              )
-              .click();
         }, 1e3)))
-      : clearInterval(m);
+      : clearInterval(u);
   }
   function he(e) {
     if (e) {
@@ -993,10 +981,10 @@
         }, 100))
       : clearInterval(p);
   }
-  function xe(e) {
-    we(e, "mouseover"), we(e, "mousedown"), we(e, "click"), we(e, "mouseup");
+  function we(e) {
+    xe(e, "mouseover"), xe(e, "mousedown"), xe(e, "click"), xe(e, "mouseup");
   }
-  function we(e, t) {
+  function xe(e, t) {
     document.createEvent("MouseEvents");
     e.dispatchEvent(new Event(t, { bubbles: !0, cancelable: !0 }));
   }
@@ -1004,42 +992,42 @@
     const e = document.createElement("style");
     (e.textContent =
       '\n    // Was used for PiP, but maybe not necessary\n    // .uAzxg {\n    //   width: 80% !important;\n    //   height: 80% !important;\n    //   left: auto !important;\n    //   top: auto !important;\n    // }\n\n    .participantButtons {\n      margin: 0.925rem 0 0.3125rem 1.35rem;\n      cursor: pointer;\n      font-family: "Google Sans",Roboto,Arial,sans-serif;\n      font-size: .875rem;\n      letter-spacing: .0107142857em;\n      font-weight: 500;\n      text-transform: none;\n      color: #5f6368;\n      display: flex;\n      align-items: center;\n    }\n\n    .mesButton {\n      display: flex;\n      align-items: center;\n    }\n\n    .mesButton:hover {\n      background: rgba(0,0,0,0.1);\n      color: #202124;\n      border-radius: 4px;\n    }\n\n    #downloadAttendanceButton {\n      border: 1px solid black;\n      border-radius: 8px;\n      margin-left: 50px;\n      font-size: 0.9em;\n      padding: 5px;\n      font-weight: 900;\n    }\n\n    #downloadAttendanceButton:hover {\n      background: #fff;\n      color: #212121;\n    }\n\n    .l4V7wb .NPEfkd {\n      align-items: center !important;\n      display: flex;\n    }\n\n    .Ufn6O {\n      margin-bottom: 10px !important;\n    }\n\n    .tC2Wod {\n      pointer-events: none !important;\n    }\n\n    .xsj2Ff {\n      justify-content: center !important;\n      align-items: center !important;\n      display: flex !important;\n    }\n  '),
-      (x = document.createElement("style")),
-      (x.textContent = ""),
       (w = document.createElement("style")),
       (w.textContent = ""),
-      (C = document.createElement("style")),
-      (C.textContent = ""),
-      (q = document.createElement("style")),
-      (q.textContent = ""),
+      (x = document.createElement("style")),
+      (x.textContent = ""),
+      (A = document.createElement("style")),
+      (A.textContent = ""),
+      (B = document.createElement("style")),
+      (B.textContent = ""),
       document.head.append(e),
-      document.head.append(x),
       document.head.append(w),
-      document.head.append(C),
-      document.head.append(q);
+      document.head.append(x),
+      document.head.append(A),
+      document.head.append(B);
   }
-  function Ce(e) {
-    q.textContent = e
+  function Ae(e) {
+    B.textContent = e
       ? "\n      .IxCbn.spYiI {\n        display: none;\n      }\n    "
       : "";
   }
-  function qe(e) {
-    C.textContent = e
+  function Be(e) {
+    A.textContent = e
       ? "\n      .Ota2jd {\n        display: none;\n      }\n\n      .ZuRxkd {\n        display: none;\n      }\n    "
       : "";
   }
-  function Be(e) {
-    (x.textContent = e
+  function Ce(e) {
+    (w.textContent = e
       ? '\n      i.google-material-icons.W59Cyb {\n        color: black;\n      }\n\n\n      i.google-material-icons.W59Cyb {\n        color: #fff !important;\n      }\n\n      .rG0ybd, .UnvNgf {\n        box-shadow: none !important;\n        background-color: transparent !important;\n      }\n\n      .xPh1xb.P9KVBf {\n        background-color: transparent !important;\n      }\n\n      .ZPasfd {\n        border-color: #d93025 !important;\n      }\n\n      [jsname="NeC6gb"] {\n        color: white !important;\n      }\n\n      .A00RE .uJNmj .bkbMM {\n        fill: #fff;\n      }\n\n      .srzwD {\n        background-color: #fff;\n      }\n\n      .XFtqNb {\n        color: #fff;\n      }\n\n      .I98jWb {\n        color: #fff !important;\n      }\n\n      span.DPvwYc.o9fq9d {\n        color: #fff;\n      }\n\n      .YhIwSc {\n        color: #fff !important;\n      }\n\n      .c7fp5b {\n        color: #fff\n      }\n\n    '
       : ""),
       chrome.storage.sync.get("darkMode", (e) => {
-        Ae(e.darkMode);
+        qe(e.darkMode);
       });
   }
-  function Ae(e) {
+  function qe(e) {
     e
       ? chrome.storage.sync.get("transBar", (e) => {
-          w.textContent = (function (e) {
+          x.textContent = (function (e) {
             let t =
               "\n  .p2ZbV.zKHdkd {\n    background-color: #212121 !important;\n  }\n\n  .mesButton {\n    color: white;\n  }\n\n  .NnTWjc {\n    color: white;\n  }\n\n  .TAZssc {\n    color: #fff;\n  }\n\n  .qNFnn {\n    color: white !important;\n  }\n\n  .BOo8qd {\n    color: white;\n  }\n\n  .u6vdEc {\n    color: white;\n  }\n\n  .o6rdsc.snByac {\n    color: grey;\n  }\n\n  button.VfPpkd-LgbsSe.VfPpkd-LgbsSe-OWXEXe-INsAgc.VfPpkd-LgbsSe-OWXEXe-Bz112c-M1Soyc.VfPpkd-LgbsSe-OWXEXe-dgl2Hf.Rj2Mlf.OLiIxf.PDpWxe.HDnnrf.UinPFe {\n    color: white;\n  }\n\n  .yhhY4b {\n    color: white;\n  }\n\n  .zWGUib {\n    color: #fff !important;\n  }\n\n  .eSbtTb .VfPpkd-vQzf8d {\n    color: #fff !important;\n  }\n\n  .orScbe:hover {\n    border-color: #fff;\n  }\n\n  // .VfPpkd-vQzf8d:hover {\n  //   color: #fff !important;\n  // }\n\n  .x6Aw6b {\n    color: #fff !important;\n  }\n\n  .VfPpkd-rOvkhd-TfeOUb-V67aGc {\n    color: #fff !important;\n  }\n\n  // .VfPpkd-vQzf8d {\n  //   color: #fff !important;\n  // }\n\n  .IEJ9Nd {\n    color: #fff !important;\n  }\n\n  .zqQuI {\n    color: #fff !important;\n  }\n\n  .bWc4ke {\n    color: #fff !important;\n  }\n\n  .Zzlrzb {\n    background-color: #212121 !important;\n  }\n\n  .lyqGRe {\n    color: #fff !important;\n  }\n\n  // .VfPpkd-LgbsSe {\n  //   background: #1967d2 !important;\n  // }\n\n  a {\n    color: #2962ff !important;\n  }\n\n  .ZK5A7 {\n    color: #fff !important;\n  }\n\n  .LjDxcd {\n    background: transparent !important;\n  }\n\n  .PUK6ad {\n    color: black;\n  }\n\n  .KrefDd {\n    color: white;\n  }\n\n  .S3RDod {\n    background: #212121 !important;\n  }\n\n  .YpQfNc {\n    color: #fff !important;\n  }\n\n  .U6iK2e {\n    color: #fff !important;\n  }\n\n  .ws7pec {\n    background: lightgrey !important;\n  }\n\n  header#gb {\n    background: #212121 !important;\n  }\n\n  .zy3vwb, .JZkwff {\n    color: #fff;\n  }\n\n  .xTGfdf {\n    background: #212121 !important;\n  }\n\n  .VTPC4c {\n    color: #fff;\n  }\n\n  .LCQ7g {\n    color: #fff !important;\n  }\n\n  .YuOq4 {\n    color: #212121;\n  }\n\n  .roSPhc {\n    color: #fff;\n  }\n\n  .ZCfERe {\n    color: #fff !important;\n  }\n\n  .Ssc6Id {\n    border-color: transparent #212121 #212121 transparent;\n  }\n\n  .rHLKYe .WPeMgd {\n    color: white;\n  }\n\n  .AmEdyd {\n    color: white;\n  }\n\n  .W0LGoe {\n    color: white;\n  }\n\n  .HnT3ge {\n    color: grey;\n  }\n\n  .zb9u7b {\n    color: white;\n  }\n\n  i.google-material-icons.W59Cyb {\n    color: white;\n  }\n\n  // .QDwDD > .google-material-icons {\n  //   color: #fff !important;\n  // }\n\n  .eXiyXc {\n    color: grey;\n  }\n\n  .HALYaf.KKjvXb {\n    background: #212121 !important;\n  }\n\n  .NgL38b {\n    color: grey !important;\n  }\n\n  .QMC9Zd {\n    color: grey;\n  }\n\n  .VfPpkd-TfeOUb {\n    color: #fff !important;\n  }\n\n  #gb {\n    background: #212121 !important;\n  }\n\n  .Qcuypc {\n    color: #fff !important;\n  }\n\n  .ZjFb7c {\n    color: #fff !important;\n  }\n\n  .WAPtFd > .IEJ9Nd {\n    color: black !important;\n  }\n\n  #attendanceButton {\n    background: #212121 !important;\n  }\n\n  #downloadAttendanceButton {\n    color: #fff !important;\n    border-color: #fff !important;\n  }\n\n  #attendancePopup {\n    background: #fff !important;\n    color: #212121 !important;\n  }\n\n  #barToggle {\n    background: #212121 !important;\n  }\n\n  .E5wxQe .snByac {\n    color: #fff !important;\n  }\n\n  .RKkqi {\n    color: #fff !important;\n  }\n\n  .JiQUic {\n    color: #fff !important;\n  }\n\n  .Bs3rEf {\n    background: rgba(255,255,255,0.2) !important;\n  }\n\n  .AGS4Ef {\n    color: white !important;\n  }\n\n  .tKfYmd.otdjyf {\n    color: white !important;\n  }\n\n  textarea.hqfVKd.tL9Q4c {\n    color: white !important;\n  }\n\n  .Yalane.oJeWuf {\n    background: #212121 !important;\n  }\n\n  // i.google-material-icons.VfPpkd-kBDsod {\n  //   color: inherit !important;\n  // }\n\n  .HZ3kWc {\n    color: white !important;\n  }\n\n  .Zl9Chd {\n    display: none;\n  }\n\n  .eylCT {\n    color: white;\n  }\n\n  span.qXM1De {\n    color: white;\n  }\n\n  .WUFI9b {\n    background: #212121 !important;\n  }\n\n  .WUFI9b .IEJ9Nd {\n    color: #fff !important;\n  }\n\n  .vvTMTb .IEJ9Nd {\n    color: #212121 !important;\n  }\n\n  .LjDxcd:hover:not(:disabled) {\n    color: #fff !important;\n  }\n\n  span.VfPpkd-rymPhb-fpDzbe-fmcmS {\n    color: white;\n  }\n\n  span.VfPpkd-rymPhb-L8ivfd-fmcmS {\n    color: white;\n  }\n\n  #toggleIcon {\n    color: #fff;\n  }\n\n  .YAZ0M {\n    background-color: #212121 !important;\n  }\n\n  .CYZUZd {\n    background-color: #212121 !important;\n  }\n\n  .J8vCN{\n    color: #fff;\n  }\n\n  .c5VCdf {\n    color: #fff;\n  }\n\n  .PbnGhe {\n    color: #fff;\n  }\n\n  .ZbjTEb {\n    color: #fff;\n  }\n\n  .ZR1ISd {\n    color: #fff;\n  }\n\n  .NSvDmb svg {\n    fill: #00796b !important;\n  }\n\n  body {\n    background-color: #212121 !important;\n  }\n\n  html {\n    background-color: #212121 !important;\n  }\n\n  .d7iDfe.NONs6c {\n    background-color: #212121 !important;\n  }\n\n  .GN4RFc {\n    background-color: #212121 !important;\n    color: #fff !important;\n  }\n\n  .OHZKt {\n    background-color: #1E1E1E !important;\n  }\n\n  .YAwx2e .oJeWuf, .QMKoTb {\n    background: grey !important;\n  }\n\n  .CO1lLb {\n    color: #fff !important;\n  }\n\n  .PWKRsc {\n    background: grey !important;\n  }\n\n  .ndJi5d {\n    color: #fff;\n  }\n\n  .p2ZbV.zKHdkd {\n    background-color: #212121 !important;\n  }\n\n  .shTJQe {\n    background-color: #212121 !important;\n  }\n\n  .pI48Vc {\n    background-color: #212121 !important;\n  }\n\n  .qIHHZb {\n    background-color: #212121 !important;\n  }\n\n  .Sla0Yd {\n    background-color: #212121 !important;\n  }\n\n\n  .Yi3Cfd {\n    color: #fff;\n  }\n\n  .Jyj1Td {\n    color: #fff;\n  }\n\n  .uArJ5e.UQuaGc.kCyAyd.kW31ib.xKiqt.cd29Sd.M9Bg4d {\n    background: #fff !important;\n  }\n\n  .xKiqt {\n    border: 2px solid #00796b;\n  }\n\n  .xKiqt .snByac {\n    color: #fff;\n  }\n\n  .d7iDfe:not(.rd2nFb) .shTJQe {\n    background-color: #212121 !important;\n  }\n\n  .KD4eUb {\n    color: #fff;\n  }\n\n  .Ue6DPb {\n    color: #fff;\n  }\n\n  .DLjNp.LlMNQd .Kx3qp {\n    color: grey;\n  }\n\n  .mYl7qd {\n    color: #fff !important;\n  }\n\n  .c4Ysi {\n    color: #fff !important;\n  }\n\n  .iI9wC {\n    color: #fff !important;\n  }\n\n  .QuP9wb .qRUolc, .p0nv6d {\n    color: #fff !important;\n  }\n\n  .kCtYwe {\n    border-top: 1px solid rgba(255,255,255,0.12);\n  }\n\n  .z80M1.FwR7Pc {\n    background-color: none !important;\n  }\n\n  .z80M1 {\n    background-color: none !important;\n  }\n\n  .EVe89b {\n    color: #5f6368 !important;\n  }\n\n  .GsqdZ {\n    color: #fff !important;\n  }\n\n  .Hdh4hc {\n    fill: currentColor;\n  }\n\n  .CRFCdf {\n    color: #fff !important;\n  }\n\n  .o9fq9d {\n    color: #fff !important;\n  }\n\n  .ZPasfd {\n    border-color: #d93025 !important;\n  }\n\n  .NMm5M {\n    fill: currentColor;\n  }\n\n  .NzPR9b {\n    background-color: #212121;\n  }\n\n  .p062Qe {\n    background-color: #212121;\n    color: #fff;\n  }\n\n  .Bx7THd.PBWx0c .ZHdB2e .kaAt2 {\n    background-color: #212121;\n  }\n\n  .YTbUzc {\n    color: #fff !important;\n  }\n\n  .MuzmKe {\n    color: #f8f8f8 !important;\n  }\n\n  .oIy2qc {\n    color: #fff !important;\n  }\n\n  .vvTMTb {\n    background-color: #212121 !important;\n  }\n\n  .wnPUne {\n    color: #c4c4c4;\n  }\n\n  .XnKlKd .tL9Q4c {\n    color: #000 !important;\n  }\n\n  .tmIkuc.s2gQvd {\n    background-color: #212121 !important;\n  }\n\n  .cS7aqe {\n    color: #fff !important;\n  }\n\n  .cS7aqe {\n    background-color: #212121 !important;\n  }\n\n  .fSW6Ze {\n    background-color: #212121 !important;\n  }\n\n  .Pdo15c .b5FiD .Fxmcue {\n    background-color: #212121 !important;\n  }\n\n  .TZFSLb {\n    background-color: #212121 !important;\n  }\n\n  .U9X0yc {\n    color: #fff !important;\n  }\n\n  .D6kPY {\n    color: #fff !important;\n  }\n\n  .Bs3rEf {\n    background: #212121 !important;\n  }\n\n  .MF5w2b {\n    background: grey !important;\n  }\n\n  .vlJyvd {\n    color: white !important;\n  }\n\n  .yBLSHc {\n    color: white !important;\n  }\n\n  .aQIrCf {\n    color: #fff !important;\n  }\n\n  .JPdR6b {\n    background-color: #212121 !important;\n  }\n\n  .CIYi0d .jO7h3c {\n    color: #fff !important;\n  }\n\n  .z80M1:hover {\n    background: grey !important;\n  }\n\n  i.google-material-icons.Hdh4hc.cIGbvc {\n    color: currentColor !important;\n  }\n\n  span.DPvwYc.VfeYV {\n    color: #5F6368 !important;\n  }\n\n  .z80M1 {\n    color: #fff;\n  }\n\n  .ZiTobc {\n    color: #212121 !important;\n  }\n\n  .eX03B {\n    color: #fff !important;\n  }\n\n  .DEWFbf {\n    color: #fff !important;\n  }\n\n  .QkKrhf {\n    color: #fdfdfd !important;\n  }\n\n  .NVUqMb {\n    background-color: #212121 !important;\n  }\n\n  .xEi7zc .WhQQ6d {\n    color: #fff !important;\n  }\n\n  .UNoX6b {\n    color: #fff !important;\n  }\n\n  .inWicd {\n    color: #fff !important;\n  }\n\n  .lKl3Te {\n    color: #fff !important;\n  }\n\n  .ncFHed {\n    background-color: #212121 !important;\n  }\n\n  .g3VIld {\n    background-color: #212121 !important;\n  }\n\n  .MocG8c {\n    color: #fff;\n  }\n\n  .NVUqMb {\n    color: #fff !important;\n  }\n\n  .MocG8c.LMgvRb:hover {\n    background: grey !important;\n  }\n\n  .yX8vie {\n    color: #fff !important;\n  }\n\n  .clMRcc {\n    background-color: #212121 !important;\n  }\n\n  .hRmCye {\n    color: #fff !important;\n  }\n\n  .PNenzf {\n    color: #fff !important;\n  }\n\n  .fKz7Od {\n    fill: #fff;\n  }\n\n  .Mgmvtd {\n    color: #fff !important;\n  }\n\n  .HhsXW {\n    background: #5F6368;\n  }\n\n  .LsDE5 {\n    background: #5F6368 !important;\n  }\n\n  .L7osyb {\n    color: #5F6368;\n  }\n\n  .uMYr {\n    background: #C4C4C4 !important\n  }\n\n  .gHs9Xb {\n    color: #fff !important;\n  }\n\n  .ZJUcv {\n    color: #fff !important;\n  }\n\n  .RKRJx .snByac {\n    color: #fff !important;\n  }\n\n  .whsOnd {\n    color: #fff;\n  }\n\n  .mAW2Ib {\n    background: grey;\n  }\n\n  .CO1lLb {\n    color: #fff;\n  }\n\n  .Rg6gpd {\n    background-color: #C4C4C4 !important;\n  }\n\n  ";
             e ||
@@ -1048,7 +1036,7 @@
             return t;
           })(e.transBar);
         })
-      : (w.textContent = "");
+      : (x.textContent = "");
   }
   function Ie() {
     setInterval(() => {
@@ -1128,7 +1116,7 @@
       }, 100);
     }
   }
-  function Te() {
+  function Pe() {
     const e = document.querySelector('[jsname="b0t70b"]');
     (e.scrollTop = e.scrollHeight),
       setTimeout(() => {
@@ -1145,7 +1133,7 @@
         document.getElementById("attendancePopup").style.opacity = "0";
       }, 1800);
   }
-  function Pe() {
+  function Te() {
     var e = j.join("\n"),
       t = window.document.createElement("a");
     t.setAttribute(
@@ -1225,12 +1213,12 @@
                 ("interactive" === document.readyState &&
                   "Meet" !== document.title &&
                   "Google Meet" !== document.title &&
-                  (void 0 === x &&
-                    void 0 === C &&
-                    void 0 === q &&
-                    void 0 === w &&
+                  (void 0 === w &&
+                    void 0 === A &&
+                    void 0 === B &&
+                    void 0 === x &&
                     Se(),
-                  e.darkMode && Ae(e.darkMode)),
+                  e.darkMode && qe(e.darkMode)),
                 "complete" === document.readyState &&
                   "Meet" !== document.title &&
                   "Google Meet" !== document.title)
@@ -1243,9 +1231,9 @@
                     ? e.hideJoinUpsell &&
                       chrome.storage.sync.get("hideJoinUpsellDate", (e) => {
                         new Date().getTime() >
-                          new Date(e.hideJoinUpsellDate).getTime() && R();
+                          new Date(e.hideJoinUpsellDate).getTime() && K();
                       })
-                    : R(),
+                    : K(),
                   e.muteMicrophone && he(e.muteMicrophone),
                   e.muteVideo && ve(e.muteVideo),
                   e.autoJoin &&
@@ -1273,10 +1261,10 @@
                 document.querySelector('[jsname="CQylAd"]') &&
                 (clearInterval(n),
                 e.licenseKey &&
-                  ((void 0 !== x &&
-                    void 0 !== C &&
-                    void 0 !== q &&
-                    void 0 !== w) ||
+                  ((void 0 !== w &&
+                    void 0 !== A &&
+                    void 0 !== B &&
+                    void 0 !== x) ||
                     Se(),
                   Ie(),
                   setInterval(() => {
@@ -1340,10 +1328,10 @@
                           ),
                         document
                           .getElementById("attendanceButton")
-                          .addEventListener("click", Te),
+                          .addEventListener("click", Pe),
                         document
                           .getElementById("downloadAttendanceButton")
-                          .addEventListener("click", Pe);
+                          .addEventListener("click", Te);
                     }
                   }, 500),
                   setInterval(() => {
@@ -1382,7 +1370,7 @@
                         });
                     }, 500);
                   }),
-                  e.minimizeVideo && K(e.minimizeVideo),
+                  e.minimizeVideo && R(e.minimizeVideo),
                   e.autoRecord && F(e.autoRecord, e.autoTranscribe),
                   e.autoTranscribe &&
                     O(e.autoTranscribe, e.autoRecord || e.manualRecord),
@@ -1400,16 +1388,16 @@
                   e.mirrorVideos && ce(e.mirrorVideos),
                   e.autoChat && fe(e.autoChat),
                   e.displayClock && ge(e.displayClock),
-                  e.autoFullScreen && me(e.autoFullScreen),
+                  e.autoFullScreen && ue(e.autoFullScreen),
                   e.mutePopup && de(e.mutePopup),
-                  e.hideCommentBubble && Ce(e.hideCommentBubble),
-                  e.hideComments && qe(e.hideComments),
-                  e.transBar && Be(e.transBar)),
+                  e.hideCommentBubble && Ae(e.hideCommentBubble),
+                  e.hideComments && Be(e.hideComments),
+                  e.transBar && Ce(e.transBar)),
                 e.ignorePresentationModal && N(e.ignorePresentationModal),
                 e.muteMicrophone && he(e.muteMicrophone),
                 e.muteVideo && ve(e.muteVideo),
                 e.addChimes && J(e.addChimes),
-                e.setBackgroundColor && Q(e.setBackgroundColor),
+                e.setBackgroundColor && Y(e.setBackgroundColor),
                 e.onboardingSeen ||
                   e.licenseKey ||
                   chrome.storage.sync.get(null, (e) => {
@@ -1504,7 +1492,7 @@
                 e.meetingTimer && le(e.meetingTimer),
                 e.pinBottomBar && se(e.pinBottomBar),
                 e.toggleBottomBar && ne(e.toggleBottomBar),
-                e.quickLeave && document.addEventListener("keydown", ue),
+                e.quickLeave && document.addEventListener("keydown", me),
                 e.smartUnmute)
               ) {
                 He(new ze(e.keyCode));
@@ -1517,15 +1505,15 @@
               ) {
                 if ((clearInterval(r), e.homeOnLeave)) {
                   let e = document.querySelector('[jsname="dqt8Pb"]');
-                  e && xe(e);
+                  e && we(e);
                 }
                 e.hideHangupPageUpsell
                   ? e.hideHangupPageUpsell &&
                     chrome.storage.sync.get("hideHangupPageUpsellDate", (e) => {
                       new Date().getTime() >
-                        new Date(e.hideHangupPageUpsellDate).getTime() && P();
+                        new Date(e.hideHangupPageUpsellDate).getTime() && T();
                     })
-                  : P();
+                  : T();
               }
             }, 100),
             a = setInterval(() => {
@@ -1534,7 +1522,7 @@
                 "Google Meet" === document.title) &&
                 (clearInterval(a),
                 Se(),
-                e.darkMode && Ae(e.darkMode),
+                e.darkMode && qe(e.darkMode),
                 chrome.storage.sync.get("licenseKey", (t) => {
                   !1 !== t.licenseKey || e.hideMainPageUpsell
                     ? !1 === t.licenseKey &&
@@ -1560,7 +1548,7 @@
                 O(n.newValue, e.autoRecord.newValue || e.manualRecord.newValue),
               "manualRecord" === t && G(n.newValue, e.autoTranscribe.newValue),
               "addChimes" === t && J(n.newValue),
-              "setBackgroundColor" === t && Q(n.newValue),
+              "setBackgroundColor" === t && Y(n.newValue),
               "hideTopBar" === t && _(n.newValue),
               "speakerBorder" === t && $(n.newValue),
               "autoUnmute" === t && ee(n.newValue),
@@ -1593,24 +1581,24 @@
             }
             if (
               ("licenseKey" === t && !1 !== n.newValue && (Ie(), Se()),
-              "minimizeVideo" === t && K(n.newValue),
+              "minimizeVideo" === t && R(n.newValue),
               "autoCopyURL" === t && X(n.newValue),
               "autoAdmit" === t && ye(n.newValue),
               "autoReject" === t && be(n.newValue),
               "noAddOthers" === t && ke(n.newValue),
               "autoChat" === t && fe(n.newValue),
               "displayClock" === t && ge(n.newValue),
-              "darkMode" === t && Ae(n.newValue),
-              "autoFullScreen" === t && me(n.newValue),
+              "darkMode" === t && qe(n.newValue),
+              "autoFullScreen" === t && ue(n.newValue),
               "mutePopup" === t && de(n.newValue),
-              "hideCommentBubble" === t && Ce(n.newValue),
-              "hideComments" === t && qe(n.newValue),
-              "transBar" === t && Be(n.newValue),
+              "hideCommentBubble" === t && Ae(n.newValue),
+              "hideComments" === t && Be(n.newValue),
+              "transBar" === t && Ce(n.newValue),
               "autoCaptions" === t && pe(n.newValue),
               "quickLeave" === t &&
                 (n.newValue
-                  ? document.addEventListener("keydown", ue)
-                  : document.removeEventListener("keydown", ue)),
+                  ? document.addEventListener("keydown", me)
+                  : document.removeEventListener("keydown", me)),
               "smartUnmute" === t &&
                 (n.newValue
                   ? chrome.storage.sync.get("keyCode", (e) => {
@@ -1622,7 +1610,7 @@
             ) {
               He(new ze(n.newValue));
             }
-            "backgroundColor" === t && Y(n.newValue),
+            "backgroundColor" === t && Q(n.newValue),
               "borderColor" === t && Z(n.newValue),
               "adjustVolume" === t && W(n.newValue);
           }
