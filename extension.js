@@ -24,9 +24,9 @@
     S,
     A,
     B,
-    C,
-    q,
     I,
+    q,
+    C,
     E,
     j = [],
     M = !1,
@@ -84,13 +84,13 @@
     chrome.storage.sync.set({ hideMainPageUpsellDate: e }),
       chrome.storage.sync.set({ hideMainPageUpsell: !0 });
   }
-  function D() {
+  function U() {
     let e = new Date().addDays(14).toJSON();
     chrome.storage.sync.set({ hideJoinUpsell: !0 }),
       chrome.storage.sync.set({ hideJoinUpsellDate: e }),
       (document.getElementById("upsellBanner").style.display = "none");
   }
-  function U() {
+  function D() {
     let e = new Date().addDays(14).toJSON();
     chrome.storage.sync.set({ hideToolsUpsellDate: e }),
       chrome.storage.sync.set({ hideToolsUpsell: !0 }),
@@ -119,12 +119,12 @@
               ),
               document
                 .getElementById("toolUpsellDismiss")
-                .addEventListener("click", U);
+                .addEventListener("click", D);
           }
         }, 500));
     });
   }
-  function K() {
+  function N() {
     chrome.storage.sync.get("licenseKey", (e) => {
       if (!1 === e.licenseKey) {
         const e = chrome.runtime.getManifest().version;
@@ -141,7 +141,7 @@
           (document.querySelector('[jsname="jlQN5e"]').style.borderRadius =
             "8px"),
           (document.querySelector(".mWzGw").style.borderRadius = "8px"),
-          document.getElementById("upsellDismiss").addEventListener("click", D),
+          document.getElementById("upsellDismiss").addEventListener("click", U),
           (t.style.cssText =
             "width: 100%; height: 154px; margin-top: 20px; border-radius: 8px; background-image: url('https://www.meetenhancementsuite.com/assets/upsellBackgroundImage.png'); background-size: cover; background-repeat: no-repeat;"),
           (n.style.cssText = "color: #fff; margin-left: 16px; width: 420px"),
@@ -150,7 +150,7 @@
       }
     });
   }
-  function N(e) {
+  function R(e) {
     e
       ? (a = setInterval(() => {
           let e = document.querySelector('button[jsname="Ta2Is"]');
@@ -158,7 +158,7 @@
         }, 500))
       : clearInterval(a);
   }
-  function R(e) {
+  function K(e) {
     if (e)
       s = setInterval(() => {
         let e = document.querySelector('[jsname="FZJQDc"]'),
@@ -414,7 +414,7 @@
         }, 100)))
       : clearInterval(l);
   }
-  function J(e) {
+  function Q(e) {
     if (e) {
       const e = new Audio(
           "https://www.meetenhancementsuite.com/assets/joinSound.mp3"
@@ -453,17 +453,17 @@
       }, 100);
     } else clearInterval(n);
   }
-  function W(e) {
+  function Y(e) {
     let t = document.querySelectorAll("audio");
     void 0 !== e &&
       t.forEach((t) => {
         t.volume = e / 10;
       });
   }
-  function Q(t) {
+  function J(t) {
     void 0 !== e && (e.style.background = t);
   }
-  function Y(t) {
+  function W(t) {
     t
       ? ((e = document.querySelector(".p2ZbV")),
         chrome.storage.sync.get("backgroundColor", (t) => {
@@ -674,22 +674,22 @@
   function ae(e) {
     e
       ? (h = setInterval(() => {
-          (C = document.querySelectorAll("[data-self-name]")),
-            (I = document.querySelectorAll(".pZFrDd")),
-            C.forEach(function (e) {
+          (I = document.querySelectorAll("[data-self-name]")),
+            (C = document.querySelectorAll(".pZFrDd")),
+            I.forEach(function (e) {
               e.style.display = "none";
             }),
-            I.forEach((e) => {
+            C.forEach((e) => {
               e.style.backgroundImage = "none";
             });
         }, 500))
       : (clearInterval(h),
-        C &&
-          C.forEach(function (e) {
+        I &&
+          I.forEach(function (e) {
             e.style.display = "";
           }),
-        I &&
-          I.forEach((e) => {
+        C &&
+          C.forEach((e) => {
             e.style.background =
               "linear-gradient(0deg, rgba(0,0,0,0.50), transparent)";
           }));
@@ -853,9 +853,11 @@
       ? (clearInterval(d),
         (d = setInterval(() => {
           const e = document.querySelector(
-              '[data-announce-message="Someone wants to join this call"]'
+              '[jscontroller="qhIu2c"][jsaction="rcuQ6b:aRvI3d"]'
             ),
-            t = document.querySelector('button[aria-label="Show everyone"]');
+            t = document.querySelector(
+              '[jscontroller="NcNt1e"] [jsname="A5il2e"][data-panel-id="1"]'
+            );
           if (e && t) {
             const e = document.querySelector(
               '[jsname="ME4pNd"] [data-panel-container-id="sidePanel1subPanel0"]'
@@ -865,18 +867,18 @@
                 t.setAttribute("closePanelAfterOpen", "true"), void t.click()
               );
             const n = e.querySelector(
-              '[jsname="b0t70b"] button[aria-label="Close"]'
+              '[jsname="b0t70b"] [jscontroller="AXYg3e"] button[jscontroller="soHxf"]'
             );
             if (!n) return;
             "true" === t.getAttribute("closePanelAfterOpen") &&
               (t.setAttribute("closePanelAfterOpen", "false"), n.click());
             document
               .querySelectorAll(
-                '[aria-label="Waiting to be admitted"][role="list"] [role="listitem"]'
+                '[role="region"][jsslot] [role="list"] [role="listitem"][jsmodel="QUjYIe"]'
               )
               .forEach((e) => {
-                const t = e.querySelector("button");
-                t && t.textContent.includes("Admit") && t.click();
+                const t = e.querySelector('button[jsname="USyMUd"]');
+                t && t.click();
               });
           }
         }, 1e3)))
@@ -887,9 +889,11 @@
       ? (clearInterval(u),
         (u = setInterval(() => {
           const e = document.querySelector(
-              '[data-announce-message="Someone wants to join this call"]'
+              '[jscontroller="qhIu2c"][jsaction="rcuQ6b:aRvI3d"]'
             ),
-            t = document.querySelector('button[aria-label="Show everyone"]');
+            t = document.querySelector(
+              '[jscontroller="NcNt1e"] [jsname="A5il2e"][data-panel-id="1"]'
+            );
           if (e && t) {
             const e = document.querySelector(
               '[jsname="ME4pNd"] [data-panel-container-id="sidePanel1subPanel0"]'
@@ -899,27 +903,32 @@
                 t.setAttribute("closePanelAfterOpen", "true"), void t.click()
               );
             const n = e.querySelector(
-              '[jsname="b0t70b"] button[aria-label="Close"]'
+              '[jsname="b0t70b"] [jscontroller="AXYg3e"] button[jscontroller="soHxf"]'
             );
             if (!n) return;
             "true" === t.getAttribute("closePanelAfterOpen") &&
               (t.setAttribute("closePanelAfterOpen", "false"), n.click());
             const o = document.querySelectorAll(
-              '[aria-label="Waiting to be admitted"][role="list"] [role="listitem"]'
+              '[role="region"][jsslot] [role="list"] [role="listitem"][jsmodel="QUjYIe"]'
             )[0];
             if (o) {
               const e = o.querySelector('[jsname="mu2b5d"] .jKwXVe'),
                 t = o.querySelectorAll("button")[1];
-              if (e && t) {
-                const n = e.textContent;
-                t.click(),
-                  setTimeout(() => {
-                    const e = document.querySelector(
-                      `[aria-label="Deny ${n}"]`
-                    );
-                    e && e.click();
-                  }, 100);
-              }
+              e &&
+                t &&
+                (t.click(),
+                setTimeout(() => {
+                  document
+                    .querySelectorAll(
+                      '[jscontroller="ywOR5c"] ul li[delegate-controller="RSAqTb"]'
+                    )
+                    .forEach((e) => {
+                      e &&
+                        e.textContent &&
+                        e.textContent.includes("person_remove") &&
+                        e.click();
+                    });
+                }, 100));
             }
           }
         }, 1e3)))
@@ -1016,7 +1025,7 @@
       ? "\n      .Ota2jd {\n        display: none;\n      }\n\n      .ZuRxkd {\n        display: none;\n      }\n    "
       : "";
   }
-  function Ce(e) {
+  function Ie(e) {
     (w.textContent = e
       ? '\n      i.google-material-icons.W59Cyb {\n        color: black;\n      }\n\n\n      i.google-material-icons.W59Cyb {\n        color: #fff !important;\n      }\n\n      .rG0ybd, .UnvNgf {\n        box-shadow: none !important;\n        background-color: transparent !important;\n      }\n\n      .xPh1xb.P9KVBf {\n        background-color: transparent !important;\n      }\n\n      .ZPasfd {\n        border-color: #d93025 !important;\n      }\n\n      [jsname="NeC6gb"] {\n        color: white !important;\n      }\n\n      .A00RE .uJNmj .bkbMM {\n        fill: #fff;\n      }\n\n      .srzwD {\n        background-color: #fff;\n      }\n\n      .XFtqNb {\n        color: #fff;\n      }\n\n      .I98jWb {\n        color: #fff !important;\n      }\n\n      span.DPvwYc.o9fq9d {\n        color: #fff;\n      }\n\n      .YhIwSc {\n        color: #fff !important;\n      }\n\n      .c7fp5b {\n        color: #fff\n      }\n\n    '
       : ""),
@@ -1038,7 +1047,7 @@
         })
       : (x.textContent = "");
   }
-  function Ie() {
+  function Ce() {
     setInterval(() => {
       const e = document.querySelector('[jsname="ME4pNd"]'),
         t = document.querySelector('[jsname="b0t70b"]'),
@@ -1231,9 +1240,9 @@
                     ? e.hideJoinUpsell &&
                       chrome.storage.sync.get("hideJoinUpsellDate", (e) => {
                         new Date().getTime() >
-                          new Date(e.hideJoinUpsellDate).getTime() && K();
+                          new Date(e.hideJoinUpsellDate).getTime() && N();
                       })
-                    : K(),
+                    : N(),
                   e.muteMicrophone && he(e.muteMicrophone),
                   e.muteVideo && ve(e.muteVideo),
                   e.autoJoin &&
@@ -1266,7 +1275,7 @@
                     void 0 !== B &&
                     void 0 !== x) ||
                     Se(),
-                  Ie(),
+                  Ce(),
                   setInterval(() => {
                     const e = document.querySelector('[jsname="ME4pNd"]'),
                       t = document.querySelector('[jsname="b0t70b"]'),
@@ -1370,7 +1379,7 @@
                         });
                     }, 500);
                   }),
-                  e.minimizeVideo && R(e.minimizeVideo),
+                  e.minimizeVideo && K(e.minimizeVideo),
                   e.autoRecord && F(e.autoRecord, e.autoTranscribe),
                   e.autoTranscribe &&
                     O(e.autoTranscribe, e.autoRecord || e.manualRecord),
@@ -1392,12 +1401,12 @@
                   e.mutePopup && de(e.mutePopup),
                   e.hideCommentBubble && Ae(e.hideCommentBubble),
                   e.hideComments && Be(e.hideComments),
-                  e.transBar && Ce(e.transBar)),
-                e.ignorePresentationModal && N(e.ignorePresentationModal),
+                  e.transBar && Ie(e.transBar)),
+                e.ignorePresentationModal && R(e.ignorePresentationModal),
                 e.muteMicrophone && he(e.muteMicrophone),
                 e.muteVideo && ve(e.muteVideo),
-                e.addChimes && J(e.addChimes),
-                e.setBackgroundColor && Y(e.setBackgroundColor),
+                e.addChimes && Q(e.addChimes),
+                e.setBackgroundColor && W(e.setBackgroundColor),
                 e.onboardingSeen ||
                   e.licenseKey ||
                   chrome.storage.sync.get(null, (e) => {
@@ -1542,13 +1551,13 @@
           const n = e[t];
           if (document.querySelector("c-wiz")) {
             if (
-              ("ignorePresentationModal" === t && N(n.newValue),
+              ("ignorePresentationModal" === t && R(n.newValue),
               "autoRecord" === t && F(n.newValue, e.autoTranscribe.newValue),
               "autoTranscribe" === t &&
                 O(n.newValue, e.autoRecord.newValue || e.manualRecord.newValue),
               "manualRecord" === t && G(n.newValue, e.autoTranscribe.newValue),
-              "addChimes" === t && J(n.newValue),
-              "setBackgroundColor" === t && Y(n.newValue),
+              "addChimes" === t && Q(n.newValue),
+              "setBackgroundColor" === t && W(n.newValue),
               "hideTopBar" === t && _(n.newValue),
               "speakerBorder" === t && $(n.newValue),
               "autoUnmute" === t && ee(n.newValue),
@@ -1580,8 +1589,8 @@
               }, 500);
             }
             if (
-              ("licenseKey" === t && !1 !== n.newValue && (Ie(), Se()),
-              "minimizeVideo" === t && R(n.newValue),
+              ("licenseKey" === t && !1 !== n.newValue && (Ce(), Se()),
+              "minimizeVideo" === t && K(n.newValue),
               "autoCopyURL" === t && X(n.newValue),
               "autoAdmit" === t && ye(n.newValue),
               "autoReject" === t && be(n.newValue),
@@ -1593,7 +1602,7 @@
               "mutePopup" === t && de(n.newValue),
               "hideCommentBubble" === t && Ae(n.newValue),
               "hideComments" === t && Be(n.newValue),
-              "transBar" === t && Ce(n.newValue),
+              "transBar" === t && Ie(n.newValue),
               "autoCaptions" === t && pe(n.newValue),
               "quickLeave" === t &&
                 (n.newValue
@@ -1605,20 +1614,20 @@
                       He(new ze(e.keyCode));
                     })
                   : (document.body.removeEventListener("keydown", Ve),
-                    document.body.removeEventListener("keyup", De))),
+                    document.body.removeEventListener("keyup", Ue))),
               "keyCode" === t)
             ) {
               He(new ze(n.newValue));
             }
-            "backgroundColor" === t && Q(n.newValue),
+            "backgroundColor" === t && J(n.newValue),
               "borderColor" === t && Z(n.newValue),
-              "adjustVolume" === t && W(n.newValue);
+              "adjustVolume" === t && Y(n.newValue);
           }
         }
       })(e)
     );
-  let Le, Ve, De;
-  const Ue = (e, t) => (n) => {
+  let Le, Ve, Ue;
+  const De = (e, t) => (n) => {
     if (
       n.target &&
       (["chatTextInput", "chatTextArea", "textInput", "textArea"].includes(
@@ -1645,12 +1654,12 @@
   function He(e) {
     Le &&
       (document.body.removeEventListener("keydown", Ve),
-      document.body.removeEventListener("keyup", De)),
+      document.body.removeEventListener("keyup", Ue)),
       (Le = e),
-      (Ve = Ue(e, "true")),
-      (De = Ue(e, "false")),
+      (Ve = De(e, "true")),
+      (Ue = De(e, "false")),
       document.body.addEventListener("keydown", Ve),
-      document.body.addEventListener("keyup", De);
+      document.body.addEventListener("keyup", Ue);
   }
   class ze {
     constructor({
